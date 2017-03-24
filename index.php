@@ -12,8 +12,7 @@
     <link rel='stylesheet' href='./css/index.css' />
 </head>
 <body>
-    <?php echo 'MY FIRST PHP SCRIPT' ?>
-    <p>Home, About (includes photo gallery), Projects (includes project gallery), IEEE Lab, Sponsors</p>
+    <?php include('./includes/navbar.html'); ?>
     <div>
         <p>IEEE at UCLA</p>
         <p>Hands on Engineering</p>
@@ -31,9 +30,6 @@
     <div>
         <p>Row of photos</p>
     </div>
-    <div class='footer'>
-        <p>&copy; IEEE at UCLA</p>
-        <p>Facebook, Github, and possibly Slack icons</p>
-    </div>
+    <?php include('./includes/footer.html'); ?>
 </body>
 </html>
