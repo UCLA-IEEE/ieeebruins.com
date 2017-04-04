@@ -1,0 +1,36 @@
+.footer {
+    background-color: lightgrey;
+    padding: 15px 40px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer .copyright {
+    padding-top: 5px;
+}
+
+.footer .footer-media {
+    text-align: right;
+}
+
+.footer .fa {
+    color: black;
+    margin: 0 20px;
+}
+
+.footer .fa:hover {
+    color: grey;
+}
+
+@media (max-width: 768px) {
+    .footer .copyright {
+        display: none;
+    }
+    .footer .footer-media {
+        text-align: center;
+    }
+}
