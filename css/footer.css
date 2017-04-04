@@ -1,16 +1,13 @@
 .footer {
     background-color: lightgrey;
-    padding: 15px 40px;
-}
-
-.footer p {
-    margin: 0;
-    font-size: 20px;
-    font-weight: bold;
+    padding: 10px 40px;
 }
 
 .footer .copyright {
-    padding-top: 5px;
+    padding-top: 8px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .footer .footer-media {

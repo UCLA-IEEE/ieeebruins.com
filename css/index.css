@@ -1,3 +1,35 @@
-html {
-    
+/* HOME BILLBOARD */
+
+.home-billboard {
+    height: 300px;
+    padding: 100px 200px;
+}
+
+.home-billboard p {
+    margin: 0;
+}
+
+/* DESCRIPTION */
+
+.description {
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+/* MAILING LIST */
+
+.mailing-list {
+    padding: 20px;
+    background-color: #F2F2F2;
+}
+
+/* PROJECTS */
+.projects p {
+    margin: 0;
+    text-align: center;
+}
+
+.projects .project {
+    padding: 20px;
+    height: 150px;
 }

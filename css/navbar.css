@@ -1,0 +1,15 @@
+.navbar {
+    padding: 0 40px;
+    margin: 0;
+}
+
+.nav a,
+.nav a:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0;
+    }
+}
