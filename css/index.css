@@ -24,12 +24,40 @@
 }
 
 /* PROJECTS */
+.projects h2 {
+    text-align: center;
+}
 .projects p {
     margin: 0;
     text-align: center;
 }
 
 .projects .project {
-    padding: 20px;
-    height: 150px;
+    position: relative;
+    height: 175px;
+    padding: 50px 0;
+    
+    border: solid 1px black; /* REMOVE once done */
+}
+
+.project .project-title {
+    transition: .5s ease;
+}
+
+.project-description {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transition: .5s ease;
+}
+
+.project:hover .project-title {
+    opacity: 0;
+}
+
+.project:hover .project-description {
+    opacity: 1;
 }
