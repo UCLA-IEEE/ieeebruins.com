@@ -1,11 +1,48 @@
 .navbar {
     padding: 0 40px;
     margin: 0;
+    border-bottom: 1px solid black;
+    background-color: white;
+    border-radius: 0;
 }
 
-.nav a,
-.nav a:hover {
-    text-decoration: none;
+#myNavbar a,
+#myNavbar a:hover,
+#myNavbar a:focus,
+#myNavbar a:visited,
+.navbar-default .navbar-brand:hover {
+    color: #337ab7;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 18px;
+    margin: 9px 0;
+    font-weight: bold;
+    color: #337ab7;
+}
+
+.nav li {
+    font-size: 18px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.open {
+    background-color: white;
+}
+
+.navbar-toggle {
+    border: none;
+    margin: 17px 0;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.icon-bar {
+    background-color: #337ab7;
 }
 
 @media (max-width: 768px) {

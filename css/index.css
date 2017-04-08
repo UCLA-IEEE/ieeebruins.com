@@ -11,13 +11,26 @@
 
 /* DESCRIPTION */
 
+.description-container {
+    display: table;
+}
+
 .description {
+    display: table-column;
     background-color: #F2F2F2;
-    padding: 30px 50px;
+    padding: 50px;
 }
 
 .description p {
     font-size: 18px;
+}
+
+.descrip-img {
+    display: table-column;
+    float: none;
+    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.7)),
+        url(../images/soldering-workshop.jpg) center no-repeat;
+    background-size: cover;
 }
 
 /* PROJECTS */
@@ -106,6 +119,47 @@
 
 .mailing-list p {
     font-size: 18px;
+}
+
+.mailing-list form {
+    padding: 20px 0;
+}
+
+.mailing-list input {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    background-color: transparent;
+    box-shadow: none;
+    
+    font-size: 18px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+.mailing-list input:focus {
+    box-shadow: none;
+    border-color: black;
+}
+
+.mailing-list button {
+    padding: 5px 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+    transition: .3s ease;
+}
+
+.mailing-list button:hover {
+    background-color: black;
+    color: white;
 }
 
 /* CONTACT US */
