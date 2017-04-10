@@ -1,6 +1,7 @@
 .footer {
-    background-color: lightgrey;
+    background-color: #337ab7;
     padding: 10px 40px;
+    color: white;
 }
 
 .footer .copyright {
@@ -15,7 +16,7 @@
 }
 
 .footer .fa {
-    color: black;
+    color: white;
     margin: 0 20px;
 }
 

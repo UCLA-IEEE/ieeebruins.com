@@ -31,7 +31,6 @@
     </div>
     
     <!-- DESCRIPTION -->
-    <!--
     <div class='container-fluid description-wraper'>
         <div class='row description-container'>
             <div class='description col-md-6'>
@@ -41,51 +40,46 @@
             <div class='col-md-6 descrip-img'></div>
         </div>
     </div>
-    -->
     
     <!-- PROJECT QUICK LOOK -->
     <div class='projects container-fluid'>
         <div class='row'>
-
-            <a href='#' class='redirect'>
-                <div class='project project1 col-md-3 col-sm-6'>
-                    <h2 class='project-title'>Open Project Space</h2>
-                    <div class='project-description'>
-                        <p>The IEEE OPS program at UCLA allows students to get hands on experience on fundamental electrical engineering skills within a fun and collaborative environment.</p>
-                        <p><a href='mailto:ops@ieee.ucla.edu'>ops@ieee.ucla.edu</a></p>
-                    </div>
+            <!-- OPS -->
+            <div class='project project1 col-md-3 col-sm-6'>
+                <a href='#'><span class='link'></span></a>
+                <div class='project-description text-center'>
+                    <p>The IEEE OPS program at UCLA allows students to get hands on experience on fundamental electrical engineering skills within a fun and collaborative environment.</p>
+                    <a href='mailto:ops@ieee.ucla.edu'>ops@ieee.ucla.edu</a>
                 </div>
-            </a>
-
-            <a href='#' class='redirect'>
-                <div class='project project2 col-md-3 col-sm-6'>
-                    <h2 class='project-title'>Advanced Projects</h2>
-                    <div class='project-description'>
-                        <p>The Advanced Projects program allows students to expand on their skills with hardware and software by building upon more advanced topics.</p>
-                        <p><a href='mailto:advprojects@ieee.ucla.edu'>advprojects@ieee.ucla.edu</a></p>
-                    </div>
+                <h2 class='project-title'>Open Project Space</h2>
+            </div>
+            <!-- AP -->
+            <div class='project project2 col-md-3 col-sm-6'>
+                <a href='#'><span class='link'></span></a>
+                <div class='project-description text-center'>
+                    <p>The Advanced Projects program allows students to expand on their skills with hardware and software by building upon more advanced topics.</p>
+                    <a href='mailto:advprojects@ieee.ucla.edu'>advprojects@ieee.ucla.edu</a>
                 </div>
-            </a>
-
-            <a href='#' class='redirect'>
-                <div class='project project3 col-md-3 col-sm-6'>
-                    <h2 class='project-title'>Micromouse</h2>
-                    <div class='project-description'>
-                        <p>The Micromouse program is designed for those with moderate experience in EE and CS, where the objective is to design an autonomous mouse that can solve a maze on its own.</p>
-                        <p><a href='mailto:micromouse@ieee.ucla.edu'>micromouse@ieee.ucla.edu</a></p>
-                    </div>
+                <h2 class='project-title'>Advanced Projects</h2>
+            </div>
+            <!-- MICROMOUSE -->
+            <div class='project project3 col-md-3 col-sm-6'>
+                <a href='#'><span class='link'></span></a>
+                <div class='project-description'>
+                    <p>The Micromouse program is designed for those with moderate experience in EE and CS, where the objective is to design an autonomous mouse that can solve a maze on its own.</p>
+                    <a href='mailto:micromouse@ieee.ucla.edu'>micromouse@ieee.ucla.edu</a>
                 </div>
-            </a>
-
-            <a href='#' class='redirect'>
-                <div class='project project4 col-md-3 col-sm-6'>
-                    <h2 class='project-title'>Code Create Compete</h2>
-                    <div class='project-description'>
-                        <p>IEEE at UCLA’s software based project group in which students have the opportunity to explore topics in software and coding not emphasized within their usual coursework.</p>
-                        <p><a href='mailto:c3@ieee.ucla.edu'>c3@ieee.ucla.edu</a></p>
-                    </div>
+                <h2 class='project-title'>Micromouse</h2>
+            </div>
+            <!-- C3 -->
+            <div class='project project4 col-md-3 col-sm-6'>
+                <a href='#'><span class='link'></span></a>
+                <div class='project-description text-center'>
+                    <p>IEEE at UCLA’s software based project group in which students have the opportunity to explore topics in software and coding not emphasized within their usual coursework.</p>
+                    <a href='mailto:c3@ieee.ucla.edu'>c3@ieee.ucla.edu</a>
                 </div>
-            </a>
+                <h2 class='project-title'>Code Create Compete</h2>
+            </div>
         </div>
     </div>
 
@@ -121,14 +115,11 @@
             <div class='col-sm-6'>
                 <h3>Contacts and Inqueries</h3>
                 <h4><a href='mailto:president@ieee.ucla.edu'>president@ieee.ucla.edu</a></h4>
-            </div>
-            <div class='col-sm-6'>
                 <h3>Website Bugs and Suggestions</h3>
                 <h4><a href='mailto:president@ieee.ucla.edu'>webmaster@ieee.ucla.edu</a></h4>
             </div>
         </div>
-    </div>
-    
+    </div>  
 
     <!-- PHOTO QUICK LOOK -->
     <div class='photo-reel'>
