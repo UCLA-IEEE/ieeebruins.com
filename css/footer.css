@@ -1,11 +1,11 @@
 .footer {
     background-color: #337ab7;
-    padding: 10px 40px;
+    padding: 0px 40px;
     color: white;
 }
 
 .footer .copyright {
-    padding-top: 8px;
+    padding-top: 20px;
     margin: 0;
     font-weight: bold;
     font-size: 18px;
@@ -17,7 +17,7 @@
 
 .footer .fa {
     color: white;
-    margin: 0 20px;
+    margin: 15px;
 }
 
 .footer .fa:hover {

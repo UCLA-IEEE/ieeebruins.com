@@ -1,7 +1,7 @@
 /* GENERAL ELEMENTS */
 
 p {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 /* HOME BILLBOARD */
@@ -28,6 +28,16 @@ p {
     background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.7)),
         url(../images/soldering-workshop.jpg) center no-repeat;
     background-size: cover;
+}
+
+@media (max-width: 992px) {
+    .description {
+        display: block;
+        padding: 30px 20px;
+    }
+    .description p {
+        font-size: 17px;
+    }
 }
 
 /* PROJECTS */
@@ -79,25 +89,25 @@ p {
 }
 
 .project1 {
-    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.7)),
+    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3)),
         url(../images/ops-capstone-comp.jpg) no-repeat center;
     background-size: 100%;
 }
 
 .project2 {
-    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.7)),
+    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3)),
         url(../images/advproj-lecture.jpg) no-repeat center;
     background-size: 100%;
 }
 
 .project3 {
-    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.7)),
+    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3)),
         url(../images/micromouse.jpg) no-repeat center;
     background-size: 175%;
 }
 
 .project4 {
-    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.7)),
+    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3)),
         url(../images/c3lecture.jpg) no-repeat center;
     background-size: 100%;
 }
@@ -150,11 +160,26 @@ p {
     color: white;
 }
 
+@media (max-width: 992px) {
+    .mailing-list {
+        padding: 50px 20px;
+    }
+    .mailing-list input {
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
 /* CONTACT US */
 
 .contact-info {
+    background-color: #F2F2F2;
     padding-top: 40px;
     padding-bottom: 70px;
+    border-top: solid 1px lightgrey;
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /* PHOTO REEL */
@@ -162,4 +187,31 @@ p {
 .photo {
     height: 175px;
 /*    border: solid 1px black;*/
+}
+
+.photo1 {
+    background: url(../images/ideahacks-cycool.jpg) no-repeat center;
+    background-size: 100%;
+}
+
+.photo2 {
+    background: url(../images/fallbbq-game.jpg) no-repeat center;
+    background-size: 100%;
+}
+
+.photo3{
+    background: url(../images/ieee-girls.jpg) no-repeat top;
+    background-size: 100%;
+}
+
+.photo4 {
+    background: url(../images/natbus.jpg) no-repeat center;
+    background-size: 100%;
+}
+
+@media (max-width: 525px) {
+    .photo1, .photo2,
+    .photo3, .photo4 {
+        background-size: 150%;
+    }
 }

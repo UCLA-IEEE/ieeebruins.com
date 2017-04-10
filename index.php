@@ -102,7 +102,7 @@
     </div>
     
     <!-- CONTACT INFO -->
-    <div class='container contact-info text-center'>
+    <div class='contact-info text-center'>
         <h1>Contact Us</h1>
         <div class='row'>
             <div class='col-sm-6'>
@@ -119,8 +119,8 @@
                 <h4><a href='mailto:president@ieee.ucla.edu'>webmaster@ieee.ucla.edu</a></h4>
             </div>
         </div>
-    </div>  
-
+    </div>
+    
     <!-- PHOTO QUICK LOOK -->
     <div class='photo-reel'>
         <div class='photo photo1 col-md-3 col-xs-6'></div>
