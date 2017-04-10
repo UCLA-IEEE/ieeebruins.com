@@ -2,11 +2,9 @@
 
 .home-billboard {
     height: 300px;
-    padding: 100px 200px;
 }
 
 .home-billboard p {
-    margin: 0;
 }
 
 /* DESCRIPTION */
@@ -172,5 +170,5 @@
 
 .photo {
     height: 175px;
-    border: solid 1px black;
+/*    border: solid 1px black;*/
 }

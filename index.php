@@ -31,6 +31,7 @@
     </div>
     
     <!-- DESCRIPTION -->
+    <!--
     <div class='container-fluid description-wraper'>
         <div class='row description-container'>
             <div class='description col-md-6'>
@@ -40,11 +41,12 @@
             <div class='col-md-6 descrip-img'></div>
         </div>
     </div>
+    -->
     
     <!-- PROJECT QUICK LOOK -->
     <div class='projects container-fluid'>
         <div class='row'>
-            <!-- OPS -->
+
             <a href='#' class='redirect'>
                 <div class='project project1 col-md-3 col-sm-6'>
                     <h2 class='project-title'>Open Project Space</h2>
@@ -54,7 +56,7 @@
                     </div>
                 </div>
             </a>
-            <!-- ADVANCED PROJECTS -->
+
             <a href='#' class='redirect'>
                 <div class='project project2 col-md-3 col-sm-6'>
                     <h2 class='project-title'>Advanced Projects</h2>
@@ -64,7 +66,7 @@
                     </div>
                 </div>
             </a>
-            <!-- MICROMOUSE -->
+
             <a href='#' class='redirect'>
                 <div class='project project3 col-md-3 col-sm-6'>
                     <h2 class='project-title'>Micromouse</h2>
@@ -74,7 +76,7 @@
                     </div>
                 </div>
             </a>
-            <!-- C3 -->
+
             <a href='#' class='redirect'>
                 <div class='project project4 col-md-3 col-sm-6'>
                     <h2 class='project-title'>Code Create Compete</h2>
@@ -86,7 +88,7 @@
             </a>
         </div>
     </div>
-    
+
     <!-- MAILING LIST -->
     <!-- TODO: wire up form and implement some sort of confirmation system -->
     <div class='container-fluid'>
@@ -129,14 +131,12 @@
     
 
     <!-- PHOTO QUICK LOOK -->
-<!--
     <div class='photo-reel'>
         <div class='photo photo1 col-md-3 col-xs-6'></div>
         <div class='photo photo2 col-md-3 col-xs-6'></div>
         <div class='photo photo3 col-md-3 col-xs-6'></div>
         <div class='photo photo4 col-md-3 col-xs-6'></div>
     </div>
--->
     
     <!-- FOOTER -->
     <?php include('./includes/footer.html'); ?>
