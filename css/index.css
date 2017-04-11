@@ -13,30 +13,46 @@ p {
 /* DESCRIPTION */
 
 .description-container {
-    display: table;
+/*    display: table;*/
+    position: relative;
+    height: 100%;
 }
 
 .description {
-    display: table-column;
+/*    display: table-column;*/
     background-color: #F2F2F2;
     padding: 60px 50px;
+    position: absolute;
+    height: 100%:
 }
 
 .descrip-img {
+/*
     display: table-column;
     float: none;
-    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.7)),
+    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3)),
         url(../images/soldering-workshop.jpg) center no-repeat;
     background-size: cover;
+*/
+    
+    padding-left: 0;
+    padding-right: 0;
+/*    position: absolute;*/
+    float: right;
+/*    height: 100%;*/
 }
 
 @media (max-width: 992px) {
     .description {
         display: block;
+        position: relative;
         padding: 30px 20px;
     }
     .description p {
         font-size: 17px;
+    }
+    .descrip-img {
+        display: none;
     }
 }
 
@@ -89,34 +105,74 @@ p {
 }
 
 .project1 {
-    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3)),
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5)),
         url(../images/ops-capstone-comp.jpg) no-repeat center;
     background-size: 100%;
 }
 
 .project2 {
-    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3)),
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5)),
         url(../images/advproj-lecture.jpg) no-repeat center;
     background-size: 100%;
 }
 
 .project3 {
-    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3)),
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5)),
         url(../images/micromouse.jpg) no-repeat center;
     background-size: 175%;
 }
 
 .project4 {
-    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3)),
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5)),
         url(../images/c3lecture.jpg) no-repeat center;
     background-size: 100%;
 }
 
 /* MAILING LIST */
 
+.mailing-container {
+/*    display: table;*/
+    position: relative;
+    height: 100%;
+}
+
 .mailing-list {
+/*
+    display: table-column;
+    float: right;
+*/
+    position: absolute;
+    right: 0;
     padding: 75px 75px;
     background-color: #F2F2F2;
+    height: 100%;
+}
+
+.mailing-img {
+/*
+    display: table-column;
+    float: none;
+    left: 0;
+    background: linear-gradient(rgba(10, 10, 10, 0), rgba(10, 10, 10, 0)),
+        url(../images/hyperloop.jpg) center no-repeat;
+    background-size: cover;
+*/
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 992px) {
+    .mailing-list {
+        position: relative;
+        display: block;
+        padding: 40px 20px;
+    }
+    .mailing-img {
+        display: none;
+    }
+    .description p {
+        font-size: 17px;
+    }
 }
 
 .mailing-list form {

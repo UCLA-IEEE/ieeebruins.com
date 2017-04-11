@@ -31,13 +31,15 @@
     </div>
     
     <!-- DESCRIPTION -->
-    <div class='container-fluid description-wraper'>
+    <div class='container-fluid'>
         <div class='row description-container'>
             <div class='description col-md-6'>
                 <h1>Who are we?</h1>
                 <p>IEEE at UCLA is a professional student-run engineering organization. We devote our time and energy towards bringing hands-on, practical experiences to engineering students throughout UCLA, as well as create opportunities for the students to interact with industry professionals and more. Every year we lead several projects for our memebers to partipate in, as well as host various workshops and socials that contribute to our unique club culture. Sign-up for our mailing list and start getting hands on with engineering!</p>
             </div>
-            <div class='col-md-6 descrip-img'></div>
+            <div class='col-md-6 descrip-img'>
+                <img src='./images/soldering-workshop.jpg' style='width: 100%;' />
+            </div>
         </div>
     </div>
     
@@ -86,8 +88,10 @@
     <!-- MAILING LIST -->
     <!-- TODO: wire up form and implement some sort of confirmation system -->
     <div class='container-fluid'>
-        <div class='row'>
-            <div class='col-md-6'></div>
+        <div class='row mailing-container'>
+            <div class='mailing-img col-md-6'>
+                <img src='./images/hyperloop.jpg' style='width: 100%' />
+            </div>
             <div class='mailing-list col-md-6'>
                 <h1>Join our mailing list!</h1>
                 <p>Subscribe to receive weekly newsletters to stay updated on all our projects, socials, and workshops!</p>
