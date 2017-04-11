@@ -37,8 +37,15 @@
                 <h1>Who are we?</h1>
                 <p>IEEE at UCLA is a professional student-run engineering organization. We devote our time and energy towards bringing hands-on, practical experiences to engineering students throughout UCLA, as well as create opportunities for the students to interact with industry professionals and more. Every year we lead several projects for our memebers to partipate in, as well as host various workshops and socials that contribute to our unique club culture. Sign-up for our mailing list and start getting hands on with engineering!</p>
             </div>
-            <div class='col-md-6 descrip-img'>
-                <img src='./images/soldering-workshop.jpg' style='width: 100%;' />
+            <div class='mailing-list col-md-6'>
+                <h1>Join our mailing list!</h1>
+                <p>Subscribe to receive weekly newsletters to stay updated on all our projects, socials, and workshops!</p>
+                <form>
+                    <div>
+                        <input type='email' class='form-control email-address' placeholder='Email'/>
+                    </div>
+                    <button type='submit' class='subscribe'>Subscribe</button>
+                </form>
             </div>
         </div>
     </div>
@@ -84,26 +91,6 @@
             </div>
         </div>
     </div>
-
-    <!-- MAILING LIST -->
-    <!-- TODO: wire up form and implement some sort of confirmation system -->
-    <div class='container-fluid'>
-        <div class='row mailing-container'>
-            <div class='mailing-img col-md-6'>
-                <img src='./images/hyperloop.jpg' style='width: 100%' />
-            </div>
-            <div class='mailing-list col-md-6'>
-                <h1>Join our mailing list!</h1>
-                <p>Subscribe to receive weekly newsletters to stay updated on all our projects, socials, and workshops!</p>
-                <form>
-                    <div>
-                        <input type='email' class='form-control email-address' placeholder='Email'/>
-                    </div>
-                    <button type='submit' class='subscribe'>Subscribe</button>
-                </form>
-            </div>
-        </div>
-    </div>
     
     <!-- CONTACT INFO -->
     <div class='contact-info text-center'>
@@ -111,16 +98,16 @@
         <div class='row'>
             <div class='col-sm-6'>
                 <h3>Mailing Address</h3>
-                <h4>56-125B Engineering IV UCLA</h4>
-                <h4>420 Westwood Plaza</h4>
-                <h4>Los Angeles, CA 90095</h4>
-                <h4>United States</h4>
+                <p>56-125B Engineering IV UCLA</p>
+                <p>420 Westwood Plaza</p>
+                <p>Los Angeles, CA 90095</p>
+                <p>United States</p>
             </div>
             <div class='col-sm-6'>
                 <h3>Contacts and Inqueries</h3>
-                <h4><a href='mailto:president@ieee.ucla.edu'>president@ieee.ucla.edu</a></h4>
+                <p><a href='mailto:president@ieee.ucla.edu'>president@ieee.ucla.edu</a></p>
                 <h3>Website Bugs and Suggestions</h3>
-                <h4><a href='mailto:president@ieee.ucla.edu'>webmaster@ieee.ucla.edu</a></h4>
+                <p><a href='mailto:president@ieee.ucla.edu'>webmaster@ieee.ucla.edu</a></p>
             </div>
         </div>
     </div>

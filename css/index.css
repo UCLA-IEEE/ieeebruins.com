@@ -1,7 +1,8 @@
 /* GENERAL ELEMENTS */
 
 p {
-    font-size: 19px;
+    font-size: 20px;
+    margin: 0;
 }
 
 /* HOME BILLBOARD */
@@ -10,49 +11,79 @@ p {
     height: 300px;
 }
 
-/* DESCRIPTION */
+/* DESCRIPTION AND MAILING LIST */
 
 .description-container {
-/*    display: table;*/
-    position: relative;
-    height: 100%;
+    background-color: #F2F2F2;
 }
 
 .description {
-/*    display: table-column;*/
     background-color: #F2F2F2;
     padding: 60px 50px;
-    position: absolute;
-    height: 100%:
+    border-right: solid lightgrey 2px;
 }
 
-.descrip-img {
-/*
-    display: table-column;
-    float: none;
-    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3)),
-        url(../images/soldering-workshop.jpg) center no-repeat;
-    background-size: cover;
-*/
+.mailing-list {
+    padding: 75px 75px;
+    background-color: #F2F2F2;
+}
+
+.mailing-list form {
+    padding: 20px 0;
+}
+
+.mailing-list input {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    background-color: transparent;
+    box-shadow: none;
     
-    padding-left: 0;
-    padding-right: 0;
-/*    position: absolute;*/
-    float: right;
-/*    height: 100%;*/
+    font-size: 18px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+.mailing-list input:focus {
+    box-shadow: none;
+    border-color: black;
+}
+
+.mailing-list button {
+    padding: 5px 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+    transition: .3s ease;
+}
+
+.mailing-list button:hover {
+    background-color: black;
+    color: white;
 }
 
 @media (max-width: 992px) {
     .description {
-        display: block;
-        position: relative;
         padding: 30px 20px;
+        border-left: none;
+        border-bottom: solid lightgrey 2px;
     }
     .description p {
         font-size: 17px;
     }
-    .descrip-img {
-        display: none;
+    .mailing-list {
+        padding: 50px 20px;
+    }
+    .mailing-list input {
+        width: 100%;
+        font-size: 20px;
     }
 }
 
@@ -128,104 +159,6 @@ p {
     background-size: 100%;
 }
 
-/* MAILING LIST */
-
-.mailing-container {
-/*    display: table;*/
-    position: relative;
-    height: 100%;
-}
-
-.mailing-list {
-/*
-    display: table-column;
-    float: right;
-*/
-    position: absolute;
-    right: 0;
-    padding: 75px 75px;
-    background-color: #F2F2F2;
-    height: 100%;
-}
-
-.mailing-img {
-/*
-    display: table-column;
-    float: none;
-    left: 0;
-    background: linear-gradient(rgba(10, 10, 10, 0), rgba(10, 10, 10, 0)),
-        url(../images/hyperloop.jpg) center no-repeat;
-    background-size: cover;
-*/
-    padding-left: 0;
-    padding-right: 0;
-}
-
-@media (max-width: 992px) {
-    .mailing-list {
-        position: relative;
-        display: block;
-        padding: 40px 20px;
-    }
-    .mailing-img {
-        display: none;
-    }
-    .description p {
-        font-size: 17px;
-    }
-}
-
-.mailing-list form {
-    padding: 20px 0;
-}
-
-.mailing-list input {
-    border: none;
-    border-bottom: 1px solid black;
-    border-radius: 0px;
-    background-color: transparent;
-    box-shadow: none;
-    
-    font-size: 18px;
-    padding: 10px 0;
-    margin-bottom: 10px;
-    width: 75%;
-}
-
-.mailing-list input:focus {
-    box-shadow: none;
-    border-color: black;
-}
-
-.mailing-list button {
-    padding: 5px 20px;
-    margin-top: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 3px;
-    
-    background-color: transparent;
-    border: 1px solid black;
-    border-radius: 3px;
-    
-    transition: .3s ease;
-}
-
-.mailing-list button:hover {
-    background-color: black;
-    color: white;
-}
-
-@media (max-width: 992px) {
-    .mailing-list {
-        padding: 50px 20px;
-    }
-    .mailing-list input {
-        width: 100%;
-        font-size: 20px;
-    }
-}
-
 /* CONTACT US */
 
 .contact-info {
@@ -242,27 +175,26 @@ p {
 
 .photo {
     height: 175px;
-/*    border: solid 1px black;*/
 }
 
 .photo1 {
     background: url(../images/ideahacks-cycool.jpg) no-repeat center;
-    background-size: 100%;
+    background-size: 110%;
 }
 
 .photo2 {
     background: url(../images/fallbbq-game.jpg) no-repeat center;
-    background-size: 100%;
+    background-size: 110%;
 }
 
 .photo3{
     background: url(../images/ieee-girls.jpg) no-repeat top;
-    background-size: 100%;
+    background-size: 110%;
 }
 
 .photo4 {
     background: url(../images/natbus.jpg) no-repeat center;
-    background-size: 100%;
+    background-size: 110%;
 }
 
 @media (max-width: 525px) {
