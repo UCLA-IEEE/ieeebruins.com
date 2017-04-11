@@ -26,8 +26,10 @@
     
     <!-- HOME BILLBOARD -->
     <div class='home-billboard'>
-        <p>IEEE at UCLA</p>
-        <p>Hands on Engineering</p>
+        <div class='billboard-text'>
+            <h1>IEEE at UCLA</h1>
+            <h1>Hands on Engineering</h1>
+        </div>
     </div>
     
     <!-- DESCRIPTION -->

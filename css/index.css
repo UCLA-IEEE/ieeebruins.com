@@ -1,4 +1,7 @@
 /* GENERAL ELEMENTS */
+html, body {
+    height: 100%;
+}
 
 p {
     font-size: 20px;
@@ -8,7 +11,36 @@ p {
 /* HOME BILLBOARD */
 
 .home-billboard {
-    height: 300px;
+    height: 90%;
+    background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.6)),
+        url('../images/kenny.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.billboard-text h1 {
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    text-shadow: 0px 1px 2px #000000;
+}
+
+.billboard-text {
+    position: absolute;
+    width: 510px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+@media (max-width: 630px) {
+    .billboard-text {
+        width: 300px;
+        transform: translate(-45%, -50%);
+    }
+    .billboard-text h1 {
+        font-size: 40px;
+    }
 }
 
 /* DESCRIPTION AND MAILING LIST */
