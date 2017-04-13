@@ -32,13 +32,16 @@
         </div>
     </div>
     
-    <!-- DESCRIPTION -->
+    <!-- DESCRIPTION AND MAILING LIST -->
     <div class='container-fluid'>
         <div class='row description-container'>
+            <!-- DESCRIPTION -->
             <div class='description col-md-6'>
                 <h1>Who are we?</h1>
                 <p>IEEE at UCLA is a professional student-run engineering organization. We devote our time and energy towards bringing hands-on, practical experiences to engineering students throughout UCLA, as well as create opportunities for the students to interact with industry professionals and more. Every year we lead several projects for our memebers to partipate in, as well as host various workshops and socials that contribute to our unique club culture. Sign-up for our mailing list and start getting hands on with engineering!</p>
             </div>
+            <!-- MAILING LIST -->
+            <!-- TODO: hook this mailing list up -->
             <div class='mailing-list col-md-6'>
                 <h1>Join our mailing list!</h1>
                 <p>Subscribe to receive weekly newsletters to stay updated on all our projects, socials, and workshops!</p>
@@ -53,6 +56,7 @@
     </div>
     
     <!-- PROJECT QUICK LOOK -->
+    <!-- TODO: make project redirect only occur when description is showing -->
     <div class='projects container-fluid'>
         <div class='row'>
             <!-- OPS -->

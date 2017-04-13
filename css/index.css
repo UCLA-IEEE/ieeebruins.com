@@ -11,7 +11,7 @@ p {
 /* HOME BILLBOARD */
 
 .home-billboard {
-    height: 90%;
+    height: 95%;
     background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.6)),
         url('../images/kenny.jpg') center no-repeat;
     background-size: cover;
@@ -51,12 +51,12 @@ p {
 
 .description {
     background-color: #F2F2F2;
-    padding: 60px 50px;
+    padding: 80px 50px;
     border-right: solid lightgrey 2px;
 }
 
 .mailing-list {
-    padding: 75px 75px;
+    padding: 80px 75px;
     background-color: #F2F2F2;
 }
 
@@ -103,7 +103,7 @@ p {
 
 @media (max-width: 992px) {
     .description {
-        padding: 30px 20px;
+        padding: 40px 20px 60px;
         border-left: none;
         border-bottom: solid lightgrey 2px;
     }
