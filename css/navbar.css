@@ -8,13 +8,39 @@
     height: 75px;
     overflow: hidden;
     background-color: transparent;
+
+    transition: background-color 0.3s ease;
+}
+
+.brand-container {
+    display: inline-block;
+    padding: 24px 50px;
+}
+
+.brand {
+    font-size: 20px;
+    margin: 24px 0;
 }
 
 .myNavbar ul {
     float: right;
     list-style: none;
+    margin-bottom: 0;
+    padding: 0 40px;
 }
 
 .myNavbar li {
     display: inline-block;
+    padding: 24px 30px;
+    font-size: 20px;
+}
+
+.myNavbar li a,
+.myNavbar li a:hover,
+.myNavbar li a:visited,
+.brand-container a, 
+.brand-container a:hover, 
+.brand-container a:visited {
+    color: white;
+    text-decoration: none;
 }
