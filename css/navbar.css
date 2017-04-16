@@ -105,6 +105,15 @@
     }
 }
 
+@media (max-width: 500px) {
+    .brand-container {
+        padding: 24px 20px;
+    }
+    .navbar-icon {
+        right: 20px;
+    }
+}
+
 /* LINK STUFF */
 
 .myNavbar li a,
