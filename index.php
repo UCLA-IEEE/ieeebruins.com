@@ -25,9 +25,11 @@
     <?php include('./includes/navbar.html'); ?>
     
     <!-- HOME BILLBOARD -->
+    <!-- TODO: maybe use a frosty filter instead and make image fade to white into other sections -->
     <div class='home-billboard'>
-        <div class='billboard-text'>
-            <h1>IEEE at UCLA</h1>
+        <div class='billboard-content'>
+            <img src='./images/ieee-logo-white.png' />
+            <span class='ucla'>UCLA</span>
             <h1>Hands on Engineering</h1>
         </div>
     </div>
@@ -110,7 +112,7 @@
                 <p>United States</p>
             </div>
             <div class='col-sm-6'>
-                <h3>Contacts and Inqueries</h3>
+                <h3>Contacts and Inquiries</h3>
                 <p><a href='mailto:president@ieee.ucla.edu'>president@ieee.ucla.edu</a></p>
                 <h3>Website Bugs and Suggestions</h3>
                 <p><a href='mailto:president@ieee.ucla.edu'>webmaster@ieee.ucla.edu</a></p>
