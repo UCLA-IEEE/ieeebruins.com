@@ -112,6 +112,9 @@
     .navbar-icon {
         right: 20px;
     }
+    .mobile-nav-list li {
+        padding: 15px 20px;
+    }
 }
 
 /* LINK STUFF */
