@@ -21,10 +21,10 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <?php include('./includes/navbar.html'); ?>
-    <!-- FOOTER -->
-    <?php include('./includes/footer.html'); ?>
+    <?php include('../includes/navbar.html'); ?>
+    <p>Hello World</p>    
     
-    <p>Hello World</p>
+    <!-- FOOTER -->
+    <?php include('../includes/footer.html'); ?>
 </body>
 </html>
