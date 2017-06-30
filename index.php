@@ -4,26 +4,26 @@
     <title>IEEE at UCLA</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
     <!-- JQUERY -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    
+
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
+
     <!-- FONT AWESOME -->
     <script src="https://use.fontawesome.com/348865e609.js"></script>
-    
+
     <!-- STYLESHEETS -->
-    <link rel='stylesheet' href='./css/index.css' />
-    <link rel='stylesheet' href='./css/footer.css' />
-    <link rel='stylesheet' href='./css/navbar.css' />
+    <link rel='stylesheet' href='./public/css/index.css' />
+    <link rel='stylesheet' href='./public/css/footer.css' />
+    <link rel='stylesheet' href='./public/css/navbar.css' />
 </head>
 <body>
     <!-- NAVBAR -->
-    <?php include('./includes/navbar.html'); ?>
-    
+    <?php include('./views/includes/navbar.html'); ?>
+
     <!-- HOME BILLBOARD -->
     <!-- TODO: maybe use a frosty filter instead and make image fade to white into other sections -->
     <div class='home-billboard'>
@@ -33,7 +33,7 @@
             <h1>Hands on Engineering</h1>
         </div>
     </div>
-    
+
     <!-- DESCRIPTION AND MAILING LIST -->
     <div class='container-fluid'>
         <div class='row description-container'>
@@ -56,7 +56,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- PROJECT QUICK LOOK -->
     <!-- TODO: make project redirect only occur when description is showing -->
     <div class='projects container-fluid'>
@@ -99,7 +99,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- CONTACT INFO -->
     <div class='contact-info text-center'>
         <h1>Contact Us</h1>
@@ -119,7 +119,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- PHOTO QUICK LOOK -->
     <div class='photo-reel'>
         <div class='photo photo1 col-md-3 col-xs-6'></div>
@@ -127,8 +127,8 @@
         <div class='photo photo3 col-md-3 col-xs-6'></div>
         <div class='photo photo4 col-md-3 col-xs-6'></div>
     </div>
-    
+
     <!-- FOOTER -->
-    <?php include('./includes/footer.html'); ?>
+    <?php include('./views/includes/footer.html'); ?>
 </body>
 </html>
