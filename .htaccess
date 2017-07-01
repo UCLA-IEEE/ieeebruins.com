@@ -1,0 +1,18 @@
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymLinks
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+# MAIN ROUTES
+RewriteRule ^about$ ./views/about.html
+# RewriteRule ^sponsors$ ./views/about.html
+# RewriteRule ^lab$ ./views/about.html
+# RewriteRule ^projects$ ./views/about.html
+
+# ERROR PAGES
+ErrorDocument 404 /404.shtml
