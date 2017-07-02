@@ -28,7 +28,7 @@
     <!-- TODO: maybe use a frosty filter instead and make image fade to white into other sections -->
     <div class='home-billboard'>
         <div class='billboard-content'>
-            <img src='./images/ieee-logo-white.png' />
+            <img src='./public/images/ieee-logo-white.png' />
             <span class='ucla'>UCLA</span>
             <h1>Hands on Engineering</h1>
         </div>
