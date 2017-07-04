@@ -10,7 +10,7 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 
 # MAIN ROUTES
 RewriteRule ^about$ ./views/about.html
-# RewriteRule ^sponsors$ ./views/about.html
+RewriteRule ^sponsors$ ./views/sponsors.php
 # RewriteRule ^lab$ ./views/about.html
 # RewriteRule ^projects$ ./views/about.html
 
