@@ -23,7 +23,7 @@
     <!-- NAVBAR -->
     <?php include('../views/includes/navbar.html'); ?>
 
-    <p>Hello World</p>
+    <p>Hello World This is Allison</p>
 
     <!-- FOOTER -->
     <?php include('../views/includes/footer.html'); ?>
