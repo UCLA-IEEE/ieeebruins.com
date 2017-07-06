@@ -1,2 +1,11 @@
-<!-- SHTML Wrapper - 404 Not Found -->
-<!--#exec cgi="/cgi-sys/fourohfour.cgi" -->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Error!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <p>404 Error!</p>
+</body>
+</html>
