@@ -11,7 +11,7 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 # MAIN ROUTES
 RewriteRule ^about$ ./views/about.php
 RewriteRule ^sponsors$ ./views/sponsors.php
-# RewriteRule ^lab$ ./views/about.html
+RewriteRule ^lab$ ./views/lab.php
 # RewriteRule ^projects$ ./views/about.html
 
 # ERROR PAGES
