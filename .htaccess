@@ -13,7 +13,7 @@ RewriteRule ^about$ ./views/about.php
 RewriteRule ^sponsors$ ./views/sponsors.php
 # RewriteRule ^lab$ ./views/about.html
 # RewriteRule ^projects$ ./views/about.html
-# RewriteRule ^officers$ ./views/officers.php
+RewriteRule ^officers$ ./views/officers.php
 
 # ERROR PAGES
 ErrorDocument 404 /404.shtml
