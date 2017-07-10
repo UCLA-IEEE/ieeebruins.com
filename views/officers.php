@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>About - IEEE at UCLA</title>
+    <title>IEEE at UCLA</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -16,16 +16,18 @@
     <script src="https://use.fontawesome.com/348865e609.js"></script>
 
     <!-- STYLESHEETS -->
-    <link rel='stylesheet' href='../public/css/footer.css' />
-    <link rel='stylesheet' href='../public/css/navbar.css' />
+    <link rel='stylesheet' href='./public/css/index.css' />
+    <link rel='stylesheet' href='./public/css/footer.css' />
+    <link rel='stylesheet' href='./public/css/navbar.css' />
 </head>
 <body>
     <!-- NAVBAR -->
-    <?php include('../views/includes/navbar.html'); ?>
+    <?php include('./views/includes/navbar.html'); ?>
 
-    <p>Hello World</p>
-
+    <div>
+        <p>Wrrrrrrryyy</p>
+    </div>
     <!-- FOOTER -->
-    <?php include('../views/includes/footer.html'); ?>
+    <?php include('./views/includes/footer.html'); ?>
 </body>
 </html>

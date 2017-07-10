@@ -9,10 +9,11 @@ RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
 # MAIN ROUTES
-RewriteRule ^about$ ./views/about.html
+RewriteRule ^about$ ./views/about.php
 RewriteRule ^sponsors$ ./views/sponsors.php
-# RewriteRule ^lab$ ./views/about.html
+RewriteRule ^lab$ ./views/lab.php
 # RewriteRule ^projects$ ./views/about.html
+RewriteRule ^officers$ ./views/officers.php
 
 # ERROR PAGES
 ErrorDocument 404 /404.shtml
