@@ -49,34 +49,36 @@
         </h4>
     </div>
     
-    <div class="container" id="platinum">
-        <h1> Sponsors </h1>
-        <hr>
-        
-        <div class="row">
-            <div class="col-md-4">
-                <img style="width: 100%; padding-top: 20px;" src="../public/images/company-logos/ee-dept.png">
-            </div>
-            <div class="col-md-4">
-                <img style="width: 100%; padding-top: 50px;" src="../public/images/company-logos/northrop-grumman-logo.jpg">
-            </div>
-            <div class="col-md-4" >
-                <img style="width: 90%; padding-top: 35px;" src="../public/images/company-logos/clas.jpg">
-            </div>
+    <h1> Sponsors </h1>
+    <hr>
+    
+    <!--Platinum Tier -->
+    <div class="container-platinum">
+        <div class="row" style="text-align:center">
+            <img style="width: 15%; padding-top: 20px; margin-right: 10px;" src="../public/images/company-logos/ee-dept.png">
+            <img style="width: 15%; padding-top: 20px; margin-right: 10px;" src="../public/images/company-logos/northrop-grumman-logo.jpg">
+            <img style="width: 13%; padding-top: 35px; margin-right: 10px;" src="../public/images/company-logos/clas.jpg">
+            <img style="width: 15%; padding-top: 20px; margin-right: 10px;" src="../public/images/company-logos/boeing.jpg">
+            <img style="width: 15%; padding-top: 35px; margin-right: 10px;" src="../public/images/company-logos/ieee-upp.png">
+            <img style="width: 15%; padding-top: 15px;" src="../public/images/company-logos/socal-edison.svg">
         </div>
     </div>
-    <!--Platinum Tier -->
-    
-    <!--ucla engineering, northrop grunman, ieee coastal, boeing, ieee university, edison -->
 
     <!--Silver Tier -->
+    <div class="container-silver" style="text-align:center">
+        <div class="row" style="text-align:center">
+        
+        </div>
+    </div>
     
     <!-- reeves, shelving, tappers, steinberg, marlees, inkaddict, wallside, homefirst, bittele, reverie, credibly, greek own, vivid seats -->
 
     <!--Contact  -->
-    <h1> Interested in Sponsoring? </h1>
-    <p> Fill out this form! </p>
-    <p> View and download our sponsorship brochure <a href="../public/files/SponsorshipBrochure2017.pdf" target="_blank">here!</a> </p>
-    <p> Contact our current president at <a href="president@ieee.ucla.edu" target="_blank">president@ieee.ucla.edu</a> for more infomration.</p>
+    <div class="container-contact">
+        <h1> Interested in Sponsoring? </h1>
+        <p> Fill out this <a href="../public/files/SponsorshipForm2017.pdf" target="_blank">form!</a></p>
+        <p> View and download our sponsorship brochure <a href="../public/files/SponsorshipBrochure2017.pdf" target="_blank">here!</a> </p>
+        <p> Contact our current president at <a href="president@ieee.ucla.edu" target="_blank">president@ieee.ucla.edu</a> for more information.</p>
+    </div>
 </body>
 </html>
