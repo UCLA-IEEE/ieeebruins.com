@@ -71,25 +71,19 @@
         <div class="row">
             <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/reeves-law.jpg">
             <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/shelving.jpg">
-        <div>
-        <div class="row">
-            <img style="width: 150px; padding: 20px 10px;" src="../public/images/company-logos/tappers.png">
-            <img style="width: 150px; padding: 20px 10px;" src="../public/images/company-logos/leeSteinberg.jpg">
-            <img style="width: 150px; padding: 20px 10px;" src="../public/images/company-logos/marlees-tappers.jpg">
-            <img style="width: 150px; padding: 20px 10px;" src="../public/images/company-logos/inkaddict.png">
-            <img style="width: 150px; padding: 20px 10px;" src="../public/images/company-logos/wallside.png">
-            <img style="width: 150px; padding: 20px 10px;" src="../public/images/company-logos/homefirst.png">
-            <img style="width: 150px; padding: 20px 10px;" src="../public/images/company-logos/bittele-logo.png">
-            <img style="width: 150px; padding: 20px 10px;" src="../public/images/company-logos/reverie.jpg">
-            <img style="width: 150px; padding: 20px 10px;" src="../public/images/company-logos/credibly.jpg">
-            <img style="width: 150px; padding: 20px 10px;" src="../public/images/company-logos/greektown.png">
-        </div>
-        <div class="row" style="text-align:center">
+            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/tappers.png">
+            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/leeSteinberg.jpg">
+            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/marlees-tappers.jpg">
+            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/inkaddict.png">
+            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/wallside.png">
+            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/homefirst.png">
+            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/bittele-logo.png">
+            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/reverie.jpg">
+            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/credibly.jpg">
+            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/greektown.png">
             <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/vivid-seats-logo.png">
         </div>
     </div>
-    
-    <!-- reeves, shelving, tappers, steinberg, marlees, inkaddict, wallside, homefirst, bittele, reverie, credibly, greek own, vivid seats -->
 
     <!--Contact  -->
     <div class="container-contact" style="text-align:center">
