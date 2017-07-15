@@ -16,18 +16,50 @@
     <script src="https://use.fontawesome.com/348865e609.js"></script>
 
     <!-- STYLESHEETS -->
-    <link rel='stylesheet' href='./public/css/index.css' />
-    <link rel='stylesheet' href='./public/css/footer.css' />
-    <link rel='stylesheet' href='./public/css/navbar.css' />
+    <link rel='stylesheet' href='../public/css/index.css' />
+    <link rel='stylesheet' href='../public/css/footer.css' />
+    <link rel='stylesheet' href='../public/css/navbar.css' />
+    <link rel='stylesheet' href='../public/css/officers.css' />
 </head>
 <body>
     <!-- NAVBAR -->
-    <?php include('./views/includes/navbar.html'); ?>
+    <?php include('./includes/navbar.html'); ?>
 
-    <div>
-        <p>Wrrrrrrryyy</p>
+    <div class='officers-billboard'>
+        <h1 align='center' id='officers-billboard-text'>Officers</h1>
     </div>
+
+    <div class='officers-box col-lg-4' id='webmaster'>
+        <h1 align='center' class='officers-text'>Webmaster</h1>
+    </div>
+    <div class="officers-box col-lg-4" id='ops-lead-1'>
+        <h1 align='center' class='officers-text'>OPS Lead</h1>
+    </div>
+    <div class='officers-box col-lg-4' id='events-coordinator'>
+        <h1 align='center' class='officers-text'>Events Coordinator</h1>
+    </div>
+
+    <div class='officers-box col-lg-4' id='corporate-relations'>
+        <h1 align='center' class='officers-text'>Corporate Relations</h1>
+    </div>
+    <div class="officers-box col-lg-4" id='ops-lead-2'>
+        <h1 align='center' class='officers-text'>OPS Lead</h1>
+    </div>
+    <div class='officers-box col-lg-4' id='publicity'>
+        <h1 align='center' class='officers-text'>Publicity</h1>
+    </div>
+
+    <div class='officers-box col-lg-4' id='ivp'>
+        <h1 align='center' class='officers-text'>Internal VP</h1>
+    </div>
+    <div class="officers-box col-lg-4" id='treasurer'>
+        <h1 align='center' class='officers-text'>Treasurer</h1>
+    </div>
+    <div class='officers-box col-lg-4' id='president'>
+        <h1 align='center' class='officers-text'>President</h1>
+    </div>
+
     <!-- FOOTER -->
-    <?php include('./views/includes/footer.html'); ?>
+    <?php include('./includes/footer.html'); ?>
 </body>
 </html>
