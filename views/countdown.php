@@ -1,40 +1,27 @@
 <!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>IEEE at UCLA</title>
+  
+  <!-- JQUERY -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link href='../../public/css/countdown.css'>
+  <script src='../../public/js/countdown.js'></script>
+</head>
+  
+
+
 
 <body>
 
- <div class="topleft">
-    <p>UCLA IEEE</p>
-  </div>
- <div class="middle">
-    <h1>COMING SOON</h1>
-
-
 </body>
 
+<p class='countdown'></p>
 
-
-
-<p id="demo"></p>
-
-<script>
-var countDownDate = new Date("July 31, 2017 19:00:00").getTime();
-
-var x = setInterval(function() {
-
-  var now = new Date().getTime();
-
- 
-  var distance = countDownDate - now;
-
- 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  
-}, 1000);
-</script>
+</html>
