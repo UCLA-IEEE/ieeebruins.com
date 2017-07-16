@@ -16,16 +16,15 @@
     <script src="https://use.fontawesome.com/348865e609.js"></script>
 
     <!-- CSS Pages -->
-    <link rel="stylesheet" type="text/css" href="../public/css/footer.css" />
-    <link rel="stylesheet" type="text/css" href="../public/css/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="../public/css/footer.css" >
+    <link rel="stylesheet" type="text/css" href="../public/css/navbar.css" >
     <link rel="stylesheet" type="text/css" href="../public/css/sponsors.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/style.css">
 </head>
     
 <body>
     <!-- Navbar -->
     <?php include('../views/includes/navbar.html'); ?>
-    <!-- Footer -->
-    <?php include('../views/includes/footer.html'); ?>
     
     <div class="container">
         <h3> Benefits of Becoming a Sponsor</h3>
@@ -41,56 +40,96 @@
         </ul>
         <h3> Becoming a Sponsor</h3>
         <h4> There are four levels of donations (materials and equipments are also appreciated and are weighed on their monetary value): </h4>
-        <h4>
-            Level 1 (Silver) $500 – $999 <br>
-            Level 2 (Gold) $1000 – $1999 <br>
-            Level 3 (Platinum) $2000 – $4999 <br>
-            Level 4 (Diamond) $5000 and above
-        </h4>
+        <ul style="list-style: none">
+            <li>Level 1 (Silver) $500 – $999</li>
+            <li>Level 2 (Gold) $1000 – $1999</li>
+            <li>Level 3 (Platinum) $2000 – $4999</li>
+            <li>Level 4 (Diamond) $5000 and above</li>
+        </ul>
     </div>
     
     <h1> Sponsors </h1>
-    <hr>
+    <hr style="width: 20%; margin: 0 auto;">
     
     <!--Platinum Tier -->
-    <div class="container-platinum"style="text-align:center">
+    <div class="container container-platinum text-center" >
         <h3> Platinum </h3>
         <div class="row">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/ee-dept.png">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/northrop-grumman-logo.jpg">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/clas.jpg">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/boeing.jpg">
+            <a href="http://www.ee.ucla.edu" target="_blank">
+                <img style="width: 340px; padding: 20px 10px;" src="../public/images/company-logos/ee-dept.png">
+            </a>
+            <a href="http://www.northrupgrumman.com" target="_blank">
+                <img style="width: 320px; padding: 20px 10px;" src="../public/images/company-logos/northrop-grumman-logo.jpg">
+            </a>
+            <a href="http://www.ieee-lac.org/category/coastal-los-angeles-section/" target="_blank">
+                <img style="width: 220px; padding: 20px 10px;" src="../public/images/company-logos/clas.jpg">
+            </a>
+            <a href="http://www.boeing.com" target="_blank">
+                <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/boeing.jpg">
+            </a>
             <img style="width: 250px; padding: 35px 10px;" src="../public/images/company-logos/ieee-upp.png">
-            <img style="width: 250px; padding: 0px 10px 20px 10px;" src="../public/images/company-logos/socal-edison.svg">
+            <a href="http://on.sce.com/1jMB5Gu" target="_blank">
+                <img style="width: 280px; padding: 0px 10px 20px 10px;" src="../public/images/company-logos/socal-edison.svg">
+            </a>
         </div>
     </div>
 
     <!--Silver Tier -->
-    <div class="container-silver" style="text-align:center">
+    <div class="container container-silver text-center" >
         <h3> Silver </h3>
         <div class="row">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/reeves-law.jpg">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/shelving.jpg">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/tappers.png">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/leeSteinberg.jpg">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/marlees-tappers.jpg">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/inkaddict.png">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/wallside.png">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/homefirst.png">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/bittele-logo.png">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/reverie.jpg">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/credibly.jpg">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/greektown.png">
-            <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/vivid-seats-logo.png">
+            <a href="http://losangeles.robertreeveslaw.com" target="_blank">
+                <img style="width: 200px; padding: 20px 10px;" src="../public/images/company-logos/reeves-law.jpg">
+            </a>
+            <a href="http://www.shelving.com/" target="_blank">
+                <img style="width: 190px; padding: 20px 10px;" src="../public/images/company-logos/shelving.jpg">
+            </a>
+            <a href="http://www.tappers.com/" target="_blank">
+                <img style="width: 170px; padding: 20px 10px;" src="../public/images/company-logos/tappers.png">
+            </a>
+            <a href="http://www.1800leefree.com/" target="_blank">
+                <img style="width: 180px; padding: 20px 10px;" src="../public/images/company-logos/leeSteinberg.jpg">
+            </a>
+            <a href="http://marleesstyle.com/" target="_blank">
+                <img style="width: 150px; padding: 20px 10px;" src="../public/images/company-logos/marlees-tappers.jpg">
+            </a>
+            <a href="http://www.inkaddict.com/" target="_blank">
+                <img style="width: 160px; padding: 20px 10px;" src="../public/images/company-logos/inkaddict.png">
+            </a>
+            <a href="http://www.wallsidewindows.com/" target="_blank">
+                <img style="width: 100px; padding: 20px 10px;" src="../public/images/company-logos/wallside.png">
+            </a>
+            <a href="http://homefirstcertified.com" target="_blank">
+                <img style="width: 130px; padding: 20px 10px;" src="../public/images/company-logos/homefirst.png">
+            </a>
+            <a href="http://www.7pcb.com/" target="_blank">
+                <img style="width: 160px; padding: 20px 10px;" src="../public/images/company-logos/bittele-logo.png">
+            </a>
+            <a href="http://www.reverie.com/" target="_blank">
+                <img style="width: 100px; padding: 20px 10px;" src="../public/images/company-logos/reverie.jpg">
+            </a>
+            <a href="https://credibly.com/" target="_blank">
+                <img style="width: 200px; padding: 20px 10px;" src="../public/images/company-logos/credibly.jpg">
+            </a>
+            <a href="https://www.greektowncasino.com/" target="_blank">
+                <img style="width: 140px; padding: 20px 10px;" src="../public/images/company-logos/greektown.png">
+            </a>
+            <a href="https://www.vividseats.com/" target="_blank">
+                <img style="width: 170px; padding: 20px 10px;" src="../public/images/company-logos/vivid-seats-logo.png">
+            </a>
         </div>
     </div>
 
     <!--Contact  -->
-    <div class="container-contact" style="text-align:center">
+    <div class="container container-contact text-center">
         <h1> Interested in Sponsoring? </h1>
-        <p> Fill out this <a href="../public/files/SponsorshipForm2017.pdf" target="_blank">form!</a></p>
-        <p> View and download our sponsorship brochure <a href="../public/files/SponsorshipBrochure2017.pdf" target="_blank">here!</a> </p>
-        <p> Contact our current president at <a href="president@ieee.ucla.edu" target="_blank">president@ieee.ucla.edu</a> for more information.</p>
+        <hr style="width: 50%; margin: 0 auto;">
+        <h3> Fill out this <a href="../public/files/SponsorshipForm2017.pdf" target="_blank">form!</a></h3>
+        <h3> View and download our sponsorship brochure <a href="../public/files/SponsorshipBrochure2017.pdf" target="_blank">here!</a> </h3>
+        <h3> Contact our current president at <a href="president@ieee.ucla.edu" target="_blank">president@ieee.ucla.edu</a> for more information.</h3>
     </div>
+    
+        <!-- Footer -->
+    <?php include('../views/includes/footer.html'); ?>
 </body>
 </html>
