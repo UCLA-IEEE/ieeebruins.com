@@ -20,6 +20,9 @@
     <link rel='stylesheet' href='./public/css/index.css' />
     <link rel='stylesheet' href='./public/css/footer.css' />
     <link rel='stylesheet' href='./public/css/navbar.css' />
+
+    <!-- SCRIPTS -->
+    <script src='./public/js/navbar-scroll.js'></script>
 </head>
 <body>
     <!-- NAVBAR -->
