@@ -48,28 +48,28 @@
         </ul>
     </div>
     
-    <h1> Sponsors </h1>
-    <hr style="width: 20%; margin: 0 auto;">
+    <h1 class="text-center"> Sponsors </h1>
+    <hr style="max-width: 200px; margin: 0 auto;">
     
     <!--Platinum Tier -->
     <div class="container container-platinum text-center" >
         <h3> Platinum </h3>
         <div class="row">
             <a href="http://www.ee.ucla.edu" target="_blank">
-                <img style="width: 340px; padding: 20px 10px;" src="../public/images/company-logos/ee-dept.png">
+                <img style="width: 340px; margin: 20px 20px;" src="../public/images/company-logos/ee-dept.png">
             </a>
             <a href="http://www.northrupgrumman.com" target="_blank">
-                <img style="width: 320px; padding: 20px 10px;" src="../public/images/company-logos/northrop-grumman-logo.jpg">
+                <img style="width: 320px; margin: 20px 20px;" src="../public/images/company-logos/northrop-grumman-logo.jpg">
             </a>
             <a href="http://www.ieee-lac.org/category/coastal-los-angeles-section/" target="_blank">
-                <img style="width: 220px; padding: 20px 10px;" src="../public/images/company-logos/clas.jpg">
+                <img style="width: 220px; margin: 20px 20px;" src="../public/images/company-logos/clas.jpg">
             </a>
             <a href="http://www.boeing.com" target="_blank">
-                <img style="width: 250px; padding: 20px 10px;" src="../public/images/company-logos/boeing.jpg">
+                <img style="width: 250px; margin: 20px 20px;" src="../public/images/company-logos/boeing.jpg">
             </a>
             <img style="width: 250px; padding: 35px 10px;" src="../public/images/company-logos/ieee-upp.png">
             <a href="http://on.sce.com/1jMB5Gu" target="_blank">
-                <img style="width: 280px; padding: 0px 10px 20px 10px;" src="../public/images/company-logos/socal-edison.svg">
+                <img style="width: 280px; margin: 20px 20px;" src="../public/images/company-logos/socal-edison.svg">
             </a>
         </div>
     </div>
@@ -79,43 +79,43 @@
         <h3> Silver </h3>
         <div class="row">
             <a href="http://losangeles.robertreeveslaw.com" target="_blank">
-                <img style="width: 200px; padding: 20px 10px;" src="../public/images/company-logos/reeves-law.jpg">
+                <img style="width: 200px; margin: 20px 20px;" src="../public/images/company-logos/reeves-law.jpg">
             </a>
             <a href="http://www.shelving.com/" target="_blank">
-                <img style="width: 190px; padding: 20px 10px;" src="../public/images/company-logos/shelving.jpg">
+                <img style="width: 190px; margin: 20px 20px;" src="../public/images/company-logos/shelving.jpg">
             </a>
             <a href="http://www.tappers.com/" target="_blank">
-                <img style="width: 170px; padding: 20px 10px;" src="../public/images/company-logos/tappers.png">
+                <img style="width: 170px; margin: 20px 20px;" src="../public/images/company-logos/tappers.png">
             </a>
             <a href="http://www.1800leefree.com/" target="_blank">
-                <img style="width: 180px; padding: 20px 10px;" src="../public/images/company-logos/leeSteinberg.jpg">
+                <img style="width: 180px; margin: 20px 20px;" src="../public/images/company-logos/leeSteinberg.jpg">
             </a>
             <a href="http://marleesstyle.com/" target="_blank">
-                <img style="width: 150px; padding: 20px 10px;" src="../public/images/company-logos/marlees-tappers.jpg">
+                <img style="width: 150px; margin: 20px 20px;" src="../public/images/company-logos/marlees-tappers.jpg">
             </a>
             <a href="http://www.inkaddict.com/" target="_blank">
-                <img style="width: 160px; padding: 20px 10px;" src="../public/images/company-logos/inkaddict.png">
+                <img style="width: 160px; margin: 20px 20px;" src="../public/images/company-logos/inkaddict.png">
             </a>
             <a href="http://www.wallsidewindows.com/" target="_blank">
-                <img style="width: 100px; padding: 20px 10px;" src="../public/images/company-logos/wallside.png">
+                <img style="width: 100px; margin: 20px 20px;" src="../public/images/company-logos/wallside.png">
             </a>
             <a href="http://homefirstcertified.com" target="_blank">
-                <img style="width: 130px; padding: 20px 10px;" src="../public/images/company-logos/homefirst.png">
+                <img style="width: 130px; margin: 20px 20px;" src="../public/images/company-logos/homefirst.png">
             </a>
             <a href="http://www.7pcb.com/" target="_blank">
-                <img style="width: 160px; padding: 20px 10px;" src="../public/images/company-logos/bittele-logo.png">
+                <img style="width: 160px; margin: 20px 20px;" src="../public/images/company-logos/bittele-logo.png">
             </a>
             <a href="http://www.reverie.com/" target="_blank">
-                <img style="width: 100px; padding: 20px 10px;" src="../public/images/company-logos/reverie.jpg">
+                <img style="width: 100px; margin: 20px 20px;" src="../public/images/company-logos/reverie.jpg">
             </a>
             <a href="https://credibly.com/" target="_blank">
-                <img style="width: 200px; padding: 20px 10px;" src="../public/images/company-logos/credibly.jpg">
+                <img style="width: 200px; margin: 20px 20px;" src="../public/images/company-logos/credibly.jpg">
             </a>
             <a href="https://www.greektowncasino.com/" target="_blank">
-                <img style="width: 140px; padding: 20px 10px;" src="../public/images/company-logos/greektown.png">
+                <img style="width: 140px; margin: 20px 20px;" src="../public/images/company-logos/greektown.png">
             </a>
             <a href="https://www.vividseats.com/" target="_blank">
-                <img style="width: 170px; padding: 20px 10px;" src="../public/images/company-logos/vivid-seats-logo.png">
+                <img style="width: 170px; margin: 20px 20px;" src="../public/images/company-logos/vivid-seats-logo.png">
             </a>
         </div>
     </div>
@@ -123,7 +123,7 @@
     <!--Contact  -->
     <div class="container container-contact text-center">
         <h1> Interested in Sponsoring? </h1>
-        <hr style="width: 50%; margin: 0 auto;">
+        <hr style="max-width: 500px; margin: 0 auto;">
         <h3> Fill out this <a href="../public/files/SponsorshipForm2017.pdf" target="_blank">form!</a></h3>
         <h3> View and download our sponsorship brochure <a href="../public/files/SponsorshipBrochure2017.pdf" target="_blank">here!</a> </h3>
         <h3> Contact our current president at <a href="president@ieee.ucla.edu" target="_blank">president@ieee.ucla.edu</a> for more information.</h3>
