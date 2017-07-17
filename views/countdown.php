@@ -26,8 +26,8 @@
       <h2 class='countdown'></h2> 
       <p>Welcome! We are currently re-soldering our webpage and will relaunch shortly. Thank you for visiting IEEE at UCLA!</p>
   </div>
-  <div class='top-left'>
-    <img src='../public/images/ieee-logo-white.png' alt='Logo' style="width:150px;height:45px;">
+  <div class='topleft'>
+    <img src='../public/images/ieee-logo-white.png' alt='Logo' style="width:150px;height:45px;" padding="50px 30px 50px 80px;">
   </div>
 
 </body>

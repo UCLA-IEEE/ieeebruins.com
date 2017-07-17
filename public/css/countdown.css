@@ -14,15 +14,19 @@ html, body {
 
 .topleft{
 	position: absolute;
-    top:0;
+	top:2%;
+	left:1%;
+	
 }
+
 h1 {
-    letter-spacing: 3px;
+    letter-spacing: 6px;
     font-size: 80px;
     font-weight: 600;
 }
 h2{
 	font-size: 75px;
+	letter-spacing: 4px;
 }
 
 p{
