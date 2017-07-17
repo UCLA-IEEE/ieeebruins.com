@@ -1,23 +1,28 @@
-// html
-<div class='countdown-content'>
-    <h1>IEEE AT UCLA</h1>
-    <p class='countdown'></p> // the p tag that gets filled with the countdown
-    <p>Welcome! We are currently re-soldering our webpage and will re-launch shortly. Thank you for visiting IEEE at UCLA!</p>
-</div>
-
-// css
 html, body {
     height: 100%; 
+    background-color:rgba(51, 122, 183, 0.9);
 }
 
 .countdown-content {
     position: absolute;
     top: 50%; 
-    left: 50%; /
+    left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
  }
 
 
  h1 {
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    font-size: 65px;
+    font-weight: 600;
 }
+h2{
+	font-size: 42px;
+}
+
+p{
+	font-size: 22px;
+}
+
