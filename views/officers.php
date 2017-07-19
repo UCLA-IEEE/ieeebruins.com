@@ -29,7 +29,7 @@
         <h1 align='center' id='officers-billboard-text'>Officers</h1>
     </div>
 
-    <div class='officers-box col-lg-4' id='webmaster'>
+    <!--<div class='officers-box col-lg-4' id='webmaster'>
         <h1 align='center' class='officers-text'>Webmaster</h1>
     </div>
     <div class="officers-box col-lg-4" id='ops-lead-1'>
@@ -57,6 +57,26 @@
     </div>
     <div class='officers-box col-lg-4' id='president'>
         <h1 align='center' class='officers-text'>President</h1>
+    </div>-->
+    <div class='container'>
+        <div class='row'>
+            <img src='../public/images/officers/kevin-balke.jpg' style='width: 25%; height: auto; float: left;'>   <!--Style attribute is temporary until I can fix the bug-->
+            <h2>President</h2>
+            <h3>Kevin Balke</h3>
+            <p> a;sldkfj;aoigja;rligj;a</p>
+        </div>
+        <div class='row'>
+            <img src='../public/images/officers/alex-sin.jpg' style='width: 25%; height: auto; float: left;'>   <!--Style attribute is temporary until I can fix the bug-->
+            <h2>Internal Vice President</h2>
+            <h3>Alex Sin</h3>
+            <p> a;sldkfj;aoigja;rligj;a</p>
+        </div>
+        <div class='row'>
+            <img src='../public/images/officers/wenlong.jpg' style='width: 25%; height: auto; float: left;'>   <!--Style attribute is temporary until I can fix the bug-->
+            <h2>External Vice President</h2>
+            <h3>Wenlong Xiong</h3>
+            <p> a;sldkfj;aoigja;rligj;a</p>
+        </div>
     </div>
 
     <!-- FOOTER -->

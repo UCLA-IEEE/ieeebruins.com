@@ -1,20 +1,26 @@
-.officers-billboard{
+.officers-billboard {
     background: url(http://i.imgur.com/2r8kLdC.png);
     height:95%;
 }
-#officers-billboard-text{
+#officers-billboard-text {
 	padding-top: 20%;
 	margin-top: 0px;
 }
-.officers-box{
+/*.officers-box {
     height: 70%;
     margin-top: 2%;
-}
-.officers-text{
+}*/
+.officers-text {
 	padding-top:80%;
 	color: white;
 }
-#events-coordinator{
+.officers-img{
+	float: left;
+	width: 100px;
+	height: auto;
+}
+
+/*#events-coordinator{
 	background: url('../images/officers/christine-chen.jpg') center no-repeat;
 }
 #ops-lead-1{
@@ -43,4 +49,4 @@
 }
 #president{
 	background: url('../images/officers/kevin-balke.jpg') center no-repeat;
-}
+}*/
