@@ -20,6 +20,9 @@
     <link rel="stylesheet" type="text/css" href="../public/css/navbar.css" >
     <link rel="stylesheet" type="text/css" href="../public/css/sponsors.css">
     <link rel="stylesheet" type="text/css" href="../public/css/style.css">
+    
+    <!--Favicon -->
+    <link rel='icon' href='public/favicon.ico'/>
 </head>
     
 <body>
