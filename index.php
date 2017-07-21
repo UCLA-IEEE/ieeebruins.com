@@ -15,6 +15,9 @@
 
   <!-- SCRIPTS -->
   <script src='./public/js/countdown.js'></script>
+    
+  <!--Favicon -->
+  <link rel='icon' href='public/favicon.ico'/>
 </head>
 <body>
 

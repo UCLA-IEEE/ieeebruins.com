@@ -19,6 +19,9 @@
     <link rel='stylesheet' href='./public/css/index.css' />
     <link rel='stylesheet' href='./public/css/footer.css' />
     <link rel='stylesheet' href='./public/css/navbar.css' />
+    
+    <!--Favicon -->
+    <link rel='icon' href='public/favicon.ico'/>
 </head>
 <body>
     <!-- NAVBAR -->
