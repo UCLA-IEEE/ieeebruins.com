@@ -1,6 +1,6 @@
 .officers-billboard {
     background: url(http://i.imgur.com/2r8kLdC.png);
-    height:95%;
+    height: 95%;
 }
 #officers-billboard-text {
 	padding-top: 20%;
@@ -10,16 +10,18 @@
     height: 70%;
     margin-top: 2%;
 }*/
+.officers-card {
+	margin-top: 200px;
+}
 .officers-text {
-	padding-top:80%;
+	padding-top: 80%;
 	color: white;
 }
-.officers-img{
+.officers-img {
 	float: left;
 	width: 100px;
 	height: auto;
 }
-
 /*#events-coordinator{
 	background: url('../images/officers/christine-chen.jpg') center no-repeat;
 }
