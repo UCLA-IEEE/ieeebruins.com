@@ -4,12 +4,12 @@ function addLeadingZero(num) {
   return num
 }
 
-let countDownDate = new Date("July 31, 2017 19:00:00").getTime();
+let countdownDate = new Date("August 31, 2017 23:59:00").getTime();
 
 let x = setInterval(function() {
 
   let now = new Date().getTime()
-  let distance = countDownDate - now
+  let distance = countdownDate - now
 
   let days = addLeadingZero(Math.floor(distance / (1000 * 60 * 60 * 24)))
   let hours = addLeadingZero(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)))
