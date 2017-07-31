@@ -4,10 +4,8 @@
 
 ## Setting up a development environment with MAMP
 Download [MAMP](https://www.mamp.info/en/)  
-
 Run MAMP, go to Preferences > Web Server and change the root directory
 to point to this repo.  
-
 Start the MAMP servers and visit `localhost:88888` (Mac) or
 `localhost` (Windows) to view the website.
 
