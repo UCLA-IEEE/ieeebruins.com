@@ -1,7 +1,6 @@
 # IEEE at UCLA
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-
 ## Setting up a development environment with MAMP
 Download [MAMP](https://www.mamp.info/en/)  
 Run MAMP, go to Preferences > Web Server and change the root directory
