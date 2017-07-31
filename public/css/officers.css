@@ -1,46 +1,18 @@
-.officers-billboard{
-    background: url(http://i.imgur.com/2r8kLdC.png);
-    height:95%;
-}
-#officers-billboard-text{
-	padding-top: 20%;
-	margin-top: 0px;
-}
-.officers-box{
-    height: 70%;
-    margin-top: 2%;
-}
-.officers-text{
-	padding-top:80%;
-	color: white;
-}
-#events-coordinator{
-	background: url('../images/officers/christine-chen.jpg') center no-repeat;
-}
-#ops-lead-1{
-	background: url('../images/officers/jiwan-kang.jpg') center no-repeat;
-}
-#webmaster{
-	background: url('../images/officers/jeffrey-chan.jpg') center no-repeat;
+/* OFFICERS */
+
+.officer-banner h1 {
+  text-align: center;
+  font-weight: bold;
 }
 
-#corporate-relations{
-	background: url('../images/officers/allison-doami.jpg') center no-repeat;
-}
-#ops-lead-2{
-	background: url('../images/officers/sahil-gandhi.jpg') center no-repeat;
-}
-#publicity{
-	background: url('../images/officers/jeffrey-chan.jpg') center no-repeat;
+.officer-card {
+	padding: 15px;
+  margin: 20px 0;
 }
 
-#ivp{
-	background: url('../images/officers/alex-sin.jpg') center no-repeat;
-}
-#treasurer{
-	background: url('http://i.imgur.com/JU0EQfR.jpg') no-repeat;
-	background-size: 100%;
-}
-#president{
-	background: url('../images/officers/kevin-balke.jpg') center no-repeat;
+.officer-card img {
+  width: 25%;
+  height: auto;
+  float: left;
+  padding-right: 2%;
 }
