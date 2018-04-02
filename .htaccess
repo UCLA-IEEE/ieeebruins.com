@@ -16,4 +16,8 @@ RewriteRule ^lab$ ./views/lab.php
 RewriteRule ^officers$ ./views/officers.php
 
 # ERROR PAGES
-ErrorDocument 404 ./views/error/404.shtml
+ErrorDocument 400 /views/error/400.shtml
+ErrorDocument 401 /views/error/401.shtml
+ErrorDocument 403 /views/error/403.shtml
+ErrorDocument 404 /views/error/404.shtml
+ErrorDocument 500 /views/error/500.shtml
