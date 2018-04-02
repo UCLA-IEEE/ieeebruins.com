@@ -1,35 +1,36 @@
-html, body {
-    height: 100%;
-    background-color:rgba(51, 122, 183, 0.9);
+html,
+body {
+  height: 100%;
+  background-color: rgba(51, 122, 183, 0.9);
 }
 
-.topleft{
-	position: absolute;
-	top:2%;
-    left:1%;
+.topleft {
+  position: absolute;
+  top: 2%;
+  left: 1%;
 }
 
 .countdown-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color:white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
 }
 
 .countdown-content h1 {
-    letter-spacing: 6px;
-    font-size: 80px;
-    font-weight: 600;
+  letter-spacing: 6px;
+  font-size: 80px;
+  font-weight: 600;
 }
 
 .countdown-content h2 {
-	font-size: 75px;
-	letter-spacing: 4px;
+  font-size: 75px;
+  letter-spacing: 4px;
 }
 
 .countdown-content p {
-    margin-top: 20px;
-	font-size: 22px;
+  margin-top: 20px;
+  font-size: 22px;
 }

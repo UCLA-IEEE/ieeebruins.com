@@ -1,38 +1,20 @@
-# IEEE at UCLA
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# IEEE at UCLA Main Website
 
-## Setting up a development environment with MAMP
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+
+## Setting up a development environment
+
+Clone repo: `git clone https://github.com/UCLA-IEEE/ieeebruins.org.git`  
+Download [Node](https://nodejs.org/en/)  
+Run `npm install` to install this project's dependencies
+
 Download [MAMP](https://www.mamp.info/en/)  
 Run MAMP, go to Preferences > Web Server and change the root directory
 to point to this repo.  
 Start the MAMP servers and visit `localhost:88888` (Mac) or
 `localhost` (Windows) to view the website.
 
-# Style Guide
+## Deployment
 
-## HTML
-
-1. Always use single quotes for strings unless you **have to** use double quotes.  
-Example:  
-`class='navbar'` instead of `class="navbar"`
-
-
-## CSS
-
-1. Brackets. Always put the left bracket on the same line, and not a
-newline.  
-Example:
-```
-// this
-body {
-  ...
-}  
-// instead of
-body
-{
-  ...
-}
-```
-
-## JavaScript
-[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+Coming soon

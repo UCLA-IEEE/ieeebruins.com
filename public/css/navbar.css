@@ -1,120 +1,122 @@
 .myNavbar {
-    position: fixed;
-    top: 0;
-    z-index: 1;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 
-    display: block;
-    width: 100%;
-    height: 75px;
-    overflow: hidden;
-    background-color: rgba(51, 122, 183, 0.9);
+  display: block;
+  width: 100%;
+  height: 75px;
+  overflow: hidden;
+  background-color: rgba(51, 122, 183, 0.9);
 
-    transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .brand-container {
-    display: inline-block;
-    padding: 24px 50px;
+  display: inline-block;
+  padding: 24px 50px;
 }
 
 .brand {
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .nav-list {
-    float: right;
-    list-style: none;
-    margin-bottom: 0;
-    padding: 0 25px;
+  float: right;
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0 25px;
 }
 
 .nav-list li {
-    display: inline-block;
-    padding: 26px 25px;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+  display: inline-block;
+  padding: 26px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 /* ICON AND ICON ANIMATION */
 
 .navbar-icon {
-    display: none;
-    cursor: pointer;
-    position: absolute;
-    right: 30px;
-    padding: 20px 0 0 0;
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  padding: 20px 0 0 0;
 }
 
-.bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
-    transition: 0.4s;
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
 }
 
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 .change .bar2 {
-    opacity: 0;
+  opacity: 0;
 }
 
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 /* MOBILE NAVBAR LIST */
 
 .mobile-nav-list {
-    position: fixed;
-    z-index: 2;
-    top: 75px;
-    width: 100%;
-    height: 0;
-    overflow-x: hidden;
+  position: fixed;
+  z-index: 2;
+  top: 75px;
+  width: 100%;
+  height: 0;
+  overflow-x: hidden;
 
-    background-color: rgba(51, 122, 183, 0.9);
-    list-style: none;
-    padding: 0;
+  background-color: rgba(51, 122, 183, 0.9);
+  list-style: none;
+  padding: 0;
 
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
 .mobile-nav-list li {
-    padding: 15px 50px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 600;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
 }
 
 @media (max-width: 1015px) {
-    .navbar-icon {
-        display: inline-block;
-    }
-    .nav-list {
-        display: none;
-    }
+  .navbar-icon {
+    display: inline-block;
+  }
+  .nav-list {
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
-    .brand-container {
-        padding: 24px 20px;
-    }
-    .navbar-icon {
-        right: 20px;
-    }
-    .mobile-nav-list li {
-        padding: 15px 20px;
-    }
+  .brand-container {
+    padding: 24px 20px;
+  }
+  .navbar-icon {
+    right: 20px;
+  }
+  .mobile-nav-list li {
+    padding: 15px 20px;
+  }
 }
 
 /* LINK STUFF */
@@ -128,6 +130,6 @@
 .mobile-nav-list li a,
 .mobile-nav-list li a:hover,
 .mobile-nav-list li a:visited {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }

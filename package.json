@@ -1,0 +1,55 @@
+{
+  "name": "ieeebruins.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "npm run format-html && npm run format-css && npm run format-js",
+    "format-check": "./node_modules/prettier-check/cli.js --single-quote --print-width=120 --no-semi ./public/css/**.css ./plublic/js/**.js",
+    "format-css": "prettier --print-width=120 --write ./public/css/**.css",
+    "format-html": "html-beautify -n=true -E=[] -r ./views/**.php ./views/includes/**.html",
+    "format-js": "prettier --single-quote --print-width=120 --no-semi --write ./public/js/**.js",
+    "lint": "eslint --fix --quiet ./public/js/**.js",
+    "precommit": "lint-staged",
+    "test": "npm run format-check && npm run lint"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run format-js",
+      "git add"
+    ],
+    "*.css": [
+      "npm run format-css",
+      "git add"
+    ],
+    "*.html": [
+      "npm run format-html",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCLA-IEEE/ieeebruins.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UCLA-IEEE/ieeebruins.org/issues"
+  },
+  "homepage": "https://github.com/UCLA-IEEE/ieeebruins.org#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.3",
+    "js-beautify": "^1.7.5",
+    "lint-staged": "^7.0.2",
+    "prettier": "^1.11.1",
+    "prettier-check": "^2.0.0"
+  }
+}

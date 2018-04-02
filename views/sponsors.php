@@ -16,19 +16,19 @@
     <script src="https://use.fontawesome.com/348865e609.js"></script>
 
     <!-- CSS Pages -->
-    <link rel="stylesheet" type="text/css" href="../public/css/footer.css" >
-    <link rel="stylesheet" type="text/css" href="../public/css/navbar.css" >
+    <link rel="stylesheet" type="text/css" href="../public/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/navbar.css">
     <link rel="stylesheet" type="text/css" href="../public/css/sponsors.css">
     <link rel="stylesheet" type="text/css" href="../public/css/style.css">
-    
+
     <!--Favicon -->
-    <link rel='icon' href='public/favicon.ico'/>
+    <link rel='icon' href='public/favicon.ico' />
 </head>
-    
+
 <body>
     <!-- Navbar -->
     <?php include('../views/includes/navbar.html'); ?>
-    
+
     <div class="container">
         <h3> Benefits of Becoming a Sponsor</h3>
         <ul>
@@ -50,12 +50,12 @@
             <li>Level 4 (Diamond) $5000 and above</li>
         </ul>
     </div>
-    
+
     <h1 class="text-center"> Sponsors </h1>
     <hr style="max-width: 200px; margin: 0 auto;">
-    
+
     <!--Platinum Tier -->
-    <div class="container container-platinum text-center" >
+    <div class="container container-platinum text-center">
         <h3> Platinum </h3>
         <div class="row">
             <a href="http://www.ee.ucla.edu" target="_blank">
@@ -78,7 +78,7 @@
     </div>
 
     <!--Silver Tier -->
-    <div class="container container-silver text-center" >
+    <div class="container container-silver text-center">
         <h3> Silver </h3>
         <div class="row">
             <a href="http://losangeles.robertreeveslaw.com" target="_blank">
@@ -131,8 +131,8 @@
         <h3> View and download our sponsorship brochure <a href="../public/files/SponsorshipBrochure2017.pdf" target="_blank">here!</a> </h3>
         <h3> Contact our current president at <a href="president@ieee.ucla.edu" target="_blank">president@ieee.ucla.edu</a> for more information.</h3>
     </div>
-    
-        <!-- Footer -->
+
+    <!-- Footer -->
     <?php include('../views/includes/footer.html'); ?>
 </body>
 </html>

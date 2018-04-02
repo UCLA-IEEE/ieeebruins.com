@@ -28,7 +28,7 @@
     <?php include('./includes/navbar.html'); ?>
 
     <div class='officer-banner'>
-      <h1>IEEE at UCLA Officer Board</h1>
+        <h1>IEEE at UCLA Officer Board</h1>
     </div>
 
     <div class='container exec-board'>

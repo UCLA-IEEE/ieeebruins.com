@@ -1,15 +1,15 @@
 // function to handle logic when navbar icon pressed
+// eslint-disable-next-line no-unused-vars
 function toggleNavbarIconLogic(navbarIcon) {
-    navbarIcon.classList.toggle('change');
-    toggleMobileNav();
+  navbarIcon.classList.toggle('change')
+  toggleMobileNav()
 }
 
 function toggleMobileNav() {
-    var idText = 'mobile-nav-list';
-    if (document.getElementById(idText).style.height == 'auto') {
-        document.getElementById(idText).style.height = '0%';
-    }
-    else {
-        document.getElementById(idText).style.height = 'auto';
-    }
+  var idText = 'mobile-nav-list'
+  if (document.getElementById(idText).style.height === 'auto') {
+    document.getElementById(idText).style.height = '0%'
+  } else {
+    document.getElementById(idText).style.height = 'auto'
+  }
 }
