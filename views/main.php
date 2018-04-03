@@ -16,16 +16,16 @@
     <script src="https://use.fontawesome.com/348865e609.js"></script>
 
     <!-- STYLESHEETS -->
-    <link rel='stylesheet' href='./public/css/index.css' />
-    <link rel='stylesheet' href='./public/css/footer.css' />
-    <link rel='stylesheet' href='./public/css/navbar.css' />
-    
+    <link rel='stylesheet' href='/public/css/index.css' />
+    <link rel='stylesheet' href='/public/css/footer.css' />
+    <link rel='stylesheet' href='/public/css/navbar.css' />
+
     <!--Favicon -->
-    <link rel='icon' href='public/favicon.ico'/>
+    <link rel='icon' href='/public/favicon.ico'/>
 </head>
 <body>
     <!-- NAVBAR -->
-    <?php include('./views/includes/navbar.html'); ?>
+    <?php include('./includes/navbar.html'); ?>
 
     <!-- HOME BILLBOARD -->
     <!-- TODO: maybe use a frosty filter instead and make image fade to white into other sections -->
@@ -132,6 +132,6 @@
     </div>
 
     <!-- FOOTER -->
-    <?php include('./views/includes/footer.html'); ?>
+    <?php include('./includes/footer.html'); ?>
 </body>
 </html>

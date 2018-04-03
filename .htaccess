@@ -14,6 +14,7 @@ RewriteRule ^sponsors$ ./views/sponsors.php
 RewriteRule ^lab$ ./views/lab.php
 # RewriteRule ^projects$ ./views/about.html
 RewriteRule ^officers$ ./views/officers.php
+RewriteRule ^$ ./views/main.php
 
 # ERROR PAGES
 ErrorDocument 400 /views/error/400.shtml

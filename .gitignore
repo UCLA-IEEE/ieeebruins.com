@@ -3,3 +3,4 @@ default.html
 .DS_Store
 _site/
 node_modules
+package-lock.json
