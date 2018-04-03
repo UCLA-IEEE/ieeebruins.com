@@ -1,7 +1,8 @@
+< -- KATHY -- >
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>About - IEEE at UCLA</title>
+    <title>BJ - IEEE at UCLA</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
