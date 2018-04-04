@@ -1,3 +1,10 @@
+/**
+ * Global stlyesheet style.css
+ * A stylesheet meant to be included on all pages in order to create a common
+ * theme. This includes properties like typography, coloring, and common
+ * component styles 
+ */
+
 /*----------- NORMALIZE -------------*/
 
 body {
