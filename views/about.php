@@ -16,14 +16,12 @@
     <script src="https://use.fontawesome.com/348865e609.js"></script>
 
     <!-- STYLESHEETS -->
-    <link rel='stylesheet' href='../public/css/footer.css' />
-    <link rel='stylesheet' href='../public/css/navbar.css' />
+    <link rel='stylesheet' href='/public/css/footer.css' />
+    <link rel='stylesheet' href='/public/css/navbar.css' />
 </head>
 <body>
     <!-- NAVBAR -->
     <?php include('../views/includes/navbar.html'); ?>
-
-    <p>Hello World This is Allison</p>
 
     <!-- FOOTER -->
     <?php include('../views/includes/footer.html'); ?>

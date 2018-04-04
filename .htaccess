@@ -10,10 +10,10 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 
 # MAIN ROUTES
 RewriteRule ^about$ ./views/about.php
-RewriteRule ^sponsors$ ./views/sponsors.php
-RewriteRule ^lab$ ./views/lab.php
-# RewriteRule ^projects$ ./views/about.html
 RewriteRule ^officers$ ./views/officers.php
+RewriteRule ^projects$ ./views/about.html
+RewriteRule ^lab$ ./views/lab.php
+RewriteRule ^sponsors$ ./views/sponsors.php
 RewriteRule ^$ ./views/main.php
 
 # ERROR PAGES
