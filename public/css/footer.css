@@ -26,10 +26,16 @@
 }
 
 @media (max-width: 768px) {
+  .footer.container-fluid {
+    padding: 0 10px;
+  }
   .footer .copyright {
     display: none;
   }
   .footer .footer-media {
     text-align: center;
+  }
+  .footer .fa {
+    margin: 10px;
   }
 }
