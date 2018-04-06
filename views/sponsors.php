@@ -122,19 +122,19 @@
   <span class="ieee-blue">SPONSOR</span>
 </h1>
     <div class = "tierscontainer">
-        <div class = "tiersbox" style = "float: left">
+        <div class = "tiersbox" id = "box" style = "float: left">
             <h1 id = "tier">SILVER</h1>
             <p id = "price">$500 - $999</p>
         </div> 
-        <div class = "tiersbox" style = "float: left">
+        <div class = "tiersbox" id = "box" style = "float: left">
             <h1 id = "tier">GOLD</h1>
             <p id = "price">$1000 - $1999</p>
         </div>
-        <div class = "tiersbox" style = "float: left">
+        <div class = "tiersbox" id = "box" style = "float: left">
             <h1 id = "tier">PLATINUM</h1>
             <p id = "price">$2000 - $4999</p>
         </div>
-        <div class = "tiersbox" style = "float: left">
+        <div class = "tiersbox" id = "box" style = "float: left">
             <h1 id = "tier">DIAMOND</h1>
             <p id = "price">$5000</p>
         </div>
