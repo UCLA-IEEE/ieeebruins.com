@@ -1,6 +1,7 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
+<<<<<<< HEAD
     <title>IEEE at UCLA</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,10 +24,14 @@
 
     <!--Favicon -->
     <link rel='icon' href='/public/favicon.ico'/>
+=======
+    <title>Lab - IEEE at UCLA</title>
+>>>>>>> master
 </head>
 <!-- NAVBAR -->
 <?php include('./includes/navbar.html'); ?>
 <body>
+<<<<<<< HEAD
 
     <div class='info-page'>
         <h1>IEEE LAB</h1>
@@ -39,5 +44,8 @@
     <div class='resources'>
     
     </div>
+=======
+    <p>This is the lab page</p>
+>>>>>>> master
 </body>
 </html>

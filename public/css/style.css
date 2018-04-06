@@ -1,8 +1,75 @@
+/**
+ * Global stlyesheet style.css
+ * A stylesheet meant to be included on all pages in order to create a common
+ * theme. This includes properties like typography, coloring, and common
+ * component styles 
+ */
+
+/*----------- NORMALIZE -------------*/
+
 body {
-  padding-top: 75px;
+  margin: 0;
+}
+
+/*----------- TYPOGRAPHY ------------*/
+
+h1 {
+  font-family: Arial Black, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-family: Arial Black, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 p {
+  font-family: Arial, sans-serif;
   font-size: 20px;
+
+  line-height: 1.2;
   margin: 0;
+}
+
+/*----------- COLORS ----------------*/
+
+.ieee-blue {
+  color: #00629b;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+/*-------- BACKGROUNDS ------------*/
+
+.background-ieee-blue {
+  background-color: #00629b;
+  color: white; /* All text on a blue background should be white */
+}
+
+.background-grey {
+  /* #75787B with 20% opacity */
+  background-color: rgba(117, 120, 123, 0.2);
+}
+
+/*-------- LINK STYLING ----------*/
+
+a {
+  color: #00629b;
+  text-decoration: none;
 }
