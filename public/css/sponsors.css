@@ -1,0 +1,94 @@
+/**-------- SPONSORS PAGE STYLING ----------*/
+.allcontent {
+  margin: 0 auto;
+  padding: 20px 20px;
+  /*justify-content: center;
+  display: inline-block;*/
+  max-width: 1000px;
+  display: block;
+}
+.allsponsors {
+  margin-top: 40px;
+  display: inline-block;
+  width: 100%;
+}
+.sponsorsbox {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 5px solid #00629b;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.tierscontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.tiersbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: #00629b;
+  color: white;
+  width: 200px;
+  height: 105px;
+  letter-spacing: 0.15em;
+}
+@media (max-width: 875px) {
+  .tierscontainer {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .tiersbox {
+    margin: 10px 30px;
+    float: none;
+  }
+}
+.tiersbox#label {
+  width: 250px;
+  height: 55px;
+  float: right;
+}
+.tiersbox#label h1 {
+  font-size: 25px;
+}
+#tier {
+  font-size: 24px;
+  padding: 0 12px 12px;
+}
+#price {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 50;
+}
+ul {
+  font-family: Arial, sans-serif;
+  font-style: medium;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: left;
+  display: inline-block;
+}
+.underline {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 679px;
+  height: 0px;
+  border: 7px solid black;
+}
+#titles {
+  padding-right: 70px;
+  display: inline-block;
+  border-bottom: 10px solid black;
+}
+.interestbox {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: inline-block;
+}
