@@ -10,6 +10,12 @@
   padding: 24px 50px;
 }
 
+.brand-container img {
+  width: 40px;
+  margin-top: -10px;
+  margin-right: 10px;
+}
+
 .brand {
   font-size: 20px;
   font-weight: 500;
@@ -57,7 +63,7 @@
 
 .dropdown-content li {
   font-size: 12px;
-  padding: 15px 25px;
+  padding: 15px 22px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -151,6 +157,9 @@
 @media (max-width: 500px) {
   .brand-container {
     padding: 24px 20px;
+  }
+  .brand-container img {
+    margin-right: 0px;
   }
   .navbar-icon {
     right: 20px;
