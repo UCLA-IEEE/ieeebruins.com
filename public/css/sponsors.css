@@ -1,4 +1,8 @@
 /**-------- SPONSORS PAGE STYLING ----------*/
+#toptitle {
+  margin-top: 50px;
+  text-align: center;
+}
 .allcontent {
   margin: 0 auto;
   padding: 20px 20px;
@@ -43,11 +47,13 @@
   .tierscontainer {
     display: inline-block;
     text-align: center;
+    width: 100%;
   }
-
   .tiersbox#box {
     margin: 10px 30px;
-    float: none;
+  }
+  .tiers-wrapper {
+    display: inline-block;
   }
 }
 .tiersbox#label {
@@ -71,17 +77,10 @@ ul {
   font-family: Arial, sans-serif;
   font-style: medium;
   font-size: 20px;
-  line-height: 29px;
+  line-height: 1.5;
   text-align: left;
   display: inline-block;
   padding-right: 30px;
-}
-.underline {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 679px;
-  height: 0px;
-  border: 7px solid black;
 }
 #titles {
   padding-right: 70px;
@@ -92,4 +91,7 @@ ul {
   margin-top: 40px;
   margin-bottom: 40px;
   display: inline-block;
+}
+p {
+  line-height: 1.5;
 }
