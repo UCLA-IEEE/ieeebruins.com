@@ -13,3 +13,20 @@ function toggleMobileNav() {
     document.getElementById(idText).style.height = 'auto'
   }
 }
+
+// eslint-disable-next-line no-unused-vars
+function toggleResponsiveActive() {
+  let x = document.getElementById('responsive-content')
+  if (x.className === 'responsive-dropdown-content') {
+    x.className += ' active'
+  } else {
+    x.className = 'responsive-dropdown-content'
+  }
+
+  let dropdownArrow = document.getElementById('dropdown-arrow')
+  if (dropdownArrow.style.transform === 'rotate(180deg)') {
+    dropdownArrow.style.transform = 'none'
+  } else {
+    dropdownArrow.style.transform = 'rotate(180deg)'
+  }
+}
