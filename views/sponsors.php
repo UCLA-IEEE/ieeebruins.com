@@ -41,7 +41,9 @@
                     <img style="max-width: 190px; padding: 35px 10px;" src="/public/images/company-logos/ieee-upp.png">
                     <a href="http://on.sce.com/1jMB5Gu" target="_blank"><img style="max-width: 190px; margin: 20px 20px;" src="/public/images/company-logos/socal-edison.svg"></a>
                 </div>
-                <div class="tiersbox" id="label"><h1>PLATINUM</h1></div>
+                <div class="tiersbox" id="label">
+                    <h1>PLATINUM</h1>
+                </div>
             </div>
             <div class="sponsorsbox">
                 <div class="sponsorsimages">
@@ -59,7 +61,9 @@
                     <a href="https://www.greektowncasino.com/" target="_blank"><img style="max-width: 140px; margin: 20px 20px;" src="/public/images/company-logos/greektown.png"></a>
                     <a href="https://www.vividseats.com/" target="_blank"><img style="max-width: 170px; margin: 20px 20px;" src="/public/images/company-logos/vivid-seats-logo.png" /></a>
                 </div>
-                <div class="tiersbox" id="label"><h1>SILVER</h1></div>
+                <div class="tiersbox" id="label">
+                    <h1>SILVER</h1>
+                </div>
             </div>
         </div>
 
@@ -106,13 +110,11 @@
         </div>
         <div class="interestbox">
             <p>
-                Fill out this <a href="/public/files/SponsorshipForm2017.pdf" target="_blank">form</a>!<br>
-                View and download our sponsorship brochure <a href="/public/files/SponsorshipBrochure2017.pdf" target="_blank">here</a>!<br>
-                Contact our current club president at <a href="mailto:president@ieee.ucla.edu">president@ieee.ucla.edu </a> for more information.
+                Fill out this <a href="/public/files/SponsorshipForm2017.pdf" target="_blank">form</a>!<br> View and download our sponsorship brochure <a href="/public/files/SponsorshipBrochure2017.pdf" target="_blank">here</a>!<br> Contact our current club president at <a href="mailto:president@ieee.ucla.edu">president@ieee.ucla.edu </a> for more information.
             </p>
         </div>
     </div>
-    
+
     <!-- Footer -->
     <?php include('../views/includes/footer.html'); ?>
 </body>
