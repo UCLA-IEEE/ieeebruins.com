@@ -31,7 +31,7 @@
     <!-- BACKGROUND -->
     <div class='main-billboard'>
        <div class='billboard-content'>
-           <img src='./public/images/IEEE_logo_white.png' />
+           <img src='./public/images/IEEE_full_logo_white.png' />
            <span class = 'ucla'> UCLA </span>
            <h1 class = 'billboard-subtext'> HANDS-ON ENGINEERING </h1>
        </div>
