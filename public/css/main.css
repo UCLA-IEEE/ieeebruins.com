@@ -242,9 +242,18 @@ input[type="text"] {
   color: #00629b;
   font-family: Arial, sans-serif;
   font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
   text-transform: none;
 }
 
+.instagram-button {
+  padding-top: 77px;
+  padding-bottom: 77px;
+  border: none;
+  background-color: rgba(117, 120, 123, 0.2);
+}
+
 .slides {
-  width: 20%;
+  width: 22%;
 }

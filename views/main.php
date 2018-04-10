@@ -108,36 +108,42 @@
   </div>
 
    <!-- INSTAGRAM WIDGET -->
- <div class='container-fluid background-white pic-container'>
+ <div class='container-fluid background-white pic-container' style= 'position: relative;'>
    <h1> INSTAGRAM <span class= 'handle'> @ieeebruins </span> </h1> <br>
    <img class="slides" src="./public/images/OPS.jpg">
    <img class="slides" src="./public/images/OPS.jpg">
+   <img class="slides" src="./public/images/officers/jeffrey-chan.jpg">
+   <img class="slides" src="./public/images/OPS.jpg">
+   <img class="slides" src="./public/images/OPS.jpg">
+   <img class="slides" src="./public/images/OPS.jpg">
    <img class="slides" src="./public/images/OPS.jpg">
    <img class="slides" src="./public/images/OPS.jpg">
 
-   <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-   <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+   <button class="instagram-button" onclick="plusDivs(-1)" style= 'position: absolute; left: 60px;'>&#10094;</button>
+   <button class="instagram-button" onclick="plusDivs(+1)">&#10095;</button>
+ </div>
 
-   <script>
-   var slideIndex = 1;
+ <script>
+  let slideIndex = 0;
   showDivs(slideIndex);
 
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
+  function plusDivs(n){
+    showDivs(slideIndex+=3);
   }
 
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
+  function showDivs(n){
+    let slides = document.getElementsByClassName("slides");
+    if (slideIndex>4){
+      slideIndex=0;
     }
-    x[slideIndex-1].style.display = "block";
+    for (let j=0; j<slides.length; j++){
+      slides[j].style.display = "none";
+    }
+    for (let k=slideIndex; k<slideIndex+4; k++){
+        slides[k].style.display = "inline-block";
+    }
   }
-  </script>
-</div>
+ </script>
 
    <!-- FOOTER -->
    <?php include('./includes/footer.html'); ?>
