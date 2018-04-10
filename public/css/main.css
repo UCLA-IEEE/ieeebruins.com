@@ -1,3 +1,7 @@
+.background-white {
+  background-color: white;
+}
+
 /* BACKGROUND */
 .main-billboard {
   height: 700px;
@@ -219,4 +223,28 @@ input[type="text"] {
   position: absolute;
   right: -3%;
   bottom: -30000%;
+}
+
+/*INSTAGRAM WIDGET*/
+.pic-container {
+  padding: 60px;
+}
+
+.pic-container h1 {
+  border-bottom: solid black 10px;
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.handle {
+  color: #00629b;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-transform: none;
+}
+
+.slides {
+  width: 20%;
 }
