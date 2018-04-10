@@ -1,0 +1,58 @@
+h1 {
+  display: inline-block;
+  border-bottom: solid black 10px;
+  padding: 15px 10px;
+}
+
+.officer-wrapper {
+  padding: 50px 10px;
+}
+
+.officer-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.officer {
+  display: inline-block;
+  margin: 15px 20px;
+  position: relative;
+}
+
+.officer img {
+  margin-bottom: 5px;
+  max-width: 200px;
+}
+
+.officer .position {
+  font-size: 18px;
+}
+
+.officer .blue-highlight {
+  width: 150px;
+  height: 10px;
+  position: absolute;
+  top: 190px;
+  background-color: rgba(0, 98, 155, 0.9);
+}
+
+.officer .officer-overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  height: 200px;
+  width: 100%;
+  padding: 0 5px 0;
+
+  color: white;
+  background-color: rgba(0, 98, 155, 0.9);
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.officer:hover .officer-overlay {
+  opacity: 1;
+}
