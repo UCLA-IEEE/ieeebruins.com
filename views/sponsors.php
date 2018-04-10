@@ -64,7 +64,7 @@
         </div>
 
         <h1 id="titles" align="left" style="margin-top: 30px; margin-bottom: 20px">BENEFITS OF <span class="ieee-blue">SPONSORING</span></h1>
-        <ul>
+        <ul class='benefits-list'>
             <li>Priority status and multiple events (info-sessions, tech-talks, etc.) per year (as per package)</li>
             <li>Priority access to award winning event organization, management and publicity</li>
             <li>Advertising your job/internship openings through us</li>
@@ -112,7 +112,7 @@
             </p>
         </div>
     </div>
-    
+
     <!-- Footer -->
     <?php include('../views/includes/footer.html'); ?>
 </body>
