@@ -2,7 +2,7 @@
  * Global stlyesheet style.css
  * A stylesheet meant to be included on all pages in order to create a common
  * theme. This includes properties like typography, coloring, and common
- * component styles 
+ * component styles
  */
 
 /*----------- NORMALIZE -------------*/
@@ -24,8 +24,7 @@ h1 {
 }
 
 h2 {
-  font-family: Arial Black, Arial, sans-serif;
-  font-weight: bold;
+  font-family: Arial, sans-serif;
   font-size: 25px;
 
   letter-spacing: 1px;
