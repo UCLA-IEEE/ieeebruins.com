@@ -171,7 +171,7 @@
                         print("<p>" . $officer_data["class"] . "<br /><br />" . $officer_data["major"] . "</p>");
                     print("</div>");
                     print("<p>" . $officer_name . "</p>");
-                    print("<p>" . $officer_data["position"] . "</p>");
+                    print("<p class='position'>" . $officer_data["position"] . "</p>");
                 print("</div>");
             }
             print("</div>");
