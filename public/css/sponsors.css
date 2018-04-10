@@ -1,0 +1,110 @@
+/**-------- SPONSORS PAGE STYLING ----------*/
+#toptitle {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.allcontent {
+  margin: 0 auto;
+  padding: 20px 20px;
+  max-width: 1000px;
+  display: block;
+}
+
+.allsponsors {
+  margin-top: 40px;
+  display: inline-block;
+  width: 100%;
+}
+
+.sponsorsbox {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 5px solid #00629b;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.tierscontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tiersbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: #00629b;
+  color: white;
+  width: 200px;
+  height: 105px;
+  letter-spacing: 0.15em;
+}
+
+#titles {
+  padding-right: 30px;
+  display: inline-block;
+  border-bottom: 10px solid black;
+}
+
+@media (max-width: 875px) {
+  .tierscontainer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .tiersbox#box {
+    margin: 10px 30px;
+  }
+
+  .tiers-wrapper {
+    display: inline-block;
+  }
+
+  #titles {
+    padding-right: 0;
+  }
+}
+
+.tiersbox#label {
+  width: 250px;
+  height: 55px;
+  float: right;
+}
+
+.tiersbox#label h1 {
+  font-size: 25px;
+}
+
+#tier {
+  font-size: 24px;
+  padding: 0 12px 12px;
+}
+
+#price {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 50;
+}
+
+.benefits-list {
+  line-height: 1.5;
+  padding: 0 25px;
+}
+
+.interestbox {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+.interestbox p {
+  line-height: 1.5;
+}
