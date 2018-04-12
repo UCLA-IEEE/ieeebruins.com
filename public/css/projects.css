@@ -3,7 +3,12 @@ h1 {
   margin: 0 auto;
 }
 
-button.moredetails {
+.limitBREAK {
+  max-width: 1415px;
+  padding: 100px 0;
+}
+
+a.button1 {
   border: none;
   color: white;
   padding: 20px 20px;
@@ -25,27 +30,194 @@ button.moredetails {
   margin: 0 auto;
 }
 
-#SPIpara {
-  margin-top: 50px;
+.whitetext {
+  color: white;
 }
 
-#APheader {
-  display: inline-block;
-  text-align: right;
-  max-width: 275px;
+.projheader {
   padding-bottom: 20px;
-  border-bottom: 10px solid black;
 }
 
-#APsub1 {
+.projunderliner {
+  border-bottom: 10px solid white;
+  padding-bottom: 20px;
+  max-width: 350px;
+  margin-bottom: 100px;
+}
+
+.padmargin1 {
+  margin: 40px;
+}
+
+.parasec1 {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.projsecbuttons {
+  text-align: right;
+}
+
+a.button2 {
+  border: none;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.sub1 {
   display: inline-block;
   font-size: 20px;
   text-align: right;
   margin: 10px 0;
 }
 
+.sub2 {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+#pageTitle {
+  text-align: center;
+  margin: 60px auto;
+  margin-bottom: 30px;
+}
+
+#OUR {
+  margin-right: 15px;
+}
+
+#micromousenamepadder {
+  padding-top: 37px;
+}
+
+#Projleft {
+  background-image: url("../images/projOPS2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+  filter: opacity(0.7);
+}
+
+#Projcenter {
+  background-image: url("../images/projMICRO2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+  filter: opacity(0.7);
+}
+
+#Projright {
+  background-image: url("../images/projAP2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+  filter: opacity(0.7);
+}
+
+#WSheaderpad {
+  margin-bottom: 15px;
+}
+
+#Workheader {
+  text-align: right;
+  max-width: 275px;
+  border-bottom: 10px solid black;
+  margin-bottom: 15px;
+}
+
+#Workright {
+  padding-right: 80px;
+  padding-top: 40px;
+  padding-left: 100px;
+}
+
+#WSpara {
+  max-width: 300px;
+}
+
+#workshopsub2 {
+  text-align: center;
+  border-bottom: 2px solid rgba(117, 120, 123, 0.2);
+}
+
+#OPSsection {
+  padding: 50px 0;
+}
+
+#OPSheader {
+  text-align: right;
+  max-width: 250px;
+  border-bottom: 10px solid black;
+}
+
+#OPSsub1 {
+  max-width: 300px;
+}
+
+#Microsection {
+  padding: 50px 0;
+}
+
+#Microright {
+  padding-right: 65px;
+}
+
+#Microleft {
+  padding-top: 40px;
+  padding-left: 80px;
+}
+
+#Microheader {
+  color: white;
+  text-align: left;
+  border-bottom: 10px solid white;
+}
+
+#Microsub2 {
+  border-bottom: 2px solid white;
+}
+
+#Microbutton {
+  border: 2px solid white;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#APheader {
+  text-align: right;
+  max-width: 275px;
+  border-bottom: 10px solid black;
+}
+
 #APright {
   padding-right: 80px;
+  padding-top: 40px;
 }
 
 #APleft {
@@ -57,23 +229,21 @@ button.moredetails {
 }
 
 #APsection {
-  padding: 20px 0;
+  padding: 50px 0;
   background-color: white;
 }
 
 #APsub2 {
-  font-size: 20px;
-  display: inline-block;
-  margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: left;
   border-bottom: 2px solid rgba(117, 120, 123, 0.2);
 }
 
+#SPIpara {
+  margin-top: 50px;
+}
+
 #SPIheader {
+  display: inline-block;
   text-align: center;
-  color: #00629b;
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 10px solid black;

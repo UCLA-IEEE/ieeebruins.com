@@ -28,31 +28,133 @@
     <?php include('./includes/navbar.html'); ?>
     <div class="pt-3"></div>
 
+	<!--Page Title-->
+	<div id="pageTitle" class="container-fluid">
+			<span id="OUR">
+				<h1>Our</h1>
+			</span>
+			<span>
+				<h1 class="ieee-blue">Projects</h1>
+			</span>
+	</div>
+
+	<!--Projects section-->
+	<div id="Projectsection" class="container-fluid">
+		<div class="contentwrapper2">
+			<div class="row">
+				<div class="col-md-1" style= "width: 12.499999995%"></div>
+				<div id= "Projleft" class="col-md-3">
+					<div class="padmargin1">
+						<h1 class="whitetext projunderliner">Open Project Space</h1>
+					</div>
+					<div class="parasec1 background-grey">
+						<p class="whitetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+						<div class="projsecbuttons">
+							<a class="button2" href="http://ops.ieeebruins.org/index.php?title=Main_Page"><p>Learn More</p></a>
+						</div>
+					</div>
+				</div>
+				<div id= "Projcenter" class="col-md-3">
+					<div class="padmargin1">
+						<h1 id="micromousenamepadder" class="whitetext projunderliner">Micromouse</h1>
+					</div>
+					<div class="parasec1 background-grey">
+						<p class="whitetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+						<div class="projsecbuttons">
+							<a class="button2" href="http://micromouse.ieeebruins.org/index.php?title=Main_Page"><p>Learn More</p></a>
+						</div>
+					</div>
+				</div>
+				<div id="Projright" class="col-md-3">
+					<div class="padmargin1">
+						<h1 class="whitetext projunderliner">Advanced Projects</h1>
+					</div>
+					<div class="parasec1 background-grey">
+						<p class="whitetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+						<div class="projsecbuttons">
+							<a class="button2" href="http://advproj.ieeebruins.org/index.php?title=Main_Page"><p>Learn More</p></a>
+						</div>
+					</div>
+				</div>
+				<div class"col-md-1" style= "width: 12.499999995%"></div>></div>
+			</div>
+		</div>
+	</div>
 
 
+	<!--Workshops section-->
+	<div class="container-fluid limitBREAK">
+		<div class="contentwrapper2">
+			<div class="row">
+				<div id="APleft" class="col-md-4 text-left">
+					<div id="WSheaderpad">
+						<h1 id="Workheader" class="projheader">Workshops</h1>
+					</div>
+					<p id="WSpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+				</div>
+				<div id= "Workright" class="col-md-8">
+					<div class="text-left">
+						<h2 id="workshopsub2" class="sub2">Past Workshops & Tutorials</h2>
 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--OPS section-->
+	<div class="container-fluid background-grey limitBREAK">
+		<div class="contentwrapper2">
+			<div class="row">
+				<div id= "APleft" class="col-md-8">
+					<h2 id="APsub2" class="sub2">No Fear in Not Knowing</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+					<a id="APbutton" class="button1 background-ieee-blue" href="http://ops.ieeebruins.org/index.php?title=Main_Page"><p>More Details Here</p></a>
+				</div>
+				<div id="APright" class="col-md-4 text-right">
+					<h1 id="OPSheader" class="projheader ieee-blue">Open Project Space</h1>
+					<h2 id="OPSsub1" class="sub1">Gateway to Hardware</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Micromouse section-->
+	<div class="container-fluid background-ieee-blue limitBREAK">
+		<div class="contentwrapper2">
+			<div class="row">
+				<div id="Microleft" class="col-md-4 text-left">
+					<h1 id="Microheader" class="projheader">Micromouse</h1>
+					<h2 class="sub1 whitetext">Micromouse Stuff</h2>
+				</div>
+				<div id= "Microright" class="col-md-8">
+					<h2 id="Microsub2" class="sub2 whitetext">More Micromouse Stuff</h2>
+					<p class="whitetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+					<a id="Microbutton" class="button1 background-ieee-blue" href="http://micromouse.ieeebruins.org/index.php?title=Main_Page"><p>More Details Here</p></a>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
 		<!--Advanced Projects section-->
-		<div id="APsection" class="container-fluid">
+		<div class="container-fluid limitBREAK">
 			<div class="contentwrapper2">
 				<div class="row">
 					<div id= "APleft" class="col-md-8">
-						<h2 id="APsub2">Time to Build Something Really Cool</h2>
+						<h2 id="APsub2" class="sub2">Time to Build Something Really Cool</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-				   		<button id="APbutton" class="moredetails background-ieee-blue"><p>More Details Here</p></button>
-
+				   		<a id="APbutton" class="button1 background-ieee-blue" href="http://advproj.ieeebruins.org/index.php?title=Main_Page"><p>More Details Here</p></a>
 					</div>
 					<div id="APright" class="col-md-4 text-right">
-						<h1 id="APheader">Advanced Projects</h1>
-						<h2 id="APsub1">Let's Build a Quadcopter</h2>
+						<h1 id="APheader" class="projheader">Advanced Projects</h1>
+						<h2 class="sub1">Let's Build a Quadcopter</h2>
 					</div>
 				</div>
-
 			</div>
-
-
 		</div>
 
 
@@ -63,14 +165,12 @@
 
 
 		<!-- Student Project Initiative (SPI) section -->
-		<div class="container-fluid background-grey">
+		<div class="container-fluid background-grey limitBREAK">
 			<div class="contentwrapper1">
-				<h1 id="SPIheader">Student Project Initiative (SPI)</h1>
+				<h1 id="SPIheader" class="ieee-blue">Student Project Initiative (SPI)</h1>
 				<p id="SPIpara"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
-
-
 				<div class="container-fluid" align = "center">
-		   		<button class="moredetails background-ieee-blue"><p>More Details Here</p></button>
+		   		<a class="button1 background-ieee-blue" href="http://ieeebruins.org/projects/student-project-initiative-spi/"><p>More Details Here</p></a>
 				</div>
 			</div>
 		</div>
