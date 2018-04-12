@@ -35,9 +35,33 @@ hr {
   margin-bottom: 0;
 }
 
-.lab-hours,
-.resources {
+.lab-hours {
   height: 700px;
   text-align: center;
   padding-top: 50px;
+}
+
+.resources {
+  height: 600px;
+  padding-top: 50px;
+}
+
+.title {
+  text-align: center;
+}
+
+.resources-info {
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.thin {
+  margin-top: 5px;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 260px;
 }

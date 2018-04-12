@@ -44,9 +44,24 @@
     </div>
 
     <div class='resources'>
-        <h1 class='black'>RESOURCES</h1>
-        <hr style='width: 310px; margin-bottom: 10px;'>
-        <p class='black'>CREATIVITY HAS NO LIMITS</p>
+        <div class='title'>
+            <h1 class='black'>RESOURCES</h1>
+            <hr style='width: 310px; margin-bottom: 10px;'>
+            <p class='black'>CREATIVITY HAS NO LIMITS</p>
+        </div>
+        <div class='resources-info black'>
+            <h2 class='ieee-blue thin'>GENERAL TOOLS</h2>
+            <p class='black'>
+                Here at IEEE, we provide tools. 
+                <br><br>
+                Soldering tools, oscilloscopes, DMM's, power tools, 3D printers, etc.
+            </p>
+            <br><br>
+            <h2 class='ieee-blue thin'>SLACK CHANNEL</h2>
+            <p class='black'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+            </p>
+        </div>
     </div>
 </body>
 <?php include('./includes/footer.html'); ?>
