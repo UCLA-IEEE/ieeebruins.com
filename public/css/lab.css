@@ -1,0 +1,43 @@
+.info-page {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.info-page h1 {
+  display: inline;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 0;
+  border-top: 10px solid black;
+}
+
+.lab-map,
+.lab-hours-table {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 0;
+}
+
+.lab-hours-table {
+  margin-top: 50px;
+  background-color: rgba(117, 120, 123, 0.5);
+}
+
+.details {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 0;
+}
+
+.lab-hours,
+.resources {
+  height: 700px;
+  text-align: center;
+  padding-top: 50px;
+}
