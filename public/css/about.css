@@ -24,6 +24,10 @@
   padding: 50px 25px;
 }
 
+.competitions {
+  display: block;
+}
+
 .micromouse {
   background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(10, 10, 10, 0.2)), url("../images/about/mouse.jpeg");
   background-size: 100%;
@@ -38,6 +42,25 @@
 
 .comp {
   color: white;
+}
+
+.compdescrip {
+  margin-top: 15px;
+}
+
+.comp-micromouse {
+  max-width: 600px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  padding: 40px 40px;
+  margin-left: 15px;
+}
+
+.comp-ideahacks {
+  max-width: 600px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  padding: 40px 40px;
 }
 
 .comp-header {
@@ -89,10 +112,6 @@
   padding-top: 10px;
 }
 
-.social-pic {
-  background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(10, 10, 10, 0.2)), url("../images/about/kbbq.jpg");
-}
-
 .awards {
   padding: 25px;
 }
@@ -101,4 +120,46 @@
   padding-bottom: 10px;
   border-bottom: solid black 5px;
   display: inline-block;
+}
+
+.social-pic {
+  width: 100%;
+  max-width: 400px;
+  padding-top: 20px;
+}
+
+.socials {
+  padding-top: 25px;
+}
+
+.year {
+  margin-top: 20px;
+  padding: 10px 20px;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+.award-list {
+  padding: 10px 20px;
+  margin-left: 220px;
+  margin-right: 220px;
+  display: none;
+}
+
+.award {
+  padding: 8px 0;
+}
+
+.award p {
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+.glyphicon {
+  float: right;
+  transition: 0.3s ease;
+}
+
+.rotated {
+  transform: rotate(180deg);
 }
