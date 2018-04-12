@@ -139,6 +139,10 @@
   margin-right: 220px;
 }
 
+.year:hover {
+  cursor: pointer;
+}
+
 .award-list {
   padding: 10px 20px;
   margin-left: 220px;
