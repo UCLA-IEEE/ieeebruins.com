@@ -28,9 +28,6 @@ hr {
 }
 
 table {
-  /*max-width: 80%;*/
-  /*  margin-left: 10%;
-  margin-right: 10%;*/
   margin-top: 15px;
   border-collapse: collapse;
   border-spacing: 10px;
@@ -49,7 +46,6 @@ table {
   width: 60%;
   margin-bottom: 0;
 }
-
 .lab-hours,
 .resources {
   text-align: center;
@@ -59,7 +55,6 @@ table {
 
 th,
 td {
-  /*  width: 70%;*/
   font-size: 16px;
   text-align: left;
   padding: 20px;
@@ -102,4 +97,29 @@ tr#top {
   td#time {
     font-size: 13px;
   }
+}
+
+.resources {
+  height: 600px;
+  padding-top: 50px;
+}
+
+.title {
+  text-align: center;
+}
+
+.resources-info {
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.thin {
+  margin-top: 5px;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 260px;
 }
