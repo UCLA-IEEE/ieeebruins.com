@@ -6,6 +6,12 @@
 .info-page h1 {
   display: inline;
 }
+.pbox {
+  padding: 10px;
+  max-width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
 hr {
   margin-top: 10px;
@@ -14,17 +20,26 @@ hr {
   border-top: 10px solid black;
 }
 
-.lab-map,
-.lab-hours-table {
-  width: 60%;
+.lab-map {
+  max-width: 60%;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 0;
 }
 
-.lab-hours-table {
-  margin-top: 50px;
-  background-color: rgba(117, 120, 123, 0.5);
+table {
+  /*max-width: 80%;*/
+  /*  margin-left: 10%;
+  margin-right: 10%;*/
+  margin-top: 15px;
+  border-collapse: collapse;
+  border-spacing: 10px;
+  border: 3px solid #ddd;
+  /*  background-color: rgba(117, 120, 123, 0.5);*/
+}
+.table-wrapper {
+  margin: auto;
+  display: inline-block;
 }
 
 .details {
@@ -37,7 +52,54 @@ hr {
 
 .lab-hours,
 .resources {
-  height: 700px;
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+th,
+td {
+  /*  width: 70%;*/
+  font-size: 16px;
+  text-align: left;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+th#date {
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+}
+td#time {
+  font-weight: bold;
+  font-size: 17px;
+}
+td {
+  /*font-size: 50px;*/
+}
+tr:nth-child(even) {
+  background-color: white;
+}
+tr#top {
+  background-color: #00629b;
+  color: white;
+}
+.table2 {
+  display: none;
+}
+@media (max-width: 1052px) {
+  .table1 {
+    display: none;
+  }
+  .table2 {
+    display: block;
+  }
+  th,
+  td {
+    font-size: 15px;
+  }
+  th#date,
+  td#time {
+    font-size: 13px;
+  }
 }

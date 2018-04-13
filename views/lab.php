@@ -21,6 +21,8 @@
     <link rel='stylesheet' href='/public/css/footer.css' />
     <link rel='stylesheet' href='/public/css/navbar.css' />
 
+    <script src = "/public/js/lab.js"></script>
+
     <!--Favicon --> 
     <link rel='icon' href='/public/favicon.ico'/>
 </head>
@@ -40,8 +42,200 @@
     <div class="background-grey lab-hours ">
         <h1 class='ieee-blue'>LAB HOURS</h1>
         <hr style='width: 330px;'>
-        <div class='lab-hours-table' style="height: 500px;"></div>
+        <div class = "pbox">
+         <p>Need to know when the lab’s open? Looking for your project leads? Need help on your homework? Check out the spreadsheet below to find out when your favorite officers will be in the lab.</p>
+     </div>
+        <div class = "table-wrapper">
+        <table class = "table1">
+            <tr id = "top">
+                <th></th>
+                <th id = "date">MONDAY</th>
+                <th id = "date">TUESDAY</th>
+                <th id = "date">WEDNESDAY</th>
+                <th id = "date">THURSDAY</th>
+                <th id = "date">FRIDAY</th>
+                <th id = "date">SAT / SUN</th>
+            </tr>
+             <tr>
+                <td id = "time">8:00 AM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id = "time">9:00 AM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id = "time">10:00 AM</td>
+                <td>Minh</td>
+                <td></td>
+                <td>Minh</td>
+                <td>Jiwan</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id = "time">11:00 AM</td>
+                <td>Minh</td>
+                <td></td>
+                <td>Minh</td>
+                <td>Jiwan</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id = "time">12:00 PM</td>
+                <td>Jeffrey Chan <br> Sahil Gandhi</td>
+                <td>Kathleen (12:15)</td>
+                <td>Minh <br> Jeffrey Chan</td>
+                <td>Jeffrey Chan <br> Kathleen </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id = "time">1:00 PM</td>
+                <td>Jeffrey Chan <br> Sahil Gandhi </td>
+                <td>Alex</td>
+                <td>Minh <br> Jeffrey Chan</td>
+                <td>Kathleen</td>
+                <td>Ted</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id = "time">2:00 PM</td>
+                <td>Nihar Tamhankar <br> Natasha Sarkar</td>
+                <td>Alex <br> Sahil Gandhi</td>
+                <td>Officer 3</td>
+                <td>Officer 4</td>
+                <td>Officer 5</td>
+                <td>Officer 6</td>
+            </tr>
+            <tr>
+                <td id = "time">3:00 PM</td>
+                <td>Nihar Tamhankar <br> Natasha Sarkar</td>
+                <td>Jeffrey Chan <br> Liz <br> Alex <br> Jiwan</td>
+                <td>Officer 3</td>
+                <td>Officer 4</td>
+                <td>Officer 5</td>
+                <td>Officer 6</td>
+            </tr>
+            <tr>
+                <td id = "time">4:00 PM</td>
+                <td>Alex <br> Jim <br> Kyle</td>
+                <td>Jeffrey Chan <br> Nihar Tamhankar <br> Kathleen</td>
+                <td>Officer 3</td>
+                <td>Officer 4</td>
+                <td>Officer 5</td>
+                <td>Officer 6</td>
+            </tr>
+            <tr>
+                <td id = "time">5:00 PM</td>
+                <td>Jim <br> Serene <br> Kyle</td>
+                <td>Officer 2</td>
+                <td>Officer 3</td>
+                <td>Officer 4</td>
+                <td>Officer 5</td>
+                <td>Officer 6</td>
+            </tr>
+            <tr>
+                <td id = "time">6:00 PM</td>
+                <td>Jim</td>
+                <td>Officer Meeting</td>
+                <td>Officer 3</td>
+                <td>Officer 4</td>
+                <td>Officer 5</td>
+                <td>Officer 6</td>
+            </tr>
+            <tr>
+                <td id = "time">After Hours</td>
+                <td></td>
+                <td>Jeffrey Chen</td>
+                <td>Officer 3</td>
+                <td>Officer 4</td>
+                <td>Officer 5</td>
+                <td>Officer 6</td>
+            </tr>
+        </table>
     </div>
+    <div class = table-wrapper>
+        <table class = "table2">
+            <tr id = "top">
+                <th ></th>
+                <th id = "date">FRIDAY</th>
+                <th id = "date" >SATURDAY / SUNDAY</th>
+            </tr>
+             <tr>
+                <td id = "time">8:00 AM</td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td id = "time">9:00 AM</td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td id = "time">10:00 AM</td>
+                <td >Minh</td>
+                <td >Jiwan</td>
+            </tr>
+            <tr>
+                <td id = "time" >11:00 AM</td>
+                <td >Minh</td>
+                <td >Jiwan</td>
+            </tr>
+            <tr>
+                <td id = "time">12:00 PM</td>
+                <td >Minh <br> Jeffrey Chan</td>
+                <td >Jeffrey Chan <br> Kathleen </td>
+            </tr>
+            <tr>
+                <td id = "time">1:00 PM</td>
+                <td >Officer 1 <br> Officer 2/td>
+                <td >Officer 3</td>
+            </tr>
+            <tr>
+                <td id = "time">2:00 PM</td>
+                <td >Officer 1</td>
+                <td >Officer 2</td>
+            </tr>
+            <tr>
+                <td id = "time">3:00 PM</td>
+                <td >Officer 1</td>
+                <td >Officer 2</td>
+            </tr>
+            <tr>
+                <td id = "time">4:00 PM</td>
+                <td >Officer 1</td>
+                <td >Officer 2</td>
+            </tr>
+            <tr>
+                <td id = "time">5:00 PM</td>
+                <td >Officer 1</td>
+                <td >Officer 2</td>
+            </tr>
+            <tr>
+                <td id = "time">6:00 PM</td>
+                <td >Officer 1</td>
+                <td >Officer 2</td>
+            </tr>
+            <tr>
+                <td id = "time">After Hours</td>
+                <td >Officer 1</td>
+                <td >Officer 2</td>
+            </tr>
+        </table>
+    </div>
+</div>
 
     <div class='resources'>
         <h1 class='black'>RESOURCES</h1>
