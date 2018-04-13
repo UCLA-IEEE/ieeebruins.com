@@ -83,19 +83,60 @@
 
 
 	<!--Workshops section-->
-	<div class="container-fluid limitBREAK">
-		<div class="contentwrapper2">
-			<div class="row">
-				<div id="APleft" class="col-md-4 text-left">
-					<div id="WSheaderpad">
-						<h1 id="Workheader" class="projheader">Workshops</h1>
-					</div>
-					<p id="WSpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-				</div>
-				<div id= "Workright" class="col-md-8">
-					<div class="text-left">
-						<h2 id="workshopsub2" class="sub2">Past Workshops & Tutorials</h2>
+	<div class="container-fluid">
+		<div class="container-fluid limitBREAK">
+			<div class="contentwrapper2">
+				<div class="row">
+					<div id="APleft" class="col-md-4 text-left">
+						<div id="WSheaderpad">
+							<h1 id="Workheader" class="projheader">Workshops</h1>
+						</div>
 
+					</div>
+					<div id= "Workright" class="col-md-8">
+						<div class="text-left">
+							<h2 id="workshopsub2" class="sub2">Past Workshops & Tutorials</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+
+							<!--
+							<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+	  							COMMENT* Wrapper for slides
+	  							<div class="carousel-inner">
+	    							<div class="item active">
+	      								<img src="../public/images/workproj1.jpg" alt="project 1">
+										<div class="carousel-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</div>
+	    							</div>
+
+	    							<div class="item">
+	      								<img src="../public/images/workproj2.jpg" alt="project 2">
+										<div class="carousel-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</div>
+	    							</div>
+
+	    							<div class="item">
+	      								<img src="../public/images/workproj3.jpg" alt="project 3">
+										<div class="carousel-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</div>
+	    							</div>
+
+									<div class="item">
+	      								<img src="../public/images/workproj4.jpg" alt="project 4">
+										<div class="carousel-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</div>
+	    							</div>
+	  							</div>
+
+	  							COMMENT* Left and right controls
+	  							<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	    							<span class="glyphicon glyphicon-chevron-left"></span>
+	    							<span class="sr-only">Previous</span>
+	  							</a>
+	  							<a class="right carousel-control" href="#myCarousel" data-slide="next">
+	    							<span class="glyphicon glyphicon-chevron-right"></span>
+	    							<span class="sr-only">Next</span>
+	  							</a>
+							</div>
+							-->
+						</div>
 					</div>
 				</div>
 			</div>
@@ -104,17 +145,19 @@
 
 
 	<!--OPS section-->
-	<div class="container-fluid background-grey limitBREAK">
-		<div class="contentwrapper2">
-			<div class="row">
-				<div id= "APleft" class="col-md-8">
-					<h2 id="APsub2" class="sub2">No Fear in Not Knowing</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-					<a id="APbutton" class="button1 background-ieee-blue" href="http://ops.ieeebruins.org/index.php?title=Main_Page"><p>More Details Here</p></a>
-				</div>
-				<div id="APright" class="col-md-4 text-right">
-					<h1 id="OPSheader" class="projheader ieee-blue">Open Project Space</h1>
-					<h2 id="OPSsub1" class="sub1">Gateway to Hardware</h2>
+	<div class="container-fluid background-grey">
+		<div class="container-fluid limitBREAK">
+			<div class="contentwrapper2">
+				<div class="row">
+					<div id= "APleft" class="col-md-8">
+						<h2 id="APsub2" class="sub2">No Fear in Not Knowing</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+						<a id="APbutton" class="button1 background-ieee-blue" href="http://ops.ieeebruins.org/index.php?title=Main_Page"><p>More Details Here</p></a>
+					</div>
+					<div id="APright" class="col-md-4 text-right">
+						<h1 id="OPSheader" class="projheader ieee-blue">Open Project Space</h1>
+						<h2 id="OPSsub1" class="sub1">Gateway to Hardware</h2>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -122,17 +165,19 @@
 
 
 	<!--Micromouse section-->
-	<div class="container-fluid background-ieee-blue limitBREAK">
-		<div class="contentwrapper2">
-			<div class="row">
-				<div id="Microleft" class="col-md-4 text-left">
-					<h1 id="Microheader" class="projheader">Micromouse</h1>
-					<h2 class="sub1 whitetext">Micromouse Stuff</h2>
-				</div>
-				<div id= "Microright" class="col-md-8">
-					<h2 id="Microsub2" class="sub2 whitetext">More Micromouse Stuff</h2>
-					<p class="whitetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-					<a id="Microbutton" class="button1 background-ieee-blue" href="http://micromouse.ieeebruins.org/index.php?title=Main_Page"><p>More Details Here</p></a>
+	<div class="container-fluid background-ieee-blue">
+		<div class="container-fluid limitBREAK">
+			<div class="contentwrapper2">
+				<div class="row">
+					<div id="Microleft" class="col-md-4 text-left">
+						<h1 id="Microheader" class="projheader">Micromouse</h1>
+						<h2 class="sub1 whitetext">Micromouse Stuff</h2>
+					</div>
+					<div id= "Microright" class="col-md-8">
+						<h2 id="Microsub2" class="sub2 whitetext">More Micromouse Stuff</h2>
+						<p class="whitetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+						<a id="Microbutton" class="button1 background-ieee-blue" href="http://micromouse.ieeebruins.org/index.php?title=Main_Page"><p>More Details Here</p></a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -141,17 +186,19 @@
 
 
 		<!--Advanced Projects section-->
-		<div class="container-fluid limitBREAK">
-			<div class="contentwrapper2">
-				<div class="row">
-					<div id= "APleft" class="col-md-8">
-						<h2 id="APsub2" class="sub2">Time to Build Something Really Cool</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-				   		<a id="APbutton" class="button1 background-ieee-blue" href="http://advproj.ieeebruins.org/index.php?title=Main_Page"><p>More Details Here</p></a>
-					</div>
-					<div id="APright" class="col-md-4 text-right">
-						<h1 id="APheader" class="projheader">Advanced Projects</h1>
-						<h2 class="sub1">Let's Build a Quadcopter</h2>
+		<div class="container-fluid">
+			<div class="container-fluid limitBREAK">
+				<div class="contentwrapper2">
+					<div class="row">
+						<div id= "APleft" class="col-md-8">
+							<h2 id="APsub2" class="sub2">Time to Build Something Really Cool</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+					   		<a id="APbutton" class="button1 background-ieee-blue" href="http://advproj.ieeebruins.org/index.php?title=Main_Page"><p>More Details Here</p></a>
+						</div>
+						<div id="APright" class="col-md-4 text-right">
+							<h1 id="APheader" class="projheader">Advanced Projects</h1>
+							<h2 class="sub1">Let's Build a Quadcopter</h2>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -165,12 +212,18 @@
 
 
 		<!-- Student Project Initiative (SPI) section -->
-		<div class="container-fluid background-grey limitBREAK">
-			<div class="contentwrapper1">
-				<h1 id="SPIheader" class="ieee-blue">Student Project Initiative (SPI)</h1>
-				<p id="SPIpara"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
-				<div class="container-fluid" align = "center">
-		   		<a class="button1 background-ieee-blue" href="http://ieeebruins.org/projects/student-project-initiative-spi/"><p>More Details Here</p></a>
+		<div class="container-fluid background-grey">
+			<div id="SPItoppad" class="container-fluid limitBREAK">
+				<div class="contentwrapper1">
+					<h1 id="SPIheader" class="ieee-blue">Student Project Initiative (SPI)</h1>
+					<p id="SPIpara"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
+					<!--
+					<div class="container-fluid" align = "center">
+
+					<a class="button1 background-ieee-blue" href="http://ieeebruins.org/projects/student-project-initiative-spi/"><p>More Details Here</p></a>
+
+					</div>
+					-->
 				</div>
 			</div>
 		</div>
