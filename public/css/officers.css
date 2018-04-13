@@ -25,6 +25,10 @@ h1 {
   max-width: 200px;
 }
 
+.officer .position {
+  font-size: 18px;
+}
+
 .officer .blue-highlight {
   width: 150px;
   height: 10px;

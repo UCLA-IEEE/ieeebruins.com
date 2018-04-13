@@ -68,7 +68,7 @@
         </div>
 
         <h1 id="titles" align="left" style="margin-top: 30px; margin-bottom: 20px">BENEFITS OF <span class="ieee-blue">SPONSORING</span></h1>
-        <ul>
+        <ul class='benefits-list'>
             <li>Priority status and multiple events (info-sessions, tech-talks, etc.) per year (as per package)</li>
             <li>Priority access to award winning event organization, management and publicity</li>
             <li>Advertising your job/internship openings through us</li>
@@ -110,7 +110,9 @@
         </div>
         <div class="interestbox">
             <p>
-                Fill out this <a href="/public/files/SponsorshipForm2017.pdf" target="_blank">form</a>!<br> View and download our sponsorship brochure <a href="/public/files/SponsorshipBrochure2017.pdf" target="_blank">here</a>!<br> Contact our current club president at <a href="mailto:president@ieee.ucla.edu">president@ieee.ucla.edu </a> for more information.
+                Fill out this <a href="/public/files/SponsorshipForm2017.pdf" target="_blank">form</a>!<br>
+                View and download our sponsorship brochure <a href="/public/files/SponsorshipBrochure2017.pdf" target="_blank">here</a>!<br>
+                Contact our current club president at <a href="mailto:president@ieee.ucla.edu">president@ieee.ucla.edu </a> for more information.
             </p>
         </div>
     </div>
