@@ -140,6 +140,10 @@ a.button2 {
   filter: opacity(0.7);
 }
 
+#lesspad {
+  padding-top: 50px;
+}
+
 #WSheaderpad {
   margin-bottom: 15px;
 }
@@ -147,9 +151,8 @@ a.button2 {
 #Workheader {
   padding-top: 85px;
   text-align: right;
-  max-width: 275px;
+  max-width: 235px;
   border-bottom: 10px solid black;
-  margin-bottom: 15px;
 }
 
 #Workright {
@@ -173,7 +176,7 @@ a.button2 {
 
 #OPSheader {
   text-align: right;
-  max-width: 250px;
+  max-width: 400px;
   border-bottom: 10px solid black;
 }
 
@@ -196,6 +199,7 @@ a.button2 {
 
 #Microheader {
   color: white;
+  max-width: 250px;
   text-align: left;
   border-bottom: 10px solid white;
 }
