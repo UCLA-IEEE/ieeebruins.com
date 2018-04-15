@@ -31,16 +31,18 @@
     <!-- BACKGROUND -->
     <div class='main-billboard'>
        <div class='billboard-content'>
-           <img src='./public/images/IEEE_full_logo_white.png' />
-           <span class = 'ucla'> UCLA </span>
-           <h1 class = 'billboard-subtext'> HANDS-ON ENGINEERING </h1>
+           <div class='billboard-logo'>
+             <img src='/public/images/IEEE_full_logo_white.png'/>
+             <p class='ucla'>at ucla</p>
+           </div>
+           <h1 class='billboard-subtext text-center'>Hands-On Engineering</h1>
        </div>
    </div>
 
    <!-- DESCRIPTION AND MAILING LIST -->
    <div class='container-fluid background-grey'>
     <div class='row description'>
-        <div class='col-sm-6'>
+        <div class='col-sm-6 left-column'>
           <h1>ABOUT US</h1>
             <p class = 'aboutus'>IEEE at UCLA is a professional student-run
             engineering organization. We devote our time and
@@ -56,8 +58,8 @@
             <h1>JOIN OUR <br/> <span class = 'ieee-blue'> MAILING LIST </span> </h1>
             <h2 class= 'mailing-subtext'>Keep up with all our upcoming events, workshops, and socials.</h2>
             <!-- LINK THE BUTTON TO SOMETHING -->
-            <input type= 'text' name= 'email'>
-            <input type= 'submit' value= 'Join' class= 'join-button' >
+            <input type= 'text' name= 'email' style='border:none'>
+            <input type= 'submit' value= 'Join' class= 'button button-join' >
         </div>
     </div>
 </div>
@@ -95,21 +97,21 @@
    <!-- LAB HOURS -->
   <div class='container-fluid background-grey container-pad'>
     <div class= 'row lab-hours'>
-      <div class='col-sm-2 no-padding'>
+      <div class='col-sm-9'>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQCXnPk6lo9JAXysHu7UDFgsCLNRUCfnhYyL2bngyghk5N9UegC2UCv2o0dR6EVldRtgODFRkLibzkg/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+      </div>
+      <div class='col-sm-3'>
         <h1> LAB HOURS </h1>
         <h2> UNIQUE.<br> INNOVATIVE.<br> SUPPORTIVE.</h2>
-      </div>
-      <div class='col-sm-9 no-padding'>
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQCXnPk6lo9JAXysHu7UDFgsCLNRUCfnhYyL2bngyghk5N9UegC2UCv2o0dR6EVldRtgODFRkLibzkg/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
         <!-- LINK THE BUTTON TO SOMETHING -->
-        <input type= 'submit' value= 'Learn More' class= 'lab-button' >
+        <input type= 'submit' value= 'Learn More' class= 'button button-lab' >
       </div>
     </div>
   </div>
 
    <!-- INSTAGRAM WIDGET -->
  <div class='container-fluid background-white pic-container' style= 'position: relative;'>
-   <h1> INSTAGRAM <span class= 'handle'> @ieeebruins </span> </h1> <br>
+   <h1>INSTAGRAM <a href="https://www.instagram.com/ieeebruins/" target= '_blank' class= 'handle'>@ieeebruins</a></h1> <br>
    <img class="slides" src="./public/images/OPS.jpg">
    <img class="slides" src="./public/images/OPS.jpg">
    <img class="slides" src="./public/images/officers/jeffrey-chan.jpg">

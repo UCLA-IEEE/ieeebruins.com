@@ -77,3 +77,17 @@ a {
   color: #00629b;
   text-decoration: none;
 }
+
+/*-------- BUTTON STYLING ----------*/
+.button {
+  background-color: #00629b;
+  border: none;
+  color: white;
+  padding: 3px 15px 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 250;
+  letter-spacing: 3px;
+  outline: none;
+}
