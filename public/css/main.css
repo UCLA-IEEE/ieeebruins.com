@@ -109,8 +109,8 @@ input[type="text"] {
   padding: 60px;
 }
 
-.no-padding {
-  padding: 0;
+.events-column {
+  padding-bottom: 20px;
 }
 
 .events h1 {
@@ -122,46 +122,39 @@ input[type="text"] {
 }
 
 .events h3 {
-  margin-top: 5px;
+  font-family: Arial, sans-serif;
   display: inline-block;
   border-bottom: solid white 1px;
-  font-family: Arial, sans-serif;
-  padding-bottom: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .events-subtext {
   padding-top: 5px;
 }
 
+.bottom-space {
+  padding-bottom: 20px;
+}
+
 .col-sm-3 h4 {
   font-size: 15px;
   border-bottom: solid white 1px;
-  padding-bottom: 5px;
   display: inline-block;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .col-sm-3 p {
-  padding-right: 100px;
-}
-
-.details-title1 {
-  position: absolute;
-  left: 25%;
-}
-
-.details-title2 {
-  position: absolute;
-  left: 50%;
-}
-
-.details-title3 {
-  position: absolute;
-  left: 75%;
+  padding-right: 40px;
 }
 
 /*LAB HOURS*/
 .lab-hours {
   padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .lab-hours h1 {
@@ -188,8 +181,8 @@ input[type="text"] {
 }
 
 .button-lab {
-  margin-top: 30px;
-  float: right;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 /*INSTAGRAM WIDGET*/
@@ -229,32 +222,61 @@ a:hover {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 770px) {
-  div.description {
+@media only screen and (max-width: 750px) {
+  .description {
     display: block;
     top: 50%;
     bottom: 50%;
     text-align: center;
   }
-  div.left-column {
+  .left-column {
     border-right: none;
-  }
-  div.mailing-title {
-    stext-align: center;
+    padding-right: 10px;
     padding-left: 10px;
   }
-  div.description h1 {
+  .mailing-title {
+    text-align: center;
+    padding: 50px 10px 0 10px;
+  }
+  .description h1 {
     padding-left: 20px;
+  }
+  .events {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .sheet {
+    width: 100%;
+    order: 12;
+  }
+  .lab-hours-wrapper {
+    width: 100%;
+    text-align: center;
+    order: 1;
+  }
+  .lab-hours-wrapper h1 {
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  .lab-hours-wrapper h2 {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  div.lab-hours h1 {
+    margin-left: 50px;
   }
 }
 
 @media only screen and (min-width: 1090px) and (max-widt: 1200px) {
   div.lab-hours h1 {
     margin: 50px 0 10px 0;
-  }
-}
-@media only screen and (min-width: 1100px) {
-  div.lab-hours h1 {
-    margin-left: 50px;
   }
 }

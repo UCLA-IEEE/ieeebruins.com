@@ -66,26 +66,26 @@
 
    <!-- EVENTS -->
    <div class= 'container-fluid background-ieee-blue container-padding'>
-     <div class= 'row events'>
-      <div class= 'col-sm-2 no-padding'>
+     <div class= 'row events' style= 'vertical-align:bottom'>
+      <div class= 'col-sm-3 events-column'>
         <h1> EVENTS </h1>
           <p class= 'events-subtext'> Here are some upcoming events
            that you will not want to miss out on. Remember to
            save the date!</p>
       </div>
-      <div class= 'col-sm-3 details-title1 no-padding'>
+      <div class= 'col-sm-3 bottom-space'>
         <h3> General Meeting </h3><br>
           <h4 style= 'padding-right: 70px'> Boelter 2417 <br> March 27, 2018 <br> 6:00 PM </h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et </p>
       </div>
-      <div class= 'col-sm-3 details-title2 no-padding'>
+      <div class= 'col-sm-3 bottom-space'>
         <h3> Boeing Info Session </h3><br>
           <h4 style= 'padding-right: 105px'> Boelter 2417 <br> March 27, 2018 <br> 6:00 PM </h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et </p>
       </div>
-      <div class= 'col-sm-3 details-title3 no-padding'>
+      <div class= 'col-sm-3 bottom-space'>
         <h3> OPS Meeting </h3><br>
           <h4 style= 'padding-right: 35px'> Boelter 2417 <br> March 27, 2018 <br> 6:00 PM </h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -97,14 +97,14 @@
    <!-- LAB HOURS -->
   <div class='container-fluid background-grey container-pad'>
     <div class= 'row lab-hours'>
-      <div class='col-sm-9'>
+      <div class='col-md-9 sheet'>
         <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQCXnPk6lo9JAXysHu7UDFgsCLNRUCfnhYyL2bngyghk5N9UegC2UCv2o0dR6EVldRtgODFRkLibzkg/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
       </div>
-      <div class='col-sm-3'>
+      <div class='col-md-3 lab-hours-wrapper text-right'>
         <h1> LAB HOURS </h1>
         <h2> UNIQUE.<br> INNOVATIVE.<br> SUPPORTIVE.</h2>
         <!-- LINK THE BUTTON TO SOMETHING -->
-        <input type= 'submit' value= 'Learn More' class= 'button button-lab' >
+        <button class='button button-lab'>Learn More</button>
       </div>
     </div>
   </div>
