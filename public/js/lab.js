@@ -36,7 +36,7 @@ $.ajax({
   let day1 = n
   //0 = Sunday, 1 = Monday, 6 = Saturday
   let day2 = n + 1
-  if (day1 == 0) {
+  if (day1 == 0 || day1 == 6) {
     day1 = 6 //Sunday and Saturday are both column 6
     day2 = 1 //the next day, Monday, is column 1
   }
