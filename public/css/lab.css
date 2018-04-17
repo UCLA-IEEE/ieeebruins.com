@@ -1,0 +1,136 @@
+/*----------- GENERAL INFO AND LAB MAP ---------------*/
+
+.info-page {
+  padding: 50px 15px;
+  max-width: 1010px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.info-page h1 {
+  display: inline-block;
+  border-bottom: solid black 10px;
+  padding: 0 15px 5px;
+  margin-bottom: 15px;
+}
+
+.info-page p {
+  text-align: justify;
+}
+
+.info-page .lab-map {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 0 40px;
+}
+
+/*------------- LAB HOURS --------------*/
+
+.lab-hours {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.lab-hours h1,
+.resources h1 {
+  border-bottom: solid black 10px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 15px 5px;
+}
+
+.pbox {
+  padding: 10px;
+  max-width: 1010px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+table {
+  margin-top: 15px;
+  border-collapse: collapse;
+  border-spacing: 10px;
+  border: 3px solid #ddd;
+  /*  background-color: rgba(117, 120, 123, 0.5);*/
+}
+.table-wrapper {
+  margin: auto;
+  display: inline-block;
+}
+.lab-hours,
+.resources {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+th,
+td {
+  font-size: 16px;
+  text-align: left;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+}
+th#date {
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+}
+td#time {
+  font-weight: bold;
+  font-size: 17px;
+}
+td {
+  /*font-size: 50px;*/
+}
+tr:nth-child(even) {
+  background-color: white;
+}
+tr#top {
+  background-color: #00629b;
+  color: white;
+}
+.table2 {
+  display: none;
+}
+@media (max-width: 1052px) {
+  .table1 {
+    display: none;
+  }
+  .table2 {
+    display: block;
+  }
+  th,
+  td {
+    font-size: 15px;
+  }
+  th#date,
+  td#time {
+    font-size: 13px;
+  }
+}
+
+/*----------------- GENERAL RESOURCES --------------*/
+
+.resources {
+  padding: 40px 15px 60px;
+  max-width: 1010px;
+  margin: 0 auto;
+}
+
+.resource {
+  padding: 20px 0;
+}
+
+.resources-info {
+  text-align: left;
+  padding-top: 30px;
+}
+
+.thin {
+  padding-bottom: 5px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
