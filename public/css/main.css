@@ -11,7 +11,7 @@
 
 .billboard-content {
   position: absolute;
-  width: 53%;
+  width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -27,25 +27,27 @@
   float: left;
   width: 40%;
   padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .ucla {
   font-weight: bold;
-  font-size: 90px;
+  font-size: 125px;
   padding-bottom: 20px;
   color: white;
   letter-spacing: 3px;
   padding: 0 0 0 30px;
   text-transform: uppercase;
-  position: absolute;
-  display: inline-block;
   height: 60%;
-  width: 70%;
+  text-align: center;
 }
 
 .billboard-subtext {
   color: white;
   letter-spacing: 3px;
+  padding-top: 10px;
 }
 
 /* DESCRIPTION AND MAILING LIST */
@@ -133,8 +135,12 @@ input[type="text"] {
   padding-top: 5px;
 }
 
-.bottom-space {
+.columns-spacing {
   padding-bottom: 20px;
+}
+
+.columns-spacing h4 {
+  padding-right: 80px;
 }
 
 .col-sm-3 h4 {
@@ -214,6 +220,20 @@ input[type="text"] {
   background-color: rgba(117, 120, 123, 0.2);
 }
 
+.instagram-button-left {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.instagram-button-right {
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .slides {
   width: 22%;
 }
@@ -243,8 +263,18 @@ a:hover {
   }
   .events {
     display: flex;
+    text-align: center;
     flex-direction: column;
-    align-content: center;
+  }
+  .events h1 {
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+  .events h4 {
+    padding-right: 0px;
+  }
+  .events p {
+    padding-right: 0px;
   }
 }
 

@@ -73,21 +73,21 @@
            that you will not want to miss out on. Remember to
            save the date!</p>
       </div>
-      <div class= 'col-sm-3 bottom-space'>
+      <div class= 'col-sm-3 columns-spacing'>
         <h3> General Meeting </h3><br>
-          <h4 style= 'padding-right: 70px'> Boelter 2417 <br> March 27, 2018 <br> 6:00 PM </h4>
+          <h4> Boelter 2417 <br> March 27, 2018 <br> 6:00 PM </h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et </p>
       </div>
-      <div class= 'col-sm-3 bottom-space'>
+      <div class= 'col-sm-3 columns-spacing'>
         <h3> Boeing Info Session </h3><br>
-          <h4 style= 'padding-right: 105px'> Boelter 2417 <br> March 27, 2018 <br> 6:00 PM </h4>
+          <h4> Boelter 2417 <br> March 27, 2018 <br> 6:00 PM </h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et </p>
       </div>
-      <div class= 'col-sm-3 bottom-space'>
+      <div class= 'col-sm-3 columns-spacing'>
         <h3> OPS Meeting </h3><br>
-          <h4 style= 'padding-right: 35px'> Boelter 2417 <br> March 27, 2018 <br> 6:00 PM </h4>
+          <h4> Boelter 2417 <br> March 27, 2018 <br> 6:00 PM </h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et </p>
       </div>
@@ -112,6 +112,7 @@
    <!-- INSTAGRAM WIDGET -->
  <div class='container-fluid background-white pic-container' style= 'position: relative;'>
    <h1>INSTAGRAM <a href="https://www.instagram.com/ieeebruins/" target= '_blank' class= 'handle'>@ieeebruins</a></h1> <br>
+  <button class="instagram-button" onclick="plusDivs(-1)">&#10094;</button>
    <img class="slides" src="./public/images/OPS.jpg">
    <img class="slides" src="./public/images/OPS.jpg">
    <img class="slides" src="./public/images/officers/jeffrey-chan.jpg">
@@ -120,8 +121,6 @@
    <img class="slides" src="./public/images/OPS.jpg">
    <img class="slides" src="./public/images/OPS.jpg">
    <img class="slides" src="./public/images/OPS.jpg">
-
-   <button class="instagram-button" onclick="plusDivs(-1)" style= 'position: absolute; left: 60px;'>&#10094;</button>
    <button class="instagram-button" onclick="plusDivs(+1)">&#10095;</button>
  </div>
 
