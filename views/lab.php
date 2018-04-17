@@ -88,93 +88,93 @@
                 </tr>
                 <tr>
                     <td id = "time">10:00 AM</td>
-                    <td>Minh</td>
                     <td></td>
-                    <td>Minh</td>
-                    <td>Jiwan</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td id = "time">11:00 AM</td>
-                    <td>Minh</td>
                     <td></td>
-                    <td>Minh</td>
-                    <td>Jiwan</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td id = "time">12:00 PM</td>
-                    <td>Jeffrey Chan <br> Sahil Gandhi</td>
-                    <td>Kathleen (12:15)</td>
-                    <td>Minh <br> Jeffrey Chan</td>
-                    <td>Jeffrey Chan <br> Kathleen </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td id = "time">1:00 PM</td>
-                    <td>Jeffrey Chan <br> Sahil Gandhi </td>
-                    <td>Alex</td>
-                    <td>Minh <br> Jeffrey Chan</td>
-                    <td>Kathleen</td>
-                    <td>Ted</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td id = "time">2:00 PM</td>
-                    <td>Nihar Tamhankar <br> Natasha Sarkar</td>
-                    <td>Alex <br> Sahil Gandhi</td>
-                    <td>Officer 3</td>
-                    <td>Officer 4</td>
-                    <td>Officer 5</td>
-                    <td>Officer 6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td id = "time">3:00 PM</td>
-                    <td>Nihar Tamhankar <br> Natasha Sarkar</td>
-                    <td>Jeffrey Chan <br> Liz <br> Alex <br> Jiwan</td>
-                    <td>Officer 3</td>
-                    <td>Officer 4</td>
-                    <td>Officer 5</td>
-                    <td>Officer 6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td id = "time">4:00 PM</td>
-                    <td>Alex <br> Jim <br> Kyle</td>
-                    <td>Jeffrey Chan <br> Nihar Tamhankar <br> Kathleen</td>
-                    <td>Officer 3</td>
-                    <td>Officer 4</td>
-                    <td>Officer 5</td>
-                    <td>Officer 6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td id = "time">5:00 PM</td>
-                    <td>Jim <br> Serene <br> Kyle</td>
-                    <td>Officer 2</td>
-                    <td>Officer 3</td>
-                    <td>Officer 4</td>
-                    <td>Officer 5</td>
-                    <td>Officer 6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td id = "time">6:00 PM</td>
-                    <td>Jim</td>
-                    <td>Officer Meeting</td>
-                    <td>Officer 3</td>
-                    <td>Officer 4</td>
-                    <td>Officer 5</td>
-                    <td>Officer 6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td id = "time">After Hours</td>
                     <td></td>
-                    <td>Jeffrey Chen</td>
-                    <td>Officer 3</td>
-                    <td>Officer 4</td>
-                    <td>Officer 5</td>
-                    <td>Officer 6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </table>
         </div>
