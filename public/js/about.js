@@ -1,22 +1,33 @@
 $(document).ready(function() {
-  let bool = false
-  $('.glyphicon').click(function() {
-    if (bool == false) {
-      $(this).toggleClass('rotated')
-      $(this)
-        .parent()
-        .parent()
-        .next()
-        .css('display', 'block')
-      bool = true
+  const NUM_YEARS_SHOWN = 3
+  // Initially hide awards after year 3
+  $('.year')
+    .slice(NUM_YEARS_SHOWN)
+    .slideToggle(0)
+
+  // Toggle the show more / show less functionality
+  $('.show-more').click(function() {
+    $('.year')
+      .slice(NUM_YEARS_SHOWN)
+      .slideToggle(400)
+
+    let text = $('.show-more').text()
+    if (text === 'show more') {
+      $('.show-more').text('show less')
     } else {
-      $(this).toggleClass('rotated')
-      $(this)
-        .parent()
-        .parent()
-        .next()
-        .css('display', 'none')
-      bool = false
+      $('.show-more').text('show more')
     }
+  })
+
+  // Rotate glyphycon and slide down corresponding
+  // awards list then the year is clicked
+  $('.year').click(function() {
+    $(this)
+      .find('.glyphicon')
+      .toggleClass('rotated')
+
+    $(this)
+      .next()
+      .slideToggle(200)
   })
 })

@@ -1,3 +1,5 @@
+/*----------- FRONT ---------------*/
+
 .normal-head {
   text-transform: none;
   padding: 10px;
@@ -5,8 +7,10 @@
 
 .front {
   background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(10, 10, 10, 0.2)), url("../images/about/pp.jpg");
-  background-size: 100%;
-  padding: 80px 30px 70px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 30px 70px;
 }
 
 .front-descrip {
@@ -20,12 +24,59 @@
   border-bottom: solid white 10px;
 }
 
+/*---------- CONTACT INFO -----------*/
+
 .contact {
   padding: 50px 25px;
 }
 
+.contact-title h1 {
+  display: inline-block;
+  border-bottom: solid black 10px;
+  padding: 0 0 8px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+@media (max-width: 990px) {
+  .contact-title {
+    text-align: center;
+  }
+  .contact-title h1 {
+    text-align: center;
+  }
+  .contact-info {
+    margin-top: 20px;
+  }
+}
+
+/*------------ COMPETITIONS -----------------*/
+
 .competitions {
   display: block;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.comp-wrapper {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.comp {
+  color: white;
+  max-width: 550px;
+  margin: 0 10px 40px;
+  padding: 40px 40px;
 }
 
 .micromouse {
@@ -40,31 +91,30 @@
   padding: 25px;
 }
 
-.comp {
-  color: white;
+@media (max-width: 767px) {
+  .micromouse {
+    margin-right: 0;
+  }
 }
 
 .compdescrip {
   margin-top: 15px;
+  padding: 10px;
 }
 
-.comp-micromouse {
-  max-width: 600px;
-  margin-right: 10px;
-  margin-bottom: 40px;
-  padding: 40px 40px;
-  margin-left: 15px;
+.compdescrip p {
+  margin-bottom: 10px;
 }
 
-.comp-ideahacks {
-  max-width: 600px;
-  margin-left: 10px;
-  margin-bottom: 40px;
-  padding: 40px 40px;
+.compdescrip a {
+  font-size: 20px;
+  color: white;
 }
 
 .comp-header {
-  border-bottom: solid white 5px;
+  border-bottom: solid white 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
   display: inline-block;
   font-weight: bold;
 }
@@ -78,7 +128,14 @@
 }
 
 .comp-title {
-  padding: 30px;
+  padding: 30px 0;
+}
+
+@media (max-width: 400px) {
+  .comp-title {
+    /* "Competitions" is so long it couldn't fit on the screen */
+    font-size: 30px;
+  }
 }
 
 .title {
@@ -87,12 +144,55 @@
 
 .title h1 {
   padding-bottom: 10px;
-  border-bottom: solid white 5px;
+  border-bottom: solid white 10px;
   display: inline-block;
+}
+
+/*---------- GET INVOLVED SECTION --------------*/
+
+.involved {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.involved h1 {
+  display: inline-block;
+  padding: 10px;
+  border-bottom: solid white 10px;
+}
+
+.involvement-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.involvement {
+  padding: 20px 40px;
+  margin-top: 10px;
+}
+
+.involvement h2 {
+  margin-bottom: 15px;
+}
+
+.involvement a {
+  color: white;
+  text-decoration: underline;
+}
+
+.involved .title {
+  padding: 50px 40px;
+}
+
+.involved .title h1 {
+  margin-bottom: 15px;
+  padding-right: 5px;
+  max-width: 250px;
 }
 
 .involve {
   padding: 10px 0;
+  text-transform: uppercase;
 }
 
 .involve-about {
@@ -100,7 +200,7 @@
 }
 
 .involved-sub {
-  padding: 50px 25px;
+  padding: 15px 20px;
 }
 
 .subhead {
@@ -112,41 +212,58 @@
   padding-top: 10px;
 }
 
-.awards {
-  padding: 25px;
-}
-
-.atitle {
-  padding-bottom: 10px;
-  border-bottom: solid black 5px;
-  display: inline-block;
-}
+/*------------ SOCIALS -----------------*/
 
 .social-pic {
   width: 100%;
-  max-width: 400px;
-  padding-top: 20px;
+  max-width: 500px;
 }
 
 .socials {
-  padding-top: 25px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.socials .title {
+  padding: 50px 40px;
+}
+
+.image-wrapper {
+  padding-top: 0px;
+}
+
+@media (max-width: 990px) {
+  .socials .title {
+    text-align: center;
+  }
+}
+
+/*----------- AWARDS SECTION ------------*/
+
+.awards {
+  padding: 50px 25px;
 }
 
 .year {
-  margin-top: 20px;
+  max-width: 1000px;
+  margin: 20px auto 0;
   padding: 10px 20px;
-  margin-left: 220px;
-  margin-right: 220px;
 }
 
 .year:hover {
   cursor: pointer;
 }
 
+.atitle {
+  padding: 0 15px 10px;
+  border-bottom: solid black 10px;
+  display: inline-block;
+}
+
 .award-list {
   padding: 10px 20px;
-  margin-left: 220px;
-  margin-right: 220px;
+  margin: 0 auto;
+  max-width: 1000px;
   display: none;
 }
 
@@ -165,5 +282,11 @@
 }
 
 .rotated {
+  /* Used to style the rotating glyphicon-chevron-down */
   transform: rotate(180deg);
+}
+
+.show-more {
+  margin-top: 30px;
+  cursor: pointer;
 }
