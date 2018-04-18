@@ -90,16 +90,7 @@ tr#top {
   background-color: #00629b;
   color: white;
 }
-.table2 {
-  display: none;
-}
 @media (max-width: 1052px) {
-  .table1 {
-    display: none;
-  }
-  .table2 {
-    display: block;
-  }
   th,
   td {
     font-size: 15px;
