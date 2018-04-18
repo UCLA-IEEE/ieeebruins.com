@@ -3,6 +3,9 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
+Development site: [http://development.ieeebruins.com](http://development.ieeebruins.com)  
+Production site: [http://www.ieeebruins.com](http://www.ieeebruins.com)
+
 ## Setting up a development environment
 
 Clone repo: `git clone https://github.com/UCLA-IEEE/ieeebruins.com.git`  
