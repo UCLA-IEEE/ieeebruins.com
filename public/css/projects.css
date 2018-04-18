@@ -3,73 +3,25 @@ h1 {
   margin: 0 auto;
 }
 
-.limitBREAK {
-  max-width: 1415px;
-  padding: 100px 0;
-}
-
-a.button1 {
-  border: none;
-  color: white;
-  padding: 20px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.contentwrapper1 {
-  text-align: center;
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-.contentwrapper2 {
-  max-width: 2000px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
-.whitetext {
-  color: white;
-}
-
-.projheader {
-  padding-bottom: 20px;
-}
-
-.projunderliner {
-  border-bottom: 10px solid white;
-  padding-bottom: 20px;
-  max-width: 350px;
-  margin-bottom: 100px;
-}
-
-.padmargin1 {
-  margin: 40px;
-}
-
-.parasec1 {
-  margin-top: 80px;
-  margin-bottom: 30px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.projsecbuttons {
-  text-align: right;
-}
-
-a.button2 {
-  border: none;
-  background-color: transparent;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+button {
+  padding: 15px 20px;
   font-size: 20px;
+  margin-top: 20px;
+}
+
+.page-title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.page-title h1 {
+  border-bottom: solid black 10px;
+  padding: 0 15px 5px;
+}
+
+.page-title p {
+  text-align: justify;
+  margin-top: 20px;
 }
 
 .sub1 {
@@ -89,179 +41,136 @@ a.button2 {
   text-align: left;
 }
 
-.carousel-caption {
-  margin: ;
+/*------------- PROJECTS --------------*/
+
+.adv-proj,
+.micromouse {
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
-#pageTitle {
-  text-align: center;
-  margin: 60px auto;
-  margin-bottom: 30px;
+.ops {
+  padding-top: 30px;
+  padding-bottom: 75px;
 }
 
-#OUR {
-  margin-right: 15px;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#micromousenamepadder {
-  padding-top: 37px;
-}
-
-#Projleft {
-  background-image: url("../images/projOPS2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 auto;
-  border-right: 5px solid white;
-  border-left: 5px solid white;
-  filter: opacity(0.7);
-}
-
-#Projcenter {
-  background-image: url("../images/projMICRO2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 auto;
-  border-right: 5px solid white;
-  border-left: 5px solid white;
-  filter: opacity(0.7);
-}
-
-#Projright {
-  background-image: url("../images/projAP2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 auto;
-  border-right: 5px solid white;
-  border-left: 5px solid white;
-  filter: opacity(0.7);
-}
-
-#lesspad {
-  padding-top: 50px;
-}
-
-#WSheaderpad {
-  margin-bottom: 15px;
-}
-
-#Workheader {
-  padding-top: 85px;
-  text-align: right;
-  max-width: 235px;
-  border-bottom: 10px solid black;
-}
-
-#Workright {
-  padding-right: 80px;
-  padding-top: 40px;
-  padding-left: 100px;
-}
-
-#WSpara {
-  max-width: 300px;
-}
-
-#workshopsub2 {
-  text-align: center;
-  border-bottom: 2px solid rgba(117, 120, 123, 0.2);
-}
-
-#OPSsection {
-  padding: 50px 0;
-}
-
-#OPSheader {
-  text-align: right;
-  max-width: 400px;
-  border-bottom: 10px solid black;
-}
-
-#OPSsub1 {
-  max-width: 300px;
-}
-
-#Microsection {
-  padding: 50px 0;
-}
-
-#Microright {
-  padding-right: 65px;
-}
-
-#Microleft {
-  padding-top: 40px;
-  padding-left: 80px;
-}
-
-#Microheader {
-  color: white;
-  max-width: 250px;
-  text-align: left;
-  border-bottom: 10px solid white;
-}
-
-#Microsub2 {
-  border-bottom: 2px solid white;
-}
-
-#Microbutton {
-  border: 2px solid white;
-  color: white;
-  padding: 20px 20px;
-  text-align: center;
-  text-decoration: none;
+.adv-proj h1,
+.micromouse h1,
+.ops h1 {
+  padding-bottom: 5px;
+  border-bottom: solid white 10px;
   display: inline-block;
-  font-size: 16px;
-  margin-top: 20px;
+}
+
+.adv-proj .header,
+.micromouse .header,
+.ops .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.adv-proj .header h2,
+.micromouse .header h2,
+.ops h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.adv-proj .descrip h2 {
+  border-bottom: solid white 2px;
+  padding-right: 15px;
+}
+
+.adv-proj .descrip p,
+.micromouse .descrip p,
+.ops p {
+  text-align: justify;
+}
+
+.micromouse .header h1,
+.ops .header h1 {
+  border-bottom: solid black 10px;
+}
+
+.micromouse .header h1,
+.micromouse .header h2 {
+  text-align: right;
+}
+
+.micromouse .descrip h2,
+.ops .descrip h2 {
+  border-bottom: solid black 2px;
+  padding-right: 15px;
+}
+
+/*------------ WORKSHOPS -----------*/
+
+.workshops {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.workshops h1 {
+  display: inline-block;
+  border-bottom: solid black 10px;
+  padding-bottom: 5px;
   margin-bottom: 20px;
 }
 
-#APheader {
-  text-align: right;
-  max-width: 275px;
-  border-bottom: 10px solid black;
+.workshops p {
+  text-align: justify;
 }
 
-#APright {
-  padding-right: 80px;
-  padding-top: 40px;
+.workshops-image-list {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
 }
 
-#APleft {
-  padding-left: 65px;
+.workshops-image-list img {
+  height: 200px;
+  margin-right: 15px;
 }
 
-#APbutton {
-  align: left;
-}
+/*---------------- SPI -------------*/
 
-#APsection {
-  padding: 50px 0;
-  background-color: white;
-}
-
-#APsub2 {
-  border-bottom: 2px solid rgba(117, 120, 123, 0.2);
-}
-
-#SPIpara {
-  margin-top: 50px;
-  max-width: 850px;
-  margin: 20px auto;
+.spi {
+  padding-top: 50px;
+  padding-bottom: 75px;
 }
 
 #SPIheader {
   display: inline-block;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 0 15px 5px;
   border-bottom: 10px solid black;
+  margin-bottom: 15px;
 }
 
-#SPItoppad {
-  padding-top: 40px;
+@media (max-width: 995px) {
+  .ops .header,
+  .micromouse .header,
+  .adv-proj .header {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .micromouse .header {
+    order: 1;
+  }
+
+  .micromouse .descrip {
+    order: 2;
+  }
+
+  .micromouse .header h1 {
+    text-align: center;
+  }
 }

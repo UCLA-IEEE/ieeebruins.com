@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Projects - IEEE at UCLA</title>
-	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects - IEEE at UCLA</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<!-- JQUERY -->
+    <!-- JQUERY -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 
     <!-- BOOTSTRAP -->
@@ -18,8 +18,9 @@
     <!-- STYLESHEETS -->
     <link rel='stylesheet' href='/public/css/footer.css' />
     <link rel='stylesheet' href='/public/css/navbar.css' />
-		<link rel='stylesheet' href='/public/css/projects.css'/>
-		<link rel='stylesheet' href='/public/css/style.css'/>
+    <link rel='stylesheet' href='/public/css/projects.css'/>
+    <link rel='stylesheet' href='/public/css/style.css'/>
+
     <!--Favicon -->
     <link rel='icon' href='/public/favicon.ico' />
 </head>
@@ -28,227 +29,132 @@
     <?php include('./includes/navbar.html'); ?>
     <div class="pt-3"></div>
 
-	<!--Page Title-->
-	<div id="pageTitle" class="container-fluid">
-			<span id="OUR">
-				<h1>Our</h1>
-			</span>
-			<span>
-				<h1 class="ieee-blue">Projects</h1>
-			</span>
-	</div>
+    <!--Page Title-->
+    <div class="container-fluid text-center page-title content-wrapper" style='margin-top: 50px;'>
+        <h1>Our <span class='ieee-blue'>Projects</span></h1>
+        <p>
+            Our primary method in achieving our mission is by getting our members
+            involved in our project curriculums. For all projects, we have
+            infosessions at the beginning of every academic year, and release applications
+            around the same time.
+        </p>
+    </div>
 
-	<!--Projects section-->
-	<div id="Projectsection" class="container-fluid">
-		<div class="contentwrapper2">
-			<div class="row">
-				<div class="col-md-1" style= "width: 12.499999995%"></div>
-				<div id= "Projleft" class="col-md-3">
-					<div class="padmargin1">
-						<h1 class="whitetext projunderliner">Open Project Space</h1>
-					</div>
-					<div class="parasec1 background-grey">
-						<p class="whitetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-						<div class="projsecbuttons">
-							<a class="button2" href="http://ops.ieeebruins.org/index.php?title=Main_Page"><p>Learn More</p></a>
-						</div>
-					</div>
-				</div>
-				<div id= "Projcenter" class="col-md-3">
-					<div class="padmargin1">
-						<h1 id="micromousenamepadder" class="whitetext projunderliner">Micromouse</h1>
-					</div>
-					<div class="parasec1 background-grey">
-						<p class="whitetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-						<div class="projsecbuttons">
-							<a class="button2" href="http://micromouse.ieeebruins.org/index.php?title=Main_Page"><p>Learn More</p></a>
-						</div>
-					</div>
-				</div>
-				<div id="Projright" class="col-md-3">
-					<div class="padmargin1">
-						<h1 class="whitetext projunderliner">Advanced Projects</h1>
-					</div>
-					<div class="parasec1 background-grey">
-						<p class="whitetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-						<div class="projsecbuttons">
-							<a class="button2" href="http://advproj.ieeebruins.org/index.php?title=Main_Page"><p>Learn More</p></a>
-						</div>
-					</div>
-				</div>
-				<div class"col-md-1" style= "width: 12.499999995%"></div>></div>
-			</div>
-		</div>
-	</div>
+    <!-- OPS section-->
+    <div class="container-fluid ops">
+        <div class="content-wrapper">
+            <div class="row flex-container">
+                <div class="col-md-4 header">
+                    <h1>Open Project Space</h1>
+                    <h2>Your first steps</h2>
+                </div>
 
+                <div class="col-md-8 descrip">
+                    <h2 class="sub2">No fear in not knowing</h2>
+                    <p>
+                        Our OPS program is designed to provide hands-on foundational knowledge in the field
+                        of tech and hardware. We assume you know absolutely nothing, and build your knowledge from the ground
+                        up. Throughout the year, students will be challenged to complete 2-3 small projects per quarter
+                        that will allow you to apply the skills you have learned.
+                    </p>
 
-	<!--OPS section-->
-	<div class="container-fluid">
-		<div id="lesspad" class="container-fluid limitBREAK">
-			<div class="contentwrapper2">
-				<div class="row">
-					<div id="APleft" class="col-md-4 text-left">
-						<div id="WSheaderpad">
-							<h1 id="Workheader" class="projheader">Open Project Space</h1>
-							<h2 class="sub1">Gateway to Hardware</h2>
-						</div>
+                    <a href="http://ops.ieeebruins.org/" target='_blank'>
+                        <button class='background-ieee-blue'>More Details Here</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-					</div>
-					<div id= "Workright" class="col-md-8">
-						<div class="text-left">
-							<h2 id="workshopsub2" class="sub2">No Fear in Not Knowing</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-							<a id="APbutton" class="button1 background-ieee-blue" href="http://ops.ieeebruins.org/index.php?title=Main_Page"><p>More Details Here</p></a>
+    <!-- Micromouse section-->
+    <div class="container-fluid background-grey micromouse">
+        <div class="content-wrapper">
+            <div class="row flex-container">
+                <div class="col-md-8 descrip">
+                    <h2 class="sub2">Head-to-head competition</h2>
+                    <p>
+                        A micromouse is essentially
+                        a small robot that's programmed to be able to find it's way to a goal within a maze.
+                        Within this program, our leads teach you the fundamentals of how a micromouse is designed,
+                        eventually reaching a point where you'll print your own PCB, solder the micromouse all together,
+                        and program it through a maze. We also hold annual events where students are invited to compete
+                        against each other based on their mice's performance.
+                    </p>
 
-							<!--
-							<div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <a href="http://micromouse.ieeebruins.org/" target='_blank'>
+                        <button class='background-ieee-blue'>More Details Here</button>
+                    </a>
+                </div>
+                <div class="col-md-4 header">
+                    <h1>Micromouse</h1>
+                    <h2>Autonomous Maze-Solving Robot</h2>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!--Advanced Projects section-->
+    <div class="container-fluid background-ieee-blue adv-proj">
+        <div class="content-wrapper">
+            <div class="row flex-container">
+                <div class="col-md-4 header">
+                    <h1>Advanced Projects</h1>
+                    <h2>Let's Build a Quadcopter</h2>
+                </div>
+                <div class="col-md-8 descrip">
+                    <h2 class="sub2">Take your skills to the next level</h2>
+                    <p>
+                        Our Advanced Projects program is designed around a few projects that require more advanced
+                        topics that isn't covered in our beginning OPS program. Some of the subjects we emphasize in this
+                        program are communication, advanced control, motors, and common modules such as gyroscopes and
+                        radio modules. If you're looking to really test your skill, this program is for you!
+                    </p>
 
-	  							COMMENT* Wrapper for slides
-	  							<div class="carousel-inner">
-	    							<div class="item active">
-	      								<img src="../public/images/workproj1.jpg" alt="project 1">
-										<div class="carousel-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</div>
-	    							</div>
+                    <a href="http://advproj.ieeebruins.org/" target='_blank'>
+                        <button class='background-ieee-blue'>More Details Here</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	    							<div class="item">
-	      								<img src="../public/images/workproj2.jpg" alt="project 2">
-										<div class="carousel-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</div>
-	    							</div>
+    <!--Workshops section-->
+    <div class="container-fluid workshops">
+        <div class="content-wrapper">
+            <h1>Workshops</h1>
+            <p>
+                For members who do not have time to dedicate a whole year for one of our competition projects,
+                this program is for you. IEEE holds a series of workshops throughout the school year
+                where anyone can participate and learn about new skills and technologies. These projects are aimed at teaching everyone,
+                engineers and non-engineers, about common skills in electrical engineering such as soldering, image processing, prototyping, and electronics.
+                To receive more information on upcoming IEEE workshops, subscribe to our mailing list to receive our newsletter.
+                <br /><br />
+                Check out one of our past <a href='https://github.com/sahilmgandhi/IEEE_Workshops_2017_2018' target="_blank">workshop series</a>.
+            </p>
+            <div class='workshops-image-list'>
+                <img src='/public/images/projects/workshop1.jpg' />
+                <img src='/public/images/projects/workshop2.jpg' />
+                <img src='/public/images/projects/workshop3.jpg' />
+                <img src='/public/images/projects/workshop4.jpg' />
+                <img src='/public/images/projects/workshop5.jpg' />
+            </div>
+        </div>
+    </div>
 
-	    							<div class="item">
-	      								<img src="../public/images/workproj3.jpg" alt="project 3">
-										<div class="carousel-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</div>
-	    							</div>
+    <!-- Student Project Initiative (SPI) section -->
+    <div class="container-fluid background-grey spi">
+        <div class="content-wrapper text-center">
+            <h1 id="SPIheader" class="ieee-blue">Student Project Initiative (SPI)</h1>
+            <p>
+                SPI is a program dedicated to providing motivated students with the physical
+                and intellectual resources they need to develop their ideal project. In this program, students are
+                allowed to come up with their own project ideas, propose it the board, and possibly receive funding
+                and guidance for the completion of the project. Contact our project leads for more information!
+            </p>
+        </div>
+    </div>
 
-									<div class="item">
-	      								<img src="../public/images/workproj4.jpg" alt="project 4">
-										<div class="carousel-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</div>
-	    							</div>
-	  							</div>
-
-	  							COMMENT* Left and right controls
-	  							<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-	    							<span class="glyphicon glyphicon-chevron-left"></span>
-	    							<span class="sr-only">Previous</span>
-	  							</a>
-	  							<a class="right carousel-control" href="#myCarousel" data-slide="next">
-	    							<span class="glyphicon glyphicon-chevron-right"></span>
-	    							<span class="sr-only">Next</span>
-	  							</a>
-							</div>
-							-->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<!--Micromouse section-->
-	<div class="container-fluid background-grey">
-		<div class="container-fluid limitBREAK">
-			<div class="contentwrapper2">
-				<div class="row">
-					<div id= "APleft" class="col-md-8">
-						<h2 id="APsub2" class="sub2">More Micromouse Stuff</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-						<a id="APbutton" class="button1 background-ieee-blue" href="http://micromouse.ieeebruins.org/index.php?title=Main_Page"><p>More Details Here</p></a>
-					</div>
-					<div id="APright" class="col-md-4 text-right">
-						<h1 id="OPSheader" class="projheader ieee-blue">Micromouse</h1>
-						<h2 id="OPSsub1" class="sub1">Micromouse Stuff</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<!--Advanced Projects section-->
-	<div class="container-fluid background-ieee-blue">
-		<div class="container-fluid limitBREAK">
-			<div class="contentwrapper2">
-				<div class="row">
-					<div id="Microleft" class="col-md-4 text-left">
-						<h1 id="Microheader" class="projheader">Advanced Projects</h1>
-						<h2 class="sub1 whitetext">Let's Build a Quadcopter</h2>
-					</div>
-					<div id= "Microright" class="col-md-8">
-						<h2 id="Microsub2" class="sub2 whitetext">Time to Build Something Really Cool</h2>
-						<p class="whitetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-
-						<a id="Microbutton" class="button1 background-ieee-blue" href="http://advproj.ieeebruins.org/index.php?title=Main_Page"><p>More Details Here</p></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-		<!--Workshops section-->
-		<div class="container-fluid">
-			<div class="container-fluid limitBREAK">
-				<div class="contentwrapper2">
-					<div class="row">
-						<div id= "APleft" class="col-md-8">
-							<h2 id="APsub2" class="sub2">Past Workshops & Tutorials</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-						</div>
-						<div id="APright" class="col-md-4 text-right">
-							<h1 id="APheader" class="projheader">Workshops</h1>
-							<h2 class="sub1"></h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-
-
-
-
-
-
-		<!-- Student Project Initiative (SPI) section -->
-		<div class="container-fluid background-grey">
-			<div id="SPItoppad" class="container-fluid limitBREAK">
-				<div class="contentwrapper1">
-					<h1 id="SPIheader" class="ieee-blue">Student Project Initiative (SPI)</h1>
-					<p id="SPIpara"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
-					<!--
-					<div class="container-fluid" align = "center">
-
-					<a class="button1 background-ieee-blue" href="http://ieeebruins.org/projects/student-project-initiative-spi/"><p>More Details Here</p></a>
-
-					</div>
-					-->
-				</div>
-			</div>
-		</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!-- FOOTER -->
+    <!-- FOOTER -->
     <?php include('./includes/footer.html'); ?>
 </body>
 </html>
