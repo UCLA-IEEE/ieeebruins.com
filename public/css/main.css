@@ -1,0 +1,293 @@
+.background-white {
+  background-color: white;
+}
+
+/* BACKGROUND */
+.main-billboard {
+  height: 580px;
+  background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.6)), url("../images/OPS.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.billboard-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  display: inline-block;
+  max-width: 1000px;
+}
+
+.billboard-logo {
+  width: 100%;
+  display: inline-block;
+}
+
+.main-billboard img {
+  width: 400px;
+  padding-bottom: 80px;
+  display: inline-block;
+}
+
+.ucla {
+  font-weight: bold;
+  font-size: 123px;
+  color: white;
+  letter-spacing: 3px;
+  padding: 0 0 0 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 0.8;
+}
+
+.billboard-subtext {
+  color: white;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 990px) {
+  .billboard-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .main-billboard img {
+    width: 180px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+  }
+  .ucla {
+    font-size: 52px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .billboard-subtext {
+    font-size: 30px;
+  }
+}
+
+/*----------- DESCRIPTION AND MAILING LIST -------------*/
+
+.description {
+  padding: 100px 5%;
+  display: flex;
+}
+
+.description h1 {
+  border-bottom: solid black 10px;
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.left-column {
+  border-right: solid black 5px;
+  padding-right: 60px;
+}
+
+.aboutus {
+  padding-top: 5px;
+  text-align: justify;
+}
+
+.mailing-title {
+  padding-left: 60px;
+  padding-right: 0;
+  padding-top: 10px;
+}
+
+.mailing-title h1 {
+  border-bottom: none;
+  line-height: 1.2;
+}
+
+.mailing-subtext {
+  text-transform: none;
+}
+
+input[type="text"] {
+  width: 50%;
+  background-color: #c4c4c4;
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 20px;
+  outline: none;
+}
+.button-join {
+  margin-top: 30px;
+}
+
+/*------------------- EVENTS ---------------------------*/
+
+.container-padding {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.events {
+  padding: 60px;
+  display: flex;
+}
+
+.events-column {
+  padding-bottom: 20px;
+}
+
+.events h1 {
+  border-bottom: solid white 10px;
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.events h3 {
+  font-family: Arial, sans-serif;
+  border-bottom: solid white 1px;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.events-subtext {
+  padding-top: 5px;
+}
+
+.columns-spacing {
+  padding-bottom: 20px;
+}
+
+.columns-spacing h4 {
+  padding-right: 80px;
+}
+
+.events h4 {
+  font-size: 15px;
+  border-bottom: solid white 1px;
+  /* display: inline-block; */
+  margin-top: 0px;
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+.col-sm-3 p {
+  padding-right: 40px;
+}
+
+/*----------- LAB HOURS --------------------------*/
+
+.lab-hours {
+  padding: 60px 3%;
+  text-align: center;
+}
+
+.lab-hours h1 {
+  display: block;
+  padding: 0 10px 5px;
+  border: none;
+}
+
+/*---------- INSTAGRAM / FLICKR STUFF ----------------*/
+
+.instagram {
+  padding: 30px 5% 50px;
+}
+
+.instagram h1 {
+  border-bottom: solid black 10px;
+  display: inline-block;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.handle {
+  color: #00629b;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+  text-transform: none;
+}
+
+.handle:hover {
+  text-decoration: underline;
+}
+
+.image-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  overflow-x: scroll;
+}
+
+.image-list img {
+  margin: 0 5px;
+}
+
+@media only screen and (max-width: 750px) {
+  .description {
+    display: block;
+    top: 50%;
+    bottom: 50%;
+    text-align: center;
+  }
+  .left-column {
+    border-right: none;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .mailing-title {
+    text-align: center;
+    padding: 50px 10px 0 10px;
+  }
+  .description h1 {
+    padding-left: 20px;
+  }
+  .events {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .events h1 {
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+  .events h4 {
+    padding-right: 0px;
+  }
+  .events p {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .sheet {
+    width: 100%;
+    order: 12;
+  }
+  .lab-hours-wrapper {
+    width: 100%;
+    text-align: center;
+    order: 1;
+  }
+  .lab-hours-wrapper h1 {
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  .lab-hours-wrapper h2 {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1090px) and (max-widt: 1200px) {
+  div.lab-hours h1 {
+    margin: 50px 0 10px 0;
+  }
+}
