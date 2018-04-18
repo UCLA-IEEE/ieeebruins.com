@@ -18,8 +18,14 @@
     <!-- STYLESHEETS -->
     <link rel='stylesheet' href='/public/css/footer.css' />
     <link rel='stylesheet' href='/public/css/style.css' />
-    <link rel='stylesheet' href='/public/css/main.css' />
     <link rel='stylesheet' href='/public/css/navbar.css' />
+    <link rel='stylesheet' href='/public/css/lab.css' />
+    <link rel='stylesheet' href='/public/css/main.css' />
+
+    <!-- SCRIPTS -->
+    <script src='/public/js/key.js'></script>
+    <script src='/public/js/main.js'></script>
+    <script src='/public/js/lab.js'></script>
 
     <!--Favicon -->
     <link rel='icon' href='/public/favicon.ico' />
@@ -30,121 +36,260 @@
 
     <!-- BACKGROUND -->
     <div class='main-billboard'>
-       <div class='billboard-content'>
-           <div class='billboard-logo'>
-             <img src='/public/images/IEEE_full_logo_white.png'/>
-             <p class='ucla'>at ucla</p>
-           </div>
-           <h1 class='billboard-subtext text-center'>Hands-On Engineering</h1>
-       </div>
-   </div>
+        <div class='billboard-content'>
+            <div class='billboard-logo'>
+                <img src='/public/images/IEEE_full_logo_white.png'/>
+                <p class='ucla'>at ucla</p>
+            </div>
+            <h1 class='billboard-subtext text-center'>Hands-On Engineering</h1>
+        </div>
+    </div>
 
    <!-- DESCRIPTION AND MAILING LIST -->
    <div class='container-fluid background-grey'>
-    <div class='row description'>
-        <div class='col-sm-6 left-column'>
-          <h1>ABOUT US</h1>
-            <p class = 'aboutus'>IEEE at UCLA is a professional student-run
-            engineering organization. We devote our time and
-            energy towards bringing hands-on, practical
-            experiences to engineering students throughout
-            UCLA, as well as create opportunities for students to
-            interact with industry professionals and more. Every
-            year we lead several projects for our members to
-            partipate in Lorem ipsum minimum ed and dolor sit
-            amet set ud do labore</p>
-        </div>
-        <div class='col-sm-6 text-center mailing-title'>
-            <h1>JOIN OUR <br/> <span class = 'ieee-blue'> MAILING LIST </span> </h1>
-            <h2 class= 'mailing-subtext'>Keep up with all our upcoming events, workshops, and socials.</h2>
-            <!-- LINK THE BUTTON TO SOMETHING -->
-            <input type= 'text' name= 'email' style='border:none'>
-            <input type= 'submit' value= 'Join' class= 'button button-join' >
+       <div class='row description'>
+            <div class='col-sm-6 left-column'>
+                <h1>ABOUT US</h1>
+                <p class = 'aboutus'>
+                    IEEE at UCLA is a professional student-run
+                    engineering organization. We devote our time and
+                    energy towards bringing hands-on, practical
+                    experiences to engineering students throughout
+                    UCLA, as well as create opportunities for students to
+                    interact with industry professionals and more. Every
+                    year we lead several projects for our members to
+                    partipate in Lorem ipsum minimum ed and dolor sit
+                    amet set ud do labore
+                </p>
+            </div>
+            <div class='col-sm-6 text-center mailing-title'>
+                <h1>JOIN OUR <br/> <span class = 'ieee-blue'> MAILING LIST </span> </h1>
+                <h2 class= 'mailing-subtext'>Keep up with all our upcoming events, workshops, and socials.</h2>
+
+                <input type= 'text' name= 'email' style='border:none'>
+                <input type= 'submit' value= 'Join' class= 'button button-join' >
+            </div>
         </div>
     </div>
-</div>
 
    <!-- EVENTS -->
-   <div class= 'container-fluid background-ieee-blue container-padding'>
-     <div class= 'row events' style= 'vertical-align:bottom'>
-      <div class= 'col-sm-3 events-column'>
-        <h1> EVENTS </h1>
-          <p class= 'events-subtext'> Here are some upcoming events
-           that you will not want to miss out on. Remember to
-           save the date!</p>
-      </div>
-      <div class= 'col-sm-3 columns-spacing'>
-        <h3> General Meeting </h3><br>
-          <h4> Boelter 2417 <br> March 27, 2018 <br> 6:00 PM </h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et </p>
-      </div>
-      <div class= 'col-sm-3 columns-spacing'>
-        <h3> Boeing Info Session </h3><br>
-          <h4> Boelter 2417 <br> March 27, 2018 <br> 6:00 PM </h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et </p>
-      </div>
-      <div class= 'col-sm-3 columns-spacing'>
-        <h3> OPS Meeting </h3><br>
-          <h4> Boelter 2417 <br> March 27, 2018 <br> 6:00 PM </h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et </p>
-      </div>
+    <div class= 'container-fluid background-ieee-blue container-padding'>
+        <div class= 'row events' style= 'vertical-align:bottom'>
+            <div class= 'col-md-3 events-column'>
+                <h1> EVENTS </h1>
+                <p class= 'events-subtext'> Here are some upcoming events
+                that you will not want to miss out on. Remember to
+                save the date!</p>
+            </div>
+        </div>
     </div>
-</div>
 
-   <!-- LAB HOURS -->
-  <div class='container-fluid background-grey container-pad'>
-    <div class= 'row lab-hours'>
-      <div class='col-md-9 sheet'>
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQCXnPk6lo9JAXysHu7UDFgsCLNRUCfnhYyL2bngyghk5N9UegC2UCv2o0dR6EVldRtgODFRkLibzkg/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-      </div>
-      <div class='col-md-3 lab-hours-wrapper text-right'>
-        <h1> LAB HOURS </h1>
-        <h2> UNIQUE.<br> INNOVATIVE.<br> SUPPORTIVE.</h2>
-        <!-- LINK THE BUTTON TO SOMETHING -->
-        <button class='button button-lab'>Learn More</button>
-      </div>
+    <!-- LAB HOURS -->
+    <div class='container-fluid background-grey container-pad'>
+        <div class= 'row lab-hours'>
+            <h1 class='ieee-blue'>Lab Hours</h1>
+            <!-- FULL LAB HOURS TABLE -->
+            <div class = "table-wrapper">
+                <table class = "table1">
+                    <tr id = "top">
+                        <th></th>
+                        <th id = "date">MONDAY</th>
+                        <th id = "date">TUESDAY</th>
+                        <th id = "date">WEDNESDAY</th>
+                        <th id = "date">THURSDAY</th>
+                        <th id = "date">FRIDAY</th>
+                        <th id = "date">SAT / SUN</th>
+                    </tr>
+                     <tr>
+                        <td id = "time">8:00 AM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">9:00 AM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">10:00 AM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">11:00 AM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">12:00 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">1:00 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">2:00 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">3:00 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">4:00 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">5:00 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">6:00 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">After Hours</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- SMALLER LAB HOURS TABLE -->
+            <div class = table-wrapper>
+                <table class = "table2">
+                    <tr id = "top">
+                        <th ></th>
+                        <th id = "date">FRIDAY</th>
+                        <th id = "date" >SATURDAY / SUNDAY</th>
+                    </tr>
+                     <tr>
+                        <td id = "time">8:00 AM</td>
+                        <td ></td>
+                        <td ></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">9:00 AM</td>
+                        <td ></td>
+                        <td ></td>
+                    </tr>
+                    <tr>
+                        <td id = "time">10:00 AM</td>
+                        <td >Minh</td>
+                        <td >Jiwan</td>
+                    </tr>
+                    <tr>
+                        <td id = "time" >11:00 AM</td>
+                        <td >Minh</td>
+                        <td >Jiwan</td>
+                    </tr>
+                    <tr>
+                        <td id = "time">12:00 PM</td>
+                        <td >Minh <br> Jeffrey Chan</td>
+                        <td >Jeffrey Chan <br> Kathleen </td>
+                    </tr>
+                    <tr>
+                        <td id = "time">1:00 PM</td>
+                        <td >Officer 1 <br> Officer 2/td>
+                        <td >Officer 3</td>
+                    </tr>
+                    <tr>
+                        <td id = "time">2:00 PM</td>
+                        <td >Officer 1</td>
+                        <td >Officer 2</td>
+                    </tr>
+                    <tr>
+                        <td id = "time">3:00 PM</td>
+                        <td >Officer 1</td>
+                        <td >Officer 2</td>
+                    </tr>
+                    <tr>
+                        <td id = "time">4:00 PM</td>
+                        <td >Officer 1</td>
+                        <td >Officer 2</td>
+                    </tr>
+                    <tr>
+                        <td id = "time">5:00 PM</td>
+                        <td >Officer 1</td>
+                        <td >Officer 2</td>
+                    </tr>
+                    <tr>
+                        <td id = "time">6:00 PM</td>
+                        <td >Officer 1</td>
+                        <td >Officer 2</td>
+                    </tr>
+                    <tr>
+                        <td id = "time">After Hours</td>
+                        <td >Officer 1</td>
+                        <td >Officer 2</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
-  </div>
 
-   <!-- INSTAGRAM WIDGET -->
- <div class='container-fluid background-white pic-container' style= 'position: relative;'>
-   <h1>INSTAGRAM <a href="https://www.instagram.com/ieeebruins/" target= '_blank' class= 'handle'>@ieeebruins</a></h1> <br>
-  <button class="instagram-button" onclick="plusDivs(-1)">&#10094;</button>
-   <img class="slides" src="./public/images/OPS.jpg">
-   <img class="slides" src="./public/images/OPS.jpg">
-   <img class="slides" src="./public/images/officers/jeffrey-chan.jpg">
-   <img class="slides" src="./public/images/OPS.jpg">
-   <img class="slides" src="./public/images/OPS.jpg">
-   <img class="slides" src="./public/images/OPS.jpg">
-   <img class="slides" src="./public/images/OPS.jpg">
-   <img class="slides" src="./public/images/OPS.jpg">
-   <button class="instagram-button" onclick="plusDivs(+1)">&#10095;</button>
- </div>
+    <!-- INSTAGRAM WIDGET -->
+    <div class='container-fluid instagram'>
+        <h1>INSTAGRAM <a href="https://www.instagram.com/ieeebruins/" target= '_blank' class= 'handle'>@ieeebruins</a></h1>
 
- <script>
-  let slideIndex = 0;
-  showDivs(slideIndex);
-
-  function plusDivs(n){
-    showDivs(slideIndex+=3);
-  }
-
-  function showDivs(n){
-    let slides = document.getElementsByClassName("slides");
-    if (slideIndex>4){
-      slideIndex=0;
-    }
-    for (let j=0; j<slides.length; j++){
-      slides[j].style.display = "none";
-    }
-    for (let k=slideIndex; k<slideIndex+4; k++){
-        slides[k].style.display = "inline-block";
-    }
-  }
- </script>
+        <div class='image-list'></div>
+    </div>
 
    <!-- FOOTER -->
    <?php include('./includes/footer.html'); ?>

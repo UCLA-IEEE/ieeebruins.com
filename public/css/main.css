@@ -11,48 +11,69 @@
 
 .billboard-content {
   position: absolute;
-  width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  width: 100%;
+  display: inline-block;
+  max-width: 1000px;
 }
 
 .billboard-logo {
-  border-bottom: solid white 10px;
   width: 100%;
   display: inline-block;
 }
 
 .main-billboard img {
-  float: left;
-  width: 40%;
-  padding-bottom: 5px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  width: 400px;
+  padding-bottom: 80px;
+  display: inline-block;
 }
 
 .ucla {
   font-weight: bold;
-  font-size: 125px;
-  padding-bottom: 20px;
+  font-size: 123px;
   color: white;
   letter-spacing: 3px;
   padding: 0 0 0 30px;
   text-transform: uppercase;
-  height: 60%;
-  text-align: center;
+  display: inline-block;
+  line-height: 0.8;
 }
 
 .billboard-subtext {
   color: white;
-  letter-spacing: 3px;
-  padding-top: 10px;
+  letter-spacing: 5px;
 }
 
-/* DESCRIPTION AND MAILING LIST */
+@media (max-width: 990px) {
+  .billboard-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .main-billboard img {
+    width: 180px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+  }
+  .ucla {
+    font-size: 52px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .billboard-subtext {
+    font-size: 30px;
+  }
+}
+
+/*----------- DESCRIPTION AND MAILING LIST -------------*/
+
 .description {
-  padding: 100px;
+  padding: 100px 5%;
+  display: flex;
 }
 
 .description h1 {
@@ -70,18 +91,18 @@
 
 .aboutus {
   padding-top: 5px;
-  line-height: 1.3;
+  text-align: justify;
 }
 
 .mailing-title {
   padding-left: 60px;
   padding-right: 0;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .mailing-title h1 {
   border-bottom: none;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .mailing-subtext {
@@ -92,23 +113,24 @@ input[type="text"] {
   width: 50%;
   background-color: #c4c4c4;
   margin-right: 5px;
-  padding-top: 8px;
-  padding-bottom: 7px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 5px 10px;
+  font-size: 20px;
   outline: none;
 }
 .button-join {
   margin-top: 30px;
 }
 
-/* EVENTS */
+/*------------------- EVENTS ---------------------------*/
+
 .container-padding {
-  padding-bottom: 25px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .events {
   padding: 60px;
+  display: flex;
 }
 
 .events-column {
@@ -125,8 +147,8 @@ input[type="text"] {
 
 .events h3 {
   font-family: Arial, sans-serif;
-  display: inline-block;
   border-bottom: solid white 1px;
+  padding-bottom: 5px;
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -143,65 +165,44 @@ input[type="text"] {
   padding-right: 80px;
 }
 
-.col-sm-3 h4 {
+.events h4 {
   font-size: 15px;
   border-bottom: solid white 1px;
-  display: inline-block;
+  /* display: inline-block; */
   margin-top: 0px;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   padding-bottom: 10px;
+  line-height: 1.5;
 }
 
 .col-sm-3 p {
   padding-right: 40px;
 }
 
-/*LAB HOURS*/
+/*----------- LAB HOURS --------------------------*/
+
 .lab-hours {
-  padding: 60px;
-  display: flex;
-  flex-wrap: wrap;
+  padding: 60px 3%;
+  text-align: center;
 }
 
 .lab-hours h1 {
-  text-align: right;
-  color: #00629b;
-  border-bottom: solid black 10px;
-  display: inline-block;
-  padding-left: 20px;
-  padding-bottom: 5px;
-  margin: 50px 0 10px 0;
-}
-
-.lab-hours h2 {
-  text-align: right;
-  color: #00629b;
-}
-
-.lab-hours iframe {
-  height: 370px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  display: block;
+  padding: 0 10px 5px;
   border: none;
 }
 
-.button-lab {
-  margin-top: 15px;
-  margin-bottom: 30px;
+/*---------- INSTAGRAM / FLICKR STUFF ----------------*/
+
+.instagram {
+  padding: 30px 5% 50px;
 }
 
-/*INSTAGRAM WIDGET*/
-.pic-container {
-  padding: 60px;
-}
-
-.pic-container h1 {
+.instagram h1 {
   border-bottom: solid black 10px;
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 15px;
   padding-bottom: 5px;
-  margin-bottom: 15px;
 }
 
 .handle {
@@ -213,33 +214,19 @@ input[type="text"] {
   text-transform: none;
 }
 
-.instagram-button {
-  padding-top: 77px;
-  padding-bottom: 77px;
-  border: none;
-  background-color: rgba(117, 120, 123, 0.2);
+.handle:hover {
+  text-decoration: underline;
 }
 
-.instagram-button-left {
+.image-list {
   display: flex;
-  text-align: left;
-  flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px 0;
+  overflow-x: scroll;
 }
 
-.instagram-button-right {
-  display: flex;
-  text-align: right;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.slides {
-  width: 22%;
-}
-
-a:hover {
-  text-decoration: none;
+.image-list img {
+  margin: 0 5px;
 }
 
 @media only screen and (max-width: 750px) {
@@ -296,12 +283,6 @@ a:hover {
   }
   .lab-hours-wrapper h2 {
     text-align: center;
-  }
-}
-
-@media only screen and (min-width: 1100px) {
-  div.lab-hours h1 {
-    margin-left: 50px;
   }
 }
 
