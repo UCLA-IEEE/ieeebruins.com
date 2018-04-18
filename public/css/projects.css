@@ -1,0 +1,176 @@
+h1 {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+button {
+  padding: 15px 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.page-title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.page-title h1 {
+  border-bottom: solid black 10px;
+  padding: 0 15px 5px;
+}
+
+.page-title p {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.sub1 {
+  display: inline-block;
+  font-size: 20px;
+  text-align: right;
+  margin: 10px 0;
+}
+
+.sub2 {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+/*------------- PROJECTS --------------*/
+
+.adv-proj,
+.micromouse {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.ops {
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.adv-proj h1,
+.micromouse h1,
+.ops h1 {
+  padding-bottom: 5px;
+  border-bottom: solid white 10px;
+  display: inline-block;
+}
+
+.adv-proj .header,
+.micromouse .header,
+.ops .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.adv-proj .header h2,
+.micromouse .header h2,
+.ops h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.adv-proj .descrip h2 {
+  border-bottom: solid white 2px;
+  padding-right: 15px;
+}
+
+.adv-proj .descrip p,
+.micromouse .descrip p,
+.ops p {
+  text-align: justify;
+}
+
+.micromouse .header h1,
+.ops .header h1 {
+  border-bottom: solid black 10px;
+}
+
+.micromouse .header h1,
+.micromouse .header h2 {
+  text-align: right;
+}
+
+.micromouse .descrip h2,
+.ops .descrip h2 {
+  border-bottom: solid black 2px;
+  padding-right: 15px;
+}
+
+/*------------ WORKSHOPS -----------*/
+
+.workshops {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.workshops h1 {
+  display: inline-block;
+  border-bottom: solid black 10px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.workshops p {
+  text-align: justify;
+}
+
+.workshops-image-list {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.workshops-image-list img {
+  height: 200px;
+  margin-right: 15px;
+}
+
+/*---------------- SPI -------------*/
+
+.spi {
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+#SPIheader {
+  display: inline-block;
+  text-align: center;
+  padding: 0 15px 5px;
+  border-bottom: 10px solid black;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 995px) {
+  .ops .header,
+  .micromouse .header,
+  .adv-proj .header {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .micromouse .header {
+    order: 1;
+  }
+
+  .micromouse .descrip {
+    order: 2;
+  }
+
+  .micromouse .header h1 {
+    text-align: center;
+  }
+}

@@ -4,7 +4,9 @@ $(() => {
 
   $.ajax({ method: 'GET', url: API_URL }).then(res => {
     let components = res.photos.photo.map(data => {
-      return `<img src='https://farm${data.farm}.staticflickr.com/${data.server}/${data.id}_${data.secret}_q.jpg' />`
+      return `<a href='https://www.flickr.com/photos/ieeebruins' target='_blank'>
+        <img src='https://farm${data.farm}.staticflickr.com/${data.server}/${data.id}_${data.secret}_q.jpg' />
+      </a>`
     })
 
     for (let component of components) {
