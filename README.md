@@ -5,9 +5,9 @@
 
 ## Setting up a development environment
 
-Clone repo: `git clone https://github.com/UCLA-IEEE/ieeebruins.org.git`  
+Clone repo: `git clone https://github.com/UCLA-IEEE/ieeebruins.com.git`  
 Download [Node](https://nodejs.org/en/)  
-Run `npm install` to install this project's dependencies
+Change into the directory and run `npm install` to install this project's dependencies
 
 Download [MAMP](https://www.mamp.info/en/)  
 Run MAMP, go to Preferences > Web Server and change the root directory
@@ -17,4 +17,10 @@ Start the MAMP servers and visit `localhost:88888` (Mac) or
 
 ## Deployment
 
-Coming soon
+#### Deploying to development site
+
+Run `make deploy-development` and input the password to the server
+
+#### Deploying to production site
+
+Run `make deploy-production` and input the password to the server
