@@ -84,7 +84,12 @@
         </div>
     </div>
 
-    <?php include('./includes/lab_hours.html'); ?>
+    <div class='container-fluid background-grey container-pad'>
+        <div class='row lab-hours'>
+            <h1 class='ieee-blue'>Lab Hours</h1>
+            <?php include('./includes/lab_hours.html'); ?>
+        </div>
+    </div>
 
     <!-- INSTAGRAM WIDGET -->
     <div class='container-fluid instagram'>
