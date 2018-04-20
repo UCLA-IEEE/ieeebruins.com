@@ -17,7 +17,8 @@
   "lint-staged": {
     "*.js": ["npm run format-js", "git add"],
     "*.css": ["npm run format-css", "git add"],
-    "*.{html, php}": ["npm run format-html", "git add"]
+    "*.html": ["npm run format-html", "git add"],
+    "*.php": ["npm run format-html", "git add"]
   },
   "repository": {
     "type": "git",
