@@ -38,51 +38,40 @@
     <div class='main-billboard'>
         <div class='billboard-content'>
             <div class='billboard-logo'>
-                <img src='/public/images/IEEE_full_logo_white.png'/>
+                <img src='/public/images/IEEE_full_logo_white.png' />
                 <p class='ucla'>at ucla</p>
             </div>
             <h1 class='billboard-subtext text-center'>Hands-On Engineering</h1>
         </div>
     </div>
 
-   <!-- DESCRIPTION AND MAILING LIST -->
-   <div class='container-fluid background-grey'>
-       <div class='row description'>
+    <!-- DESCRIPTION AND MAILING LIST -->
+    <div class='container-fluid background-grey'>
+        <div class='row description'>
             <div class='col-sm-6 left-column'>
                 <h1>ABOUT US</h1>
-                <p class = 'aboutus'>
-                    IEEE at UCLA is a professional student-run
-                    engineering organization. We devote our time and
-                    energy towards bringing hands-on, practical
-                    experiences to engineering students throughout
-                    UCLA, as well as create opportunities for students to
-                    interact with industry professionals and more. Every
-                    year we lead several projects for our members to
-                    partipate in, where dedicated leads provide fundamental knowledge
-                    and skills to students, which helps them complete challenging and
-                    interesting projects throughout the year.
+                <p class='aboutus'>
+                    IEEE at UCLA is a professional student-run engineering organization. We devote our time and energy towards bringing hands-on, practical experiences to engineering students throughout UCLA, as well as create opportunities for students to interact with industry professionals and more. Every year we lead several projects for our members to partipate in, where dedicated leads provide fundamental knowledge and skills to students, which helps them complete challenging and interesting projects throughout the year.
                 </p>
             </div>
             <div class='col-sm-6 text-center mailing-title'>
-                <h1>JOIN OUR <br/> <span class = 'ieee-blue'> MAILING LIST </span> </h1>
-                <h2 class= 'mailing-subtext'>Keep up with all our upcoming events, workshops, and socials.</h2>
+                <h1>JOIN OUR <br/> <span class='ieee-blue'> MAILING LIST </span> </h1>
+                <h2 class='mailing-subtext'>Keep up with all our upcoming events, workshops, and socials.</h2>
 
                 <form method='POST' action='http://ieeebruins.us2.list-manage.com/subscribe/post?u=8b400a4b791a376b529c16f90&id=f7452c6f3b'>
                     <input type='email' name='EMAIL' style='border:none'>
-                    <input type= 'submit' name='subscribe' value= 'Join' class= 'button button-join' >
+                    <input type='submit' name='subscribe' value='Join' class='button button-join'>
                 </form>
             </div>
         </div>
     </div>
 
-   <!-- EVENTS -->
-    <div class= 'container-fluid background-ieee-blue container-padding'>
-        <div class= 'row events' style= 'vertical-align:bottom'>
-            <div class= 'col-md-3 events-column'>
+    <!-- EVENTS -->
+    <div class='container-fluid background-ieee-blue container-padding'>
+        <div class='row events' style='vertical-align:bottom'>
+            <div class='col-md-3 events-column'>
                 <h1> EVENTS </h1>
-                <p class= 'events-subtext'> Here are some upcoming events
-                that you will not want to miss out on. Remember to
-                save the date!</p>
+                <p class='events-subtext'> Here are some upcoming events that you will not want to miss out on. Remember to save the date!</p>
             </div>
         </div>
     </div>
@@ -96,13 +85,13 @@
 
     <!-- INSTAGRAM WIDGET -->
     <div class='container-fluid instagram'>
-        <h1>INSTAGRAM <a href="https://www.instagram.com/ieeebruins/" target= '_blank' class= 'handle'>@ieeebruins</a></h1>
+        <h1>INSTAGRAM <a href="https://www.instagram.com/ieeebruins/" target='_blank' class='handle'>@ieeebruins</a></h1>
 
         <div class='image-list'></div>
     </div>
 
-   <!-- FOOTER -->
-   <?php include('./includes/footer.html'); ?>
+    <!-- FOOTER -->
+    <?php include('./includes/footer.html'); ?>
 
 </body>
 </html>
