@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "format": "npm run format-html && npm run format-css && npm run format-js",
-    "format-check": "./node_modules/prettier-check/cli.js --single-quote --print-width=120 --no-semi ./public/css/**.css ./plublic/js/**.js",
+    "format-check":
+      "./node_modules/prettier-check/cli.js --single-quote --print-width=120 --no-semi ./public/css/**.css ./plublic/js/**.js",
     "format-css": "prettier --print-width=120 --write ./public/css/**.css",
     "format-html": "html-beautify -n=true -E=[] -r ./views/**.php ./views/includes/**.html",
     "format-js": "prettier --single-quote --print-width=120 --no-semi --write ./public/js/**.js",
@@ -14,18 +15,9 @@
     "test": "npm run format-check && npm run lint"
   },
   "lint-staged": {
-    "*.js": [
-      "npm run format-js",
-      "git add"
-    ],
-    "*.css": [
-      "npm run format-css",
-      "git add"
-    ],
-    "*.html": [
-      "npm run format-html",
-      "git add"
-    ]
+    "*.js": ["npm run format-js", "git add"],
+    "*.css": ["npm run format-css", "git add"],
+    "*.{html, php}": ["npm run format-html", "git add"]
   },
   "repository": {
     "type": "git",

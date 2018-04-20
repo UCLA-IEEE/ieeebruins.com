@@ -68,7 +68,7 @@
                 <h2 class= 'mailing-subtext'>Keep up with all our upcoming events, workshops, and socials.</h2>
 
                 <form method='POST' action='http://ieeebruins.us2.list-manage.com/subscribe/post?u=8b400a4b791a376b529c16f90&id=f7452c6f3b'>
-                    <input type= 'email' name='EMAIL' style='border:none'>
+                    <input type='email' name='EMAIL' style='border:none'>
                     <input type= 'submit' name='subscribe' value= 'Join' class= 'button button-join' >
                 </form>
             </div>
