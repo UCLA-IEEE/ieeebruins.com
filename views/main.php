@@ -58,16 +58,19 @@
                     UCLA, as well as create opportunities for students to
                     interact with industry professionals and more. Every
                     year we lead several projects for our members to
-                    partipate in Lorem ipsum minimum ed and dolor sit
-                    amet set ud do labore
+                    partipate in, where dedicated leads provide fundamental knowledge
+                    and skills to students, which helps them complete challenging and
+                    interesting projects throughout the year.
                 </p>
             </div>
             <div class='col-sm-6 text-center mailing-title'>
                 <h1>JOIN OUR <br/> <span class = 'ieee-blue'> MAILING LIST </span> </h1>
                 <h2 class= 'mailing-subtext'>Keep up with all our upcoming events, workshops, and socials.</h2>
 
-                <input type= 'text' name= 'email' style='border:none'>
-                <input type= 'submit' value= 'Join' class= 'button button-join' >
+                <form method='POST' action='http://ieeebruins.us2.list-manage.com/subscribe/post?u=8b400a4b791a376b529c16f90&id=f7452c6f3b'>
+                    <input type= 'email' name='EMAIL' style='border:none'>
+                    <input type= 'submit' name='subscribe' value= 'Join' class= 'button button-join' >
+                </form>
             </div>
         </div>
     </div>

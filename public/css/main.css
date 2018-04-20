@@ -109,7 +109,7 @@
   text-transform: none;
 }
 
-input[type="text"] {
+input[type="email"] {
   width: 50%;
   background-color: #c4c4c4;
   margin-right: 5px;
