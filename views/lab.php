@@ -23,10 +23,10 @@
 
     <!-- SCRIPTS -->
     <script src='/public/js/key.js'></script>
-    <script src = "/public/js/lab.js"></script>
+    <script src="/public/js/lab.js"></script>
 
     <!--Favicon -->
-    <link rel='icon' href='/public/favicon.ico'/>
+    <link rel='icon' href='/public/favicon.ico' />
 </head>
 <body>
     <!-- NAVBAR -->
@@ -35,24 +35,19 @@
     <div class='info-page'>
         <h1>THE IEEE <span class='ieee-blue'>LAB</span></h1>
         <p class='details'>
-            Here at UCLA, we've been given a lab space that we use as our center of operations.
-            The IEEE Lab is an open space for all general members to come in, work on their projects,
-            meet new people, talk to present officers, or even just to chill and eat lunch.
+            Here at UCLA, we've been given a lab space that we use as our center of operations. The IEEE Lab is an open space for all general members to come in, work on their projects, meet new people, talk to present officers, or even just to chill and eat lunch.
         </p>
         <div class='lab-map'>
             <a href='/public/images/lab/map.png' target='_blank'><img width="100%" src="/public/images/lab/map.png"></a>
         </div>
-        <p id="location">Our lab is located at <b>Boelter 2825</b>. Come find us! The easiest way to find it is to go to
-        the west side of 2nd floor Boelter (the lowest balcony). We are the second door down from the bridge to E-IV.
-        The IEEE logo is posted on our door for easy locating.</p>
+        <p id="location">Our lab is located at <b>Boelter 2825</b>. Come find us! The easiest way to find it is to go to the west side of 2nd floor Boelter (the lowest balcony). We are the second door down from the bridge to E-IV. The IEEE logo is posted on our door for easy locating.</p>
     </div>
 
     <div class="background-grey lab-hours" id='hours'>
         <h1 class='ieee-blue'>LAB HOURS</h1>
-        <div class = "pbox">
+        <div class="pbox">
             <p>
-                Need to know when the lab’s open? Looking for your project leads? Need help on your homework?
-                Check out the table below to find out when your favorite officers will be in the lab.
+                Need to know when the lab’s open? Looking for your project leads? Need help on your homework? Check out the table below to find out when your favorite officers will be in the lab.
             </p>
         </div>
 
@@ -69,22 +64,14 @@
                 <h2 class='ieee-blue thin'>GENERAL TOOLS</h2>
                 <p class='black'>
                     We've stocked up on various tools that members can use in our labs.
-                    <br /><br />
-                    Some of the heavier tools we have include: soldering stations, oscilloscops, power supplies,
-                    3D printers, a drill press, DMM's, a big whiteboard, etc. Mostly popular tools used to complete hardware related
-                    projects.
-                    <br /><br />
-                    We also have smaller, general tools such as: scissors, wire cutters, pliers, rulers, screwdrivers, etc.
+                    <br /><br /> Some of the heavier tools we have include: soldering stations, oscilloscops, power supplies, 3D printers, a drill press, DMM's, a big whiteboard, etc. Mostly popular tools used to complete hardware related projects.
+                    <br /><br /> We also have smaller, general tools such as: scissors, wire cutters, pliers, rulers, screwdrivers, etc.
                 </p>
             </div>
             <div class='resource'>
                 <h2 class='ieee-blue thin'>Slack Workspace</h2>
                 <p class='black'>
-                    <a href='https://slack.com/' target='_blank'>Slack</a> is a team communication application,
-                    and is one of our primary means of communication within our organization. Our Slack workspace
-                    is free to join to all general members at <a href='https://uclaieee.slack.com/' target='_blank'>https://uclaieee.slack.com/</a>.
-                    Within our Slack workspace, you can directly message officers, communicate with fellow project members,
-                    and ask if the lab is open.
+                    <a href='https://slack.com/' target='_blank'>Slack</a> is a team communication application, and is one of our primary means of communication within our organization. Our Slack workspace is free to join to all general members at <a href='https://uclaieee.slack.com/' target='_blank'>https://uclaieee.slack.com/</a>. Within our Slack workspace, you can directly message officers, communicate with fellow project members, and ask if the lab is open.
                 </p>
             </div>
         </div>

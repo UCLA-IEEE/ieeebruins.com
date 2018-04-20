@@ -37,13 +37,7 @@
         <h1 class='normal-head white'>To provide hands-on engineering <br/> experience to students at UCLA </h1>
         <div class='background-grey front-descrip'>
             <p class='white'>
-                Our student organization was founded by a group of students united by the belief that
-                that hands-on experience is foundational in becoming
-                a successful engineer. Since then, we have devoted our time and
-                energies towards providing project experience that compliments UCLA's engineering coursework.
-                In addition to tools, our organization provides like-minded and experienced project
-                leads that provide fundamental background knowledge, as well as guide students
-                through challenging and interesting projects.
+                Our student organization was founded by a group of students united by the belief that that hands-on experience is foundational in becoming a successful engineer. Since then, we have devoted our time and energies towards providing project experience that compliments UCLA's engineering coursework. In addition to tools, our organization provides like-minded and experienced project leads that provide fundamental background knowledge, as well as guide students through challenging and interesting projects.
             </p>
         </div>
     </div>
@@ -76,38 +70,21 @@
             <div class='involvement text-left'>
                 <h2>IEEE National Organization</h2>
                 <p>
-                    The Institute of Electrical and Electronics Engineers (IEEE) is the primary professional
-                    society of the electrical engineering profession. It has more than 330,000 members worldwide;
-                    including 52,000 student members. It publishes more than 40 technical journals and sponsors or co-sponsors
-                    more than 1,000 scientific conferences and meetings around computer engineering, computer science, and related fields.
-                    The IEEE has a student branch in every major university in curriculum. Getting involved with the IEEE national organization
-                    is highly encouraged, and can provide you with many resources to jump-start an engineering career adn expand your network.
+                    The Institute of Electrical and Electronics Engineers (IEEE) is the primary professional society of the electrical engineering profession. It has more than 330,000 members worldwide; including 52,000 student members. It publishes more than 40 technical journals and sponsors or co-sponsors more than 1,000 scientific conferences and meetings around computer engineering, computer science, and related fields. The IEEE has a student branch in every major university in curriculum. Getting involved with the IEEE national organization is highly encouraged, and can provide you with many resources to jump-start an engineering career adn expand your network.
                     <br />
-                    <br />
-                    To find out more, visit <a href='https://www.ieee.org/' target='_blank'>the IEEE website!</a>
+                    <br /> To find out more, visit <a href='https://www.ieee.org/' target='_blank'>the IEEE website!</a>
                 </p>
             </div>
             <div class='involvement text-left'>
                 <h2>General Member</h2>
                 <p>
-                    One of the most common questions we receive is how can one become a member of our club. We don't have tight restrictions on
-                    who is and who isn't a member. Becoming a general member of our club is as simple as getting involved with one of our project
-                    curriculums, participating in any of our annual workshop series, showing up to a social or two, joining our Facebook page, or even just sitting in the lab just
-                    to say hi to your favorite officers. <br /><br />
-                    Whichever you choose to do to get more involved, we'll be more than happy to welcome you to the club!
+                    One of the most common questions we receive is how can one become a member of our club. We don't have tight restrictions on who is and who isn't a member. Becoming a general member of our club is as simple as getting involved with one of our project curriculums, participating in any of our annual workshop series, showing up to a social or two, joining our Facebook page, or even just sitting in the lab just to say hi to your favorite officers. <br /><br /> Whichever you choose to do to get more involved, we'll be more than happy to welcome you to the club!
                 </p>
             </div>
             <div class='involvement text-left'>
                 <h2>General Board</h2>
                 <p>
-                    General Board is our annual mentorship program. Every year, members of our officer board choose to
-                    lead a group of 3-5 general members for the rest of the academic year. Each GB decides on a
-                    a set of focuses for their group, chosen among technical projects, hosting socials and events, or
-                    professional development. In addition, members of a GB get first-hand experience in what it's like to be an officer for this
-                    organization, which usually motivates higher club involvement in the future. <br /><br />
-                    General Board is a great way to experience a closer and more personal experience with us! Applications and info sessions
-                    happen a couple weeks before heading off for Winter break, so keep an eye out for those on our <a href='https://www.facebook.com/groups/uclaieee/' target='_blank'>Facebook page</a>,
-                    and in our newsletter.
+                    General Board is our annual mentorship program. Every year, members of our officer board choose to lead a group of 3-5 general members for the rest of the academic year. Each GB decides on a a set of focuses for their group, chosen among technical projects, hosting socials and events, or professional development. In addition, members of a GB get first-hand experience in what it's like to be an officer for this organization, which usually motivates higher club involvement in the future. <br /><br /> General Board is a great way to experience a closer and more personal experience with us! Applications and info sessions happen a couple weeks before heading off for Winter break, so keep an eye out for those on our <a href='https://www.facebook.com/groups/uclaieee/' target='_blank'>Facebook page</a>, and in our newsletter.
                 </p>
             </div>
         </div>
@@ -124,11 +101,7 @@
                     <p class='comp-header'>ALL-AMERICA <br /> MICROMOUSE</p>
                     <div class='compdescrip background-grey text-left'>
                         <p>
-                            Our annual All-America Micromouse Compeotition brings schools and universities together over
-                            one Micromouse competition. In this competition, school teams have their mice put to the
-                            test as they run through multiple maze challenges, in hopes of out-performing the rest of
-                            the competition. It's an intense, fun-filled, and tiring day of everything and anything
-                            Micromouse!
+                            Our annual All-America Micromouse Compeotition brings schools and universities together over one Micromouse competition. In this competition, school teams have their mice put to the test as they run through multiple maze challenges, in hopes of out-performing the rest of the competition. It's an intense, fun-filled, and tiring day of everything and anything Micromouse!
                         </p>
                     </div>
                 </div>
@@ -136,10 +109,7 @@
                     <p class='comp-header'> <br /> IDEA HACKS</p>
                     <div class='compdescrip background-grey text-left'>
                         <p>
-                            Every year, we team up with Theta Tau at UCLA in order to put on IDEA Hacks,
-                            a hardware-focused hackathon. Hackers are invited onto our campus and challenged
-                            to hack with hardware that we provide to build something relevant to the year's
-                            theme. Winner's get to take home some need prizes!
+                            Every year, we team up with Theta Tau at UCLA in order to put on IDEA Hacks, a hardware-focused hackathon. Hackers are invited onto our campus and challenged to hack with hardware that we provide to build something relevant to the year's theme. Winner's get to take home some need prizes!
                         </p>
                         <a href='http://www.ideahacks.la/' target='_blank'>Take me to ideahacks.la!</a>
                     </div>
@@ -156,11 +126,7 @@
                 <h1> SOCIALS AND EVENTS </h1>
                 <p class='involve'>Work hard. Play hard.</p>
                 <p class='involve-about'>
-                    Our collaborative and friendly culture is the foundation of our organization. We furthur
-                    reinforce our culture by hosting quartly events and socials meant to bring members
-                    closer together and form new friendships. Some of our favorite events are our Fall BBQ,
-                    heading out for KBBQ, and our in-house ultimate frisbee tournaments! For more information on our events and socials,
-                    sign up for our mailing list!
+                    Our collaborative and friendly culture is the foundation of our organization. We furthur reinforce our culture by hosting quartly events and socials meant to bring members closer together and form new friendships. Some of our favorite events are our Fall BBQ, heading out for KBBQ, and our in-house ultimate frisbee tournaments! For more information on our events and socials, sign up for our mailing list!
                 </p>
             </div>
             <div class='image-wrapper col-md-5 text-center'>
@@ -172,7 +138,9 @@
     <!-- AWARDS -->
 
     <div class='container-fluid awards text-center'>
-        <div><h1 class='atitle'>AWARDS</h1></div>
+        <div>
+            <h1 class='atitle'>AWARDS</h1>
+        </div>
 
         <div class='year background-ieee-blue text-left'>
             <h1 class='pull-down'> 2017 <span class='glyphicon glyphicon-chevron-down'></span></h1>
