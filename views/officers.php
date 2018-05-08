@@ -28,6 +28,9 @@
                 "class" => "4th Year",
                 "picture" => $IMAGE_PATH . "ted.jpg"
             ),
+        ),
+
+        "Administrative Board" => array(
             "Nihar Tamhankar" => array(
                 "position" => "Treasurer",
                 "major" => "Electrical Engineering",
