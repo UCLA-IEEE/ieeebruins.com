@@ -15,30 +15,42 @@ $(() => {
   })
 
   const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-  const API_OPTIONS = '/values/Main!A100:G?key='
+  const API_OPTIONS = '/values/Main!A117:I?key='
   const SPREADSHEET_ID = '1TrqADzDxLP1jbQ0Rxaho378eyph2LytErtMiMoXxvtY'
 
   // eslint-disable-next-line
   $.ajax({ method: 'GET', url: API_BASE_URL + SPREADSHEET_ID + API_OPTIONS + API_KEY }).then(res => {
+    // Filter out all the events that have passed, or have "No" in the
+    // "Put no Newsletter" field
     let events = res.values.filter(event => {
       let eventDate = new Date(event[2])
-      return eventDate > Date.now()
+      return eventDate > Date.now() && event[7] !== 'No'
     })
 
-    const EVENTS_TO_SHOW = 3
-    events = events.map(event => {
-      return `<div class='col-md-3 columns-spacing'>
-        <h3>${event[1]}</h3> <br />
-        <h4>
-          ${event[5]} <br />
-          ${event[2]} <br />
-          ${event[4]}
-        </h4>
+    // If no events to show, display mesage
+    // Else, format the first three events and display them
+    if (events.length === 0) {
+      let emptyMessage = `<div class='col-md-9 text-center empty-message'>
+        <h1>There are currently no events listed</h1>
       </div>`
-    })
 
-    for (let k = 0; k < EVENTS_TO_SHOW; k++) {
-      $('.events').append(events[k])
+      $('.events').append(emptyMessage)
+    } else {
+      const EVENTS_TO_SHOW = 3
+      events = events.map(event => {
+        return `<div class='col-md-3 columns-spacing'>
+          <h3>${event[1]}</h3> <br />
+          <h4>
+            ${event[5]} <br />
+            ${event[2]} <br />
+            ${event[4]}
+          </h4>
+        </div>`
+      })
+
+      for (let k = 0; k < EVENTS_TO_SHOW; k++) {
+        $('.events').append(events[k])
+      }
     }
   })
 })
