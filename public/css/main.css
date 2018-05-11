@@ -131,6 +131,8 @@ input[type="email"] {
 .events {
   padding: 60px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .events-column {
@@ -177,6 +179,11 @@ input[type="email"] {
 
 .col-sm-3 p {
   padding-right: 40px;
+}
+
+.events .empty-message h1 {
+  border-bottom: none;
+  text-transform: none;
 }
 
 /*----------- LAB HOURS --------------------------*/
