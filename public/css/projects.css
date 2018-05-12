@@ -22,6 +22,7 @@ button {
 .page-title p {
   text-align: justify;
   margin-top: 20px;
+  margin-bottom: 70px;
 }
 
 .sub1 {
@@ -93,9 +94,12 @@ button {
   text-align: justify;
 }
 
-.micromouse .header h1,
-.ops .header h1 {
+.micromouse .header h1 {
   border-bottom: solid black 10px;
+}
+
+.ops .header h1 {
+  border-bottom: solid white 10px;
 }
 
 .micromouse .header h1,
@@ -103,9 +107,13 @@ button {
   text-align: right;
 }
 
-.micromouse .descrip h2,
-.ops .descrip h2 {
+.micromouse .descrip h2 {
   border-bottom: solid black 2px;
+  padding-right: 15px;
+}
+
+.ops .descrip h2 {
+  border-bottom: solid white 2px;
   padding-right: 15px;
 }
 

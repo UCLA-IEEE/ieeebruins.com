@@ -38,7 +38,7 @@
     </div>
 
     <!-- OPS section-->
-    <div class="container-fluid ops">
+    <div class="container-fluid ops background-ieee-blue">
         <div class="content-wrapper">
             <div class="row flex-container">
                 <div class="col-md-4 header">
