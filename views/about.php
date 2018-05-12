@@ -101,7 +101,7 @@
                     <p class='comp-header'>ALL-AMERICA <br /> MICROMOUSE</p>
                     <div class='compdescrip background-grey text-left'>
                         <p>
-                            Our annual All-America Micromouse Compeotition brings schools and universities together over one Micromouse competition. In this competition, school teams have their mice put to the test as they run through multiple maze challenges, in hopes of out-performing the rest of the competition. It's an intense, fun-filled, and tiring day of everything and anything Micromouse!
+                            Our annual All-America Micromouse Competition brings schools and universities together over one Micromouse competition. In this competition, school teams have their mice put to the test as they run through multiple maze challenges, in hopes of out-performing the rest of the competition. It's an intense, fun-filled, and tiring day of everything and anything Micromouse!
                         </p>
                     </div>
                 </div>
@@ -114,6 +114,22 @@
                         <a href='http://www.ideahacks.la/' target='_blank'>Take me to ideahacks.la!</a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SPAX-->
+
+    <div class='spax container-fluid text-right'>
+        <div class='row'>
+            <div class='col-md-5 text-center'>
+                <img class='spax-pic' src="/public/images/about/spax.jpg">
+            </div>
+            <div class='col-md-7'>
+                <h1> SPAx </h1>
+                <p class='spax-about'>
+                    Student Professional Awareness Conference (SPAC) is an annual day-long event organized by IEEE at UCLA. SPAC focuses on providing students with professional awareness, networking opportunities, and industry contact, not only to prepare participants to be leaders in their future careers, but to provide opportunities to those who may not have access to those resources.
+                </p>
             </div>
         </div>
     </div>
