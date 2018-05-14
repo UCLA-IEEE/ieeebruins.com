@@ -155,6 +155,10 @@ button {
   padding-bottom: 75px;
 }
 
+.spi p {
+  text-align: justify;
+}
+
 #SPIheader {
   display: inline-block;
   text-align: center;
