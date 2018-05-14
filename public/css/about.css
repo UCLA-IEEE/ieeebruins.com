@@ -218,30 +218,42 @@
   padding-top: 10px;
 }
 
+@media (max-width: 990px) {
+  .involvement {
+    text-align: center;
+  }
+}
+
 /*------------ SPAX -----------------*/
 
 .spax-pic {
   width: 100%;
   max-width: 500px;
+  padding-bottom: 25px;
 }
 
 .spax h1 {
   border-bottom: solid black 10px;
   display: inline-block;
-  margin-top: 20px;
-  margin-bottom: 15px;
 }
 
 .spax-about {
+  padding-top: 10px;
   margin: 0;
 }
 
 .spax {
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
   padding-right: 80px;
   padding-left: 90px;
   background-color: rgba(117, 120, 123, 0.2);
+}
+
+@media (max-width: 990px) {
+  .spax {
+    text-align: center;
+  }
 }
 
 /*------------ SOCIALS -----------------*/
@@ -253,13 +265,13 @@
 
 .socials {
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   padding-right: 80px;
   padding-left: 90px;
 }
 
 .socials .title {
-  padding: 50px 0px;
+  padding: 30px 0px;
 }
 
 .image-wrapper {
@@ -268,6 +280,7 @@
 
 @media (max-width: 990px) {
   .socials .title {
+    padding-top: 0;
     text-align: center;
   }
 }
