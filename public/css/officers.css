@@ -20,6 +20,10 @@ h1 {
   position: relative;
 }
 
+.officer p {
+  text-align: center;
+}
+
 .officer img {
   margin-bottom: 5px;
   max-width: 200px;

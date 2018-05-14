@@ -14,10 +14,6 @@
   margin-bottom: 15px;
 }
 
-.info-page p {
-  text-align: justify;
-}
-
 .info-page .lab-map {
   max-width: 700px;
   margin: 0 auto;
@@ -43,7 +39,6 @@
   padding: 10px;
   max-width: 1010px;
   margin: 0 auto;
-  text-align: justify;
 }
 
 table {

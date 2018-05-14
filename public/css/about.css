@@ -100,7 +100,6 @@
 .compdescrip {
   margin-top: 15px;
   padding: 10px;
-  text-align: justify;
 }
 
 .compdescrip p {
@@ -187,10 +186,6 @@
   text-decoration: underline;
 }
 
-.involvement p {
-  text-align: justify;
-}
-
 .involved .title {
   padding: 50px 40px;
 }
@@ -223,12 +218,6 @@
   padding-top: 10px;
 }
 
-@media (max-width: 990px) {
-  .involvement p {
-    text-align: justify;
-  }
-}
-
 /*------------ SPAX -----------------*/
 
 .spax-pic {
@@ -240,10 +229,6 @@
 .spax h1 {
   border-bottom: solid black 10px;
   display: inline-block;
-}
-
-.spax p {
-  text-align: justify;
 }
 
 .spax-about {
@@ -281,10 +266,6 @@
 
 .socials .title {
   padding: 30px 0px;
-}
-
-.socials p {
-  text-align: justify;
 }
 
 .image-wrapper {
@@ -355,4 +336,5 @@
 .show-more {
   margin-top: 30px;
   cursor: pointer;
+  text-align: center;
 }

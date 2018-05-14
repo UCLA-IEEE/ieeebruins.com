@@ -20,7 +20,6 @@ button {
 }
 
 .page-title p {
-  text-align: justify;
   margin-top: 20px;
   margin-bottom: 70px;
 }
@@ -89,12 +88,6 @@ button {
   padding-right: 15px;
 }
 
-.adv-proj .descrip p,
-.micromouse .descrip p,
-.ops p {
-  text-align: justify;
-}
-
 .micromouse .header h1 {
   border-bottom: solid black 10px;
 }
@@ -132,10 +125,6 @@ button {
   margin-bottom: 20px;
 }
 
-.workshops p {
-  text-align: justify;
-}
-
 .workshops-image-list {
   margin-top: 25px;
   display: flex;
@@ -153,10 +142,6 @@ button {
 .spi {
   padding-top: 50px;
   padding-bottom: 75px;
-}
-
-.spi p {
-  text-align: justify;
 }
 
 #SPIheader {
@@ -191,9 +176,5 @@ button {
   .ops h2 {
     margin-bottom: 10px;
     text-align: center;
-  }
-
-  .spi p {
-    text-align: justify;
   }
 }
