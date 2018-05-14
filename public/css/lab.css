@@ -119,9 +119,10 @@ tr#top {
 }
 
 .thin {
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   padding-right: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid black;
   display: inline-block;
+  font-weight: bold;
 }
