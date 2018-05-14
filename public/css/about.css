@@ -24,6 +24,10 @@
   border-bottom: solid white 10px;
 }
 
+.front p {
+  text-align: justify;
+}
+
 /*---------- CONTACT INFO -----------*/
 
 .contact {
@@ -100,6 +104,7 @@
 .compdescrip {
   margin-top: 15px;
   padding: 10px;
+  text-align: justify;
 }
 
 .compdescrip p {
@@ -186,6 +191,10 @@
   text-decoration: underline;
 }
 
+.involvement p {
+  text-align: justify;
+}
+
 .involved .title {
   padding: 50px 40px;
 }
@@ -219,8 +228,8 @@
 }
 
 @media (max-width: 990px) {
-  .involvement {
-    text-align: center;
+  .involvement p {
+    text-align: justify;
   }
 }
 
@@ -237,6 +246,10 @@
   display: inline-block;
 }
 
+.spax p {
+  text-align: justify;
+}
+
 .spax-about {
   padding-top: 10px;
   margin: 0;
@@ -251,9 +264,11 @@
 }
 
 @media (max-width: 990px) {
-  .spax {
+  .spax-title {
     text-align: center;
-    padding: 70px 30px;
+  }
+  .spax {
+    padding: 70px 40px;
   }
 }
 
@@ -272,6 +287,10 @@
   padding: 30px 0px;
 }
 
+.socials p {
+  text-align: justify;
+}
+
 .image-wrapper {
   padding-top: 0px;
 }
@@ -281,15 +300,9 @@
     padding-top: 0;
     text-align: center;
   }
-}
-
-@media (max-width: 990px) {
   .socials .involve-about {
     padding-right: 0;
   }
-}
-
-@media (max-width: 990px) {
   .socials {
     padding: 70px 55px;
   }

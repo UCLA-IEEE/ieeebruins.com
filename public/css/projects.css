@@ -40,6 +40,7 @@ button {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: left;
+  font-weight: bold;
 }
 
 /*------------- PROJECTS --------------*/
@@ -178,7 +179,17 @@ button {
     order: 2;
   }
 
-  .micromouse .header h1 {
+  .micromouse .header h1,
+  .micromouse .header h2 {
     text-align: center;
+  }
+
+  .ops h2 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .spi p {
+    text-align: justify;
   }
 }

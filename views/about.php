@@ -125,7 +125,7 @@
             <div class='col-md-5 text-center'>
                 <img class='spax-pic' src="/public/images/about/spax.jpg">
             </div>
-            <div class='col-md-7'>
+            <div class='spax-title col-md-7'>
                 <h1> SPAx </h1>
                 <p class='spax-about'>
                     SPAX is an annual student professional awareness event organized by IEEE at UCLA. It focuses on providing students with professional awareness, networking opportunities, and industry contact to not only prepare participants to be leaders in their future careers, but also provide opportunities to those who may not have access. Every year, the X switches between C for conference and V for venture. During SPAC, a group of selected speakers come to share their experiences with participants. During SPAV, participants venture out to selected companies to learn more about their prospects.
