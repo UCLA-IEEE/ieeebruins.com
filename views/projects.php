@@ -38,7 +38,7 @@
     </div>
 
     <!-- OPS section-->
-    <div class="container-fluid ops">
+    <div class="container-fluid ops background-ieee-blue">
         <div class="content-wrapper">
             <div class="row flex-container">
                 <div class="col-md-4 header">
@@ -106,7 +106,7 @@
 
     <!--Workshops section-->
     <div class="container-fluid workshops">
-        <div class="content-wrapper">
+        <div class="content-wrapper text-center">
             <h1>Workshops</h1>
             <p>
                 For members who do not have time to dedicate a whole year for one of our competition projects, this program is for you. IEEE holds a series of workshops throughout the school year where anyone can participate and learn about new skills and technologies. These projects are aimed at teaching everyone, engineers and non-engineers, about common skills in electrical engineering such as soldering, image processing, prototyping, and electronics. To receive more information on upcoming IEEE workshops, subscribe to our mailing list to receive our newsletter.

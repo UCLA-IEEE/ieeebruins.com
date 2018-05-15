@@ -20,8 +20,8 @@ button {
 }
 
 .page-title p {
-  text-align: justify;
   margin-top: 20px;
+  margin-bottom: 70px;
 }
 
 .sub1 {
@@ -39,6 +39,7 @@ button {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: left;
+  font-weight: bold;
 }
 
 /*------------- PROJECTS --------------*/
@@ -87,15 +88,12 @@ button {
   padding-right: 15px;
 }
 
-.adv-proj .descrip p,
-.micromouse .descrip p,
-.ops p {
-  text-align: justify;
+.micromouse .header h1 {
+  border-bottom: solid black 10px;
 }
 
-.micromouse .header h1,
 .ops .header h1 {
-  border-bottom: solid black 10px;
+  border-bottom: solid white 10px;
 }
 
 .micromouse .header h1,
@@ -103,9 +101,13 @@ button {
   text-align: right;
 }
 
-.micromouse .descrip h2,
-.ops .descrip h2 {
+.micromouse .descrip h2 {
   border-bottom: solid black 2px;
+  padding-right: 15px;
+}
+
+.ops .descrip h2 {
+  border-bottom: solid white 2px;
   padding-right: 15px;
 }
 
@@ -121,10 +123,6 @@ button {
   border-bottom: solid black 10px;
   padding-bottom: 5px;
   margin-bottom: 20px;
-}
-
-.workshops p {
-  text-align: justify;
 }
 
 .workshops-image-list {
@@ -170,7 +168,13 @@ button {
     order: 2;
   }
 
-  .micromouse .header h1 {
+  .micromouse .header h1,
+  .micromouse .header h2 {
+    text-align: center;
+  }
+
+  .ops h2 {
+    margin-bottom: 10px;
     text-align: center;
   }
 }

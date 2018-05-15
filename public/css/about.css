@@ -27,7 +27,7 @@
 /*---------- CONTACT INFO -----------*/
 
 .contact {
-  padding: 50px 25px;
+  padding: 50px 65px;
 }
 
 .contact-title h1 {
@@ -120,7 +120,7 @@
 }
 
 .background-grey {
-  background-color: rgba(117, 120, 123, 0.8);
+  background-color: rgba(117, 120, 123, 0.6);
 }
 
 .background-light-grey {
@@ -128,7 +128,10 @@
 }
 
 .comp-title {
-  padding: 30px 0;
+  padding: 5px;
+  border-bottom: solid black 10px;
+  margin: 30px 0;
+  display: inline-block;
 }
 
 @media (max-width: 400px) {
@@ -173,6 +176,9 @@
 
 .involvement h2 {
   margin-bottom: 15px;
+  font-weight: bold;
+  border-bottom: solid white 1px;
+  display: inline-block;
 }
 
 .involvement a {
@@ -212,6 +218,41 @@
   padding-top: 10px;
 }
 
+/*------------ SPAX -----------------*/
+
+.spax-pic {
+  width: 100%;
+  max-width: 500px;
+  padding-bottom: 25px;
+}
+
+.spax h1 {
+  border-bottom: solid black 10px;
+  display: inline-block;
+}
+
+.spax-about {
+  padding-top: 10px;
+  margin: 0;
+}
+
+.spax {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  padding-right: 70px;
+  padding-left: 70px;
+  background-color: rgba(117, 120, 123, 0.2);
+}
+
+@media (max-width: 990px) {
+  .spax-title {
+    text-align: center;
+  }
+  .spax {
+    padding: 70px 40px;
+  }
+}
+
 /*------------ SOCIALS -----------------*/
 
 .social-pic {
@@ -220,12 +261,11 @@
 }
 
 .socials {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 70px 60px 90px;
 }
 
 .socials .title {
-  padding: 50px 40px;
+  padding: 30px 0px;
 }
 
 .image-wrapper {
@@ -234,7 +274,14 @@
 
 @media (max-width: 990px) {
   .socials .title {
+    padding-top: 0;
     text-align: center;
+  }
+  .socials .involve-about {
+    padding-right: 0;
+  }
+  .socials {
+    padding: 70px 55px;
   }
 }
 
@@ -289,4 +336,5 @@
 .show-more {
   margin-top: 30px;
   cursor: pointer;
+  text-align: center;
 }

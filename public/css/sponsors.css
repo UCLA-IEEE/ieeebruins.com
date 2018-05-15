@@ -70,6 +70,11 @@
 
   #titles {
     padding-right: 0;
+    text-align: center;
+  }
+
+  .interestbox {
+    text-align: center;
   }
 }
 
@@ -92,6 +97,7 @@
   font-family: Arial;
   font-size: 18px;
   font-weight: 50;
+  text-align: center;
 }
 
 .benefits-list {

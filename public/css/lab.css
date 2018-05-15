@@ -14,10 +14,6 @@
   margin-bottom: 15px;
 }
 
-.info-page p {
-  text-align: justify;
-}
-
 .info-page .lab-map {
   max-width: 700px;
   margin: 0 auto;
@@ -43,7 +39,6 @@
   padding: 10px;
   max-width: 1010px;
   margin: 0 auto;
-  text-align: justify;
 }
 
 table {
@@ -119,9 +114,10 @@ tr#top {
 }
 
 .thin {
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   padding-right: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid black;
   display: inline-block;
+  font-weight: bold;
 }
