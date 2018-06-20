@@ -4,125 +4,125 @@
     $IMAGE_PATH = "/public/images/officers/";
     $officer_data = array(
         "Executive Board" => array(
-            "Kathleen Chan" => array(
-                "position" => "President",
-                "major" => "Electrical Engineering",
-                "class" => "4th Year",
-                "picture" => $IMAGE_PATH . "kathleen.jpg"
-            ),
             "Jiwan Kang" => array(
-                "position" => "Internal Vice President",
+                "position" => "President",
                 "major" => "Computer Engineering",
-                "class" => "3rd Year",
+                "class" => "4th Year",
                 "picture" => $IMAGE_PATH . "jiwan.jpg"
             ),
-            "Wenlong Xiong" => array(
-                "position" => "External Vice President",
-                "major" => "Computer Science",
-                "class" => "4th Year",
-                "picture" => $IMAGE_PATH . "wenlong.jpg"
+            "Sadaf Dadafshar" => array(
+                "position" => "Internal Vice President",
+                "major" => "Electrical Engineering",
+                "class" => "3rd Year",
+                "picture" => $IMAGE_PATH . "sadaf.jpg"
             ),
-            "Ted Akiyama" => array(
+            "Serene Kamal" => array(
+                "position" => "External Vice President",
+                "major" => "Electrical Engineering",
+                "class" => "3rd Year",
+                "picture" => $IMAGE_PATH . "serene.jpg"
+            ),
+            "Nihar Tamhankar" => array(
                 "position" => "External Vice President",
                 "major" => "Electrical Engineering",
                 "class" => "4th Year",
-                "picture" => $IMAGE_PATH . "ted.jpg"
+                "picture" => $IMAGE_PATH . "nihar.jpg"
             ),
         ),
 
         "Administrative Board" => array(
-            "Nihar Tamhankar" => array(
+            "Shalin Shah" => array(
                 "position" => "Treasurer",
                 "major" => "Electrical Engineering",
-                "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "nihar.jpg"
-            ),
-            "Serene Kamal" => array(
-                "position" => "Secretary",
-                "major" => "Electrical Engineering",
                 "class" => "2nd Year",
-                "picture" => $IMAGE_PATH . "serene.jpg"
+                "picture" => $IMAGE_PATH . "shalin.jpg"
             ),
-            "Christine Chen" => array(
+            "Erica Xie" => array(
+                "position" => "Secretary",
+                "major" => "Undeclared Engineering",
+                "class" => "2nd Year",
+                "picture" => $IMAGE_PATH . "erica.jpg"
+            ),
+            "Michelle Lam" => array(
                 "position" => "Publicity",
                 "major" => "Electrical Engineering",
-                "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "christine.jpg"
+                "class" => "2nd Year",
+                "picture" => $IMAGE_PATH . "michelle.jpg"
             ),
-            "Sadaf Dadafshar" => array(
+            "Michelle Tan" => array(
                 "position" => "Events Coordinator",
                 "major" => "Electrical Engineering",
                 "class" => "2nd Year",
-                "picture" => $IMAGE_PATH . "sadaf.jpg"
+                "picture" => $IMAGE_PATH . "michelleT.jpg"
             )
         ),
 
         "Projects Board" => array(
-            "Kyle Liang" => array(
+            "Kaleb Cole-Wood" => array(
                 "position" => "OPS Lead",
-                "major" => "Computer Science and Engineering",
-                "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "kyle.jpg"
+                "major" => "Electrical Engineering",
+                "class" => "2nd Year",
+                "picture" => $IMAGE_PATH . "kaleb.jpg"
+            ),
+            "Bruno Bombassaro" => array(
+                "position" => "OPS Lead",
+                "major" => "Electrical Engineering",
+                "class" => "2nd Year",
+                "picture" => $IMAGE_PATH . "bruno.jpg"
+            ),
+            "Robert Zalog" => array(
+                "position" => "Micromouse Lead",
+                "major" => "Computer Science",
+                "class" => "4th Year",
+                "picture" => $IMAGE_PATH . "robert.jpg"
+            ),
+            "David Baum" => array(
+                "position" => "Micromouse Lead",
+                "major" => "Electrical Engineering",
+                "class" => "2nd Year",
+                "picture" => $IMAGE_PATH . "david.jpg"
             ),
             "Natasha Sarkar" => array(
-                "position" => "OPS Lead",
+                "position" => "Advanced Projects Lead",
                 "major" => "Computer Science and Engineering",
                 "class" => "3rd Year",
                 "picture" => $IMAGE_PATH . "natasha.jpg"
             ),
-            "Alex Graening" => array(
-                "position" => "Micromouse Lead",
-                "major" => "Electrical Engineering",
-                "class" => "2nd Year",
-                "picture" => $IMAGE_PATH . "alex.jpg"
-            ),
-            "Jim Xu" => array(
-                "position" => "Micromouse Lead",
-                "major" => "Electrical Engineering",
-                "class" => "4th Year",
-                "picture" => $IMAGE_PATH . "jim.jpg"
-            ),
-            "Thomas Garcia" => array(
+            "Kenny Chan" => array(
                 "position" => "Advanced Projects Lead",
-                "major" => "Electrical Engineering",
+                "major" => "Computer Engineering",
                 "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "thomas.jpg"
-            ),
-            "Arti Patankar" => array(
-                "position" => "Advanced Projects Lead",
-                "major" => "Computer Science and Engineering",
-                "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "arti.jpg"
-            ),
-            "Sahil Gandhi" => array(
-                "position" => "Workshops Board",
-                "major" => "Computer Science and Engineering",
-                "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "sahil.jpg"
+                "picture" => $IMAGE_PATH . "kenny.jpg"
             ),
             "Liz Xue" => array(
                 "position" => "Workshops Board",
                 "major" => "Electrical Engineering",
-                "class" => "3rd Year",
+                "class" => "4th Year",
                 "picture" => $IMAGE_PATH . "liz.jpg"
             ),
-            "Minh Le" => array(
-                "position" => "Projects Manager",
-                "major" => "Computer Science",
+            "Arti Patankar" => array(
+                "position" => "Workshops Board",
+                "major" => "Computer Science and Engineering",
                 "class" => "4th Year",
-                "picture" => $IMAGE_PATH . "minh.jpg"
+                "picture" => $IMAGE_PATH . "arti.jpg"
             ),
-            "Jeffrey Chen" => array(
+            "Alexander Graening" => array(
                 "position" => "Projects Manager",
                 "major" => "Electrical Engineering",
-                "class" => "4th Year",
-                "picture" => $IMAGE_PATH . "jeffrey-chen.jpg"
-            ),
-            "Jeffrey Chan" => array(
-                "position" => "Webmaster",
-                "major" => "Computer Science and Engineering",
                 "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "jeffrey-chan.jpg"
+                "picture" => $IMAGE_PATH . "alex.jpg"
+            ),
+            "Sahil Gandhi " => array(
+                "position" => "Projects Manager",
+                "major" => "Computer Science and Engineering",
+                "class" => "4th Year",
+                "picture" => $IMAGE_PATH . "sahil.jpg"
+            ),
+            "Kathy Daniels" => array(
+                "position" => "Webmaster",
+                "major" => "Electrical Engineering",
+                "class" => "2nd Year",
+                "picture" => $IMAGE_PATH . "kathy.jpg"
             )
         )
     );
