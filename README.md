@@ -26,4 +26,6 @@ Run `make deploy-development` and input the password to the server
 
 #### Deploying to production site
 
-Run `make deploy-production` and input the password to the server
+Deployment is now handled automatically by [Deployinator](https://github.com/UCLA-IEEE/deployinator)
+
+Just pushing to the master branch of this repo triggers a deployment.
