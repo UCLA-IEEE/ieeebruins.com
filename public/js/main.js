@@ -15,11 +15,14 @@ $(() => {
   })
 
   const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-  const API_OPTIONS = '/values/Main!A117:I?key='
-  const SPREADSHEET_ID = '1TrqADzDxLP1jbQ0Rxaho378eyph2LytErtMiMoXxvtY'
+  const API_OPTIONS = '/values/Main!A3:I?key='
+  const SPREADSHEET_ID = '1yCnVP1diDqiMekCY7WttoOiFMgtY3t_yN9PH_SjYTnE'
 
   // eslint-disable-next-line
-  $.ajax({ method: 'GET', url: API_BASE_URL + SPREADSHEET_ID + API_OPTIONS + API_KEY }).then(res => {
+  $.ajax({
+    method: 'GET',
+    url: API_BASE_URL + SPREADSHEET_ID + API_OPTIONS + API_KEY
+  }).then(res => {
     // Filter out all the events that have passed, or have "No" in the
     // "Put no Newsletter" field
     let events = res.values.filter(event => {
