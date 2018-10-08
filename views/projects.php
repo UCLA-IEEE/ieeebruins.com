@@ -87,7 +87,7 @@
         <div class="content-wrapper">
             <div class="row flex-container">
                 <div class="col-md-4 header">
-                    <h1>Advanced Projects</h1>
+                    <h1>Aircopter Project</h1>
                     <h2>Let's Build a Quadcopter</h2>
                 </div>
                 <div class="col-md-8 descrip">
