@@ -1,14 +1,15 @@
-BLUEHOST_USER = ieeebrui
-BLUEHOST_HOST = ieeebruins.com
+NAMECHEAP_USER = ieeebrui
+NAMECHEAP_HOST = server187.web-hosting.com
+NAMECHEAP_PORT = 21098
 
 ssh:
-	ssh $(BLUEHOST_USER)@$(BLUEHOST_HOST)
+	ssh $(NAMECHEAP_USER)@$(NAMECHEAP_HOST) -p $(NAMECHEAP_PORT)
 
 deploy-development:
-	ssh $(BLUEHOST_USER)@$(BLUEHOST_HOST) "cd public_html/ieeebruins-development; git pull"
+	ssh $(NAMECHEAP_USER)@$(NAMECHEAP_HOST) -p $(NAMECHEAP_PORT) "cd public_html/ieeebruins-development; git pull"
 
 deploy-production:
-	ssh $(BLUEHOST_USER)@$(BLUEHOST_HOST) "cd public_html/ieeebruins-production; git pull"
+	ssh $(NAMECHEAP_USER)@$(NAMECHEAP_HOST) -p $(NAMECHEAP_PORT) "cd public_html/ieeebruins-production; git pull"
 
 help:
 	@echo ""
