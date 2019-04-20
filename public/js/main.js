@@ -46,7 +46,7 @@ $(() => {
           <h4>
             ${event[5]} <br />
             ${event[2]} <br />
-            ${event[4]}
+            ${event[3]}
           </h4>
         </div>`
       })

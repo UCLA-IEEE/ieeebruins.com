@@ -1,6 +1,6 @@
 const SPREADSHEET_ID = '1xzxbdPNLEIT31dClA8FAZF3MMCsmEBwzhZOfp5eHEVc'
 const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-const API_OPTIONS = '/values/Fall%202018!A1:F10?key='
+const API_OPTIONS = '/values/Spring%202019!A1:G11?key='
 // API_KEY provided in separate file key.js so that we don't have to push
 // it to GitHub
 
@@ -11,7 +11,7 @@ $.ajax({
 }).then(function(res) {
   let cells = $('.table1 tr td')
   let i = 1
-  for (let j = 1; j < 10; j++) {
+  for (let j = 1; j < 11; j++) {
     for (let k = 1; k < 7; k++) {
       if (res.values[j][k] === undefined) {
         res.values[j][k] = ' '
