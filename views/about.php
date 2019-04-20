@@ -85,6 +85,8 @@
                 <h2>General Board</h2>
                 <p>
                     General Board is our annual mentorship program. Every year, members of our officer board choose to lead a group of 3-5 general members for the rest of the academic year. Each GB decides on a a set of focuses for their group, chosen among technical projects, hosting socials and events, or professional development. In addition, members of a GB get first-hand experience in what it's like to be an officer for this organization, which usually motivates higher club involvement in the future. <br /><br /> General Board is a great way to experience a closer and more personal experience with us! Applications and info sessions happen a couple weeks before heading off for Winter break, so keep an eye out for those on our <a href='https://www.facebook.com/groups/uclaieee/' target='_blank'>Facebook page</a>, and in our newsletter.
+                    <br />
+                    <br /> Visit <a href='http://gb.ieeebruins.com/'>gb.ieeebruins.com</a>! It's a page we created with some neat visuals and statistics about General Board.
                 </p>
             </div>
         </div>
