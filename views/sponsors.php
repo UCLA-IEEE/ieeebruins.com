@@ -36,7 +36,7 @@
                 <div class="sponsorimages">
                     <a href="http://www.ee.ucla.edu" target="_blank"><img style="max-width: 210px; margin: 20px 20px;" src="/public/images/company-logos/ee-dept.png"></a>
                     <a href="http://www.northropgrumman.com/Pages/default.aspx" target="_blank"><img style="max-width: 210px; margin: 20px 20px;" src="/public/images/company-logos/northrop-grumman-logo.jpg"></a>
-                    <a href="#"><img style="max-width: 190px; margin: 20px 20px;" src="/public/images/company-logos/clas.jpg"></a>
+                    <a href="http://sites.ieee.org/clas/" target="_blank"><img style="max-width: 190px; margin: 20px 20px;" src="/public/images/company-logos/clas.jpg"></a>
                     <a href="http://www.boeing.com" target="_blank"><img style="max-width: 200px; margin: 20px 20px;" src="/public/images/company-logos/boeing.jpg"></a>
                     <img style="max-width: 190px; padding: 35px 10px;" src="/public/images/company-logos/ieee-upp.png">
                     <a href="http://on.sce.com/1jMB5Gu" target="_blank"><img style="max-width: 190px; margin: 20px 20px;" src="/public/images/company-logos/socal-edison.svg"></a>
