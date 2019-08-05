@@ -70,7 +70,7 @@
             <div class='involvement text-left'>
                 <h2>IEEE National Organization</h2>
                 <p>
-                    The Institute of Electrical and Electronics Engineers (IEEE) is the primary professional society of the electrical engineering profession. It has more than 330,000 members worldwide; including 52,000 student members. It publishes more than 40 technical journals and sponsors or co-sponsors more than 1,000 scientific conferences and meetings around computer engineering, computer science, and related fields. The IEEE has a student branch in every major university in curriculum. Getting involved with the IEEE national organization is highly encouraged, and can provide you with many resources to jump-start an engineering career adn expand your network.
+                    The Institute of Electrical and Electronics Engineers (IEEE) is the primary professional society of the electrical engineering profession. It has more than 330,000 members worldwide; including 52,000 student members. It publishes more than 40 technical journals and sponsors or co-sponsors more than 1,000 scientific conferences and meetings around computer engineering, computer science, and related fields. The IEEE has a student branch in every major university in curriculum. Getting involved with the IEEE national organization is highly encouraged, and can provide you with many resources to jump-start an engineering career and expand your network.
                     <br />
                     <br /> To find out more, visit <a href='https://www.ieee.org/' target='_blank'>the IEEE website!</a>
                 </p>
