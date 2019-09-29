@@ -1,6 +1,6 @@
-const SPREADSHEET_ID = '1xzxbdPNLEIT31dClA8FAZF3MMCsmEBwzhZOfp5eHEVc'
+const SPREADSHEET_ID = '1785xI9FY9gNxuSC0j6njYueiac1-w1-fL81eruj1STY'
 const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-const API_OPTIONS = '/values/Spring%202019!A1:G11?key='
+const API_OPTIONS = '/values/Fall%202019!A1:G11?key='
 // API_KEY provided in separate file key.js so that we don't have to push
 // it to GitHub
 

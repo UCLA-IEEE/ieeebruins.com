@@ -15,8 +15,8 @@ $(() => {
   })
 
   const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-  const API_OPTIONS = '/values/Main!A3:I?key='
-  const SPREADSHEET_ID = '1yCnVP1diDqiMekCY7WttoOiFMgtY3t_yN9PH_SjYTnE'
+  const API_OPTIONS = '/values/Fall!A3:I?key='
+  const SPREADSHEET_ID = '19eixWfc2iZl5JbjN2JqfQxr1KIkt-bDJm7NZrAg6NBM'
 
   // eslint-disable-next-line
   $.ajax({
