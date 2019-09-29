@@ -51,10 +51,6 @@
                     <p>
                         Our OPS program is designed to provide hands-on foundational knowledge in the field of tech and hardware. We assume you know absolutely nothing, and build your knowledge from the ground up. Throughout the year, students will be challenged to complete 2-3 small projects per quarter that will allow you to apply the skills you have learned.
                     </p>
-
-                    <a href="http://ops.ieeebruins.org/" target='_blank'>
-                        <button class='background-ieee-blue'>More Details Here</button>
-                    </a>
                 </div>
             </div>
         </div>
@@ -69,10 +65,6 @@
                     <p>
                         A micromouse is essentially a small robot that's programmed to be able to find it's way to a goal within a maze. Within this program, our leads teach you the fundamentals of how a micromouse is designed, eventually reaching a point where you'll print your own PCB, solder the micromouse all together, and program it through a maze. We also hold annual events where students are invited to compete against each other based on their mice's performance.
                     </p>
-
-                    <a href="http://micromouse.ieeebruins.org/" target='_blank'>
-                        <button class='background-ieee-blue'>More Details Here</button>
-                    </a>
                 </div>
                 <div class="col-md-4 header">
                     <h1>Micromouse</h1>
@@ -95,10 +87,6 @@
                     <p>
                         Our Advanced Projects program is designed around a few projects that require more advanced topics that isn't covered in our beginning OPS program. Some of the subjects we emphasize in this program are communication, advanced control, motors, and common modules such as gyroscopes and radio modules. If you're looking to really test your skill, this program is for you!
                     </p>
-
-                    <a href="http://advproj.ieeebruins.org/" target='_blank'>
-                        <button class='background-ieee-blue'>More Details Here</button>
-                    </a>
                 </div>
             </div>
         </div>
