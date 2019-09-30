@@ -110,7 +110,7 @@
         </div>
         <div class="interestbox">
             <p>
-                Fill out this <a href="/public/files/SponsorshipForm.pdf" target="_blank">form</a>!<br> View and download our sponsorship brochure <a href="/public/files/SponsorshipBrochure2018.pdf" target="_blank">here</a>!<br> Contact our current corporate relations officer at <a href="mailto:corporate@ieee.ucla.edu">corporate@ieee.ucla.edu </a> for more information.
+                Fill out this <a href="/public/files/SponsorshipForm.pdf" target="_blank">form</a>!<br> View and download our sponsorship brochure <a href="/public/files/SponsorshipBrochure2018.pdf" target="_blank">here</a>!<br> Contact our current corporate relations officer at <a href="mailto:corporate@ieeebruins.com">corporate@ieeebruins.com</a> for more information.
             </p>
         </div>
     </div>

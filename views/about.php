@@ -50,10 +50,10 @@
                 <h1>CONTACT <br/> <span class='ieee-blue'>INFO</span></h1>
             </div>
             <div class='contact-info col-md-3 col-sm-6'>
-                <p> For contacts and inquiries, <br/> please email us at: <br/> <a href='mailto:president@ieee.ucla.edu'>president@ieee.ucla.edu</a></p>
+                <p> For contacts and inquiries, <br/> please email us at: <br/> <a href='mailto:president@ieeebruins.com'>president@ieeebruins.com</a></p>
             </div>
             <div class='contact-info col-md-3 col-sm-6'>
-                <p> For bug reports and <br/> website suggestions: <br/> <a href='mailto:webmaster@ieee.ucla.edu'>webmaster@ieee.ucla.edu</a></p>
+                <p> For bug reports and <br/> website suggestions: <br/> <a href='mailto:webmaster@ieeebruins.com'>webmaster@ieeebruins.com</a></p>
             </div>
             <div class='contact-info col-md-3 col-sm-6'>
                 <p> 56-125B Engineering IV UCLA <br/> 420 Westwood Plaza <br/> Los Angeles, CA 90095 </p>
