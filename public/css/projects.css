@@ -44,6 +44,29 @@ button {
 
 /*------------- PROJECTS --------------*/
 
+.wiki-link-1, .wiki-link-2 {
+  text-decoration: underline !important;
+  color: white;
+}
+
+.wiki-link-1 {
+  color: white;
+}
+
+.wiki-link-2 {
+  color: #333;
+}
+
+.wiki-link-1:hover {
+  text-decoration: none !important;
+  color: white;
+}
+
+.wiki-link-2:hover {
+  text-decoration: none !important;
+  color: #333;
+}
+
 .adv-proj,
 .micromouse {
   padding-top: 75px;
