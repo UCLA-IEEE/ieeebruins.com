@@ -15,7 +15,7 @@ $(() => {
   })
 
   const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-  const API_OPTIONS = '/values/Winter!A3:I?key='
+  const API_OPTIONS = '/values/Spring!A3:I?key='
   const SPREADSHEET_ID = '19eixWfc2iZl5JbjN2JqfQxr1KIkt-bDJm7NZrAg6NBM'
 
   // eslint-disable-next-line

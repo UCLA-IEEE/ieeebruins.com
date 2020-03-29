@@ -106,18 +106,12 @@
 
 .mailing-subtext {
   text-transform: none;
+  padding-bottom: 15px;
 }
 
-input[type="email"] {
-  width: 50%;
-  background-color: #c4c4c4;
-  margin-right: 5px;
-  padding: 5px 10px;
-  font-size: 20px;
-  outline: none;
-}
 .button-join {
-  margin-top: 30px;
+  margin-top: 50px;
+  color: white;
 }
 
 /*------------------- EVENTS ---------------------------*/

@@ -46,9 +46,9 @@
     <div class="background-grey lab-hours" id='hours'>
         <h1 class='ieee-blue'>LAB HOURS</h1>
         <div class="pbox">
-            <p>
+            <!-- <p>
                 Need to know when the lab’s open? Looking for your project leads? Need help on your homework? Check out the table below to find out when your favorite officers will be in the lab.
-            </p>
+            </p> -->
         </div>
 
         <?php include('./includes/lab_hours.html'); ?>
