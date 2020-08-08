@@ -26,7 +26,7 @@ $(() => {
     // Filter out all the events that have passed, or have "No" in the
     // "Put no Newsletter" field
     let events = res.values.filter(event => {
-      let eventDate = new Date(event[2])
+      let eventDate = new Date(event[3])
       return eventDate > Date.now() && event[7] !== 'No'
     })
 
