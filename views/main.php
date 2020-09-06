@@ -51,11 +51,11 @@
             <div class='col-sm-6 left-column'>
                 <h1>ABOUT US</h1>
                 <p class='aboutus'>
-                    IEEE at UCLA is a professional student-run engineering organization. We devote our time and energy towards bringing hands-on, practical experiences to engineering students throughout UCLA, as well as create opportunities for students to interact with industry professionals and more. Every year we lead several projects for our members to partipate in, where dedicated leads provide fundamental knowledge and skills to students, which helps them complete challenging and interesting projects throughout the year.
+                    IEEE at UCLA is a professional student-run engineering organization. We devote our time and energy towards bringing hands-on, practical experiences to engineering students throughout UCLA, as well as create opportunities for students to interact with industry professionals and more. Every year we lead several projects for our members to participate in, where dedicated leads provide fundamental knowledge and skills to students, which helps them complete challenging and interesting projects throughout the year.
                 </p>
             </div>
             <div class='col-sm-6 text-center mailing-title'>
-                <h1>JOIN OUR <br/> <span class='ieee-blue'> MAILING LIST </span> </h1>
+                <h1>JOIN OUR <br /> <span class='ieee-blue'> MAILING LIST </span> </h1>
                 <h2 class='mailing-subtext'>Keep up with all our upcoming events, workshops, and socials.</h2>
                 <button class="button"><a class="button-join" target="blank" href="http://zc.vg/LXgFF">Join</a></button>
             </div>
@@ -81,7 +81,7 @@
 
     <!-- INSTAGRAM WIDGET -->
     <div class='container-fluid instagram'>
-        <h1>INSTAGRAM <a href="https://www.instagram.com/ieeebruins/" target='_blank' class='handle'>@ieeebruins</a></h1>
+        <h1>INSTAGRAM <a href="https://www.instagram.com/uclaieee/" target='_blank' class='handle'>@uclaieee</a></h1>
 
         <div class='image-list'></div>
     </div>

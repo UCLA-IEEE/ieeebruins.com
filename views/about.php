@@ -34,7 +34,7 @@
     <!-- FRONT -->
 
     <div class='front text-center'>
-        <h1 class='normal-head white'>To provide hands-on engineering <br/> experience to students at UCLA </h1>
+        <h1 class='normal-head white'>To provide hands-on engineering <br /> experience to students at UCLA </h1>
         <div class='background-grey front-descrip'>
             <p class='white'>
                 Our student organization was founded by a group of students united by the belief that that hands-on experience is foundational in becoming a successful engineer. Since then, we have devoted our time and energies towards providing project experience that compliments UCLA's engineering coursework. In addition to tools, our organization provides like-minded and experienced project leads that provide fundamental background knowledge, as well as guide students through challenging and interesting projects.
@@ -47,16 +47,16 @@
     <div class='container-fluid'>
         <div class='row contact background-light-grey text-left'>
             <div class='contact-title col-md-3 col-sm-6'>
-                <h1>CONTACT <br/> <span class='ieee-blue'>INFO</span></h1>
+                <h1>CONTACT <br /> <span class='ieee-blue'>INFO</span></h1>
             </div>
             <div class='contact-info col-md-3 col-sm-6'>
-                <p> For contacts and inquiries, <br/> please email us at: <br/> <a href='mailto:president@ieeebruins.com'>president@ieeebruins.com</a></p>
+                <p> For contacts and inquiries, <br /> please email us at: <br /> <a href='mailto:president@ieeebruins.com'>president@ieeebruins.com</a></p>
             </div>
             <div class='contact-info col-md-3 col-sm-6'>
-                <p> For bug reports and <br/> website suggestions: <br/> <a href='mailto:webmaster@ieeebruins.com'>webmaster@ieeebruins.com</a></p>
+                <p> For bug reports and <br /> website suggestions: <br /> <a href='mailto:webmaster@ieeebruins.com'>webmaster@ieeebruins.com</a></p>
             </div>
             <div class='contact-info col-md-3 col-sm-6'>
-                <p> 56-125B Engineering IV UCLA <br/> 420 Westwood Plaza <br/> Los Angeles, CA 90095 </p>
+                <p> 56-125B Engineering IV UCLA <br /> 420 Westwood Plaza <br /> Los Angeles, CA 90095 </p>
             </div>
         </div>
     </div>
@@ -124,12 +124,12 @@
 
     <div class='spax container-fluid text-left>
         <div class=' row '>
-            <div class='col-md-5 text-center '>
-                <img class='spax-pic ' src="/public/images/about/spax.jpg">
+            <div class=' col-md-5 text-center '>
+                <img class=' spax-pic ' src="/public/images/about/spax.jpg">
             </div>
-            <div class='spax-title col-md-7 '>
+            <div class=' spax-title col-md-7 '>
                 <h1> SPAx </h1>
-                <p class='spax-about '>
+                <p class=' spax-about '>
                     SPAX is an annual student professional awareness event organized by IEEE at UCLA. It focuses on providing students with professional awareness, networking opportunities, and industry contact to not only prepare participants to be leaders in their future careers, but also provide opportunities to those who may not have access. Every year, the X switches between C for conference and V for venture. During SPAC, a group of selected speakers come to share their experiences with participants. During SPAV, participants venture out to selected companies to learn more about their prospects.
                 </p>
             </div>
@@ -138,146 +138,146 @@
 
     <!-- SOCIALS AND EVENTS -->
 
-    <div class='socials container-fluid background-ieee-blue text-left '>
-        <div class='row '>
-            <div class='title col-md-7 '>
+    <div class=' socials container-fluid background-ieee-blue text-left '>
+        <div class=' row '>
+            <div class=' title col-md-7 '>
                 <h1> SOCIALS AND EVENTS </h1>
-                <p class='involve '>Work hard. Play hard.</p>
-                <p class='involve-about '>
+                <p class=' involve '>Work hard. Play hard.</p>
+                <p class=' involve-about '>
                     Our collaborative and friendly culture is the foundation of our organization. We furthur reinforce our culture by hosting quartly events and socials meant to bring members closer together and form new friendships. Some of our favorite events are our Fall BBQ, heading out for KBBQ, and our in-house ultimate frisbee tournaments! For more information on our events and socials, sign up for our mailing list!
                 </p>
             </div>
-            <div class='image-wrapper col-md-5 text-center '>
-                <img class='social-pic ' src="/public/images/about/kbbq.jpg">
+            <div class=' image-wrapper col-md-5 text-center '>
+                <img class=' social-pic ' src="/public/images/about/kbbq.jpg">
             </div>
         </div>
     </div>
 
     <!-- AWARDS -->
 
-    <div class='container-fluid awards text-center '>
+    <div class=' container-fluid awards text-center '>
         <div>
-            <h1 class='atitle '>AWARDS</h1>
+            <h1 class=' atitle '>AWARDS</h1>
         </div>
 
-        <div class='year background-ieee-blue text-left '>
-            <h1 class='pull-down '> 2017 <span class='glyphicon glyphicon-chevron-down '></span></h1>
+        <div class=' year background-ieee-blue text-left '>
+            <h1 class=' pull-down '> 2017 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
         </div>
-        <div class='award-list background-light-grey text-left '>
-            <p class='award ieee-blue '> Region 6 Exemplary Student Branch Award </p>
-            <p class='award ieee-blue '> Darrel Chong Student Activities Award, IDEA Hacks </p>
-        </div>
-
-        <div class='year background-ieee-blue text-left '>
-            <h1 class='pull-down '> 2014 <span class='glyphicon glyphicon-chevron-down '></span></h1>
-        </div>
-        <div class='award-list background-light-grey text-left '>
-            <p class='award ieee-blue '> IEEE Region 6 Outstanding Large Student Group </p>
+        <div class=' award-list background-light-grey text-left '>
+            <p class=' award ieee-blue '> Region 6 Exemplary Student Branch Award </p>
+            <p class=' award ieee-blue '> Darrel Chong Student Activities Award, IDEA Hacks </p>
         </div>
 
-        <div class='year background-ieee-blue text-left '>
-            <h1 class='pull-down '> 2013 <span class='glyphicon glyphicon-chevron-down '></span></h1>
+        <div class=' year background-ieee-blue text-left '>
+            <h1 class=' pull-down '> 2014 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
         </div>
-        <div class='award-list background-light-grey text-left '>
-            <p class='award ieee-blue '> IEEE Student Branch Website Competition, Honorable Mention </p>
-            <p class='award ieee-blue '> IEEE Region 6 Outstanding Large Student Branch </p>
-            <p class='award ieee-blue '> UCLA Engineering Student Group of the Year </p>
-            <p class='award ieee-blue '> All America Micromouse Competition (held at UCLA), First Place </p>
-            <p class='award ieee-blue '> UCLA Natcar Competition (held at UCLA), First Place </p>
-            <p class='award ieee-blue '> UCLA Natcar Competition (held at UCLA), Second Place </p>
-            <p class='award ieee-blue '> Davis Cup Competition (held at UC Davis), Third Place </p>
-            <p class='award ieee-blue '> California MicroMouse (held at UCSD), First Place </p>
-            <p class='award ieee-blue '> ViaCar Competition (held at UCSD), First Place </p>
-            <p class='award ieee-blue '> ViaCar Competition (held at UCSD), Second Place </p>
-            <p class='award ieee-blue '> IEEE Region 6 Ethics Contest (held at UCLA), First Place </p>
-            <p class='award ieee-blue '> IEEE Student Professional Awareness Venture (S-PAVe) (held at UCLA) </p>
+        <div class=' award-list background-light-grey text-left '>
+            <p class=' award ieee-blue '> IEEE Region 6 Outstanding Large Student Group </p>
         </div>
 
-        <div class='year background-ieee-blue text-left '>
-            <h1 class='pull-down '> 2012 <span class='glyphicon glyphicon-chevron-down '></span></h1>
+        <div class=' year background-ieee-blue text-left '>
+            <h1 class=' pull-down '> 2013 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
         </div>
-        <div class='award-list background-light-grey text-left '>
-            <p class='award ieee-blue '> IEEE Region 6 Ethics Contest (held at UCLA), First Place </p>
-            <p class='award ieee-blue '> IEEE Region 6 Souther Area MicroMouse Competition (held at UCLA), Third Place </p>
-            <p class='award ieee-blue '> IEEE Student Professional Awareness Venture (S-PAVe) (held at UCLA) </p>
-            <p class='award ieee-blue '> ESUC Student Group of the Year </p>
-        </div>
-
-        <div class='year background-ieee-blue text-left '>
-            <h1 class='pull-down '> 2011 <span class='glyphicon glyphicon-chevron-down '></span></h1>
-        </div>
-        <div class='award-list background-light-grey text-left '>
-            <p class='award ieee-blue '> IEEE Region 6 Ethics Contest (held at UCLA), First Place </p>
-            <p class='award ieee-blue '> IEEE Exemplary Student Branch Award </p>
-            <p class='award ieee-blue '> IEEE Region 6 Southern Area MicroMouse Competition (held at CSULB), First Place </p>
-            <p class='award ieee-blue '> California MicroMouse Competition (held at UC San Diego), Third Place </p>
-            <p class='award ieee-blue '> IEEE Student Professional Awareness Venture (S-PAVe) (held at UCLA) </p>
-            <p class='award ieee-blue '> IEEE Region 6 Exemplary Student Branch Award </p>
-            <p class='award ieee-blue '> ESUC Student Group of the Year </p>
-            <p class='award ieee-blue '> UCLA HSSEAS Senior Dinner, Outstanding Student Group </p>
+        <div class=' award-list background-light-grey text-left '>
+            <p class=' award ieee-blue '> IEEE Student Branch Website Competition, Honorable Mention </p>
+            <p class=' award ieee-blue '> IEEE Region 6 Outstanding Large Student Branch </p>
+            <p class=' award ieee-blue '> UCLA Engineering Student Group of the Year </p>
+            <p class=' award ieee-blue '> All America Micromouse Competition (held at UCLA), First Place </p>
+            <p class=' award ieee-blue '> UCLA Natcar Competition (held at UCLA), First Place </p>
+            <p class=' award ieee-blue '> UCLA Natcar Competition (held at UCLA), Second Place </p>
+            <p class=' award ieee-blue '> Davis Cup Competition (held at UC Davis), Third Place </p>
+            <p class=' award ieee-blue '> California MicroMouse (held at UCSD), First Place </p>
+            <p class=' award ieee-blue '> ViaCar Competition (held at UCSD), First Place </p>
+            <p class=' award ieee-blue '> ViaCar Competition (held at UCSD), Second Place </p>
+            <p class=' award ieee-blue '> IEEE Region 6 Ethics Contest (held at UCLA), First Place </p>
+            <p class=' award ieee-blue '> IEEE Student Professional Awareness Venture (S-PAVe) (held at UCLA) </p>
         </div>
 
-        <div class='year background-ieee-blue text-left '>
-            <h1 class='pull-down '> 2010 <span class='glyphicon glyphicon-chevron-down '></span></h1>
+        <div class=' year background-ieee-blue text-left '>
+            <h1 class=' pull-down '> 2012 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
         </div>
-        <div class='award-list background-light-grey text-left '>
-            <p class='award ieee-blue '> IEEE Region 6 Southern Area, Outstanding Student Branch, Runner-up </p>
-            <p class='award ieee-blue '> IEEE Region 6 Southern Area MicroMouse Competition (held at CSUN), First Place </p>
-            <p class='award ieee-blue '> IEEE Southern California University MicroMouse Competition (held at UCLA), First Place </p>
-            <p class='award ieee-blue '> IEEE Region 6 Ethics Contest (held at UCLA), Second Place </p>
-            <p class='award ieee-blue '> Southern California ViaCar Competition (held at UCSD), First Place </p>
-            <p class='award ieee-blue '> UCLA HSSEAS Senior Dinner, Most Improved Student Group of the Year Award </p>
-            <p class='award ieee-blue '> UCLA hosted the IEEE Region 6 Southern Area Meeting, and the Student Leadership Workshop (CSULA, CSULB, Cal Poly Pomona, Cal Poly SLO, CSUN, UCR, UCLA attended) </p>
+        <div class=' award-list background-light-grey text-left '>
+            <p class=' award ieee-blue '> IEEE Region 6 Ethics Contest (held at UCLA), First Place </p>
+            <p class=' award ieee-blue '> IEEE Region 6 Souther Area MicroMouse Competition (held at UCLA), Third Place </p>
+            <p class=' award ieee-blue '> IEEE Student Professional Awareness Venture (S-PAVe) (held at UCLA) </p>
+            <p class=' award ieee-blue '> ESUC Student Group of the Year </p>
         </div>
 
-        <div class='year background-ieee-blue text-left '>
-            <h1 class='pull-down '> 2009 <span class='glyphicon glyphicon-chevron-down '></span></h1>
+        <div class=' year background-ieee-blue text-left '>
+            <h1 class=' pull-down '> 2011 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
         </div>
-        <div class='award-list background-light-grey text-left '>
-            <p class='award ieee-blue '> IEEE-USA Student Professional Awareness Conference (S-PAC) </p>
-        </div>
-
-        <div class='year background-ieee-blue text-left '>
-            <h1 class='pull-down '> 2006 <span class='glyphicon glyphicon-chevron-down '></span></h1>
-        </div>
-        <div class='award-list background-light-grey text-left '>
-            <p class='award ieee-blue '> IEEE Larry K. Wilson Regional Student Activities Award </p>
-            <p class='award ieee-blue '> IEEE Region 6 Southern Area, Outstanding Student Branch, Runner-up </p>
-        </div>
-
-        <div class='year background-ieee-blue text-left '>
-            <h1 class='pull-down '> 2004 <span class='glyphicon glyphicon-chevron-down '></span></h1>
-        </div>
-        <div class='award-list background-light-grey text-left '>
-            <p class='award ieee-blue '> UCLA IEEE 40th Anniversary Banquet at Marriott Marina del Rey (approximately 200 attendees) </p>
-            <p class='award ieee-blue '> IEEE-USA Student Professional Awareness Conference (S-PAC) </p>
-            <p class='award ieee-blue '> IEEE Region 6, Student Branch Website Contest, Runner-up </p>
-            <p class='award ieee-blue '> IEEE Region 6 Southern Area, Outstanding Student Branch </p>
-            <p class='award ieee-blue '> IEEE Region 6, Outstanding Student Paper Contest, Second Place </p>
-            <p class='award ieee-blue '> IEEE Outstanding Branch Counselor and Advisor Award (Dr. Ken Yang) </p>
-            <p class='award ieee-blue '> UCLA IEEE Forum (distinguished speaker series) </p>
-            <p class='award ieee-blue '> UCLA Engineering Society, Engineers Week Outstanding Participation Award </p>
-            <p class='award ieee-blue '> UCLA hosted the IEEE Region 6 Spring Meeting (approximately 100 attendees), the Student Paper Contest, and the MicroMouse Competition </p>
+        <div class=' award-list background-light-grey text-left '>
+            <p class=' award ieee-blue '> IEEE Region 6 Ethics Contest (held at UCLA), First Place </p>
+            <p class=' award ieee-blue '> IEEE Exemplary Student Branch Award </p>
+            <p class=' award ieee-blue '> IEEE Region 6 Southern Area MicroMouse Competition (held at CSULB), First Place </p>
+            <p class=' award ieee-blue '> California MicroMouse Competition (held at UC San Diego), Third Place </p>
+            <p class=' award ieee-blue '> IEEE Student Professional Awareness Venture (S-PAVe) (held at UCLA) </p>
+            <p class=' award ieee-blue '> IEEE Region 6 Exemplary Student Branch Award </p>
+            <p class=' award ieee-blue '> ESUC Student Group of the Year </p>
+            <p class=' award ieee-blue '> UCLA HSSEAS Senior Dinner, Outstanding Student Group </p>
         </div>
 
-        <div class='year background-ieee-blue text-left '>
-            <h1 class='pull-down '> 2003 <span class='glyphicon glyphicon-chevron-down '></span></h1>
+        <div class=' year background-ieee-blue text-left '>
+            <h1 class=' pull-down '> 2010 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
         </div>
-        <div class='award-list background-light-grey text-left '>
-            <p class='award ieee-blue '> IEEE Region 6, Student Branch Website Contest, Second Place </p>
-            <p class='award ieee-blue '> IEEE Region 6, Outstanding Student Paper Contest, First Place </p>
-            <p class='award ieee-blue '> UCLA IEEE Forum (distinguished speaker series) </p>
-            <p class='award ieee-blue '> UCLA Engineering Society, Engineers Week Outstanding Participation Award </p>
-        </div>
-
-        <div class='year background-ieee-blue text-left '>
-            <h1 class='pull-down '> 2002 <span class='glyphicon glyphicon-chevron-down '></span></h1>
-        </div>
-        <div class='award-list background-light-grey text-left '>
-            <p class='award ieee-blue '> UCLA IEEE Forum (distinguished speaker series) </p>
+        <div class=' award-list background-light-grey text-left '>
+            <p class=' award ieee-blue '> IEEE Region 6 Southern Area, Outstanding Student Branch, Runner-up </p>
+            <p class=' award ieee-blue '> IEEE Region 6 Southern Area MicroMouse Competition (held at CSUN), First Place </p>
+            <p class=' award ieee-blue '> IEEE Southern California University MicroMouse Competition (held at UCLA), First Place </p>
+            <p class=' award ieee-blue '> IEEE Region 6 Ethics Contest (held at UCLA), Second Place </p>
+            <p class=' award ieee-blue '> Southern California ViaCar Competition (held at UCSD), First Place </p>
+            <p class=' award ieee-blue '> UCLA HSSEAS Senior Dinner, Most Improved Student Group of the Year Award </p>
+            <p class=' award ieee-blue '> UCLA hosted the IEEE Region 6 Southern Area Meeting, and the Student Leadership Workshop (CSULA, CSULB, Cal Poly Pomona, Cal Poly SLO, CSUN, UCR, UCLA attended) </p>
         </div>
 
-        <p class='ieee-blue show-more '>show more</p>
+        <div class=' year background-ieee-blue text-left '>
+            <h1 class=' pull-down '> 2009 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
+        </div>
+        <div class=' award-list background-light-grey text-left '>
+            <p class=' award ieee-blue '> IEEE-USA Student Professional Awareness Conference (S-PAC) </p>
+        </div>
+
+        <div class=' year background-ieee-blue text-left '>
+            <h1 class=' pull-down '> 2006 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
+        </div>
+        <div class=' award-list background-light-grey text-left '>
+            <p class=' award ieee-blue '> IEEE Larry K. Wilson Regional Student Activities Award </p>
+            <p class=' award ieee-blue '> IEEE Region 6 Southern Area, Outstanding Student Branch, Runner-up </p>
+        </div>
+
+        <div class=' year background-ieee-blue text-left '>
+            <h1 class=' pull-down '> 2004 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
+        </div>
+        <div class=' award-list background-light-grey text-left '>
+            <p class=' award ieee-blue '> UCLA IEEE 40th Anniversary Banquet at Marriott Marina del Rey (approximately 200 attendees) </p>
+            <p class=' award ieee-blue '> IEEE-USA Student Professional Awareness Conference (S-PAC) </p>
+            <p class=' award ieee-blue '> IEEE Region 6, Student Branch Website Contest, Runner-up </p>
+            <p class=' award ieee-blue '> IEEE Region 6 Southern Area, Outstanding Student Branch </p>
+            <p class=' award ieee-blue '> IEEE Region 6, Outstanding Student Paper Contest, Second Place </p>
+            <p class=' award ieee-blue '> IEEE Outstanding Branch Counselor and Advisor Award (Dr. Ken Yang) </p>
+            <p class=' award ieee-blue '> UCLA IEEE Forum (distinguished speaker series) </p>
+            <p class=' award ieee-blue '> UCLA Engineering Society, Engineers Week Outstanding Participation Award </p>
+            <p class=' award ieee-blue '> UCLA hosted the IEEE Region 6 Spring Meeting (approximately 100 attendees), the Student Paper Contest, and the MicroMouse Competition </p>
+        </div>
+
+        <div class=' year background-ieee-blue text-left '>
+            <h1 class=' pull-down '> 2003 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
+        </div>
+        <div class=' award-list background-light-grey text-left '>
+            <p class=' award ieee-blue '> IEEE Region 6, Student Branch Website Contest, Second Place </p>
+            <p class=' award ieee-blue '> IEEE Region 6, Outstanding Student Paper Contest, First Place </p>
+            <p class=' award ieee-blue '> UCLA IEEE Forum (distinguished speaker series) </p>
+            <p class=' award ieee-blue '> UCLA Engineering Society, Engineers Week Outstanding Participation Award </p>
+        </div>
+
+        <div class=' year background-ieee-blue text-left '>
+            <h1 class=' pull-down '> 2002 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
+        </div>
+        <div class=' award-list background-light-grey text-left '>
+            <p class=' award ieee-blue '> UCLA IEEE Forum (distinguished speaker series) </p>
+        </div>
+
+        <p class=' ieee-blue show-more '>show more</p>
     </div>
 
     <!-- FOOTER -->
