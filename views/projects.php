@@ -49,7 +49,7 @@
                 <div class="col-md-8 descrip">
                     <h2 class="sub2">No fear in not knowing</h2>
                     <p>
-                        Our OPS program is designed to provide hands-on foundational knowledge in the field of tech and hardware. We assume you know absolutely nothing, and build your knowledge from the ground up. Throughout the year, students will be challenged to complete 2-3 small projects per quarter that will allow you to apply the skills you have learned. <a class='wiki-link-1' target="_blank" href="http://ops.ieeebruins.com/index.php/Main_Page">Check out the OPS project wiki.</a>
+                        Our OPS program is designed to provide hands-on foundational knowledge in the field of tech and hardware. We assume you know absolutely nothing, and build your knowledge from the ground up. Throughout the year, students will be challenged to complete 2-3 small projects per quarter that will allow you to apply the skills you have learned.
                     </p>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                 <div class="col-md-8 descrip">
                     <h2 class="sub2">Head-to-head competition</h2>
                     <p>
-                        A micromouse is essentially a small robot that's programmed to be able to find it's way to a goal within a maze. Within this program, our leads teach you the fundamentals of how a micromouse is designed, eventually reaching a point where you'll print your own PCB, solder the micromouse all together, and program it through a maze. We also hold annual events where students are invited to compete against each other based on their mice's performance. <a class='wiki-link-2' target="_blank" href="http://micromouse.ieeebruins.com/index.php/Main_Page">Check out the Micromouse project wiki.</a>
+                        A micromouse is essentially a small robot that's programmed to be able to find it's way to a goal within a maze. Within this program, our leads teach you the fundamentals of how a micromouse is designed, eventually reaching a point where you'll print your own PCB, solder the micromouse all together, and program it through a maze. We also hold annual events where students are invited to compete against each other based on their mice's performance.
                     </p>
                 </div>
                 <div class="col-md-4 header">
@@ -74,7 +74,7 @@
         </div>
     </div>
 
-    <!--Advanced Projects section-->
+    <!--Aircopter Project section-->
     <div class="container-fluid background-ieee-blue adv-proj">
         <div class="content-wrapper">
             <div class="row flex-container">
@@ -85,9 +85,28 @@
                 <div class="col-md-8 descrip">
                     <h2 class="sub2">Take your skills to the next level</h2>
                     <p>
-                        Our Advanced Projects program is designed around a few projects that require more advanced topics that isn't covered in our beginning OPS program. Some of the subjects we emphasize in this program are communication, advanced control, motors, and common modules such as gyroscopes and radio modules. If you're looking to really test your skill, this program is for you! <a class='wiki-link-1' target="_blank" href="http://advproj.ieeebruins.com/index.php/Main_Page">Check out the AP project wiki.</a>
+                        Our Advanced Projects program is designed around a few projects that require more advanced topics that isn't covered in our beginning OPS program. Some of the subjects we emphasize in this program are communication, advanced control, motors, and common modules such as gyroscopes and radio modules. If you're looking to really test your skill, this program is for you!
                     </p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Digital Audio Visualizer Section -->
+    <div class="container-fluid background-grey dav">
+        <div class="content-wrapper">
+            <div class="row flex-container">
+                <div class="col-md-8 descrip">
+                    <h2 class="sub2">Learn to think logically</h2>
+                    <p>
+                        DAV bridges the gap between hardware and software. We’ll be teaching you about digital logic concepts, digital signal processing techniques, and the FPGA design process. By the end of the year, we’ll create a device that can calculate and visualize the frequencies of audio signals using an FPGA. If you’re wondering what digital logic is all about, DAV is the project for you.
+                    </p>
+                </div>
+                <div class="col-md-4 header">
+                    <h1>Digital Audio Visualizer</h1>
+                    <h2>FPGA Frequency Visualizer</h2>
+                </div>
+
             </div>
         </div>
     </div>

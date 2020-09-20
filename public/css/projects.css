@@ -44,7 +44,8 @@ button {
 
 /*------------- PROJECTS --------------*/
 
-.wiki-link-1, .wiki-link-2 {
+.wiki-link-1,
+.wiki-link-2 {
   text-decoration: underline !important;
   color: white;
 }
@@ -68,7 +69,8 @@ button {
 }
 
 .adv-proj,
-.micromouse {
+.micromouse,
+.dav {
   padding-top: 75px;
   padding-bottom: 75px;
 }
@@ -85,7 +87,8 @@ button {
 
 .adv-proj h1,
 .micromouse h1,
-.ops h1 {
+.ops h1,
+.dav h1 {
   padding-bottom: 5px;
   border-bottom: solid white 10px;
   display: inline-block;
@@ -93,7 +96,8 @@ button {
 
 .adv-proj .header,
 .micromouse .header,
-.ops .header {
+.ops .header,
+.dav .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,14 +105,10 @@ button {
 
 .adv-proj .header h2,
 .micromouse .header h2,
-.ops h2 {
+.ops h2,
+.dav h2 {
   font-size: 20px;
   margin: 20px 0;
-}
-
-.adv-proj .descrip h2 {
-  border-bottom: solid white 2px;
-  padding-right: 15px;
 }
 
 .micromouse .header h1 {
@@ -125,17 +125,26 @@ button {
   margin-top: 35px;
 }
 
+.dav .header h1 {
+  border-bottom: solid black 10px;
+  margin-top: 20px;
+}
+
 .micromouse .header h1,
-.micromouse .header h2 {
+.micromouse .header h2,
+.dav .header h1,
+.dav .header h2 {
   text-align: right;
 }
 
-.micromouse .descrip h2 {
+.micromouse .descrip h2,
+.dav .descrip h2 {
   border-bottom: solid black 2px;
   padding-right: 15px;
 }
 
-.ops .descrip h2 {
+.ops .descrip h2,
+.adv-proj .descrip h2 {
   border-bottom: solid white 2px;
   padding-right: 15px;
 }
@@ -184,21 +193,26 @@ button {
 @media (max-width: 995px) {
   .ops .header,
   .micromouse .header,
-  .adv-proj .header {
+  .adv-proj .header,
+  .dav .header {
     text-align: center;
     margin: 0 auto;
   }
 
-  .micromouse .header {
+  .micromouse .header,
+  .dav .header {
     order: 1;
   }
 
-  .micromouse .descrip {
+  .micromouse .descrip,
+  .dav .descrip {
     order: 2;
   }
 
   .micromouse .header h1,
-  .micromouse .header h2 {
+  .micromouse .header h2,
+  .dav .header h1,
+  .dav .header h2 {
     text-align: center;
   }
 
