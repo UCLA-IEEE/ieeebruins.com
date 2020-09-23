@@ -55,7 +55,7 @@
                 </p>
             </div>
             <div class='col-sm-6 text-center mailing-title'>
-                <h1>JOIN OUR <br/> <span class='ieee-blue'> MAILING LIST </span> </h1>
+                <h1>JOIN OUR <br /> <span class='ieee-blue'> MAILING LIST </span> </h1>
                 <h2 class='mailing-subtext'>Keep up with all our upcoming events, workshops, and socials.</h2>
                 <button class="button"><a class="button-join" target="blank" href="http://zc.vg/LXgFF">Join</a></button>
             </div>
