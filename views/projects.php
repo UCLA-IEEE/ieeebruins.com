@@ -13,7 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- FONT AWESOME -->
-    <script src="https://use.fontawesome.com/348865e609.js"></script>
+    <script src="https://kit.fontawesome.com/2fb39e755e.js" crossorigin="anonymous"></script>
 
     <!-- STYLESHEETS -->
     <link rel='stylesheet' href='/public/css/footer.css' />
@@ -85,7 +85,7 @@
                 <div class="col-md-8 descrip">
                     <h2 class="sub2">Take your skills to the next level</h2>
                     <p>
-                        Our Advanced Projects program is designed around a few projects that require more advanced topics that isn't covered in our beginning OPS program. Some of the subjects we emphasize in this program are communication, advanced control, motors, and common modules such as gyroscopes and radio modules. If you're looking to really test your skill, this program is for you!
+                        The Aircopter Project is an opportunity for you to refine your understanding of hardware and apply it in a design project. By learning subjects such as serial communication, motors, control systems, sensor fusion, and PCB design, you will design and build a drone as a team from the ground up, starting from hardware components to a radio controlled flying machine.
                     </p>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                 </div>
                 <div class="col-md-4 header">
                     <h1>Digital Audio Visualizer</h1>
-                    <h2>FPGA Frequency Visualizer</h2>
+                    <h2>See Sounds on Screen</h2>
                 </div>
 
             </div>

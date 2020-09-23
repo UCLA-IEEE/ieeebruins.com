@@ -13,7 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- FONT AWESOME -->
-    <script src="https://use.fontawesome.com/348865e609.js"></script>
+    <script src="https://kit.fontawesome.com/2fb39e755e.js" crossorigin="anonymous"></script>
 
     <!-- CSS Pages -->
     <link rel="stylesheet" type="text/css" href="/public/css/style.css">

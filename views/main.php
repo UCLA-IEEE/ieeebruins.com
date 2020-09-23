@@ -13,7 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- FONT AWESOME -->
-    <script src="https://use.fontawesome.com/348865e609.js"></script>
+    <script src="https://kit.fontawesome.com/2fb39e755e.js" crossorigin="anonymous"></script>
 
     <!-- STYLESHEETS -->
     <link rel='stylesheet' href='/public/css/footer.css' />
@@ -51,7 +51,7 @@
             <div class='col-sm-6 left-column'>
                 <h1>ABOUT US</h1>
                 <p class='aboutus'>
-                    IEEE at UCLA is a professional student-run engineering organization. We devote our time and energy towards bringing hands-on, practical experiences to engineering students throughout UCLA, as well as create opportunities for students to interact with industry professionals and more. Every year we lead several projects for our members to partipate in, where dedicated leads provide fundamental knowledge and skills to students, which helps them complete challenging and interesting projects throughout the year.
+                    IEEE at UCLA is a professional student-run engineering organization. We devote our time and energy towards bringing hands-on, practical experiences to engineering students throughout UCLA, as well as create opportunities for students to interact with industry professionals and more. Every year we lead several projects for our members to participate in, where dedicated leads provide fundamental knowledge and skills to students, which helps them complete challenging and interesting projects throughout the year.
                 </p>
             </div>
             <div class='col-sm-6 text-center mailing-title'>
@@ -81,7 +81,7 @@
 
     <!-- INSTAGRAM WIDGET -->
     <div class='container-fluid instagram'>
-        <h1>INSTAGRAM <a href="https://www.instagram.com/ieeebruins/" target='_blank' class='handle'>@ieeebruins</a></h1>
+        <h1>INSTAGRAM <a href="https://www.instagram.com/uclaieee/" target='_blank' class='handle'>@uclaieee</a></h1>
 
         <div class='image-list'></div>
     </div>

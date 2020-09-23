@@ -10,32 +10,43 @@
   margin: 0;
   font-weight: bold;
   font-size: 18px;
+
+  float: left;
 }
 
 .footer .footer-media {
   text-align: right;
+  float: right;
 }
 
-.footer .fa {
+.footer .fab {
   color: white;
   margin: 15px;
 }
 
-.footer .fa:hover {
+.footer .fab:hover {
   color: grey;
 }
 
 @media (max-width: 768px) {
   .footer.container-fluid {
-    padding: 0 10px;
+    padding: 11.8px 10px;
+    height: 71.6px;
   }
   .footer .copyright {
     display: none;
   }
   .footer .footer-media {
-    text-align: center;
+    float: none;
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 10px;
   }
-  .footer .fa {
+  .footer .fab {
     margin: 10px;
+    font-size: 2em;
   }
 }
