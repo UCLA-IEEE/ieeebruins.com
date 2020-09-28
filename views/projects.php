@@ -16,10 +16,10 @@
     <script src="https://kit.fontawesome.com/2fb39e755e.js" crossorigin="anonymous"></script>
 
     <!-- STYLESHEETS -->
-    <link rel='stylesheet' href='/public/css/footer.css' />
-    <link rel='stylesheet' href='/public/css/navbar.css' />
-    <link rel='stylesheet' href='/public/css/projects.css' />
-    <link rel='stylesheet' href='/public/css/style.css' />
+    <link rel='stylesheet' href='/public/css/footer.css?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/projects.css?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
 
     <!--Favicon -->
     <link rel='icon' href='/public/favicon.ico' />

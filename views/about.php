@@ -19,10 +19,10 @@
     <link rel='icon' href='/public/favicon.ico' />
 
     <!-- STYLESHEETS -->
-    <link rel='stylesheet' href='/public/css/footer.css' />
-    <link rel='stylesheet' href='/public/css/navbar.css' />
-    <link rel='stylesheet' href='/public/css/style.css' />
-    <link rel='stylesheet' href='/public/css/about.css' />
+    <link rel='stylesheet' href='/public/css/footer.css?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/about.css?v=1.0.0?v=1.0.0' />
 
     <!-- SCRIPTS -->
     <script src="/public/js/about.js"></script>
