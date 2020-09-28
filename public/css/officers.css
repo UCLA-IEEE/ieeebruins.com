@@ -25,6 +25,10 @@ h1 {
   position: relative;
 }
 
+.officer:hover {
+  cursor: pointer;
+}
+
 .officer p {
   text-align: center;
 }
@@ -42,7 +46,7 @@ h1 {
   width: 150px;
   height: 10px;
   position: absolute;
-  top: 190px;
+  top: 179px;
   background-color: rgba(0, 98, 155, 0.9);
 }
 
