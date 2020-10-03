@@ -13,13 +13,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- FONT AWESOME -->
-    <script src="https://use.fontawesome.com/348865e609.js"></script>
+    <script src="https://kit.fontawesome.com/2fb39e755e.js" crossorigin="anonymous"></script>
 
     <!-- STYLESHEETS -->
-    <link rel='stylesheet' href='/public/css/style.css' />
-    <link rel='stylesheet' href='/public/css/lab.css' />
-    <link rel='stylesheet' href='/public/css/footer.css' />
-    <link rel='stylesheet' href='/public/css/navbar.css' />
+    <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/lab.css?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/footer.css?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.0' />
 
     <!-- SCRIPTS -->
     <script src='/public/js/key.js'></script>
@@ -35,12 +35,29 @@
     <div class='info-page'>
         <h1>THE IEEE <span class='ieee-blue'>LAB</span></h1>
         <p class='details'>
-            Here at UCLA, we've been given a lab space that we use as our center of operations. The IEEE Lab is an open space for all general members to come in, work on their projects, meet new people, talk to present officers, or even just to chill and eat lunch.
+            With access to our lab and UCLA's campus as a whole being restricted
+            due to COVID-19, <b>we're now using our
+                <a href="https://discord.gg/yTR6XUS" target="_blank">Discord server</a>
+                as our replacement for the physical lab.</b> We encourage you to use it
+            just like you'd use our regular lab: meet new people, get help with
+            projects, talk to officers, or just chill! We like to think of it as
+            a home away from home away from home. The officers will be holding
+            their lab hours on the Discord, so feel free to stop by and see
+            who's there!
+            <br><br>
+            Although we'll primarily be using the Discord as our lab, our physical
+            lab will be available on a case-by-case basis for those on campus who
+            would like to use our tools. Please contact our Project and Lab
+            Managers, Caleb and Chester, on the Slack or Discord for more information.
+            <br><br>
+            Our lab is located at <b>Boelter 2825</b>. The easiest way to find
+            it is to go to the west side of 2nd floor Boelter (the lowest balcony).
+            We are the second door down from the bridge to E-IV. The IEEE logo
+            is posted on our door for easy locating.
         </p>
         <div class='lab-map'>
             <a href='/public/images/lab/map.png' target='_blank'><img width="100%" src="/public/images/lab/map.png"></a>
         </div>
-        <p id="location">Our lab is located at <b>Boelter 2825</b>. Come find us! The easiest way to find it is to go to the west side of 2nd floor Boelter (the lowest balcony). We are the second door down from the bridge to E-IV. The IEEE logo is posted on our door for easy locating.</p>
     </div>
 
     <div class="background-grey lab-hours" id='hours'>
@@ -61,11 +78,21 @@
         </div>
         <div class='resources-info black'>
             <div class='resource'>
-                <h2 class='ieee-blue thin'>GENERAL TOOLS</h2>
+                <h2 class='ieee-blue thin'>General Tools</h2>
                 <p class='black'>
                     We've stocked up on various tools that members can use in our labs.
                     <br /><br /> Some of the heavier tools we have include: soldering stations, oscilloscops, power supplies, 3D printers, a drill press, DMM's, a big whiteboard, etc. Mostly popular tools used to complete hardware related projects.
                     <br /><br /> We also have smaller, general tools such as: scissors, wire cutters, pliers, rulers, screwdrivers, etc.
+                </p>
+            </div>
+            <div class='resource'>
+                <h2 class='ieee-blue thin'>Discord Server</h2>
+                <p class='black'>
+                    Our Discord server is our replacement for the lab while
+                    the COVID-19 pandemic continues. Come through to meet new
+                    people, hang out with officers, get technical help, and so
+                    much more! Join our Discord with this link:
+                    <a href="https://discord.gg/yTR6XUS" target="_blank">https://discord.gg/yTR6XUS</a>
                 </p>
             </div>
             <div class='resource'>

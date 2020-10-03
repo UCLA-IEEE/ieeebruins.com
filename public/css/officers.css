@@ -4,6 +4,11 @@ h1 {
   padding: 15px 10px;
 }
 
+.page-title p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
 .officer-wrapper {
   padding: 50px 10px;
 }
@@ -20,6 +25,10 @@ h1 {
   position: relative;
 }
 
+.officer:hover {
+  cursor: pointer;
+}
+
 .officer p {
   text-align: center;
 }
@@ -30,33 +39,69 @@ h1 {
 }
 
 .officer .position {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .officer .blue-highlight {
   width: 150px;
   height: 10px;
   position: absolute;
-  top: 190px;
+  top: 179px;
   background-color: rgba(0, 98, 155, 0.9);
 }
 
-.officer .officer-overlay {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.modal-background {
+  position: fixed;
+  display: none;
   top: 0;
-  height: 200px;
-  width: 100%;
-  padding: 0 5px 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.officer-overlay {
+  position: fixed;
+  display: none;
+  top: 20vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 450px;
+
+  padding: 15px;
 
   color: white;
-  background-color: rgba(0, 98, 155, 0.9);
-  opacity: 0;
-  transition: 0.5s ease;
+  background-color: rgb(0, 98, 155);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
-.officer:hover .officer-overlay {
-  opacity: 1;
+.officer-overlay .info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.officer-overlay .description {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.officer-overlay button {
+  background-color: white;
+  color: rgb(0, 98, 155);
+  font-size: 16px;
+}
+
+.officer-overlay button:hover {
+  background-color: rgb(186, 186, 186);
+  transition: background-color 0.3s;
+}
+
+@media only screen and (max-width: 520px) {
+  .officer-overlay {
+    width: 90%;
+    max-height: 90vh;
+    overflow: auto;
+  }
 }

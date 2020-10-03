@@ -13,13 +13,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- FONT AWESOME -->
-    <script src="https://use.fontawesome.com/348865e609.js"></script>
+    <script src="https://kit.fontawesome.com/2fb39e755e.js" crossorigin="anonymous"></script>
 
     <!-- CSS Pages -->
-    <link rel="stylesheet" type="text/css" href="/public/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/sponsors.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/style.css?v=1.0.0">
+    <link rel="stylesheet" type="text/css" href="/public/css/sponsors.css?v=1.0.0">
+    <link rel="stylesheet" type="text/css" href="/public/css/footer.css?v=1.0.0">
+    <link rel="stylesheet" type="text/css" href="/public/css/navbar.css?v=1.0.0">
 
     <!--Favicon -->
     <link rel='icon' href='/public/favicon.ico' />
