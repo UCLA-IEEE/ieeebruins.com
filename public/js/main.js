@@ -15,7 +15,7 @@ $(() => {
   })
 
   const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-  const API_OPTIONS = '/values/Summer!A3:I?key='
+  const API_OPTIONS = '/values/Summer!A3:L?key='
   const SPREADSHEET_ID = '138-osM3nyNM88QTvcDz4YNgX5TwJRfqcoi2u8UoJvAg'
 
   // eslint-disable-next-line
@@ -41,10 +41,16 @@ $(() => {
     } else {
       const EVENTS_TO_SHOW = 3
       events = events.map(event => {
+        let location = `${event[5]}`
+        // If the event has a link, add it to the event
+        if (event[11]) {
+          location = `<a href='${event[11]}'>${event[5]}</a>`
+        }
+
         return `<div class='col-md-3 columns-spacing'>
           <h3>${event[1]}</h3> <br />
           <h4>
-            ${event[5]} <br />
+            ${location} <br />
             ${event[2]} <br />
             ${event[3]}
           </h4>

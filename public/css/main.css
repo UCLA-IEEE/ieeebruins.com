@@ -148,6 +148,16 @@
   margin-top: 0px;
 }
 
+.events a {
+  color: white;
+  text-decoration: underline;
+}
+
+.events a:hover {
+  color: #b5b5b5;
+  text-decoration: none;
+}
+
 .events-subtext {
   padding-top: 5px;
 }
