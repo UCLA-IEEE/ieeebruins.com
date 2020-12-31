@@ -20,7 +20,7 @@
     <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/lab.css?v=1.0.0' />
-    <link rel='stylesheet' href='/public/css/main.css?v=1.0.1' />
+    <link rel='stylesheet' href='/public/css/main.css?v=1.1.0' />
 
     <!-- SCRIPTS -->
     <script src='/public/js/key.js'></script>
@@ -65,13 +65,15 @@
     <!-- EVENTS -->
     <div class='container-fluid background-ieee-blue container-padding'>
         <div class='row events' style='vertical-align:bottom'>
-            <div class='col-md-3 events-column'>
+            <div class='col-sm-6 col-md-3 events-column'>
                 <h1> EVENTS </h1>
                 <p class='events-subtext'>
                     Here are some upcoming events that you will not want to miss out on. Remember to save the date!
                     <br><br>
                     We also have a Google Calendar that is constantly being updated with our latest events. Click <a href="https://calendar.google.com/calendar/u/0?cid=ZnBlaG5tczY1NTkxYjJhYXE2ZTc1MDN2dWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank">here</a> to add it to your calendar!
                 </p>
+            </div>
+            <div class="col-sm-6 col-md-9 events-column events-slider">
             </div>
         </div>
     </div>

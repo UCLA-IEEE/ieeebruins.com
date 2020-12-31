@@ -140,14 +140,6 @@
   margin-bottom: 10px;
 }
 
-.events h3 {
-  font-family: Arial, sans-serif;
-  border-bottom: solid white 1px;
-  padding-bottom: 5px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
-
 .events a {
   color: white;
   text-decoration: underline;
@@ -162,29 +154,50 @@
   padding-top: 5px;
 }
 
-.columns-spacing {
-  padding-bottom: 20px;
+.events-slider {
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
-.columns-spacing h4 {
-  padding-right: 80px;
+.event-card {
+  display: inline-block;
+  vertical-align: top;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  margin: 0 10px;
+
+  white-space: normal;
+
+  background-color: white;
+  color: #333333;
 }
 
-.events h4 {
-  font-size: 15px;
-  border-bottom: solid white 1px;
-  /* display: inline-block; */
+.event-card h3 {
+  font-family: Arial, sans-serif;
+  border-bottom: solid #333333 3px;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
   margin-top: 0px;
-  /* padding-top: 10px; */
-  padding-bottom: 10px;
+}
+
+.event-card h4 {
+  font-size: 15px;
+  margin: 0;
   line-height: 1.5;
 }
 
-.col-sm-3 p {
-  padding-right: 40px;
+.event-card a {
+  color: #337ab7;
+  text-decoration: none;
 }
 
-.events .empty-message h1 {
+.event-card a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+.events .events-slider h1 {
   border-bottom: none;
   text-transform: none;
 }
@@ -239,7 +252,7 @@
   margin: 0 5px 0 0;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .description {
     display: block;
     top: 50%;
@@ -267,11 +280,18 @@
     padding-right: 10px;
     padding-left: 20px;
   }
-  .events h4 {
-    padding-right: 0px;
-  }
   .events p {
     padding-right: 0px;
+  }
+  .events-slider {
+    white-space: normal;
+    overflow-y: auto;
+    max-height: 500px;
+    max-width: 400px;
+  }
+  .event-card {
+    margin: 10px 0;
+    text-align: left;
   }
 }
 
@@ -293,11 +313,5 @@
   }
   .lab-hours-wrapper h2 {
     text-align: center;
-  }
-}
-
-@media only screen and (min-width: 1090px) and (max-widt: 1200px) {
-  div.lab-hours h1 {
-    margin: 50px 0 10px 0;
   }
 }

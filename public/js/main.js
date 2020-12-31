@@ -15,7 +15,7 @@ $(() => {
   })
 
   const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-  const API_OPTIONS = '/values/Summer!A3:L?key='
+  const API_OPTIONS = '/values/Winter%20Qtr!A2:L?key='
   const SPREADSHEET_ID = '138-osM3nyNM88QTvcDz4YNgX5TwJRfqcoi2u8UoJvAg'
 
   // eslint-disable-next-line
@@ -25,41 +25,42 @@ $(() => {
   }).then(res => {
     // Filter out all the events that have passed, or have "No" in the
     // "Put no Newsletter" field
-    let events = res.values.filter(event => {
-      let eventDate = new Date(event[3])
-      return eventDate > Date.now() && event[7] !== 'No'
-    })
+    // let events = res.values.filter(event => {
+    //   let eventDate = new Date(event[3])
+    //   return eventDate > Date.now() && event[9] !== 'No'
+    // })
 
-    // If no events to show, display mesage
+    let events = res.values
+
+    // If no events to show, display message
     // Else, format the first three events and display them
     if (events.length === 0) {
       let emptyMessage = `<div class='col-md-9 text-center empty-message'>
         <h1>There are currently no events listed</h1>
       </div>`
 
-      $('.events').append(emptyMessage)
+      $('.events-slider').append(emptyMessage)
     } else {
-      const EVENTS_TO_SHOW = 3
-      events = events.map(event => {
-        let location = `${event[5]}`
-        // If the event has a link, add it to the event
-        if (event[11]) {
-          location = `<a href='${event[11]}'>${event[5]}</a>`
-        }
+      events.forEach(event => {
+        // Display a link if given one
+        let link = event[11] ? `<a href="${event[11]}">(link)</a>` : ''
 
-        return `<div class='col-md-3 columns-spacing'>
-          <h3>${event[1]}</h3> <br />
-          <h4>
-            ${location} <br />
-            ${event[2]} <br />
-            ${event[3]}
-          </h4>
+        // Parse start time from start column
+        // Assumes format of "... XX:XX" in 24-hour time
+        let timeRegex = /([0-9]{2}:[0-9]{2})$/
+        let startTime = event[3].match(timeRegex)[0]
+
+        let eventCard = `<div class='event-card'>
+            <h3>${event[1]}</h3> <br />
+            <h4>
+                ${event[5]} ${link} <br />
+                ${event[2]} <br />
+                Starts at ${startTime} PST
+            </h4>
         </div>`
-      })
 
-      for (let k = 0; k < EVENTS_TO_SHOW; k++) {
-        $('.events').append(events[k])
-      }
+        $('.events-slider').append(eventCard)
+      })
     }
   })
 })
