@@ -20,7 +20,7 @@
     <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/lab.css?v=1.0.0' />
-    <link rel='stylesheet' href='/public/css/main.css?v=1.0.1' />
+    <link rel='stylesheet' href='/public/css/main.css?v=1.1.0' />
 
     <!-- SCRIPTS -->
     <script src='/public/js/key.js'></script>
@@ -72,6 +72,16 @@
                     <br><br>
                     We also have a Google Calendar that is constantly being updated with our latest events. Click <a href="https://calendar.google.com/calendar/u/0?cid=ZnBlaG5tczY1NTkxYjJhYXE2ZTc1MDN2dWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank">here</a> to add it to your calendar!
                 </p>
+            </div>
+            <div class="col-md-9 events-column events-slider">
+                <div class='event-card'>
+                    <h3>Event Title</h3> <br />
+                    <h4>
+                        Location <a href="">(link)</a> <br />
+                        Start time <br />
+                        End time
+                    </h4>
+                </div>
             </div>
         </div>
     </div>
