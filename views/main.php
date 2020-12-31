@@ -74,14 +74,6 @@
                 </p>
             </div>
             <div class="col-sm-6 col-md-9 events-column events-slider">
-                <div class='event-card'>
-                    <h3>Event Title</h3> <br />
-                    <h4>
-                        Location <a href="">(link)</a> <br />
-                        Start time <br />
-                        End time
-                    </h4>
-                </div>
             </div>
         </div>
     </div>
