@@ -1,6 +1,6 @@
 const SPREADSHEET_ID = '1YLaaSEy0RsXwlboPSnK-3G-Vd901aoP4d5TyJMu-Tvo'
 const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-const API_OPTIONS = '/values/Fall%202020!B3:G10?key='
+const API_OPTIONS = '/values/Winter%202021!B3:G10?key='
 // API_KEY provided in separate file key.js so that we don't have to push
 // it to GitHub
 
