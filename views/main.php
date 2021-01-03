@@ -25,7 +25,7 @@
     <!-- SCRIPTS -->
     <script src='/public/js/key.js'></script>
     <script src='/public/js/main.js'></script>
-    <script src='/public/js/lab.js'></script>
+    <script src='/public/js/lab.js?v=W21'></script>
 
     <!--Favicon -->
     <link rel='icon' href='/public/favicon.ico' />
