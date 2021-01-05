@@ -34,12 +34,7 @@
         <div class="allsponsors text-center">
             <div class="sponsorsbox">
                 <div class="sponsorimages">
-                    <a href="http://www.ee.ucla.edu" target="_blank"><img style="max-width: 210px; margin: 20px 20px;" src="/public/images/company-logos/ee-dept.png"></a>
-                    <a href="http://www.northropgrumman.com/Pages/default.aspx" target="_blank"><img style="max-width: 210px; margin: 20px 20px;" src="/public/images/company-logos/northrop-grumman-logo.jpg"></a>
-                    <a href="http://sites.ieee.org/clas/" target="_blank"><img style="max-width: 190px; margin: 20px 20px;" src="/public/images/company-logos/clas.jpg"></a>
-                    <a href="http://www.boeing.com" target="_blank"><img style="max-width: 200px; margin: 20px 20px;" src="/public/images/company-logos/boeing.jpg"></a>
-                    <img style="max-width: 190px; padding: 35px 10px;" src="/public/images/company-logos/ieee-upp.png">
-                    <a href="http://on.sce.com/1jMB5Gu" target="_blank"><img style="max-width: 190px; margin: 20px 20px;" src="/public/images/company-logos/socal-edison.svg"></a>
+                    <a href="http://www.ee.ucla.edu" target="_blank"><img style="max-width: 280px; margin: 20px 20px;" src="/public/images/company-logos/ece-dept.png"></a>
                 </div>
                 <div class="tiersbox" id="label">
                     <h1>PLATINUM</h1>
@@ -47,19 +42,16 @@
             </div>
             <div class="sponsorsbox">
                 <div class="sponsorsimages">
-                    <a href="http://losangeles.robertreeveslaw.com" target="_blank"><img style="max-width: 200px; margin: 20px 20px;" src="/public/images/company-logos/reeves-law.jpg"></a>
-                    <a href="http://www.shelving.com/" target="_blank"><img style="max-width: 190px; margin: 20px 20px;" src="/public/images/company-logos/shelving.jpg" /></a>
-                    <a href="http://www.tappers.com/" target="_blank"><img style="max-width: 170px; margin: 20px 20px;" src="/public/images/company-logos/tappers.png"></a>
-                    <a href="http://www.1800leefree.com/" target="_blank"><img style="max-width: 180px; margin: 20px 20px;" src="/public/images/company-logos/leeSteinberg.jpg"></a>
-                    <a href="http://marleesstyle.com/" target="_blank"><img style="max-width: 150px; margin: 20px 20px;" src="/public/images/company-logos/marlees-tappers.jpg"></a>
-                    <a href="http://www.inkaddict.com/" target="_blank"><img style="max-width: 160px; margin: 20px 20px;" src="/public/images/company-logos/inkaddict.png" /></a>
-                    <a href="http://www.wallsidewindows.com/" target="_blank"><img style="max-width: 100px; margin: 20px 20px;" src="/public/images/company-logos/wallside.png"></a>
-                    <a href="http://homefirstcertified.com" target="_blank"><img style="max-width: 130px; margin: 20px 20px;" src="/public/images/company-logos/homefirst.png"></a>
-                    <a href="http://www.7pcb.com/" target="_blank"><img style="max-width: 160px; margin: 20px 20px;" src="/public/images/company-logos/bittele-logo.png"></a>
-                    <a href="http://www.reverie.com/" target="_blank"><img style="max-width: 100px; margin: 20px 20px;" src="/public/images/company-logos/reverie.jpg"></a>
-                    <a href="https://credibly.com/" target="_blank"><img style="max-width: 200px; margin: 20px 20px;" src="/public/images/company-logos/credibly.jpg"></a>
-                    <a href="https://www.greektowncasino.com/" target="_blank"><img style="max-width: 140px; margin: 20px 20px;" src="/public/images/company-logos/greektown.png"></a>
-                    <a href="https://www.vividseats.com/" target="_blank"><img style="max-width: 170px; margin: 20px 20px;" src="/public/images/company-logos/vivid-seats-logo.png" /></a>
+                    <img style="max-width: 190px; padding: 35px 10px;" src="/public/images/company-logos/ieee-upp.png">
+                    <a href="https://www2.deloitte.com/us/en.html" target="_blank"><img style="max-width: 200px; margin: 20px 20px;" src="/public/images/company-logos/deloitte.png"></a>
+                </div>
+                <div class="tiersbox" id="label">
+                    <h1>GOLD</h1>
+                </div>
+            </div>
+            <div class="sponsorsbox">
+                <div class="sponsorsimages">
+                    <a href="https://www.lockheedmartin.com/" target="_blank"><img style="max-width: 250px; margin: 20px 20px;" src="/public/images/company-logos/lockheed.png"></a>
                 </div>
                 <div class="tiersbox" id="label">
                     <h1>SILVER</h1>
