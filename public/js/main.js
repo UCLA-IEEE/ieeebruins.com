@@ -25,12 +25,10 @@ $(() => {
   }).then(res => {
     // Filter out all the events that have passed, or have "No" in the
     // "Put no Newsletter" field
-    // let events = res.values.filter(event => {
-    //   let eventDate = new Date(event[3])
-    //   return eventDate > Date.now() && event[9] !== 'No'
-    // })
-
-    let events = res.values
+    let events = res.values.filter(event => {
+      let eventDate = new Date(event[3])
+      return eventDate > Date.now() && event[9] !== 'No'
+    })
 
     // If no events to show, display message
     // Else, format the first three events and display them
