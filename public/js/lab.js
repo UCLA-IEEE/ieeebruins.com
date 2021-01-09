@@ -28,7 +28,7 @@ $.when(abilities, hours).then(function(res1, res2) {
     checkoffs[row[0]] = row[2].split('\n').map(c => c.trim())
   })
 
-  let cells = $('.table1 tr td:not(#time) .flex-wrapper')
+  let cells = $('.table1 tr td:not(#time)>.flex-wrapper')
   let i = 0
   for (let j = 0; j < 8; j++) {
     for (let k = 0; k < 6; k++) {
@@ -56,18 +56,20 @@ $.when(abilities, hours).then(function(res1, res2) {
         cellCheckoffs = new Array(...new Set(cellCheckoffs)).join('<br>')
 
         tooltip = `<span class='abilities' data-col='${k}'>
-          <span class='classes'>
-          <p>Classes</p>
-          <div>
-          ${cellClasses}
+          <div class='inner-wrapper'>
+            <span class='classes'>
+              <p>Classes</p>
+              <div>
+                ${cellClasses}
+              </div>
+            </span>
+            <span class='checkoffs'>
+              <p>Checkoffs</p>
+              <div>
+                ${cellCheckoffs}
+              </div>
+            </span>
           </div>
-          </span>
-          <span class='checkoffs'>
-          <p>Checkoffs</p>
-          <div>
-          ${cellCheckoffs}
-          </div>
-          </span>
         </span>`
       }
 

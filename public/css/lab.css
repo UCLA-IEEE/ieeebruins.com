@@ -95,6 +95,7 @@ tr#top {
 
 .abilities {
   display: flex;
+  align-items: center;
   position: absolute;
   left: calc(100% - 5px);
   padding: 10px 5px;
@@ -110,7 +111,6 @@ tr#top {
 .abilities::before {
   content: " ";
   position: absolute;
-  top: calc(50% - 5px);
   left: -5px;
   z-index: -1;
 
@@ -131,13 +131,16 @@ tr#top {
 .abilities[data-col="5"]::after {
   content: " ";
   position: absolute;
-  top: calc(50% - 5px);
   right: -5px;
   z-index: -1;
 
   transform: rotate(45deg);
 
   border: 10px solid white;
+}
+
+.abilities .inner-wrapper {
+  display: flex;
 }
 
 .abilities span {
@@ -180,7 +183,6 @@ td:hover .abilities {
   .abilities[data-col="4"]::after {
     content: " ";
     position: absolute;
-    top: calc(50% - 5px);
     right: -5px;
     z-index: -1;
 
@@ -214,7 +216,6 @@ td:hover .abilities {
   .abilities[data-col="3"]::after {
     content: " ";
     position: absolute;
-    top: calc(50% - 5px);
     right: -5px;
     z-index: -1;
 
