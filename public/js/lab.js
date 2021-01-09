@@ -24,8 +24,8 @@ $.when(abilities, hours).then(function(res1, res2) {
   classes = {}
   checkoffs = {}
   val1.forEach(row => {
-    classes[row[0]] = row[1].split('\n').map(c => c.trim())
-    checkoffs[row[0]] = row[2].split('\n').map(c => c.trim())
+    classes[row[0]] = row[1].trim() === '' ? [] : row[1].split('\n').map(c => c.trim())
+    checkoffs[row[0]] = row[2].trim() === '' ? [] : row[2].split('\n').map(c => c.trim())
   })
 
   let cells = $('.table1 tr td:not(#time)>.flex-wrapper')
