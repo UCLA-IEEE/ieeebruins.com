@@ -75,11 +75,4 @@ $.when(abilities, hours).then(function(res1, res2) {
       i++
     }
   } // end of code for first table
-
-  // Position tooltips
-  $('.abilities').each(function() {
-    let cell = $(this).closest('td')
-    let cellHeight = cell.height()
-    let tooltipHeight = $(this).height()
-  })
 })

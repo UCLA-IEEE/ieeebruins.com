@@ -119,19 +119,16 @@ tr#top {
   border: 10px solid white;
 }
 
-.abilities[data-col="5"],
-.abilities[data-col="4"] {
+.abilities[data-col="5"] {
   left: unset;
   right: 100%;
 }
 
-.abilities[data-col="5"]::before,
-.abilities[data-col="4"]::before {
+.abilities[data-col="5"]::before {
   border: transparent;
 }
 
-.abilities[data-col="5"]::after,
-.abilities[data-col="4"]::after {
+.abilities[data-col="5"]::after {
   content: " ";
   position: absolute;
   top: calc(50% - 5px);
@@ -170,6 +167,29 @@ td:hover .abilities {
   visibility: visible;
 }
 
+@media (max-width: 1245px) {
+  .abilities[data-col="4"] {
+    left: unset;
+    right: 100%;
+  }
+
+  .abilities[data-col="4"]::before {
+    border: transparent;
+  }
+
+  .abilities[data-col="4"]::after {
+    content: " ";
+    position: absolute;
+    top: calc(50% - 5px);
+    right: -5px;
+    z-index: -1;
+
+    transform: rotate(45deg);
+
+    border: 10px solid white;
+  }
+}
+
 @media (max-width: 1052px) {
   th,
   td {
@@ -178,6 +198,29 @@ td:hover .abilities {
   th#date,
   td#time {
     font-size: 13px;
+  }
+}
+
+@media (max-width: 850px) {
+  .abilities[data-col="3"] {
+    left: unset;
+    right: 100%;
+  }
+
+  .abilities[data-col="3"]::before {
+    border: transparent;
+  }
+
+  .abilities[data-col="3"]::after {
+    content: " ";
+    position: absolute;
+    top: calc(50% - 5px);
+    right: -5px;
+    z-index: -1;
+
+    transform: rotate(45deg);
+
+    border: 10px solid white;
   }
 }
 
