@@ -64,7 +64,7 @@ $.when(abilities, hours).then(function(res1, res2) {
               </div>
             </span>
             <span class='checkoffs'>
-              <p>Checkoffs</p>
+              <p>Checkoffs/Help</p>
               <div>
                 ${cellCheckoffs}
               </div>

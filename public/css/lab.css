@@ -170,7 +170,7 @@ td:hover .abilities {
   visibility: visible;
 }
 
-@media (max-width: 1245px) {
+@media (max-width: 1400px) {
   .abilities[data-col="4"] {
     left: unset;
     right: 100%;
@@ -192,18 +192,7 @@ td:hover .abilities {
   }
 }
 
-@media (max-width: 1052px) {
-  th,
-  td {
-    font-size: 15px;
-  }
-  th#date,
-  td#time {
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 850px) {
+@media (max-width: 1075px) {
   .abilities[data-col="3"] {
     left: unset;
     right: 100%;
@@ -222,6 +211,17 @@ td:hover .abilities {
     transform: rotate(45deg);
 
     border: 10px solid white;
+  }
+}
+
+@media (max-width: 1052px) {
+  th,
+  td {
+    font-size: 15px;
+  }
+  th#date,
+  td#time {
+    font-size: 13px;
   }
 }
 
