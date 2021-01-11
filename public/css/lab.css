@@ -43,6 +43,7 @@
 
 table {
   margin-top: 15px;
+  margin-bottom: 50px;
   border-collapse: collapse;
   border-spacing: 10px;
   border: 3px solid #ddd;
@@ -76,7 +77,7 @@ td#time {
   font-size: 17px;
 }
 td {
-  /*font-size: 50px;*/
+  position: relative;
 }
 tr:nth-child(even) {
   background-color: white;
@@ -85,6 +86,134 @@ tr#top {
   background-color: #00629b;
   color: white;
 }
+
+/* Tooltips */
+.flex-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.abilities {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: calc(100% - 5px);
+  padding: 10px 5px;
+  z-index: 1;
+
+  background-color: white;
+  -webkit-filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.2));
+
+  visibility: hidden;
+}
+
+.abilities::before {
+  content: " ";
+  position: absolute;
+  left: -5px;
+  z-index: -1;
+
+  transform: rotate(45deg);
+
+  border: 10px solid white;
+}
+
+.abilities[data-col="5"] {
+  left: unset;
+  right: 100%;
+}
+
+.abilities[data-col="5"]::before {
+  border: transparent;
+}
+
+.abilities[data-col="5"]::after {
+  content: " ";
+  position: absolute;
+  right: -5px;
+  z-index: -1;
+
+  transform: rotate(45deg);
+
+  border: 10px solid white;
+}
+
+.abilities .inner-wrapper {
+  display: flex;
+}
+
+.abilities span {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.abilities .classes {
+  width: 100px;
+}
+
+.abilities p {
+  border-bottom: 2px solid black;
+  margin-bottom: 0.3em;
+}
+
+.abilities div {
+  padding-left: 5px;
+}
+
+.abilities .classes div {
+  max-height: 90px;
+  overflow-y: auto;
+}
+
+td:hover .abilities {
+  visibility: visible;
+}
+
+@media (max-width: 1400px) {
+  .abilities[data-col="4"] {
+    left: unset;
+    right: 100%;
+  }
+
+  .abilities[data-col="4"]::before {
+    border: transparent;
+  }
+
+  .abilities[data-col="4"]::after {
+    content: " ";
+    position: absolute;
+    right: -5px;
+    z-index: -1;
+
+    transform: rotate(45deg);
+
+    border: 10px solid white;
+  }
+}
+
+@media (max-width: 1075px) {
+  .abilities[data-col="3"] {
+    left: unset;
+    right: 100%;
+  }
+
+  .abilities[data-col="3"]::before {
+    border: transparent;
+  }
+
+  .abilities[data-col="3"]::after {
+    content: " ";
+    position: absolute;
+    right: -5px;
+    z-index: -1;
+
+    transform: rotate(45deg);
+
+    border: 10px solid white;
+  }
+}
+
 @media (max-width: 1052px) {
   th,
   td {
