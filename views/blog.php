@@ -40,14 +40,7 @@
             </p>
         </div>
 
-        <div class="post container-fluid">
-            <h2>This is a tweet-like post. Not many characters. Look at my wit.</h2>
-            <div class="info">
-                <p class="name ieee-blue">Robert Peralta</p>
-                <p class="position">Webmaster</p>
-                <p class="date">1/25/21</p>
-            </div>
-        </div>
+        <!-- Blog posts added here -->
     </div>
 
     <!-- FOOTER -->
