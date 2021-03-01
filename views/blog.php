@@ -36,7 +36,10 @@
         <div class='container-fluid page-title text-center'>
             <h1>Blog</h1>
             <p>
-                Placeholder description
+                Our blog is the place for our officers (and the occasional
+                general member) to leave their thoughts, whether about UCLA,
+                IEEE, engineering, or something entirely unrelated. Browse
+                the posts and see what's on our officers' minds!
             </p>
         </div>
 
