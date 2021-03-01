@@ -1,6 +1,6 @@
 $(() => {
   const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-  const API_OPTIONS = '/values/Form%20Responses%201!A2:E?key='
+  const API_OPTIONS = '/values/Approved%20Posts!A2:F?key='
   const SPREADSHEET_ID = '1vuWL6fZ0XO9VDN9wUeFn_3jrMO3hQL9goO2oaeT--pI'
 
   // eslint-disable-next-line
@@ -16,14 +16,19 @@ $(() => {
       let position = e[2]
       let title = e[3]
       let body = e[4].split('\n').join('<br>')
+      let pic = e[5]
 
       if (title.length) title = `<h2 class="title">${title}</h2>`
       if (!title.length && body.length <= 144) body = `<h2>${body}</h2>`
       else body = `<p>${body}</p>`
 
+      if (pic) pic = `<img src="${pic.split('/open?').join('/uc?')}">`
+      else pic = ''
+
       let post = `<div class="post container-fluid">
                             ${title}
                             ${body}
+                            ${pic}
                             <div class="info">
                                 <p class="name ieee-blue">${name}</p>
                                 <p class="position">${position}</p>
