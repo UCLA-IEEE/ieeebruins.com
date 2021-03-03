@@ -215,6 +215,118 @@
   border: none;
 }
 
+/*------------------- BLOG ---------------------------*/
+
+.blog {
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog h1 {
+  border-bottom: solid white 10px;
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.blog .info a {
+  color: white;
+  text-decoration: underline;
+}
+
+.blog .info a:hover {
+  color: #b5b5b5;
+  text-decoration: none;
+}
+
+.blog-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  color: black;
+}
+
+.blog .post {
+  display: inline-block;
+  padding: 15px 20px;
+  max-width: 400px;
+  max-height: 400px;
+
+  background: white;
+  color: unset;
+}
+
+.blog .post:hover {
+  text-decoration: none;
+}
+
+.blog .post .post-fade {
+  position: relative;
+  max-height: 320px;
+  overflow: hidden;
+}
+
+.blog .post .post-fade::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent 260px, white);
+  pointer-events: none;
+}
+
+.blog .post h2 {
+  text-transform: none;
+  line-height: 1.42857143;
+}
+
+.blog .post h2.title {
+  margin-bottom: 15px;
+  border-bottom: 3px solid #00629b;
+}
+
+.blog .post p {
+  font-size: 16px;
+}
+
+.blog .post img {
+  display: block;
+  margin: 20px auto;
+
+  max-width: 600px;
+  max-height: 600px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.blog .info {
+  position: relative;
+  margin-top: 15px;
+}
+
+.blog .info .name {
+  font-size: 16px;
+}
+
+.blog .info .position {
+  font-size: 14px;
+}
+
+.blog .info .date {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  font-size: 14px;
+}
+
 /*---------- INSTAGRAM / FLICKR STUFF ----------------*/
 
 .instagram {
@@ -252,6 +364,16 @@
   margin: 0 5px 0 0;
 }
 
+@media only screen and (max-width: 1280px) {
+  .blog .post {
+    max-width: 600px;
+  }
+
+  .blog .post:nth-child(2) {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .description {
     display: block;
@@ -271,13 +393,17 @@
   .description h1 {
     padding-left: 20px;
   }
-  .events {
+  .events,
+  .blog {
     display: flex;
     text-align: center;
     flex-direction: column;
+
+    padding: 30px;
   }
-  .events h1 {
-    padding-right: 10px;
+  .events h1,
+  .blog h1 {
+    padding-right: 20px;
     padding-left: 20px;
   }
   .events p {
@@ -292,6 +418,17 @@
   .event-card {
     margin: 10px 0;
     text-align: left;
+  }
+
+  .blog .blog-wrapper {
+    flex-direction: column;
+  }
+  .blog .post {
+    margin-top: 30px;
+    text-align: left;
+  }
+  .blog .post:nth-child(2) {
+    display: inline-block;
   }
 }
 

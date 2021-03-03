@@ -1,6 +1,11 @@
 $(() => {
   const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-  const API_OPTIONS = '/values/Approved%20Posts!A2:F?key='
+  // Detects if being used on main.php
+  if (window.location.pathname === '/') var main = true
+  else var main = false
+  // Only gets 2 most recent posts for main page
+  if (main) var API_OPTIONS = '/values/Approved%20Posts!A2:F3?key='
+  else var API_OPTIONS = '/values/Approved%20Posts!A2:F?key='
   const SPREADSHEET_ID = '1vuWL6fZ0XO9VDN9wUeFn_3jrMO3hQL9goO2oaeT--pI'
 
   // eslint-disable-next-line
@@ -25,16 +30,22 @@ $(() => {
       if (pic) pic = `<img src="${pic.split('/open?').join('/uc?')}">`
       else pic = ''
 
-      let post = `<div class="post container-fluid">
-                            ${title}
-                            ${body}
-                            ${pic}
+      // Put picture before body on posts with a title
+      if (title.length) var content = title + pic + body
+      else var content = body + pic
+
+      let post = `<div class="post-fade">
+                            ${content}
+                      </div>
                             <div class="info">
                                 <p class="name ieee-blue">${name}</p>
                                 <p class="position">${position}</p>
                                 <p class="date">${date}</p>
-                            </div>
-                        </div>`
+                            </div>`
+
+      // Wrap posts in a link to the blog page on landing page
+      if (main) post = `<a class="post" href="/blog">${post}</a>`
+      else post = `<div class="post container-fluid">${post}</div>`
 
       $('.blog-wrapper').append(post)
     })
