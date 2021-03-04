@@ -45,6 +45,10 @@
   object-fit: contain;
 }
 
+.post img:hover {
+  cursor: pointer;
+}
+
 .info {
   position: relative;
   margin-top: 15px;
@@ -64,6 +68,28 @@
   right: 0;
 
   font-size: 14px;
+}
+
+.img-modal {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-modal img {
+  max-width: 900px;
+  min-width: 0;
+  max-height: 900px;
+  margin: 30px;
+  object-fit: contain;
 }
 
 @media only screen and (max-width: 890px) {

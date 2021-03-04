@@ -46,6 +46,8 @@
         <!-- Blog posts added here -->
     </div>
 
+    <div class='img-modal'></div>
+
     <!-- FOOTER -->
     <?php include('./includes/footer.html'); ?>
 </body>

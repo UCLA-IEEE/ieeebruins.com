@@ -49,5 +49,25 @@ $(() => {
 
       $('.blog-wrapper').append(post)
     })
+
+    // Set up image modal
+    $('.post img').click(function() {
+      let pic = $(this)
+        .clone()
+        .wrap('<div></div>')
+      // Only want to exit modal when clicking off of image
+      pic.click(e => e.stopPropagation())
+      $('.img-modal')
+        .append(pic)
+        .css('display', 'flex')
+        .hide()
+        .fadeIn('fast')
+    })
+
+    $('.img-modal').click(function() {
+      $(this).fadeOut('fast', function() {
+        $(this).empty()
+      })
+    })
   })
 })
