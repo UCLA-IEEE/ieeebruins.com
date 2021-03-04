@@ -255,12 +255,14 @@
   padding: 15px 20px;
   max-width: 400px;
   max-height: 400px;
+  min-width: 250px;
 
   background: white;
   color: unset;
 }
 
-.blog .post:hover {
+.blog .post:hover,
+.blog .post:focus {
   text-decoration: none;
 }
 
