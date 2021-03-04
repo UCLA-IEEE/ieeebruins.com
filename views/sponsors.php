@@ -19,7 +19,7 @@
     <link rel="stylesheet" type="text/css" href="/public/css/style.css?v=1.0.0">
     <link rel="stylesheet" type="text/css" href="/public/css/sponsors.css?v=1.0.0">
     <link rel="stylesheet" type="text/css" href="/public/css/footer.css?v=1.0.0">
-    <link rel="stylesheet" type="text/css" href="/public/css/navbar.css?v=1.0.0">
+    <link rel="stylesheet" type="text/css" href="/public/css/navbar.css?v=1.0.1">
 
     <!--Favicon -->
     <link rel='icon' href='/public/favicon.ico' />
