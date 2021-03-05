@@ -33,7 +33,7 @@
     <div class="container-fluid text-center page-title content-wrapper" style='margin-top: 50px;'>
         <h1>Our <span class='ieee-blue'>Projects</span></h1>
         <p>
-            Our primary method in achieving our mission is by getting our members involved in our project curriculums. For all projects, we have infosessions at the beginning of every academic year, and release applications around the same time.
+            Our primary method in achieving our mission is by getting our members involved in our project curriculums. For all projects, we have info sessions at the beginning of every academic year and release applications around the same time.
         </p>
     </div>
 
@@ -107,6 +107,24 @@
                     <h2>See Sounds on Screen</h2>
                 </div>
 
+            </div>
+        </div>
+    </div>
+
+    <!-- Wireless, RF, and Analog Project Section -->
+    <div class="container-fluid background-ieee-blue adv-proj">
+        <div class="content-wrapper">
+            <div class="row flex-container">
+                <div class="col-md-4 header">
+                    <h1>Wireless, RF, and Analog Project</h1>
+                    <h2>Who needs wires</h2>
+                </div>
+                <div class="col-md-8 descrip">
+                    <h2 class="sub2">Learn how the world communicates</h2>
+                    <p>
+                        WRAP is an advanced project focused on wireless digital communications and RF circuits. WRAP teaches students a variety of circuits topics used in wireless transceiver design, including amplifiers, mixers, and oscillators. On the signal processing side, WRAP covers the fundamentals of digital communication, digital filtering, and other techniques used in real-world communication systems. As the year progresses, students use this knowledge to design, build, and test their own physical wireless transceivers.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
