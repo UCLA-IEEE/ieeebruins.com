@@ -33,7 +33,7 @@
     <div class="container-fluid text-center page-title content-wrapper" style='margin-top: 50px;'>
         <h1>Our <span class='ieee-blue'>Projects</span></h1>
         <p>
-            Our primary method in achieving our mission is by getting our members involved in our project curriculums. For all projects, we have infosessions at the beginning of every academic year, and release applications around the same time.
+            Our primary method in achieving our mission is by getting our members involved in our project curriculums. For all projects, we have info sessions at the beginning of every academic year and release applications around the same time.
         </p>
     </div>
 
