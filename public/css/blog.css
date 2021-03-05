@@ -1,0 +1,101 @@
+.blog-wrapper {
+  padding: 50px 0;
+}
+
+.page-title h1 {
+  display: inline-block;
+  border-bottom: solid black 10px;
+  padding: 15px 10px;
+}
+
+.page-title p {
+  margin: 20px 0;
+}
+
+.post {
+  margin: 30px auto 0;
+  padding: 15px 20px;
+  max-width: 800px;
+  min-width: 250px;
+
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+.post h2 {
+  text-transform: none;
+  line-height: 1.42857143;
+}
+
+.post h2.title {
+  margin-bottom: 15px;
+  border-bottom: 3px solid #00629b;
+}
+
+.post p {
+  font-size: 16px;
+}
+
+.post img {
+  display: block;
+  margin: 20px auto;
+
+  max-width: 600px;
+  max-height: 400px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.post img:hover {
+  cursor: pointer;
+}
+
+.info {
+  position: relative;
+  margin-top: 15px;
+}
+
+.info .name {
+  font-size: 16px;
+}
+
+.info .position {
+  font-size: 14px;
+}
+
+.info .date {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  font-size: 14px;
+}
+
+.img-modal {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-modal img {
+  max-width: 900px;
+  min-width: 0;
+  max-height: 900px;
+  margin: 30px;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 890px) {
+  .post {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}

@@ -18,14 +18,15 @@
     <!-- STYLESHEETS -->
     <link rel='stylesheet' href='/public/css/footer.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
-    <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.1' />
     <link rel='stylesheet' href='/public/css/lab.css?v=1.1.0' />
-    <link rel='stylesheet' href='/public/css/main.css?v=1.1.0' />
+    <link rel='stylesheet' href='/public/css/main.css?v=1.2.0' />
 
     <!-- SCRIPTS -->
     <script src='/public/js/key.js'></script>
     <script src='/public/js/main.js'></script>
     <script src='/public/js/lab.js?v=W21.1'></script>
+    <script src='/public/js/blog.js'></script>
 
     <!--Favicon -->
     <link rel='icon' href='/public/favicon.ico' />
@@ -78,10 +79,28 @@
         </div>
     </div>
 
+    <!-- LAB HOURS -->
+
     <div class='container-fluid background-grey container-pad'>
         <div class='row lab-hours'>
             <h1 class='ieee-blue'>Lab Hours</h1>
             <?php include('./includes/lab_hours.html'); ?>
+        </div>
+    </div>
+
+    <!-- BLOG -->
+
+    <div class='container-fluid background-ieee-blue container-padding'>
+        <div class='row blog'>
+            <div class='col-sm-5 col-lg-3 info'>
+                <h1> BLOG </h1>
+                <p>
+                    The freshest takes on UCLA, IEEE, or anything else, straight
+                    from our officers! See more at our <a href="/blog">blog page.</a>
+                </p>
+            </div>
+            <div class="col-sm-7 col-lg-9 blog-wrapper">
+            </div>
         </div>
     </div>
 
