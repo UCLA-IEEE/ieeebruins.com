@@ -41,6 +41,15 @@
   margin: 0 auto;
 }
 
+#blue-square {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-bottom: -0.15em;
+  background-color: #00629b;
+}
+
 table {
   margin-top: 15px;
   margin-bottom: 50px;
@@ -82,7 +91,8 @@ td {
 tr:nth-child(even) {
   background-color: white;
 }
-tr#top {
+tr#top,
+td.happy-hour {
   background-color: #00629b;
   color: white;
 }
@@ -101,6 +111,7 @@ tr#top {
   padding: 10px 5px;
   z-index: 1;
 
+  color: black;
   background-color: white;
   -webkit-filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.2));
   filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.2));
