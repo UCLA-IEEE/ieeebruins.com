@@ -30,7 +30,7 @@ $.when(abilities, hours).then(function(res1, res2) {
 
   let cells = $('.table1 tr td:not(#time)>.flex-wrapper')
   let i = 0
-  for (let j = 0; j < 8; j++) {
+  for (let j = 0; j < 6; j++) {
     for (let k = 0; k < 6; k++) {
       if (val2[j][k] === undefined) {
         val2[j][k] = ' '
