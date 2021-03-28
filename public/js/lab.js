@@ -1,6 +1,6 @@
 const SPREADSHEET_ID = '1YLaaSEy0RsXwlboPSnK-3G-Vd901aoP4d5TyJMu-Tvo'
 const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-const HOURS_OPTIONS = '/values/Winter%202021!B3:G10?key='
+const HOURS_OPTIONS = '/values/Spring%202021!B3:G8?key='
 const ABILITIES_OPTIONS = '/values/Abilities!A2:C?key='
 // API_KEY provided in separate file key.js so that we don't have to push
 // it to GitHub
@@ -30,7 +30,7 @@ $.when(abilities, hours).then(function(res1, res2) {
 
   let cells = $('.table1 tr td:not(#time)>.flex-wrapper')
   let i = 0
-  for (let j = 0; j < 8; j++) {
+  for (let j = 0; j < 6; j++) {
     for (let k = 0; k < 6; k++) {
       if (val2[j][k] === undefined) {
         val2[j][k] = ' '
