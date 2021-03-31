@@ -91,10 +91,28 @@ td {
 tr:nth-child(even) {
   background-color: white;
 }
-tr#top,
-td.happy-hour {
+tr#top {
   background-color: #00629b;
   color: white;
+}
+
+td.happy-hour {
+  background-color: #00629b80;
+}
+td.ops {
+  background-color: #2e7d3280;
+}
+td.mm {
+  background-color: #c6282880;
+}
+td.ap {
+  background-color: #fbc02d80;
+}
+td.dav {
+  background-color: #00acc180;
+}
+td.wrap {
+  background-color: #e6510080;
 }
 
 /* Tooltips */
