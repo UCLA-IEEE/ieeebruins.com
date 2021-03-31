@@ -19,7 +19,7 @@
     <link rel='stylesheet' href='/public/css/footer.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.1' />
-    <link rel='stylesheet' href='/public/css/lab.css?v=1.2.0' />
+    <link rel='stylesheet' href='/public/css/lab.css?v=1.2.1' />
     <link rel='stylesheet' href='/public/css/main.css?v=1.2.0' />
 
     <!-- SCRIPTS -->
