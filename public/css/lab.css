@@ -41,7 +41,7 @@
   margin: 0 auto;
 }
 
-#blue-square {
+.color-square {
   display: inline-block;
   height: 1em;
   width: 1em;
@@ -96,23 +96,45 @@ tr#top {
   color: white;
 }
 
-td.happy-hour {
+td.happy-hour,
+span.happy-hour {
   background-color: #00629b80;
 }
-td.ops {
+td.ops,
+span.ops {
   background-color: #2e7d3280;
 }
-td.mm {
+td.mm,
+span.mm {
   background-color: #c6282880;
 }
-td.ap {
+td.ap,
+span.ap {
   background-color: #fbc02d80;
 }
-td.dav {
+td.dav,
+span.dav {
   background-color: #00acc180;
 }
-td.wrap {
+td.wrap,
+span.wrap {
   background-color: #e6510080;
+}
+
+/* Legend */
+#legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  position: relative;
+  top: -15px;
+
+  font-size: 16px;
+}
+
+#legend .entry {
+  margin: 5px;
 }
 
 /* Tooltips */
