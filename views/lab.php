@@ -95,12 +95,6 @@
                     <a href="https://discord.gg/yTR6XUS" target="_blank">https://discord.gg/yTR6XUS</a>
                 </p>
             </div>
-            <div class='resource'>
-                <h2 class='ieee-blue thin'>Slack Workspace</h2>
-                <p class='black'>
-                    <a href='https://slack.com/' target='_blank'>Slack</a> is a team communication application, and is one of our primary means of communication within our organization. Our Slack workspace is free to join to all general members at <a href='https://uclaieee.slack.com/' target='_blank'>https://uclaieee.slack.com/</a>. Within our Slack workspace, you can directly message officers, communicate with fellow project members, and ask if the lab is open.
-                </p>
-            </div>
         </div>
     </div>
 
