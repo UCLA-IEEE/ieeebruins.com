@@ -139,8 +139,8 @@
             </p>
             <div class='workshops-image-list'>
                 <img src='/public/images/projects/workshop1.jpg' />
-                <img src='/public/images/projects/workshop2.jpg' />
-                <img src='/public/images/projects/workshop3.jpg' />
+                <img src='/public/images/projects/workshop2.png' />
+                <img src='/public/images/projects/workshop3.png' />
                 <img src='/public/images/projects/workshop4.jpg' />
                 <img src='/public/images/projects/workshop5.jpg' />
             </div>
