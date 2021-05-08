@@ -81,7 +81,7 @@
                 <h2 class='ieee-blue thin'>General Tools</h2>
                 <p class='black'>
                     We've stocked up on various tools that members can use in our labs.
-                    <br /><br /> Some of the heavier tools we have include: soldering stations, oscilloscops, power supplies, 3D printers, a drill press, DMM's, a big whiteboard, etc. Mostly popular tools used to complete hardware related projects.
+                    <br /><br /> Some of the heavier tools we have include: soldering stations, oscilloscopes, power supplies, 3D printers, a drill press, DMM's, a big whiteboard, etc. Mostly popular tools used to complete hardware related projects.
                     <br /><br /> We also have smaller, general tools such as: scissors, wire cutters, pliers, rulers, screwdrivers, etc.
                 </p>
             </div>
