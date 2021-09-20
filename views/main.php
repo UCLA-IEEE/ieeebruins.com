@@ -90,7 +90,7 @@
 
     <!-- BLOG -->
 
-    <div class='container-fluid background-ieee-blue container-padding'>
+    <!-- <div class='container-fluid background-ieee-blue container-padding'>
         <div class='row blog'>
             <div class='col-sm-5 col-lg-3 info'>
                 <h1> BLOG </h1>
@@ -102,7 +102,7 @@
             <div class="col-sm-7 col-lg-9 blog-wrapper">
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- INSTAGRAM WIDGET -->
     <div class='container-fluid instagram'>
