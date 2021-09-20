@@ -63,7 +63,7 @@
                 <div class="col-md-8 descrip">
                     <h2 class="sub2">Head-to-head competition</h2>
                     <p>
-                        A micromouse is essentially a small robot that's programmed to be able to find it's way to a goal within a maze. Within this program, our leads teach you the fundamentals of how a micromouse is designed, eventually reaching a point where you'll print your own PCB, solder the micromouse all together, and program it through a maze. We also hold annual events where students are invited to compete against each other based on their mice's performance.
+                        The micromouse project guides students through building their own autonomous, maze solving robot or “mouse”. Within this program, our leads teach you the fundamentals of a micromouse, explaining every step along the way, eventually reaching a point where you’ll design and print your own PCB, solder it all together, and program it to solve an unknown maze by itself. At the end of the year, students are invited to compete against each other to solve a maze as fast as possible.
                     </p>
                 </div>
                 <div class="col-md-4 header">
