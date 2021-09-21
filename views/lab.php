@@ -17,13 +17,13 @@
 
     <!-- STYLESHEETS -->
     <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
-    <link rel='stylesheet' href='/public/css/lab.css?v=1.2.2' />
+    <link rel='stylesheet' href='/public/css/lab.css?v=1.2.3' />
     <link rel='stylesheet' href='/public/css/footer.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.1' />
 
     <!-- SCRIPTS -->
     <script src='/public/js/key.js'></script>
-    <script src="/public/js/lab.js?v=S21"></script>
+    <script src="/public/js/lab.js?v=F21"></script>
 
     <!--Favicon -->
     <link rel='icon' href='/public/favicon.ico' />
@@ -35,20 +35,15 @@
     <div class='info-page'>
         <h1>THE IEEE <span class='ieee-blue'>LAB</span></h1>
         <p class='details'>
-            With access to our lab and UCLA's campus as a whole being restricted
-            due to COVID-19, <b>we're now using our
-                <a href="https://discord.gg/yTR6XUS" target="_blank">Discord server</a>
-                as our replacement for the physical lab.</b> We encourage you to use it
-            just like you'd use our regular lab: meet new people, get help with
-            projects, talk to officers, or just chill! We like to think of it as
-            a home away from home away from home. The officers will be holding
-            their lab hours on the Discord, so feel free to stop by and see
-            who's there!
+            Here at UCLA, we've been given a lab space that we use as our center
+            of operations. The IEEE Lab is an open space for all general members
+            to come in, work on their projects, meet new people, talk to present
+            officers, or even just to chill and eat lunch.
             <br><br>
-            Although we'll primarily be using the Discord as our lab, our physical
-            lab will be available on a case-by-case basis for those on campus who
-            would like to use our tools. Please contact our Project and Lab
-            Managers, Caleb and Chester, on the Slack or Discord for more information.
+            Although we'll primarily be using our physical lab, our
+            <a href="https://discord.gg/yTR6XUS" target="_blank">Discord server</a>
+            is still operating as a virtual lab. Feel free to join the lab voice
+            channel. Officers will be monitoring it during their lab hours.
             <br><br>
             Our lab is located at <b>Boelter 2825</b>. The easiest way to find
             it is to go to the west side of 2nd floor Boelter (the lowest balcony).
@@ -88,10 +83,9 @@
             <div class='resource'>
                 <h2 class='ieee-blue thin'>Discord Server</h2>
                 <p class='black'>
-                    Our Discord server is our replacement for the lab while
-                    the COVID-19 pandemic continues. Come through to meet new
-                    people, hang out with officers, get technical help, and so
-                    much more! Join our Discord with this link:
+                    Originally started to be a virtual lab during the COVID-19
+                    pandemic, our Discord server remains the online hub for
+                    connecting with IEEE. Join our Discord with this link:
                     <a href="https://discord.gg/yTR6XUS" target="_blank">https://discord.gg/yTR6XUS</a>
                 </p>
             </div>

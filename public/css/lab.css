@@ -96,29 +96,29 @@ tr#top {
   color: white;
 }
 
-td.happy-hour,
+/* td.happy-hour,
 span.happy-hour {
   background-color: #00629b80;
-}
+} */
 td.ops,
 span.ops {
-  background-color: #2e7d3280;
+  background-color: #c6282880;
 }
 td.mm,
 span.mm {
-  background-color: #c6282880;
+  background-color: #e6510080;
 }
 td.ap,
 span.ap {
-  background-color: #fbc02d80;
+  background-color: #2e7d3280;
 }
 td.dav,
 span.dav {
-  background-color: #00acc180;
+  background-color: #00629b80;
 }
 td.wrap,
 span.wrap {
-  background-color: #e6510080;
+  background-color: #b4a7d680;
 }
 
 /* Legend */
