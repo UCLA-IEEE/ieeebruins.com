@@ -18,7 +18,7 @@
     <!-- STYLESHEETS -->
     <link rel='stylesheet' href='/public/css/footer.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.1' />
-    <link rel='stylesheet' href='/public/css/projects.css?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/projects.css?v=1.1.0' />
     <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
 
     <!--Favicon -->
@@ -53,17 +53,21 @@
                     </p>
                 </div>
             </div>
+            <div class="picture-box flex-container">
+                <img src="/public/images/projects/ops1.jpg">
+                <img src="/public/images/projects/ops2.gif">
+            </div>
         </div>
     </div>
 
     <!-- Micromouse section-->
-    <div class="container-fluid background-grey micromouse">
+    <div class="container-fluid background-grey mm">
         <div class="content-wrapper">
             <div class="row flex-container">
                 <div class="col-md-8 descrip">
                     <h2 class="sub2">Head-to-head competition</h2>
                     <p>
-                        A micromouse is essentially a small robot that's programmed to be able to find it's way to a goal within a maze. Within this program, our leads teach you the fundamentals of how a micromouse is designed, eventually reaching a point where you'll print your own PCB, solder the micromouse all together, and program it through a maze. We also hold annual events where students are invited to compete against each other based on their mice's performance.
+                        The micromouse project guides students through building their own autonomous, maze solving robot or “mouse”. Within this program, our leads teach you the fundamentals of a micromouse, explaining every step along the way, eventually reaching a point where you’ll design and print your own PCB, solder it all together, and program it to solve an unknown maze by itself. At the end of the year, students are invited to compete against each other to solve a maze as fast as possible.
                     </p>
                 </div>
                 <div class="col-md-4 header">
@@ -71,11 +75,15 @@
                     <h2>Autonomous Maze-Solving Robot</h2>
                 </div>
             </div>
+            <div class="picture-box flex-container">
+                <img src="/public/images/projects/mm1.png">
+                <img src="/public/images/projects/mm2.gif">
+            </div>
         </div>
     </div>
 
     <!--Aircopter Project section-->
-    <div class="container-fluid background-ieee-blue adv-proj">
+    <div class="container-fluid background-ieee-blue ap">
         <div class="content-wrapper">
             <div class="row flex-container">
                 <div class="col-md-4 header">
@@ -88,6 +96,10 @@
                         The Aircopter Project is an opportunity for you to refine your understanding of hardware and apply it in a design project. By learning subjects such as serial communication, motors, control systems, sensor fusion, and PCB design, you will design and build a drone as a team from the ground up, starting from hardware components to a radio controlled flying machine.
                     </p>
                 </div>
+            </div>
+            <div class="picture-box flex-container">
+                <img src="/public/images/projects/ap1.png">
+                <img src="/public/images/projects/ap2.jpg">
             </div>
         </div>
     </div>
@@ -106,13 +118,16 @@
                     <h1>Digital Audio Visualizer</h1>
                     <h2>See Sounds on Screen</h2>
                 </div>
-
+            </div>
+            <div class="picture-box flex-container">
+                <img src="/public/images/projects/dav1.png">
+                <img src="/public/images/projects/dav2.gif">
             </div>
         </div>
     </div>
 
     <!-- Wireless, RF, and Analog Project Section -->
-    <div class="container-fluid background-ieee-blue adv-proj">
+    <div class="container-fluid background-ieee-blue wrap">
         <div class="content-wrapper">
             <div class="row flex-container">
                 <div class="col-md-4 header">
@@ -125,6 +140,10 @@
                         WRAP is an advanced project focused on wireless digital communications and RF circuits. WRAP teaches students a variety of circuits topics used in wireless transceiver design, including amplifiers, mixers, and oscillators. On the signal processing side, WRAP covers the fundamentals of digital communication, digital filtering, and other techniques used in real-world communication systems. As the year progresses, students use this knowledge to design, build, and test their own physical wireless transceivers.
                     </p>
                 </div>
+            </div>
+            <div class="picture-box flex-container">
+                <img src="/public/images/projects/wrap1.jpg">
+                <img src="/public/images/projects/wrap2.jpg">
             </div>
         </div>
     </div>
