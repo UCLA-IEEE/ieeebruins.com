@@ -68,9 +68,10 @@ button {
   color: #333;
 }
 
-.adv-proj,
-.micromouse,
-.dav {
+.ap,
+.mm,
+.dav,
+.wrap {
   padding-top: 75px;
   padding-bottom: 75px;
 }
@@ -85,38 +86,55 @@ button {
   flex-wrap: wrap;
 }
 
-.adv-proj h1,
-.micromouse h1,
+.picture-box {
+  justify-content: space-around;
+  align-items: center;
+
+  padding-top: 20px;
+}
+
+.picture-box img {
+  max-width: 40%;
+  min-width: 300px;
+  margin: 10px;
+}
+
+.ap h1,
+.mm h1,
 .ops h1,
-.dav h1 {
+.dav h1,
+.wrap h1 {
   padding-bottom: 5px;
   border-bottom: solid white 10px;
   display: inline-block;
 }
 
-.adv-proj .header,
-.micromouse .header,
+.ap .header,
+.mm .header,
 .ops .header,
-.dav .header {
+.dav .header,
+.wrap .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.adv-proj .header h2,
-.micromouse .header h2,
+.ap .header h2,
+.mm .header h2,
+.wrap .header h2,
 .ops h2,
 .dav h2 {
   font-size: 20px;
   margin: 20px 0;
 }
 
-.micromouse .header h1 {
+.mm .header h1 {
   border-bottom: solid black 10px;
   margin-top: 35px;
 }
 
-.adv-proj .header h1 {
+.ap .header h1,
+.wrap .header h1 {
   margin-top: 35px;
 }
 
@@ -130,21 +148,22 @@ button {
   margin-top: 20px;
 }
 
-.micromouse .header h1,
-.micromouse .header h2,
+.mm .header h1,
+.mm .header h2,
 .dav .header h1,
 .dav .header h2 {
   text-align: right;
 }
 
-.micromouse .descrip h2,
+.mm .descrip h2,
 .dav .descrip h2 {
   border-bottom: solid black 2px;
   padding-right: 15px;
 }
 
 .ops .descrip h2,
-.adv-proj .descrip h2 {
+.ap .descrip h2,
+.wrap .descrip h2 {
   border-bottom: solid white 2px;
   padding-right: 15px;
 }
@@ -192,25 +211,26 @@ button {
 
 @media (max-width: 995px) {
   .ops .header,
-  .micromouse .header,
-  .adv-proj .header,
-  .dav .header {
+  .mm .header,
+  .ap .header,
+  .dav .header,
+  .wrap .header {
     text-align: center;
     margin: 0 auto;
   }
 
-  .micromouse .header,
+  .mm .header,
   .dav .header {
     order: 1;
   }
 
-  .micromouse .descrip,
+  .mm .descrip,
   .dav .descrip {
     order: 2;
   }
 
-  .micromouse .header h1,
-  .micromouse .header h2,
+  .mm .header h1,
+  .mm .header h2,
   .dav .header h1,
   .dav .header h2 {
     text-align: center;
