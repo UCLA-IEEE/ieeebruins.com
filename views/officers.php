@@ -9,7 +9,7 @@
                 "major" => "CE",
                 "class" => "4th Year",
                 "picture" => $IMAGE_PATH . "caleb.jpg",
-                "description" => "Hello! I'm Caleb and I am serving as this year's IEEE President. My responsibilities include overseeing the direction and vision of this amazing org and organizing the officer board. I enjoy running, hiking, and piano, and am more than happy to talk about IEEE, UCLA, research, internships, grad school, Catan, guac, or anything else! I know my absolutely massive 5'8\" frame can be intimidating, but fear not! I'd love to chat. :)",
+                "description" => "Hello! I'm Caleb and I am serving as this year's IEEE President. My responsibilities include overseeing the direction and vision of this amazing org and organizing the officer board. I enjoy running, hiking, and piano, and am more than happy to talk about IEEE, UCLA, research, internships, grad school, Catan, guac, or anything else! I know my absolutely massive 5'8&quot; frame can be intimidating, but fear not! I'd love to chat. :)",
                 "pronouns" => "He/Him"
             ),
             "Taylor Chung" => array(
