@@ -248,7 +248,7 @@
     <link rel='stylesheet' href='/public/css/footer.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.1' />
     <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
-    <link rel='stylesheet' href='/public/css/officers.css?v=1.0.0?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/officers.css?v=1.0.1' />
 
     <!-- SCRIPTS -->
     <script src="/public/js/officers.js"></script>
