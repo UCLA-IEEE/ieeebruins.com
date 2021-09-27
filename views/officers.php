@@ -237,14 +237,9 @@
         <div class='container-fluid page-title content-wrapper'>
             <h1>Officers</h1>
             <p>
-                With COVID-19 making personal connections and forging new relationships
-                harder than ever, we want to make sure that our members are able
-                to interact, not just with each other, but also with our officer
-                board. To help this goal along, we invite you all to sign up for
-                one-on-ones with our officers through Calendly. It's a great way
-                to learn more about IEEE, UCLA engineering, or even just to have a
-                friendly chat! Click on an officer to learn more about them and
-                see their availability.
+                Our officer board does everything from handling corporate contacts,
+                to teaching our year-long projects, to dreaming up ideas for future
+                projects, and more. Click on an officer to learn more about them!
             </p>
         </div>
 
