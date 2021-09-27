@@ -4,195 +4,219 @@
     $IMAGE_PATH = "/public/images/officers/";
     $officer_data = array(
         "Executive Board" => array(
-            "Bryan Wong" => array(
+            "Caleb Terrill" => array(
                 "position" => "President",
-                "major" => "CSE",
-                "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "bryan.jpg",
-                "description" => "Hello hello, I'm Bryan! As the IEEE President, I'm responsible for acting as the face of the org and for facilitating the overall vision and direction of our wonderful officer board. I was also previously an OPS Lead and GB Lead. I'm open to talking about pretty much anything, including navigating life at UCLA, the best food spots, internships, coding, and video games. Feel free to reach out, I won't bite! :)",
-                "link" => "https://calendly.com/bryanwong"
-            ),
-            "Kathy Daniels" => array(
-                "position" => "Internal Vice President",
-                "major" => "CSE",
+                "major" => "CE",
                 "class" => "4th Year",
-                "picture" => $IMAGE_PATH . "kathy.jpeg",
-                "description" => "Hi, I'm Kathy! As IVP, I'm responsible for handling socials, alumni relations, and the General Board program. Feel free to schedule a meeting with me to discuss classes at UCLA, switching majors, internships & recruiting advice, my experiences at IEEE, UCLA housing/apartment life, what CSE is like, or just chat!",
-                "link" => "https://calendly.com/kathydaniels"
+                "picture" => $IMAGE_PATH . "caleb.jpg",
+                "description" => "Hello! I'm Caleb and I am serving as this year's IEEE President. My responsibilities include overseeing the direction and vision of this amazing org and organizing the officer board. I enjoy running, hiking, and piano, and am more than happy to talk about IEEE, UCLA, research, internships, grad school, Catan, guac, or anything else! I know my absolutely massive 5'8\" frame can be intimidating, but fear not! I'd love to chat. :)",
+                "pronouns" => "He/Him"
             ),
-            "Albert Han" => array(
+            "Taylor Chung" => array(
+                "position" => "Internal Vice President",
+                "major" => "CS",
+                "class" => "3rd Year",
+                "picture" => $IMAGE_PATH . "taylor.jpg",
+                "description" => "Hi, I'm Taylor! As IVP, I'm responsible for hosting the General Meeting, socials, and the General Board program. Over my time here at UCLA, I've also been an OPS member, OPS Lead, and a GB Lead. IEEE helped me navigate through college, so feel free to reach out about classes, life, research, food, or tea!",
+                "pronouns" => "She/Her"
+            ),
+            "Pranav Sankar Srinivasan" => array(
+                "position" => "External Vice President",
+                "major" => "CE",
+                "class" => "3rd Year",
+                "picture" => $IMAGE_PATH . "pranav.jpg",
+                "description" => "Hello, my name is Pranav and I am one of the EVP's for IEEE this year. As an EVP, I organize and host IDEA Hacks as well as other events. Feel free to reach out to me if you have any questions about transitioning to college, joining research labs, the Summer Undergraduate Research Program, advice on classes, or finding an internship!",
+                "pronouns" => "He/Him"
+            ),
+            "Solaine Zhao" => array(
                 "position" => "External Vice President",
                 "major" => "CS",
                 "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "albert.jpg",
-                "description" => "Hello there, I'm Albert! As the External Vice President of IEEE, my role is mainly comprised of organizing IDEA Hacks with my fellow EVP Jay. Feel free to talk to me about anything, including my IEEE experience, CS courses, food, or anything about UCLA!",
-                "link" => "https://calendly.com/alberthan"
-            ),
-            "Jay Park" => array(
-                "position" => "External Vice President",
-                "major" => "CSE",
-                "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "jay.jpg",
-                "description" => "Hello, my name is Jay. My main role as External Vice President is to work with Albert to direct and coordinate IDEA Hacks. Please feel free to reach out to me for things like CSE major, school life, IEEE, or any other things about UCLA.",
-                "link" => "https://calendly.com/jayparkk"
+                "picture" => $IMAGE_PATH . "solaine.jpg",
+                "description" => "Hi everyone! I'm Solaine and I'm one of the EVPs this year -- hit me up for anything related to club external affairs, from student professional events, to IDEAHacks (the largest hardware hackathon on the West Coast ;) ), to design input. Also feel free to get in touch if you just want to chat about anything!",
+                "pronouns" => "She/Her"
             ),
         ),
 
         "Admin Board" => array(
-            "Erica Xie" => array(
+            "Nick Turner" => array(
                 "position" => "Treasurer",
-                "major" => "CE",
-                "class" => "4th Year",
-                "picture" => $IMAGE_PATH . "erica.png",
-                "description" => "What's up, my name is Erica and as Treasurer, I handle all the financials for IEEE. I was also the previous IVP and Secretary, so feel free to ask me about that too! Let me know if you would like advice on CE classes, IEEE as a whole, internships, anime, music, or just about life in general.",
-                "link" => "https://calendly.com/ericaxie"
-            ),
-            "Pranav Srinivasan" => array(
-                "position" => "Corporate Relations",
-                "major" => "CE",
-                "class" => "2nd Year",
-                "picture" => $IMAGE_PATH . "pranav.jpg",
-                "description" => "Hello, my name is Pranav and I am the Corporate Relations Officer this year for IEEE! As CRO, I manage business-to-organization communication as well as organize company infosessions and workshops to provide networking and technical development opportunities for IEEE members! In addition, I run the Corporate Committee for IDEA Hacks, which fundraises money that will be used to set up and run the event! Feel free to reach out to me if you have any questions about transitioning to college, joining research labs, the Summer Undergraduate Research Program, advice on classes, or just want to talk about UCLA Athletics/NBA!",
-                "link" => "https://calendly.com/pranavsankars"
-            ),
-            "Achinthya Poduval" => array(
-                "position" => "Secretary",
                 "major" => "EE",
                 "class" => "2nd Year",
-                "picture" => $IMAGE_PATH . "achinthya.jpeg",
-                "description" => "Hey everyone, I'm Achinthya! As Secretary I handle club communications through our weekly newsletters and Instagram along with alumni relations through alumni newsletters and our alumni Facebook group. Feel free to reach out to me with any questions about freshman year at UCLA, the Summer Undergraduate Research program, frisbee ;), or any deep convos you'd like to start!",
-                "link" => "https://calendly.com/achinthyapoduval"
+                "picture" => $IMAGE_PATH . "nick.jpg",
+                "description" => "Hey I'm Nick. As Treasurer, I take care of all the financials behind the scenes to ensure all our fantastic projects and events run smoothly. I enjoy rec sports (spikeball, tennis, whatever really), chess, ukulele, and gaming. I'm happy to talk about pretty much anything and answer any questions you may have!",
+                "pronouns" => "He/Him"
             ),
-            "Solaine Zhao" => array(
+            "Jason Song" => array(
+                "position" => "Corporate Relations",
+                "major" => "EE",
+                "class" => "2nd Year",
+                "picture" => $IMAGE_PATH . "jason.jpg",
+                "description" => "Hello! My name is Jason Song, and I am Corporate Relations Officer for IEEE this year. I am responsible for leading the IDEA Hacks Corporate Committee in securing sponsorships for our annual hackathon, organizing corporate information sessions, and setting up graduate school panels with admissions staff, faculty, and graduate students from ECE programs from across the nation. Please feel free to reach out to me if you have any questions about classes, IEEE, UCLA in general, hockey, boxing, electronic dance music or just about anything else!",
+                "pronouns" => "He/Him"
+            ),
+            "Kat Nasif" => array(
+                "position" => "Secretary",
+                "major" => "CE",
+                "class" => "2nd Year",
+                "picture" => $IMAGE_PATH . "kat.jpg",
+                "description" => "Hi I'm Kat! As secretary, I manage our weekly newsletter and the Alumni Mentorship Program. Feel free to reach out to me anytime to discuss school, work, and what life has to offer. I am looking forward to meeting you!",
+                "pronouns" => "She/They"
+            ),
+            "Courtney Gibbons" => array(
                 "position" => "Publicity",
                 "major" => "EE",
                 "class" => "2nd Year",
-                "picture" => $IMAGE_PATH . "solaine.jpeg",
-                "description" => "Hi guys!! I'm Solaine :)) As Publicity I handle everything design/marketing/brand related! Hmu if you want to talk about first year classes, art/writing, photoshoots/photography, baking, music, martial arts, or movies/tv shows (dc comics <3)!! I love meeting new people so just hmu for a convo about anything :))",
-                "link" => "https://calendly.com/solaine"
+                "picture" => $IMAGE_PATH . "courtney.jpg",
+                "description" => "My name is Courtney, and I’m your publicity officer!  My role is to design event banners and posters, design and order merchandise, and take photos of club events.  Reach out to me if you want to talk about classes, research, or more fun things like photography, digital design, soccer, and video games!",
+                "pronouns" => "She/Her"
             ),
-            "Grace Ma" => array(
+            "Esha Thota" => array(
                 "position" => "Events Coordinator",
-                "major" => "EE",
+                "major" => "CE",
                 "class" => "2nd Year",
-                "picture" => $IMAGE_PATH . "grace.jpg",
-                "description" => "Hey guys! I'm Grace. As Events Coordinator, I handle keeping our calendars organized for our members and officers, and putting together socials! Shoot me a message if you have any questions about classes, IEEE, school/life balance, job searches, baking recipes (:P) and mental health. I'm here to help!",
-                "link" => "https://calendly.com/glm1550"
+                "picture" => $IMAGE_PATH . "esha.jpg",
+                "description" => "Hello! My name is Esha Thota, and as the Events Coordinator for IEEE, I handle event logistics, ranging from booking rooms to managing calendars in order to make sure all our events are successful! You can always reach out to ask me about being CE, undergraduate research, IEEE, and anything else you are curious about!",
+                "pronouns" => "She/Her"
+            ),
+            "Ryeder Geyer" => array(
+                "position" => "College Outreach",
+                "major" => "EE",
+                "class" => "4th Year",
+                "picture" => $IMAGE_PATH . "ryeder.jpg",
+                "description" => "Hi everyone, I'm this year's college outreach for IEEE. Feel free to reach out or catch me in the lab if you have any questions about classes, projects, or if you have any funny jokes you'd like to share :)",
+                "pronouns" => "He/Him"
             )
         ),
 
         "Projects Board" => array(
-            "Ryeder Geyer" => array(
+            "Margot Nguyen" => array(
                 "position" => "OPS Lead",
                 "major" => "EE",
                 "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "ryeder.jpg",
-                "description" => "Hello I'm Ryeder, I work with Taylor to develop lectures and projects for students new electric/computer engineering. Feel free to reach out if you have any questions about projects you can do, choosing classes, or really anything else you'd like to talk about.",
-                "link" => "https://calendly.com/ryedergeyer"
+                "picture" => $IMAGE_PATH . "margot.jpg",
+                "description" => "Hello, I'm Margot, a second year transfer student and your OPS lead! As OPS lead, I help incoming students learn more about the basics of electrical engineering through hands on projects. I'm always happy to chat so feel free to hit me up anytime on discord or in person! :)",
+                "pronouns" => "She/Her"
             ),
-            "Taylor Chung" => array(
+            "Preston Rooker" => array(
                 "position" => "OPS Lead",
                 "major" => "EE",
                 "class" => "2nd Year",
-                "picture" => $IMAGE_PATH . "taylor.jpeg",
-                "description" => "Eyy I’m Taylor, your OPS co-lead! I work with Ryeder to prepare lectures, projects, and socials for OPS. Feel free to reach out to me about anything: classes, bplate salmon, covel tater tots, Summer Undergraduate Research Program, boelter, classical music, coffee, and/or hot pipin' tea ;) (I'm awake at weird hours too)",
-                "link" => "https://calendly.com/taylorchung"
+                "picture" => $IMAGE_PATH . "preston.jpg",
+                "description" => "Hello there, I'm Preston, IEEE's very own OPS Co-Lead. I work with Margot to create lectures and projects for OPS and to make sure that everyone has a good time. When I'm not studying for classes I'm likely playing Tetris. Feel free to ask me about literally anything, I'm looking forward to getting to know you :D",
+                "pronouns" => "He/Him"
             ),
-            "Bradley Schulz" => array(
+            "Dominic Olson" => array(
                 "position" => "Micromouse Lead",
                 "major" => "EE",
                 "class" => "2nd Year",
-                "picture" => $IMAGE_PATH . "bradley.jpeg",
-                "description" => "Hi I'm Bradley! I'm a micromouse co-lead so it's my job to help raise a healthy mischief of mice (I looked it up, that's the technical term)! I'm happy to talk about how to get started on personal projects, my internship experience, and just life in general!",
-                "link" => "https://calendly.com/bradleyschulz"
+                "picture" => $IMAGE_PATH . "dominic.jpg",
+                "description" => "Hello, I'm Dominic, one of the co-leads for Micromouse! I work with Tim to develop lectures and assignments to guide our project members through building their maze-solving Micromouse. Feel free to reach out if you want to talk about electronics projects, engineering classes at UCLA, music, or anything else!",
+                "pronouns" => "He/Him"
+            ),
+            "Tim Jacques" => array(
+                "position" => "Micromouse Lead",
+                "major" => "EE",
+                "class" => "2nd Year",
+                "picture" => $IMAGE_PATH . "timj.jpg",
+                "description" => "Hi everyone! I'm Tim Jacques, and I'm a 2nd year EE major (maybe ce? we'll see) as well as one of the Micromouse leads for this year. I'm an avid pc/tech enthusiast, road biker, questionable pianist, photographer, and pc gamer. I love to make things and am interested in embedded systems, software development, and robotics. Lmk if you want any advice with classes or to chat about anything!",
+                "pronouns" => "He/Him"
+            ),
+            "Alexis Samoylov" => array(
+                "position" => "Aircopter Lead",
+                "major" => "EE",
+                "class" => "3rd Year",
+                "picture" => $IMAGE_PATH . "alexiy.jpg",
+                "description" => "Hello I'm Alexiy, I am one of the two AP leads this year. I'm happy to talk about anything. My personal interests are taking things apart, photonics, circuit design, and creating random stuff on a whim.",
+                "pronouns" => "He/Him"
+            ),
+            "Tim Zou" => array(
+                "position" => "Aircopter Lead",
+                "major" => "EE",
+                "class" => "2nd Year",
+                "picture" => $IMAGE_PATH . "timz.jpg",
+                "description" => "Hey, I'm Tim, one of the AP co-leads this year. I'll be around helping AP members getting things to fly, but feel free to approach me about anything. I'm more than happy to talk about engineering, advice, and life in general. My specialties include gaming, frisbee, gymming, and In-N-Out.",
+                "pronouns" => "He/Him"
+            ),
+            "Andrew Fantino" => array(
+                "position" => "DAV Lead",
+                "major" => "CE",
+                "class" => "3rd Year",
+                "picture" => $IMAGE_PATH . "andrew.jpg",
+                "description" => "Hi everyone, I'm Andrew! I am one of this year's two DAV Leads. I work with Achinthya on everything DAV related. I would be happy to talk to you about and Digital Design related projects, changing majors, climbing, surfing, and lifting. I am always in the lab and will usually be able to help with some homework questions.",
+                "pronouns" => "He/Him"
+            ),
+            "Achinthya Poduval" => array(
+                "position" => "DAV Lead",
+                "major" => "EE",
+                "class" => "3rd Year",
+                "picture" => $IMAGE_PATH . "achinthya.jpg",
+                "description" => "What’s up everyone? It’s Achinthya, your resident digital logic and frisbee enthusiast. Hit me up if you’re interested in FPGAs, ultimate frisbee, sustainability, or anything else you’d like to talk about!",
+                "pronouns" => "He/Him"
+            ),
+            "Vaibhav Gupta" => array(
+                "position" => "WRAP Lead",
+                "major" => "EE",
+                "class" => "4th Year",
+                "picture" => $IMAGE_PATH . "vaibhav.jpg",
+                "description" => "Hi, my name is Vaibhav. As WRAP co-lead, I'm hoping to get a bunch of people excited about this project so that it can flourish into a mainstay at IEEE UCLA. Feel free to hit me up about anything do with the EE undergrad experience at UCLA, biking, books or comedy. Stoked to meet everyone in person this year!",
+                "pronouns" => "He/Him"
             ),
             "Tyler Price" => array(
-                "position" => "Micromouse Lead",
+                "position" => "WRAP Lead",
                 "major" => "EE",
-                "class" => "2nd Year",
+                "class" => "3rd Year",
                 "picture" => $IMAGE_PATH . "tyler.jpg",
-                "description" => "I am one of this year's two *incredible* Micromouse leads! I work with Bradley on everything Micromouse. I am happy to talk about epic personal EE projects, how to make your mouse go zoom zoom, why Brazilian jiu-jitsu is the best martial art (change my mind), how to succeed as a freshman @ UCLA, electric guitar (especially if you are a Weezer fan), or about anything else I guess :)",
-                "link" => "https://calendly.com/tylerprice"
+                "description" => "I am one of this year's WRAP leads! Vaibhav and I help teach people how to make electronic devices talk to each other... without wires :0 Feel free to reach out to me about anything EE (classes, internships, research, electric guitar, redstone, etc.)",
+                "pronouns" => "He/Him"
             ),
-            "Aaron Kuo" => array(
-                "position" => "Aircopter Lead",
-                "major" => "EE",
-                "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "aaron.jpg",
-                "description" => "Hello I'm Aaron; I'm an AP co-lead this year, so I'm half of the body responsible for creating (dys)functional quadcopters. I'm glad to talk about practically anything, from my internships, sports, video games, anime, music, tv shows, and beep beep boop stuff.",
-                "link" => "https://calendly.com/aaronkuo"
-            ),
-            "Eric Tang" => array(
-                "position" => "Aircopter Lead",
-                "major" => "EE",
-                "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "eric.jpeg",
-                "description" => "Hey! I'm Eric and I'm an AP co-lead and I'm really excited to meet everyone! I'm in charge of getting all the AP kids through to building their quadcopters. I'd love to talk about anything really, I play video games and Aaron just got me to watch Your Lie in April. I love cooking but love eating more so if you live that simple life too then hit me up.",
-                "link" => "https://calendly.com/erictang728"
-            ),
-            "Brandon Le" => array(
-                "position" => "DAV Lead",
+            "Siddhant Gupta" => array(
+                "position" => "Workshops Manager",
                 "major" => "CE",
-                "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "brandon.jpg",
-                "description" => "Howdy Y'all! I'm Brandon, one of your co-leads for DAV this year. I'm here to make sure that your experience as a DAV member, an IEEE member, and a student at UCLA is memorable and enjoyable...oh and I guess I have to teach you stuff too :0. Feel free to talk to me about anything: engineering, college, music, Rocket League, the meaning of life, you name it!",
-                "link" => "https://calendly.com/brandon-hlong-le"
+                "class" => "2nd Year",
+                "picture" => $IMAGE_PATH . "siddhant.jpg",
+                "description" => "Hey y’all, I’m Siddhant! I’m a second year Computer Engineering major (with a minor in Public Affairs) and Workshops Manager at IEEE. David and I have been cooking up some spicy workshops for this year and are excited to meet you. Feel free to reach out to me if you have questions about classes, switching majors, college life, undergraduate research, or if you’re just bored! :)",
+                "pronouns" => "He/Him"
             ),
             "David Kao" => array(
-                "position" => "DAV Lead",
-                "major" => "EE",
-                "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "davidk.jpg",
-                "description" => "Hey, I'm David, a DAV co-lead for this year. I'm in charge of piloting this new project and making sure it can launch as smoothly as possible. I'm available to talk just about anything, whether it's academic, or social, or video games, or real life stuff, or whatever else you might think of.",
-                "link" => "https://calendly.com/davidkao"
-            ),
-            "Jacqueline Lam" => array(
                 "position" => "Workshops Manager",
-                "major" => "CE",
+                "major" => "EE",
                 "class" => "4th Year",
-                "picture" => $IMAGE_PATH . "jackie.jpg",
-                "description" => "Hello there!! I am Jacqueline and one of the workshops managers along with Travis. We both help create workshops to supplement students' understanding of various EE concepts with hands on material.  Don't hesitate to hit me up if you want to talk about upcoming workshops, obtaining free material for classes, and navigating the UCLA life in general. If you just want someone to talk to as well I am here :)",
-                "link" => "https://calendly.com/jacqueline-lam902"
+                "picture" => $IMAGE_PATH . "david.jpg",
+                "description" => "Hey, I'm David, one of the Workshops Managers this year. I want the workshops to be a place where everyone can have a good time and supplement their understanding about lots of different EE concepts. Let's talk, I don't sleep. I'm always available to talk about anything - classes, IEEE, the songs you listen to, your problems, life, or I can give wisdom too.",
+                "pronouns" => "He/Him"
             ),
-            "Travis Graening" => array(
-                "position" => "Workshops Manager",
-                "major" => "EE",
-                "class" => "2nd Year",
-                "picture" => $IMAGE_PATH . "travis.jpg",
-                "description" => "I'm Travis! My co-lead Jackie and I design presentations and projects to help students get knowledge in engineering fundamentals that they don't get from just taking classes. If you'd like to get some advice about succeeding as a freshman at UCLA, academically and otherwise, reach out for a talk!",
-                "link" => "https://calendly.com/tgraening"
-            ),
-            "Caleb Terrill" => array(
-                "position" => "Projects and Lab Manager",
-                "major" => "CE",
-                "class" => "3rd Year",
-                "picture" => $IMAGE_PATH . "caleb.jpg",
-                "description" => "Hello! I'm Caleb and I am the Projects and Lab manager. I oversee the operation of IEEE's 4 projects and workshops (actually 5 projects now with David Baum's RF project), and I am also in charge of the IEEE lab space. Feel free to reach out to chat about any of the IEEE projects, UCLA academics/research, jobs, running/physical fitness, or how to make a killer omelette!",
-                "link" => "https://calendly.com/caleb-terrill"
-            ),
-            "Chester Hulse" => array(
+            "Brandon Le" => array(
                 "position" => "Projects and Lab Manager",
                 "major" => "CE",
                 "class" => "4th Year",
-                "picture" => $IMAGE_PATH . "chester.png",
-                "description" => "Hello! I'm a Project and Lab Manager with Caleb Terrill. We oversee IEEE's projects and lab logistics. Feel free to reach out and chat about literally anything. Some of my interests include food, spaceflight, procrastinating, tennis, and video games.",
-                "link" => "https://calendly.com/chesterh"
+                "picture" => $IMAGE_PATH . "brandon.jpg",
+                "description" => "Howdy Y'all! I'm Brandon, one of your Projects and Lab Managers this year. I'm here to make sure that you have an enjoyable and educational experience in both our projects and our lab as an IEEE member. I hope you get to learn a bunch of cool new topics as well as get some hands-on practice with really cool equipment to make exciting tech. Feel free to reach out to talk to me about anything: engineering, college, music, Rocket League, Valorant, the meaning of life, you name it!",
+                "pronouns" => "He/Him"
             ),
-            "David Baum" => array(
+            "Bradley Schulz" => array(
+                "position" => "Projects and Lab Manager",
+                "major" => "CE",
+                "class" => "3rd Year",
+                "picture" => $IMAGE_PATH . "bradley.jpg",
+                "description" => "Hi I'm Bradley and I'm one of the Project and Lab Managers. I help oversee the implementation of IEEE's 5 projects as well as management of the lab space. Please reach out to me if you want to chat about projects, have questions about the lab, want advice with careers/recruitment, want to talk about running, or have a P meal plan and want to swipe me in :)",
+                "pronouns" => "He/Him"
+            ),
+            "Aaron Kuo" => array(
                 "position" => "Research and Development",
                 "major" => "EE",
                 "class" => "4th Year",
-                "picture" => $IMAGE_PATH . "davidb.png",
-                "description" => "Hi there, I'm David. As research and development lead, I facilitate the development of new IEEE projects and capabilities as well as keep our lab space up-to-date. Reach out to me if you want advice on EE classes/coursework/research, want to discuss wireless communications, or anything else.",
-                "link" => "https://calendly.com/david-baum"
+                "picture" => $IMAGE_PATH . "aaron.jpg",
+                "description" => "Hello I'm Aaron; I'm the R&D lead this school year. I'm here to help facilitate the development of new projects within IEEE as well as manage our Student Project Initiative. Feel free to reach out to me if you have any questions about practically anything: music, games, keyboards, school, and more!",
+                "pronouns" => "He/Him"
             ),
             "Robert Peralta" => array(
                 "position" => "Webmaster",
                 "major" => "CE",
-                "class" => "3rd Year",
+                "class" => "4th Year",
                 "picture" => $IMAGE_PATH . "robert.jpg",
-                "description" => "Hi! I'm Robert, IEEE's webmaster this year. I'm in charge of maintaining our club's websites, as well as making new ones and heading the IDEA Hacks website committee. I'm glad to talk about webdev, CS/STEM courses, my experience with IEEE, or anything else UCLA!",
-                "link" => "https://calendly.com/robertnperalta"
+                "description" => "Hi there! I'm Robert, IEEE's webmaster. I'm in charge of IEEE's websites (like this beautiful one) as well as heading up the IDEA Hacks website committee. I like to spend my free time reading, baking, or playing video games. I'm always down to talk about webdev, basically any CS course, internships, hobbies, or anything else UCLA and beyond!",
+                "pronouns" => "He/Him"
             )
         )
     );
@@ -224,7 +248,7 @@
     <link rel='stylesheet' href='/public/css/footer.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.1' />
     <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
-    <link rel='stylesheet' href='/public/css/officers.css?v=1.0.0?v=1.0.0' />
+    <link rel='stylesheet' href='/public/css/officers.css?v=1.0.1' />
 
     <!-- SCRIPTS -->
     <script src="/public/js/officers.js"></script>
@@ -237,14 +261,9 @@
         <div class='container-fluid page-title content-wrapper'>
             <h1>Officers</h1>
             <p>
-                With COVID-19 making personal connections and forging new relationships
-                harder than ever, we want to make sure that our members are able
-                to interact, not just with each other, but also with our officer
-                board. To help this goal along, we invite you all to sign up for
-                one-on-ones with our officers through Calendly. It's a great way
-                to learn more about IEEE, UCLA engineering, or even just to have a
-                friendly chat! Click on an officer to learn more about them and
-                see their availability.
+                Our officer board does everything from handling corporate contacts,
+                to teaching our year-long projects, to planning memorable events,
+                and more. Click on an officer to learn more about them!
             </p>
         </div>
 
@@ -254,11 +273,14 @@
 
             print("<div class='officer-section'>");
             foreach($section as $officer_name => $officer_data) {
-                print('<div class="officer" data-class="' . $officer_data["class"] . '" data-major="' . $officer_data["major"] . '" data-description="' . $officer_data["description"] . '" data-link="' . $officer_data["link"] . '">');
-                    print("<img src='" . $officer_data["picture"] . "' />");
-                    print("<div class='blue-highlight'></div>");
+                print('<div class="officer" data-class="' . $officer_data["class"] . '" data-major="' . $officer_data["major"] . '" data-description="' . $officer_data["description"] . '">');
+                    print("<div class='img-wrapper'>");
+                        print("<img src='" . $officer_data["picture"] . "' />");
+                        print("<div class='blue-highlight'></div>");
+                    print("</div>");
                     print("<p>" . $officer_name . "</p>");
                     print("<p class='position'>" . $officer_data["position"] . "</p>");
+                    print("<p class='pronouns'>" . $officer_data["pronouns"] . "</p>");
                 print("</div>");
             }
             print("</div>");
@@ -272,7 +294,6 @@
                 <p class="major"></p>
             </div>
             <p class="description"></p>
-            <a href=""><button class="btn">Schedule Meeting</button></a>
         </div>
     </div>
 

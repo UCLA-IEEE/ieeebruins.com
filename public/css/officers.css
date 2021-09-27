@@ -23,6 +23,7 @@ h1 {
   display: inline-block;
   margin: 15px 20px;
   position: relative;
+  text-align: center;
 }
 
 .officer:hover {
@@ -38,7 +39,13 @@ h1 {
   max-width: 189px;
 }
 
-.officer .position {
+.officer .img-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.officer .position,
+.officer .pronouns {
   font-size: 15px;
 }
 
@@ -84,7 +91,6 @@ h1 {
 
 .officer-overlay .description {
   text-align: left;
-  margin-bottom: 15px;
 }
 
 .officer-overlay button {
