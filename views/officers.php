@@ -275,7 +275,7 @@
             foreach($section as $officer_name => $officer_data) {
                 print('<div class="officer" data-class="' . $officer_data["class"] . '" data-major="' . $officer_data["major"] . '" data-description="' . $officer_data["description"] . '">');
                     print("<div class='img-wrapper'>");
-                        print("<img src='" . $officer_data["picture"] . "' />");
+                        print("<img src='" . $officer_data["picture"] . "?v=1' />");
                         print("<div class='blue-highlight'></div>");
                     print("</div>");
                     print("<p>" . $officer_name . "</p>");
