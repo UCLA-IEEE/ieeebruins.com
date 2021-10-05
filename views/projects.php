@@ -18,7 +18,7 @@
     <!-- STYLESHEETS -->
     <link rel='stylesheet' href='/public/css/footer.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.1' />
-    <link rel='stylesheet' href='/public/css/projects.css?v=1.1.0' />
+    <link rel='stylesheet' href='/public/css/projects.css?v=1.1.1' />
     <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
 
     <!--Favicon -->
@@ -55,7 +55,7 @@
             </div>
             <div class="picture-box flex-container">
                 <img src="/public/images/projects/ops1.jpg">
-                <img src="/public/images/projects/ops2.gif">
+                <video src="/public/images/projects/ops2.mov" autoplay loop muted playsinline></video>
             </div>
         </div>
     </div>
@@ -98,7 +98,7 @@
                 </div>
             </div>
             <div class="picture-box flex-container">
-                <img src="/public/images/projects/ap1.png">
+                <video src="/public/images/projects/ap1.mov" autoplay loop muted playsinline></video>
                 <img src="/public/images/projects/ap2.jpg">
             </div>
         </div>
@@ -121,7 +121,7 @@
             </div>
             <div class="picture-box flex-container">
                 <img src="/public/images/projects/dav1.png">
-                <img src="/public/images/projects/dav2.gif">
+                <video src="/public/images/projects/dav2.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
     </div>
