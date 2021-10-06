@@ -30,6 +30,12 @@ $(() => {
       return eventDate > Date.now() && event[9] !== 'No'
     })
 
+    // Sort remaining events by start time so we don't depend on the calendar
+    // spreadsheet being sorted
+    events.sort(function(a, b) {
+      return Date(a[3]) > Date(b[3])
+    })
+
     // If no events to show, display message
     // Else, format the first three events and display them
     if (events.length === 0) {
