@@ -20,12 +20,12 @@
     <link rel='stylesheet' href='/public/css/style.css?v=1.0.0' />
     <link rel='stylesheet' href='/public/css/navbar.css?v=1.0.1' />
     <link rel='stylesheet' href='/public/css/lab.css?v=1.2.2' />
-    <link rel='stylesheet' href='/public/css/main.css?v=1.2.1' />
+    <link rel='stylesheet' href='/public/css/main.css?v=1.2.0' />
 
     <!-- SCRIPTS -->
     <script src='/public/js/key.js'></script>
     <script src='/public/js/main.js'></script>
-    <script src='/public/js/lab.js?v=S21'></script>
+    <script src='/public/js/lab.js?v=F21'></script>
     <script src='/public/js/blog.js'></script>
 
     <!--Favicon -->
