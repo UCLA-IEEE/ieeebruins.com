@@ -54,8 +54,8 @@
                 </div>
             </div>
             <div class="picture-box flex-container">
-                <img src="/public/images/projects/ops1.jpg">
                 <video src="/public/images/projects/ops2.mov" autoplay loop muted playsinline></video>
+                <img src="/public/images/projects/ops1.jpg">
             </div>
         </div>
     </div>
