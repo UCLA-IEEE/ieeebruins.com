@@ -77,7 +77,7 @@
             </div>
             <div class="picture-box flex-container">
                 <img src="/public/images/projects/mm1.png">
-                <img src="/public/images/projects/mm2.gif">
+                <video src="/public/images/projects/mm2.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
     </div>
