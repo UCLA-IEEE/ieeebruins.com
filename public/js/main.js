@@ -15,7 +15,7 @@ $(() => {
   })
 
   const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-  const API_OPTIONS = '/values/Spring%20Qtr!A2:L?key='
+  const API_OPTIONS = '/values/Fall%20Qtr%2021!A2:L?key='
   const SPREADSHEET_ID = '138-osM3nyNM88QTvcDz4YNgX5TwJRfqcoi2u8UoJvAg'
 
   // eslint-disable-next-line
@@ -28,6 +28,14 @@ $(() => {
     let events = res.values.filter(event => {
       let eventDate = new Date(event[3])
       return eventDate > Date.now() && event[9] !== 'No'
+    })
+
+    // Sort remaining events by start time so we don't depend on the calendar
+    // spreadsheet being sorted
+    events.sort(function(a, b) {
+      aDate = new Date(a[3])
+      bDate = new Date(b[3])
+      return aDate > bDate ? 1 : aDate < bDate ? -1 : 0
     })
 
     // If no events to show, display message
