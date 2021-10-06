@@ -33,7 +33,9 @@ $(() => {
     // Sort remaining events by start time so we don't depend on the calendar
     // spreadsheet being sorted
     events.sort(function(a, b) {
-      return Date(a[3]) > Date(b[3])
+      aDate = new Date(a[3])
+      bDate = new Date(b[3])
+      return aDate > bDate ? 1 : aDate < bDate ? -1 : 0
     })
 
     // If no events to show, display message
