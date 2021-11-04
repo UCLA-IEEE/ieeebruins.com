@@ -44,6 +44,7 @@
                 <div class="sponsorsimages">
                     <img style="max-width: 190px; padding: 35px 10px;" src="/public/images/company-logos/ieee-upp.png">
                     <a href="https://www2.deloitte.com/us/en.html" target="_blank"><img style="max-width: 200px; margin: 20px 20px;" src="/public/images/company-logos/deloitte.png"></a>
+                    <a href="https://www.sce.com/" target="_blank"><img style="max-width: 200px; margin: 20px 20px;" src="/public/images/company-logos/sce.svg"></a>
                 </div>
                 <div class="tiersbox" id="label">
                     <h1>GOLD</h1>
@@ -52,6 +53,7 @@
             <div class="sponsorsbox">
                 <div class="sponsorsimages">
                     <a href="https://www.lockheedmartin.com/" target="_blank"><img style="max-width: 250px; margin: 20px 20px;" src="/public/images/company-logos/lockheed.png"></a>
+                    <a href="https://www.boeing.com/" target="_blank"><img style="max-width: 250px; margin: 20px 20px;" src="/public/images/company-logos/boeing.png"></a>
                 </div>
                 <div class="tiersbox" id="label">
                     <h1>SILVER</h1>
