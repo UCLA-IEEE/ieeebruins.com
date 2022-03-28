@@ -1,24 +1,34 @@
 const SPREADSHEET_ID = '10TJAaKd2Dxtj7gU-SNE3uGYzNLZg-CuZbLXLcrNQhug'
 const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-const HOURS_OPTIONS = '/values/Spring%202022!B3:G10?key='
+const HOURS_SHEET = 'Spring%202022'
+const HOURS_OPTIONS = '/values/' + HOURS_SHEET + '!B3:G10?key='
+const SPECIAL_TAIL = '%20-%20Special%20Hours%20(for%20Bot%20purposes)'
+const SPECIAL_SHEET = HOURS_SHEET + SPECIAL_TAIL
+const SPECIAL_OPTIONS = '/values/' + SPECIAL_SHEET + '!B3:G10?key='
 const ABILITIES_OPTIONS = '/values/Abilities!A2:C?key='
 // API_KEY provided in separate file key.js so that we don't have to push
 // it to GitHub
 
-let hours = $.ajax({
-  // eslint-disable-next-line
-  url: API_BASE_URL + SPREADSHEET_ID + HOURS_OPTIONS + API_KEY,
-  type: 'GET'
-})
 let abilities = $.ajax({
   // eslint-disable-next-line
   url: API_BASE_URL + SPREADSHEET_ID + ABILITIES_OPTIONS + API_KEY,
   type: 'GET'
 })
+let hours = $.ajax({
+  // eslint-disable-next-line
+  url: API_BASE_URL + SPREADSHEET_ID + HOURS_OPTIONS + API_KEY,
+  type: 'GET'
+})
+let special = $.ajax({
+  // eslint-disable-next-line
+  url: API_BASE_URL + SPREADSHEET_ID + SPECIAL_OPTIONS + API_KEY,
+  type: 'GET'
+})
 
-$.when(abilities, hours).then(function(res1, res2) {
+$.when(abilities, hours, special).then(function(res1, res2, res3) {
   let val1 = res1[0].values
   let val2 = res2[0].values
+  let val3 = res3[0].values
 
   // Assemble abilities object
   classes = {}
@@ -72,7 +82,16 @@ $.when(abilities, hours).then(function(res1, res2) {
           </div>
         </span>`
       }
-
+      // Add special lab hour class to cell, if there is one
+      try {
+        $(cells[i])
+          .parent()
+          .addClass(val3[j][k].toLowerCase())
+      } catch {
+        // If there's an error, the cell doesn't have a special hour, so we skip
+        // it
+      }
+      // Add officers and tooltip to cell
       $(cells[i]).append(val2[j][k] + tooltip)
       i++
     }
