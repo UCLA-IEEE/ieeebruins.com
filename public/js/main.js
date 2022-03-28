@@ -48,6 +48,9 @@ $(() => {
       $('.events-slider').append(emptyMessage)
     } else {
       events.forEach(event => {
+        // Display the location, otherwise say "TBD"
+        let location = event[5] ? event[5] : 'TBD'
+
         // Display a link if given one
         let link = event[11] ? `<a href="${event[11]}">(link)</a>` : ''
 
@@ -59,7 +62,7 @@ $(() => {
         let eventCard = `<div class='event-card'>
             <h3>${event[1]}</h3> <br />
             <h4>
-                ${event[5]} ${link} <br />
+                ${location} ${link} <br />
                 ${event[2]} <br />
                 Starts at ${startTime} PST
             </h4>
