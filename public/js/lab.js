@@ -25,15 +25,15 @@ let special = $.ajax({
   type: 'GET'
 })
 
-$.when(abilities, hours, special).then(function(res1, res2, res3) {
-  let val1 = res1[0].values
-  let val2 = res2[0].values
-  let val3 = res3[0].values
+$.when(abilities, hours, special).then(function(abilitiesRes, hoursRes, specialRes) {
+  let abilitiesVal = abilitiesRes[0].values
+  let hoursVal = hoursRes[0].values
+  let specialVal = specialRes[0].values
 
   // Assemble abilities object
   classes = {}
   checkoffs = {}
-  val1.forEach(row => {
+  abilitiesVal.forEach(row => {
     classes[row[0]] = row[1] === undefined || row[1].trim() === '' ? [] : row[1].split('\n').map(c => c.trim())
     checkoffs[row[0]] = row[2] === undefined || row[2].trim() === '' ? [] : row[2].split('\n').map(c => c.trim())
   })
@@ -42,19 +42,19 @@ $.when(abilities, hours, special).then(function(res1, res2, res3) {
   let i = 0
   for (let j = 0; j < 8; j++) {
     for (let k = 0; k < 6; k++) {
-      if (val2[j][k] === undefined) {
-        val2[j][k] = ' '
+      if (hoursVal[j][k] === undefined) {
+        hoursVal[j][k] = ' '
       }
 
-      let mystring = val2[j][k]
+      let mystring = hoursVal[j][k]
       let people = mystring
         .split('\n')
         .map(p => p.trim())
         .sort()
-      val2[j][k] = people.join('<br>')
+      hoursVal[j][k] = people.join('<br>')
 
       let tooltip = ''
-      if (val2[j][k] !== 'Check Discord') {
+      if (hoursVal[j][k] !== 'Check Discord') {
         // Assemble sets of abilities
         let cellClasses = []
         let cellCheckoffs = []
@@ -86,13 +86,13 @@ $.when(abilities, hours, special).then(function(res1, res2, res3) {
       try {
         $(cells[i])
           .parent()
-          .addClass(val3[j][k].toLowerCase())
+          .addClass(specialVal[j][k].toLowerCase())
       } catch {
         // If there's an error, the cell doesn't have a special hour, so we skip
         // it
       }
       // Add officers and tooltip to cell
-      $(cells[i]).append(val2[j][k] + tooltip)
+      $(cells[i]).append(hoursVal[j][k] + tooltip)
       i++
     }
   } // end of code for first table
