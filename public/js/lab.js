@@ -1,6 +1,6 @@
 const SPREADSHEET_ID = '10TJAaKd2Dxtj7gU-SNE3uGYzNLZg-CuZbLXLcrNQhug'
 const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-const HOURS_OPTIONS = '/values/Winter%202022!B3:G10?key='
+const HOURS_OPTIONS = '/values/Spring%202022!B3:G10?key='
 const ABILITIES_OPTIONS = '/values/Abilities!A2:C?key='
 // API_KEY provided in separate file key.js so that we don't have to push
 // it to GitHub

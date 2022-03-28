@@ -15,7 +15,7 @@ $(() => {
   })
 
   const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-  const API_OPTIONS = '/values/Winter%20Qtr%2022!A2:L?key='
+  const API_OPTIONS = '/values/Spring%20Qtr%2022!A2:L?key='
   const SPREADSHEET_ID = '138-osM3nyNM88QTvcDz4YNgX5TwJRfqcoi2u8UoJvAg'
 
   // eslint-disable-next-line
@@ -48,6 +48,9 @@ $(() => {
       $('.events-slider').append(emptyMessage)
     } else {
       events.forEach(event => {
+        // Display the location, otherwise say "TBD"
+        let location = event[5] ? event[5] : 'TBD'
+
         // Display a link if given one
         let link = event[11] ? `<a href="${event[11]}">(link)</a>` : ''
 
@@ -59,7 +62,7 @@ $(() => {
         let eventCard = `<div class='event-card'>
             <h3>${event[1]}</h3> <br />
             <h4>
-                ${event[5]} ${link} <br />
+                ${location} ${link} <br />
                 ${event[2]} <br />
                 Starts at ${startTime} PST
             </h4>
