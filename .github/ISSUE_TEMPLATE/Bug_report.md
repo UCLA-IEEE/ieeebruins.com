@@ -16,7 +16,7 @@ A clear and concise description of what the bug is.
 **Expected Behavior**
 Clear and concise description of what's expected to happen
 
-**Actual Bbehavior**
+**Actual Behavior**
 Clear and concise description of what actually happens
 
 **Screenshots**
