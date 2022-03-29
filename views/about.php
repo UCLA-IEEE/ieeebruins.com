@@ -161,6 +161,13 @@
         </div>
 
         <div class=' year background-ieee-blue text-left '>
+            <h1 class=' pull-down '> 2021 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
+        </div>
+        <div class=' award-list background-light-grey text-left '>
+            <p class=' award ieee-blue '> IEEE Region 6 Outstanding Large Student Branch </p>
+        </div>
+
+        <div class=' year background-ieee-blue text-left '>
             <h1 class=' pull-down '> 2020 <span class=' glyphicon glyphicon-chevron-down '></span></h1>
         </div>
         <div class=' award-list background-light-grey text-left '>
