@@ -4,7 +4,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 Development site: [http://development.ieeebruins.com](http://development.ieeebruins.com)  
-Production site: [http://www.ieeebruins.com](http://www.ieeebruins.com)
+Production site: [https://ieeebruins.com](https://ieeebruins.com)
 
 ## Setting up a development environment
 
