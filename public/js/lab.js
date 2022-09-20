@@ -1,6 +1,6 @@
-const SPREADSHEET_ID = '10TJAaKd2Dxtj7gU-SNE3uGYzNLZg-CuZbLXLcrNQhug'
+const SPREADSHEET_ID = '1t1_Idot1QyOnKLlXEGa0BijAa6OalRwYeZ3byehvQPY'
 const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-const HOURS_SHEET = 'Spring%202022'
+const HOURS_SHEET = 'Fall%202022' // Note that %20 is the URL encoding for a space (" ")
 const HOURS_OPTIONS = '/values/' + HOURS_SHEET + '!B3:G10?key='
 const SPECIAL_TAIL = '%20-%20Special%20Hours%20(for%20Bot%20purposes)'
 const SPECIAL_SHEET = HOURS_SHEET + SPECIAL_TAIL
