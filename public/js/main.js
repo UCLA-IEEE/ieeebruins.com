@@ -15,7 +15,7 @@ $(() => {
   })
 
   const API_BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/'
-  const API_OPTIONS = '/values/Spring%20Qtr%2022!A2:L?key='
+  const API_OPTIONS = '/values/Fall%20Qtr%2022!A2:L?key='
   const SPREADSHEET_ID = '138-osM3nyNM88QTvcDz4YNgX5TwJRfqcoi2u8UoJvAg'
 
   // eslint-disable-next-line
