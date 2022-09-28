@@ -58,7 +58,7 @@
             <div class='col-sm-6 text-center mailing-title'>
                 <h1>JOIN OUR <br /> <span class='ieee-blue'> MAILING LIST </span> </h1>
                 <h2 class='mailing-subtext'>Keep up with all our upcoming events, workshops, and socials.</h2>
-                <button class="button"><a class="button-join" target="blank" href="https://publ.maillist-manage.com/ua/Optin?od=11287ecb0e59ba&zx=129ad919f&lD=18772ff41acb2d5e&n=11699f74e9e416b&sD=18772ff41ad267d9&fbclid=IwAR2rdejMFyGZSQy2TVXrbQ2v47LMs4El7zdfVwvY50b0oHPyhrjchmjFuxw">Join</a></button>
+                <button class="button"><a class="button-join" target="blank" href="https://uclaieeenewsletter.substack.com/">Join</a></button>
             </div>
         </div>
     </div>
