@@ -109,6 +109,7 @@
 .compdescrip a {
   font-size: 20px;
   color: white;
+  text-decoration: underline;
 }
 
 .comp-header {

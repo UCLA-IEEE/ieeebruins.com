@@ -105,6 +105,9 @@
                         <p>
                             Our annual All-America Micromouse Competition brings schools and universities together over one Micromouse competition. In this competition, school teams have their mice put to the test as they run through multiple maze challenges, in hopes of out-performing the rest of the competition. It's an intense, fun-filled, and tiring day of everything and anything Micromouse!
                         </p>
+                        <p>
+                            The 2023 competition is planned for Memorial Day Weekend (Saturday May 27th - Sunday May 28th) at UCLA. Please email <a href="mailto:president@ieeebruins.com">president@ieeebruins.com</a> if interested in competing!
+                        </p>
                     </div>
                 </div>
                 <div class='comp comp-ideahacks ideahacks text-left col-sm-6'>
