@@ -1,7 +1,17 @@
-default.html
-.DS_Store
-_site/
+# Node.js
 node_modules
 package-lock.json
+
+# API keys for localhost
 key.js
+
+# Editor
+.vscode
+
+# macOS
+.DS_Store
+
+# Miscellaneous
+default.html
+_site/
 *.swp
