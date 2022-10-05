@@ -82,24 +82,24 @@
         </div>
     </div>
 
-    <!--Aircopter Project section-->
-    <div class="container-fluid background-ieee-blue ap">
+    <!--Pocket Racers section-->
+    <div class="container-fluid background-ieee-blue pr">
         <div class="content-wrapper">
             <div class="row flex-container">
                 <div class="col-md-4 header">
-                    <h1>Aircopter Project</h1>
-                    <h2>Let's Build a Quadcopter</h2>
+                    <h1>Pocket Racers</h1>
+                    <h2>It knows where it's going</h2>
                 </div>
                 <div class="col-md-8 descrip">
-                    <h2 class="sub2">Take your skills to the next level</h2>
+                    <h2 class="sub2">No license required</h2>
                     <p>
-                        The Aircopter Project is an opportunity for you to refine your understanding of hardware and apply it in a design project. By learning subjects such as serial communication, motors, control systems, sensor fusion, and PCB design, you will design and build a drone as a team from the ground up, starting from hardware components to a radio controlled flying machine.
+                        The Pocket Racers project is a hands-on introduction to how computers see and react to the world around them. No prior experience is required; students will get a crash course in Raspberry Pis, motor control, computer vision, and elementary machine learning techniques by building a fully autonomous self-driving car using just a Raspberry Pi, some motors, and a camera.
                     </p>
                 </div>
             </div>
             <div class="picture-box flex-container">
-                <video src="/public/images/projects/ap1.mov" autoplay loop muted playsinline></video>
-                <img src="/public/images/projects/ap2.jpg">
+                <img src="/public/images/projects/pr1.jpg">
+                <img src="/public/images/projects/pr2.jpg">
             </div>
         </div>
     </div>

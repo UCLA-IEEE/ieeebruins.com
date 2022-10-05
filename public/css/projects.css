@@ -68,7 +68,7 @@ button {
   color: #333;
 }
 
-.ap,
+.pr,
 .mm,
 .dav,
 .wrap {
@@ -100,7 +100,7 @@ button {
   margin: 10px;
 }
 
-.ap h1,
+.pr h1,
 .mm h1,
 .ops h1,
 .dav h1,
@@ -110,7 +110,7 @@ button {
   display: inline-block;
 }
 
-.ap .header,
+.pr .header,
 .mm .header,
 .ops .header,
 .dav .header,
@@ -120,7 +120,7 @@ button {
   justify-content: center;
 }
 
-.ap .header h2,
+.pr .header h2,
 .mm .header h2,
 .wrap .header h2,
 .ops h2,
@@ -134,7 +134,7 @@ button {
   margin-top: 35px;
 }
 
-.ap .header h1,
+.pr .header h1,
 .wrap .header h1 {
   margin-top: 35px;
 }
@@ -163,7 +163,7 @@ button {
 }
 
 .ops .descrip h2,
-.ap .descrip h2,
+.pr .descrip h2,
 .wrap .descrip h2 {
   border-bottom: solid white 2px;
   padding-right: 15px;
@@ -213,7 +213,7 @@ button {
 @media (max-width: 995px) {
   .ops .header,
   .mm .header,
-  .ap .header,
+  .pr .header,
   .dav .header,
   .wrap .header {
     text-align: center;
