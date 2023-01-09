@@ -23,7 +23,7 @@
 
     <!-- SCRIPTS -->
     <script src='/public/js/key.js'></script>
-    <script src="/public/js/lab.js?v=S22.1"></script>
+    <script src="/public/js/lab.js?v=W23.1"></script>
 
     <!--Favicon -->
     <link rel='icon' href='/public/favicon.ico' />
