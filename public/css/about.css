@@ -6,7 +6,8 @@
 }
 
 .front {
-  background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(10, 10, 10, 0.2)), url("../images/about/pp.jpg");
+  background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(10, 10, 10, 0.2)),
+    url("../images/about/pp.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -80,13 +81,15 @@
 }
 
 .micromouse {
-  background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(10, 10, 10, 0.2)), url("../images/about/mouse.jpeg");
+  background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(10, 10, 10, 0.2)),
+    url("../images/about/mouse.jpeg");
   background-size: 100%;
   padding: 25px;
 }
 
 .ideahacks {
-  background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.6)), url("../images/about/hacks.jpg");
+  background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.6)),
+    url("../images/about/hacks.jpg");
   background-size: 100%;
   padding: 25px;
 }

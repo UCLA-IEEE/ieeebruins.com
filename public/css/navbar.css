@@ -1,8 +1,13 @@
+.navbar {
+  display: flex;
+  background-color: var(--ieee-blue);
+}
+
 .myNavbar {
   display: block;
   width: 100%;
   height: 75px;
-  background-color: #00629b;
+  background-color: var(--ieee-blue);
 }
 
 .brand-container {
@@ -59,7 +64,7 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   position: absolute;
   z-index: 1;
-  background-color: #00629b;
+  background-color: var(--ieee-blue);
   transition: 0.1s ease;
 }
 
