@@ -5,7 +5,8 @@
 /* BACKGROUND */
 .main-billboard {
   height: 580px;
-  background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.6)), url("../images/OPS.jpg") center no-repeat;
+  background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.6)),
+    url("../images/OPS.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -290,7 +291,7 @@
 
 .blog .post h2.title {
   margin-bottom: 15px;
-  border-bottom: 3px solid #00629b;
+  border-bottom: 3px solid var(--ieee-blue);
 }
 
 .blog .post p {
@@ -343,7 +344,7 @@
 }
 
 .handle {
-  color: #00629b;
+  color: var(--ieee-blue);
   font-family: Arial, sans-serif;
   font-size: 20px;
   font-style: italic;

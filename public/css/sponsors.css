@@ -25,7 +25,7 @@
   text-align: center;
   margin-bottom: 20px;
   width: 100%;
-  border: 5px solid #00629b;
+  border: 5px solid var(--ieee-blue);
   box-sizing: border-box;
   display: inline-block;
 }
@@ -40,7 +40,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background: #00629b;
+  background: var(--ieee-blue);
   color: white;
   width: 200px;
   height: 105px;

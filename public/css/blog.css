@@ -18,7 +18,8 @@
   max-width: 800px;
   min-width: 250px;
 
-  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0 1px 8px 0 rgba(0, 0, 0, 0.12);
 }
 
 .post h2 {
@@ -28,7 +29,7 @@
 
 .post h2.title {
   margin-bottom: 15px;
-  border-bottom: 3px solid #00629b;
+  border-bottom: 3px solid var(--ieee-blue);
 }
 
 .post p {

@@ -47,8 +47,13 @@ ul {
 
 /*----------- COLORS ----------------*/
 
+:root {
+  --ieee-blue: #00629b;
+  --ieee-blue-alpha: #00629b80;
+}
+
 .ieee-blue {
-  color: #00629b;
+  color: var(--ieee-blue);
 }
 
 .white {
@@ -62,7 +67,7 @@ ul {
 /*-------- BACKGROUNDS ------------*/
 
 .background-ieee-blue {
-  background-color: #00629b;
+  background-color: var(--ieee-blue);
   color: white; /* All text on a blue background should be white */
 }
 
@@ -80,7 +85,7 @@ a {
 
 /*-------- BUTTON STYLING ----------*/
 .button {
-  background-color: #00629b;
+  background-color: var(--ieee-blue);
   border: none;
   color: white;
   padding: 3px 15px 5px;
