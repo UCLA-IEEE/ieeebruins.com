@@ -1,6 +1,5 @@
 # Node.js
 node_modules
-package-lock.json
 
 # API keys for localhost
 key.js
