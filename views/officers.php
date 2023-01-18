@@ -67,7 +67,7 @@ $officer_data = [
       "class" => "2nd Year",
       "picture" => $IMAGE_PATH . "theo.jpg",
       "description" =>
-        "I'm Theo, the Secretary and Equality, Diversity, and Inclusion Chair for UCLA IEEE! I lead the Alumni Mentorship Program and EDI efforts to create networking and mentorship opportunities as well as make our club inclusive and welcoming! I am a staff writer for a satirical newsletter, as well as an avid reader and okay cook (although I'm really good at making handmade noodles). Don't be afraid to reach out and say hi!",
+        "I'm Theo, the Secretary and Equity, Diversity, and Inclusion Chair for UCLA IEEE! I lead the Alumni Mentorship Program and EDI efforts to create networking and mentorship opportunities as well as make our club inclusive and welcoming! I am a staff writer for a satirical newsletter, as well as an avid reader and okay cook (although I'm really good at making handmade noodles). Don't be afraid to reach out and say hi!",
       "pronouns" => "They/Them",
     ],
     "Claire Huang" => [
