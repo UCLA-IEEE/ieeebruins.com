@@ -40,13 +40,6 @@
     <script src="/public/js/lab.js?v=W23.0"></script>
     <script src="/public/js/blog.js"></script>
 
-    <!-- Plausible Analytics -->
-    <script
-      defer
-      data-domain="ieeebruins.com"
-      src="https://plausible.io/js/plausible.js"
-    ></script>
-
     <!--Favicon -->
     <link rel="icon" href="/public/favicon.ico" />
   </head>
