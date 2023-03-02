@@ -13,6 +13,7 @@ RewriteRule ^about$ ./views/about.php
 RewriteRule ^officers$ ./views/officers.php
 RewriteRule ^blog$ ./views/blog.php
 RewriteRule ^projects$ ./views/projects.php
+RewriteRule ^workshops$ ./views/workshops.php
 RewriteRule ^lab$ ./views/lab.php
 RewriteRule ^sponsors$ ./views/sponsors.php
 RewriteRule ^$ ./views/main.php
