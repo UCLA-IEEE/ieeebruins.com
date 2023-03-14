@@ -8,11 +8,6 @@ RewriteRule ^(.*)/$ /$1 [L,R=301]
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
-# Redirect HTTP to HTTPS
-# See https://stackoverflow.com/a/27029144
-RewriteCond %{HTTPS} off
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
 # MAIN ROUTES
 RewriteRule ^about$ ./views/about.php
 RewriteRule ^officers$ ./views/officers.php
