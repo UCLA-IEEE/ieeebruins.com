@@ -18,8 +18,8 @@ RewriteRule ^sponsors$ ./views/sponsors.php
 RewriteRule ^$ ./views/main.php
 
 # ERROR PAGES
-ErrorDocument 400 /views/error/400.php
-ErrorDocument 401 /views/error/401.php
-ErrorDocument 403 /views/error/403.php
-ErrorDocument 404 /views/error/404.php
-ErrorDocument 500 /views/error/500.php
+ErrorDocument 400 ./views/error/400.php
+ErrorDocument 401 ./views/error/401.php
+ErrorDocument 403 ./views/error/403.php
+ErrorDocument 404 ./views/error/404.php
+ErrorDocument 500 ./views/error/500.php
