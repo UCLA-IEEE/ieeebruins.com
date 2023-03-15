@@ -60,12 +60,12 @@
       </p>
     </div>
 
-    <!-- OPS section-->
     <div class="container-fluid ops background-ieee-blue">
       <div class="content-wrapper">
         <div class="row flex-container">
           <div class="col-md-4 header">
             <h1>Basic Circuit Workshop</h1>
+            <h2>October 6th, 2022</h2>
           </div>
 
           <div class="col-md-8 descrip">
@@ -82,7 +82,7 @@
         <div class="picture-box flex-container">
           <iframe
             width="480"
-            height="315"
+            height="299"
             src="https://www.youtube-nocookie.com/embed/5UpfCaU40ls"
             title="YouTube video player"
             frameborder="0"
@@ -102,179 +102,286 @@
       </div>
     </div>
 
-    <!-- Micromouse section-->
-    <div class="container-fluid background-grey mm">
+    <div class="container-fluid ops background-grey">
       <div class="content-wrapper">
         <div class="row flex-container">
-          <div class="col-md-8 descrip">
-            <h2 class="sub2">Head-to-head competition</h2>
-            <p>
-              The micromouse project guides students through building their own
-              autonomous, maze solving robot or “mouse”. Within this program,
-              our leads teach you the fundamentals of a micromouse, explaining
-              every step along the way, eventually reaching a point where you’ll
-              design and print your own PCB, solder it all together, and program
-              it to solve an unknown maze by itself. At the end of the year,
-              students are invited to compete against each other to solve a maze
-              as fast as possible.
-            </p>
-          </div>
           <div class="col-md-4 header">
-            <h1>Micromouse</h1>
-            <h2>Autonomous Maze-Solving Robot</h2>
+            <h1>Soldering Workshop</h1>
+            <h2>October 20th, 2022</h2>
           </div>
-        </div>
-        <div class="picture-box flex-container">
-          <img src="/public/images/projects/mm1.png" />
-          <video
-            src="/public/images/projects/mm2.mp4"
-            autoplay
-            loop
-            muted
-            playsinline
-          ></video>
-        </div>
-      </div>
-    </div>
 
-    <!--Pocket Racers section-->
-    <div class="container-fluid background-ieee-blue pr">
-      <div class="content-wrapper">
-        <div class="row flex-container">
-          <div class="col-md-4 header">
-            <h1>Pocket Racers</h1>
-            <h2>It knows where it's going</h2>
-          </div>
           <div class="col-md-8 descrip">
-            <h2 class="sub2">No license required</h2>
             <p>
-              The Pocket Racers project is a hands-on introduction to how
-              computers see and react to the world around them. No prior
-              experience is required; students will get a crash course in
-              Raspberry Pis, motor control, computer vision, and elementary
-              machine learning techniques by building a fully autonomous
-              self-driving car using just a Raspberry Pi, some motors, and a
-              camera.
+              If you want to have the ability to build your own projects,
+              soldering is one of those essential EE skills that you must have!
+              Join us as we teach you how to solder through-hole and SMD
+              (Surface Mount Device) resistors, LEDs, ICs, and much more! As the
+              hands-on experience for this workshop, you will be making your
+              very own light up IEEE sign!
             </p>
           </div>
         </div>
         <div class="picture-box flex-container">
-          <img src="/public/images/projects/pr1.jpg" />
-          <img src="/public/images/projects/pr2.jpg" />
+          <iframe
+            width="480"
+            height="299"
+            src="https://www.youtube-nocookie.com/embed/S5WJ6GGtIkg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vR13XQnBrCjN33vOPTPCbYXQJGIM8AJPw5tFlBxbIkWogiW3ojFbkXom5DhrrJkGE2SYCe7i9ODy3ed/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="480"
+            height="299"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+          ></iframe>
         </div>
       </div>
     </div>
 
-    <!-- Digital Audio Visualizer Section -->
-    <div class="container-fluid background-grey dav">
+    <div class="container-fluid ops background-ieee-blue">
       <div class="content-wrapper">
         <div class="row flex-container">
-          <div class="col-md-8 descrip">
-            <h2 class="sub2">Learn to think logically</h2>
-            <p>
-              DAV bridges the gap between hardware and software. We’ll be
-              teaching you about digital logic concepts, digital signal
-              processing techniques, and the FPGA design process. By the end of
-              the year, we’ll create a device that can calculate and visualize
-              the frequencies of audio signals using an FPGA. If you’re
-              wondering what digital logic is all about, DAV is the project for
-              you.
-            </p>
-          </div>
           <div class="col-md-4 header">
-            <h1>Digital Audio Visualizer</h1>
-            <h2>See Sounds on Screen</h2>
+            <h1>PCB Design Workshop</h1>
+            <h2>November 8th, 2022</h2>
           </div>
-        </div>
-        <div class="picture-box flex-container">
-          <img src="/public/images/projects/dav1.png" />
-          <video
-            src="/public/images/projects/dav2.mp4"
-            autoplay
-            loop
-            muted
-            playsinline
-          ></video>
-        </div>
-      </div>
-    </div>
 
-    <!-- Wireless, RF, and Analog Project Section -->
-    <div class="container-fluid background-ieee-blue wrap">
-      <div class="content-wrapper">
-        <div class="row flex-container">
-          <div class="col-md-4 header">
-            <h1>Wireless, RF, and Analog Project</h1>
-            <h2>Who needs wires</h2>
-          </div>
           <div class="col-md-8 descrip">
-            <h2 class="sub2">Learn how the world communicates</h2>
             <p>
-              WRAP is an advanced project focused on wireless digital
-              communications and RF circuits. WRAP teaches students a variety of
-              circuits topics used in wireless transceiver design, including
-              amplifiers, mixers, and oscillators. On the signal processing
-              side, WRAP covers the fundamentals of digital communication,
-              digital filtering, and other techniques used in real-world
-              communication systems. As the year progresses, students use this
-              knowledge to design, build, and test their own physical wireless
-              transceivers.
+              Are you tired of breadboards and messy jumper wires? No worries,
+              we’ve got you covered. Make sure to join our PCB Design workshop,
+              where we will teach you the basics of how to design a functioning
+              PCB.
             </p>
           </div>
         </div>
         <div class="picture-box flex-container">
-          <img src="/public/images/projects/wrap1.jpg" />
-          <img src="/public/images/projects/wrap2.jpg" />
+          <iframe
+            width="480"
+            height="299"
+            src="https://www.youtube-nocookie.com/embed/y9sA2SG3twQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vR13XQnBrCjN33vOPTPCbYXQJGIM8AJPw5tFlBxbIkWogiW3ojFbkXom5DhrrJkGE2SYCe7i9ODy3ed/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="480"
+            height="299"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+          ></iframe>
         </div>
       </div>
     </div>
 
-    <!--Workshops section-->
-    <div class="container-fluid workshops">
-      <div class="content-wrapper text-center">
-        <h1>Workshops</h1>
-        <p>
-          For members who do not have time to dedicate a whole year for one of
-          our competition projects, this program is for you. IEEE holds a series
-          of workshops throughout the school year where anyone can participate
-          and learn about new skills and technologies. These projects are aimed
-          at teaching everyone, engineers and non-engineers, about common skills
-          in electrical engineering such as soldering, image processing,
-          prototyping, and electronics. To receive more information on upcoming
-          IEEE workshops, subscribe to our mailing list to receive our
-          newsletter.
-          <br /><br />
-          Check out one of our past
-          <a
-            href="https://github.com/sahilmgandhi/IEEE_Workshops_2017_2018"
-            target="_blank"
-            >workshop series</a
-          >.
-        </p>
-        <div class="workshops-image-list">
-          <img src="/public/images/projects/workshop1.jpg" />
-          <img src="/public/images/projects/workshop2.png" />
-          <img src="/public/images/projects/workshop3.png" />
-          <img src="/public/images/projects/workshop4.jpg" />
-          <img src="/public/images/projects/workshop5.jpg" />
+    <div class="container-fluid ops background-grey">
+      <div class="content-wrapper">
+        <div class="row flex-container">
+          <div class="col-md-4 header">
+            <h1>Resume & Interview Workshop</h1>
+            <h2>November 15th, 2022</h2>
+          </div>
+
+          <div class="col-md-8 descrip">
+            <p>
+              Just having engineering skills isn't enough to land the job, you
+              need to be able to show them. Join us as we teach you to separate
+              the good resumes from the bad, answer those tricky interview
+              questions, and learn about the internship recruitment process.
+              Then, put what you've learned to the test in our resume review and
+              practice interview rooms with older students!
+            </p>
+          </div>
+        </div>
+        <div class="picture-box flex-container">
+          <iframe
+            width="480"
+            height="299"
+            src="https://www.youtube-nocookie.com/embed/9l1WjrBr_hY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vRU_Jh3hqUGn0P8wBFMGiC-xiNLr3B7kpYri-Ue1u2MzN3eEjyreawGiZwD7V6dXC3rlApXmtwomsu5/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="480"
+            height="299"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+          ></iframe>
         </div>
       </div>
     </div>
 
-    <!-- Student Project Initiative (SPI) section -->
-    <div class="container-fluid background-grey spi">
-      <div class="content-wrapper text-center">
-        <h1 id="SPIheader" class="ieee-blue">
-          Student Project Initiative (SPI)
-        </h1>
-        <p>
-          SPI is a program dedicated to providing motivated students with the
-          physical and intellectual resources they need to develop their ideal
-          project. In this program, students are allowed to come up with their
-          own project ideas, propose it the board, and possibly receive funding
-          and guidance for the completion of the project. Contact our project
-          leads for more information!
-        </p>
+    <div class="container-fluid ops background-ieee-blue">
+      <div class="content-wrapper">
+        <div class="row flex-container">
+          <div class="col-md-4 header">
+            <h1>Verilog Workshop</h1>
+            <h2>February 10th, 2022</h2>
+          </div>
+
+          <div class="col-md-8 descrip">
+            <p>
+              What is HDL? What is digital logic? What is an FPGA? We got you
+              covered. The Verilog Workshop will teach you anything from binary
+              computation to how to code an FPGA. We cover topics like how to
+              operate binary numbers, logic gates, systemVerilog, and waveforms.
+              In the end you will be able to complete a decoder module on EDA
+              playground.
+            </p>
+          </div>
+        </div>
+        <div class="picture-box flex-container">
+          <iframe
+            width="480"
+            height="299"
+            src="https://www.youtube-nocookie.com/embed/1ZhrkpkhiWw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vS0lsEWC-nMdIGY0rFs_rt3pvyMKac5k32FMl-Y6YruIA8dHVQlDGWfLlHcnbZMrrwy2s2anm2Zk7QX/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="480"
+            height="299"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid ops background-ieee-grey">
+      <div class="content-wrapper">
+        <div class="row flex-container">
+          <div class="col-md-4 header">
+            <h1>3D Printing Workshop</h1>
+            <h2>October 20th, 2020</h2>
+          </div>
+
+          <div class="col-md-8 descrip">
+            <p>
+              Learn the in's and out's of 3D printing, and start your own print!
+              Ever wonder how these printers work? Whether you'd like to print
+              your own trinkets, food, or rocket ships, 3D printing has taken
+              the world by storm. Come by to get an introduction to how 3D
+              printing works and what makes a successful print, as well as how
+              to get it done on your own! We'll prove to you, once and for all,
+              that 3D is better than 2D.
+            </p>
+          </div>
+        </div>
+        <div class="picture-box flex-container">
+          <iframe
+            width="480"
+            height="299"
+            src="https://www.youtube-nocookie.com/embed/F81Y8SCLcN4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid ops background-ieee-blue">
+      <div class="content-wrapper">
+        <div class="row flex-container">
+          <div class="col-md-4 header">
+            <h1>LTspice Workshop</h1>
+            <h2>May 2nd, 2020</h2>
+          </div>
+
+          <div class="col-md-8 descrip">
+            <p>
+              Come out to an introductory workshop to spice software for circuit
+              simulation. We'll go over the basics using LTspice on how to set
+              circuits up and do dc and ac analysis. Useful for personal
+              projects or even circuits classes!!
+            </p>
+          </div>
+        </div>
+        <div class="picture-box flex-container">
+          <iframe
+            width="480"
+            height="299"
+            src="https://www.youtube-nocookie.com/embed/i7fGLyWqwfE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vTzdO5veWOPV0wwDw8mIIph0XzpeGMu-CZPfokbS210hai8wJryea31dK_Sm4TtfCPT495zqbc1ZuM9/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="480"
+            height="299"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid ops background-ieee-grey">
+      <div class="content-wrapper">
+        <div class="row flex-container">
+          <div class="col-md-4 header">
+            <h1>Advanced PCB Design Workshop</h1>
+            <h2>April 16th, 2020</h2>
+          </div>
+
+          <div class="col-md-8 descrip">
+            <p>
+              This week's workshop will be an Advanced EAGLE session! Join us
+              for a free tutorial on using EAGLE software with more advanced
+              tips on designing PCBs. We'll be going over an in-depth process of
+              common schematic practices, component placement, routing
+              techniques, and more! Up your embedded design game. Make sure to
+              stay safe and workshop managers Evan and Henry hope to see you
+              there! Check out our schedule for more exciting workshops.
+            </p>
+          </div>
+        </div>
+        <div class="picture-box flex-container">
+          <iframe
+            width="480"
+            height="299"
+            src="https://www.youtube-nocookie.com/embed/ElyvoGlYCns"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vTdW6OaBF1W68aRDHi78sk-boaCDkCNCLBQAqfSVUP5Oh8vNsRIB7g7pdBsvWEiiJMhD40feUngZGWO/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="480"
+            height="299"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+          ></iframe>
+        </div>
       </div>
     </div>
 
