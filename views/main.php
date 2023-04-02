@@ -143,7 +143,7 @@
     </div> -->
 
     <!-- INSTAGRAM WIDGET -->
-    <div class="container-fluid instagram">
+    <!-- <div class="container-fluid instagram">
       <h1>
         INSTAGRAM
         <a
@@ -155,7 +155,7 @@
       </h1>
 
       <div class="image-list"></div>
-    </div>
+    </div> -->
 
     <!-- FOOTER -->
     <?php include "./includes/footer.html"; ?>
