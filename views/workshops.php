@@ -28,10 +28,10 @@
     ></script>
 
     <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="/public/css/style.css?v=1.0.0" />
     <link rel="stylesheet" href="/public/css/footer.css?v=1.0.0" />
     <link rel="stylesheet" href="/public/css/navbar.css?v=1.0.1" />
-    <link rel="stylesheet" href="/public/css/workshops.css?v=1.0.0" />
-    <link rel="stylesheet" href="/public/css/style.css?v=1.0.0" />
+    <link rel="stylesheet" href="/public/css/workshops.css?v=2.0.0" />
 
     <!--Favicon -->
     <link rel="icon" href="/public/favicon.ico" />
@@ -44,23 +44,62 @@
     <!--Page Title-->
     <div
       class="container-fluid text-center page-title content-wrapper"
-      style="margin-top: 50px"
     >
-      <h1>Our <span class="ieee-blue">Workshops</span></h1>
+      <h1><span class="ieee-blue">Workshops</span> Recordings and Slides</h1>
       <p>
-        For members who do not have time to dedicate a whole year for one of our
-        competition projects, this program is for you. IEEE holds a series of
-        workshops throughout the school year where anyone can participate and
-        learn about new skills and technologies. These projects are aimed at
-        teaching everyone, engineers and non-engineers, about common skills in
-        electrical engineering such as soldering, image processing, prototyping,
-        and electronics. To receive more information on upcoming IEEE workshops,
-        subscribe to our
+        IEEE holds a series of workshops throughout the school year where anyone
+        can participate and learn about new skills and technologies. These
+        projects are aimed at teaching everyone, engineers and non-engineers,
+        about common skills in electrical engineering such as soldering, image
+        processing, prototyping, and electronics.
+      </p>
+      <p>
+        To receive more information on upcoming IEEE workshops, subscribe to our
         <a href="https://uclaieeenewsletter.substack.com/">newsletter</a>.
       </p>
     </div>
 
     <div class="container-fluid ops background-ieee-blue">
+      <div class="content-wrapper">
+        <div class="row flex-container">
+          <div class="col-md-4 header">
+            <h1>MATLAB Workshop</h1>
+            <h2>October 6th, 2022</h2>
+          </div>
+
+          <div class="col-md-8 descrip">
+            <p>
+              This MATLAB workshop is guaranteed to help you succeed in courses
+              like 133A, 131A, and 132A. We will be going through the
+              fundamentals of MATLAB, as well as showing you demos and providing
+              extensions for you to practice during your own time.
+            </p>
+          </div>
+        </div>
+        <div class="picture-box flex-container">
+          <iframe
+            width="480"
+            height="299"
+            src="https://www.youtube-nocookie.com/embed/b0yWAR0rjNk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vSXRPcvgOwZ6nfI45UijM3f1tlb1GxYTYbIgYFV6kizt4GNFGXbVqP552_U-88vIeejIIA_YTNr05uO/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="480"
+            height="299"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid ops background-grey">
       <div class="content-wrapper">
         <div class="row flex-container">
           <div class="col-md-4 header">
@@ -102,7 +141,7 @@
       </div>
     </div>
 
-    <div class="container-fluid ops background-grey">
+    <div class="container-fluid ops background-ieee-blue">
       <div class="content-wrapper">
         <div class="row flex-container">
           <div class="col-md-4 header">
@@ -144,7 +183,7 @@
       </div>
     </div>
 
-    <div class="container-fluid ops background-ieee-blue">
+    <div class="container-fluid ops background-grey">
       <div class="content-wrapper">
         <div class="row flex-container">
           <div class="col-md-4 header">
@@ -184,7 +223,7 @@
       </div>
     </div>
 
-    <div class="container-fluid ops background-grey">
+    <div class="container-fluid ops background-ieee-blue">
       <div class="content-wrapper">
         <div class="row flex-container">
           <div class="col-md-4 header">
@@ -226,7 +265,7 @@
       </div>
     </div>
 
-    <div class="container-fluid ops background-ieee-blue">
+    <div class="container-fluid ops background-grey">
       <div class="content-wrapper">
         <div class="row flex-container">
           <div class="col-md-4 header">
@@ -268,7 +307,7 @@
       </div>
     </div>
 
-    <div class="container-fluid ops background-ieee-grey">
+    <div class="container-fluid ops background-ieee-blue">
       <div class="content-wrapper">
         <div class="row flex-container">
           <div class="col-md-4 header">
@@ -302,7 +341,7 @@
       </div>
     </div>
 
-    <div class="container-fluid ops background-ieee-blue">
+    <div class="container-fluid ops background-grey">
       <div class="content-wrapper">
         <div class="row flex-container">
           <div class="col-md-4 header">
@@ -342,7 +381,7 @@
       </div>
     </div>
 
-    <div class="container-fluid ops background-ieee-grey">
+    <div class="container-fluid ops background-ieee-blue">
       <div class="content-wrapper">
         <div class="row flex-container">
           <div class="col-md-4 header">
