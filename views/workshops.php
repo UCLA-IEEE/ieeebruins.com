@@ -64,7 +64,7 @@
         <div class="row flex-container">
           <div class="col-md-4 header">
             <h1>MATLAB Workshop</h1>
-            <h2>October 6th, 2022</h2>
+            <h2>March 9th, 2023</h2>
           </div>
 
           <div class="col-md-8 descrip">
