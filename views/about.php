@@ -109,7 +109,7 @@
 
       <div class="involvement-wrapper">
         <div class="involvement text-left">
-          <h2>IEEE National Organization</h2>
+          <h2>IEEE Worldwide Organization</h2>
           <p>
             The Institute of Electrical and Electronics Engineers (IEEE) is the
             primary professional society of the electrical engineering
@@ -118,7 +118,7 @@
             and sponsors or co-sponsors more than 1,000 scientific conferences
             and meetings around computer engineering, computer science, and
             related fields. The IEEE has a student branch in every major
-            university in curriculum. Getting involved with the IEEE national
+            university in curriculum. Getting involved with the IEEE worldwide
             organization is highly encouraged, and can provide you with many
             resources to jump-start an engineering career and expand your
             network.
@@ -199,8 +199,8 @@
               <p>
                 The 2023 competition is planned for Memorial Day Weekend
                 (Saturday May 27th - Sunday May 28th) at UCLA. Please email
-                <a href="mailto:president@ieeebruins.com"
-                  >president@ieeebruins.com</a
+                <a href="mailto:micromouse@ieeebruins.com"
+                  >micromouse@ieeebruins.com</a
                 >
                 if interested in competing!
               </p>
