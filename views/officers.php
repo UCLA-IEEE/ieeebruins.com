@@ -112,7 +112,7 @@ $officer_data = [
       "class" => "2nd Year",
       "picture" => $IMAGE_PATH . "lara.jpg",
       "description" => "",
-      "pronouns" => "He/Him",
+      "pronouns" => "She/Her",
     ],
     "Adrian Rozario" => [
       "position" => "OPS Lead",
@@ -120,7 +120,7 @@ $officer_data = [
       "class" => "2nd Year",
       "picture" => $IMAGE_PATH . "adrian.jpg",
       "description" => "",
-      "pronouns" => "She/Her",
+      "pronouns" => "He/Him",
     ],
     "Parth Pandhare" => [
       "position" => "Micromouse Lead",
