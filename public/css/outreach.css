@@ -1,0 +1,243 @@
+h1 {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+button {
+  padding: 15px 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.page-title {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.page-title h1 {
+  border-bottom: solid black 10px;
+  padding: 0 15px 5px;
+}
+
+.page-title p {
+  margin: 20px 0;
+}
+
+.sub1 {
+  display: inline-block;
+  font-size: 20px;
+  text-align: right;
+  margin: 10px 0;
+}
+
+.sub2 {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/*------------- PROJECTS --------------*/
+
+.wiki-link-1,
+.wiki-link-2 {
+  text-decoration: underline !important;
+  color: white;
+}
+
+.wiki-link-1 {
+  color: white;
+}
+
+.wiki-link-2 {
+  color: #333;
+}
+
+.wiki-link-1:hover {
+  text-decoration: none !important;
+  color: white;
+}
+
+.wiki-link-2:hover {
+  text-decoration: none !important;
+  color: #333;
+}
+
+.pr,
+.mm,
+.dav,
+.wrap {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.ops {
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.picture-box {
+  justify-content: space-around;
+  align-items: center;
+
+  padding-top: 20px;
+}
+
+.picture-box img,
+.picture-box video {
+  max-width: 40%;
+  min-width: 300px;
+  margin: 10px;
+}
+
+.pr h1,
+.mm h1,
+.ops h1,
+.dav h1,
+.wrap h1 {
+  padding-bottom: 5px;
+  border-bottom: solid white 10px;
+  display: inline-block;
+}
+
+.pr .header,
+.mm .header,
+.ops .header,
+.dav .header,
+.wrap .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pr .header h2,
+.mm .header h2,
+.wrap .header h2,
+.ops h2,
+.dav h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.mm .header h1 {
+  border-bottom: solid black 10px;
+  margin-top: 35px;
+}
+
+.pr .header h1,
+.wrap .header h1 {
+  margin-top: 35px;
+}
+
+.ops .header h1 {
+  border-bottom: solid white 10px;
+  margin-top: 35px;
+}
+
+.dav .header h1 {
+  border-bottom: solid black 10px;
+  margin-top: 20px;
+}
+
+.mm .header h1,
+.mm .header h2,
+.dav .header h1,
+.dav .header h2 {
+  text-align: right;
+}
+
+.mm .descrip h2,
+.dav .descrip h2 {
+  border-bottom: solid black 2px;
+  padding-right: 15px;
+}
+
+.ops .descrip h2,
+.pr .descrip h2,
+.wrap .descrip h2 {
+  border-bottom: solid white 2px;
+  padding-right: 15px;
+}
+
+/*------------ WORKSHOPS -----------*/
+
+.workshops {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.workshops h1 {
+  display: inline-block;
+  border-bottom: solid black 10px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.workshops-image-list {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.workshops-image-list img {
+  height: 200px;
+  margin-right: 15px;
+}
+
+/*---------------- SPI -------------*/
+
+.spi {
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+#SPIheader {
+  display: inline-block;
+  text-align: center;
+  padding: 0 15px 5px;
+  border-bottom: 10px solid black;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 995px) {
+  .ops .header,
+  .mm .header,
+  .pr .header,
+  .dav .header,
+  .wrap .header {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .mm .header,
+  .dav .header {
+    order: 1;
+  }
+
+  .mm .descrip,
+  .dav .descrip {
+    order: 2;
+  }
+
+  .mm .header h1,
+  .mm .header h2,
+  .dav .header h1,
+  .dav .header h2 {
+    text-align: center;
+  }
+
+  .ops h2 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
