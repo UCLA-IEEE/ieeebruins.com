@@ -48,7 +48,7 @@
 
     <!-- DESCRIPTION -->
     <div class="container-fluid text-center page-title content-wrapper">
-      <h1><span class="ieee-blue">Workshops</span> Recordings and Slides</h1>
+      <h1><span class="ieee-blue">Outreach</span> Committee</h1>
       <p>
         The goal of Outreach is to support the engineering communities around us
         through our various activities and programs such as our OPS 2.0 program,
