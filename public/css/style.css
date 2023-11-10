@@ -71,6 +71,14 @@ ul {
   color: white; /* All text on a blue background should be white */
 }
 
+a.background-ieee-blue:link {
+  color: lightgray;
+}
+
+a.background-ieee-blue:hover {
+  color: lightslategray;
+}
+
 .background-grey {
   /* #75787B with 20% opacity */
   background-color: rgba(117, 120, 123, 0.2);
