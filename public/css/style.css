@@ -71,11 +71,11 @@ ul {
   color: white; /* All text on a blue background should be white */
 }
 
-a.background-ieee-blue:link {
+.background-ieee-blue a:link {
   color: lightgray;
 }
 
-a.background-ieee-blue:hover {
+.background-ieee-blue a:hover {
   color: lightslategray;
 }
 
