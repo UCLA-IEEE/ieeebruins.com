@@ -95,6 +95,7 @@
         </div>
         <div class="picture-box flex-container">
           <img src="/public/images/outreach/ops2.0.jpg" />
+          <img src="/public/images/outreach/ops2.0_2.jpg" />
         </div>
       </div>
     </div>
@@ -122,6 +123,7 @@
         </div>
         <div class="picture-box flex-container">
           <img src="/public/images/outreach/community_college_workshop.jpg" />
+          <img src="/public/images/outreach/community_college_workshop_2.jpg" />
         </div>
       </div>
     </div>
@@ -153,6 +155,7 @@
         </div>
         <div class="picture-box flex-container">
           <img src="/public/images/outreach/outreach_events.jpg" />
+          <img src="/public/images/outreach/outreach_events_2.jpg" />
         </div>
       </div>
     </div>
