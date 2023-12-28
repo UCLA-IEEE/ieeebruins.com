@@ -3,40 +3,49 @@
     <a href="/"><img src="/public/images/IEEE_logo_white.png" /></a>
     <a class="brand" href="/">IEEE at UCLA</a>
   </div>
-  <div class="navbar-icon" onclick="toggleNavbarIconLogic(this)">
+  <div class="navbar-icon">
     <div class="bar1"></div>
     <div class="bar2"></div>
     <div class="bar3"></div>
   </div>
-  <ul class="nav-list" id="nav-list">
+  <ul class="nav-list">
     <div class="dropdown">
       <li><a href="/about">About</a></li>
       <div class="dropdown-content">
         <li><a href="/officers">Officers</a></li>
       </div>
     </div>
-    <li><a href="/projects">Projects</a></li>
-    <li><a href="/workshops">Workshops</a></li>
+    <div class="dropdown">
+      <li><a href="/projects">Projects</a></li>
+      <div class="dropdown-content">
+        <li><a href="/workshops">Workshops</a></li>
+        <li><a href="/outreach">Outreach</a></li>
+      </div>
+    </div>
     <li><a href="/lab">Lab</a></li>
     <li><a href="/sponsors">Sponsors</a></li>
   </ul>
 </div>
-<ul class="mobile-nav-list" id="mobile-nav-list">
+<ul class="mobile-nav-list">
   <div class="responsive-dropdown">
     <li>
-      <a href="/about">About</a
-      ><span
-        class="glyphicon glyphicon-chevron-down"
-        id="dropdown-arrow"
-        onclick="toggleResponsiveActive()"
-      ></span>
+      <a href="/about">About</a>
+      <span class="glyphicon glyphicon-chevron-down dropdown-arrow"></span>
     </li>
-    <div class="responsive-dropdown-content" id="responsive-content">
+    <div class="responsive-dropdown-content">
       <li><a href="/officers">Officers</a></li>
     </div>
   </div>
-  <li><a href="/projects">Projects</a></li>
-  <li><a href="/workshops">Workshops</a></li>
+  <div class="responsive-dropdown">
+    <li>
+      <a href="/projects">Projects</a>
+      <span class="glyphicon glyphicon-chevron-down dropdown-arrow"></span>
+    </li>
+    <div class="responsive-dropdown-content">
+      <li><a href="/workshops">Workshops</a></li>
+      <li><a href="/outreach">Outreach</a></li>
+    </div>
+  </div>
   <li><a href="/lab">Lab</a></li>
   <li><a href="/sponsors">Sponsors</a></li>
 </ul>
