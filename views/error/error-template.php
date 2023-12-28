@@ -31,7 +31,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="/public/css/navbar.css?v=1.0.1"
+      href="/public/css/navbar.css?v=2023.12"
     />
     <link
       rel="stylesheet"
