@@ -29,6 +29,7 @@
 }
 
 .nav-list {
+  display: flex;
   float: right;
   list-style: none;
   margin-bottom: 0;
@@ -60,6 +61,7 @@
 .dropdown-content {
   display: flex;
   flex-direction: column;
+  width: 100%;
   opacity: 0;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   position: absolute;

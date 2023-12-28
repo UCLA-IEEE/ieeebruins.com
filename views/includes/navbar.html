@@ -8,15 +8,20 @@
     <div class="bar2"></div>
     <div class="bar3"></div>
   </div>
-  <ul class="nav-list" id="nav-list">
+  <ul class="nav-list">
     <div class="dropdown">
       <li><a href="/about">About</a></li>
       <div class="dropdown-content">
         <li><a href="/officers">Officers</a></li>
       </div>
     </div>
-    <li><a href="/projects">Projects</a></li>
-    <li><a href="/workshops">Workshops</a></li>
+    <div class="dropdown">
+      <li><a href="/projects">Projects</a></li>
+      <div class="dropdown-content">
+        <li><a href="/workshops">Workshops</a></li>
+        <li><a href="/outreach">Outreach</a></li>
+      </div>
+    </div>
     <li><a href="/lab">Lab</a></li>
     <li><a href="/sponsors">Sponsors</a></li>
   </ul>
@@ -24,8 +29,8 @@
 <ul class="mobile-nav-list" id="mobile-nav-list">
   <div class="responsive-dropdown">
     <li>
-      <a href="/about">About</a
-      ><span
+      <a href="/about">About</a>
+      <span
         class="glyphicon glyphicon-chevron-down"
         id="dropdown-arrow"
         onclick="toggleResponsiveActive()"
@@ -35,8 +40,20 @@
       <li><a href="/officers">Officers</a></li>
     </div>
   </div>
-  <li><a href="/projects">Projects</a></li>
-  <li><a href="/workshops">Workshops</a></li>
+  <div class="responsive-dropdown">
+    <li>
+      <a href="/projects">Projects</a>
+      <span
+        class="glyphicon glyphicon-chevron-down"
+        id="dropdown-arrow"
+        onclick="toggleResponsiveActive()"
+      ></span>
+    </li>
+    <div class="responsive-dropdown-content" id="responsive-content">
+      <li><a href="/workshops">Workshops</a></li>
+      <li><a href="/outreach">Outreach</a></li>
+    </div>
+  </div>
   <li><a href="/lab">Lab</a></li>
   <li><a href="/sponsors">Sponsors</a></li>
 </ul>
