@@ -142,21 +142,6 @@
         </div>
     </div> -->
 
-    <!-- INSTAGRAM WIDGET -->
-    <!-- <div class="container-fluid instagram">
-      <h1>
-        INSTAGRAM
-        <a
-          href="https://www.instagram.com/uclaieee/"
-          target="_blank"
-          class="handle"
-          >@uclaieee</a
-        >
-      </h1>
-
-      <div class="image-list"></div>
-    </div> -->
-
     <!-- FOOTER -->
     <?php include "./includes/footer.html"; ?>
   </body>

@@ -1,19 +1,4 @@
 $(() => {
-  // eslint-disable-next-line
-  const API_URL = `https://api.flickr.com/services/rest/?method=flickr.people.getPhotos&api_key=${FLICKR_API_KEY}&user_id=133667364@N02&format=json&per_page=8&nojsoncallback=1`;
-
-  $.ajax({ method: "GET", url: API_URL }).then((res) => {
-    const components = res.photos.photo.map((data) => {
-      return `<a href='https://www.flickr.com/photos/ieeebruins' target='_blank'>
-        <img src='https://farm${data.farm}.staticflickr.com/${data.server}/${data.id}_${data.secret}_q.jpg' />
-      </a>`;
-    });
-
-    for (const component of components) {
-      $(".image-list").append(component);
-    }
-  });
-
   const API_BASE_URL = "https://sheets.googleapis.com/v4/spreadsheets/";
   const API_OPTIONS = "/values/Spring%20Qtr%2023!A2:L?key=";
   const SPREADSHEET_ID = "138-osM3nyNM88QTvcDz4YNgX5TwJRfqcoi2u8UoJvAg";
