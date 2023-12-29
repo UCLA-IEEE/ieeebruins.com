@@ -51,7 +51,11 @@
         Our primary method in achieving our mission is by getting our members
         involved in our project curriculums. For all projects, we have info
         sessions at the beginning of every academic year and release
-        applications around the same time.
+        applications around the same time. If you are interested in learning
+        more about our projects, visit
+        <a href="https://projects.ieeebruins.com">projects.ieeebruins.com</a> to
+        get the public resources that we have for each! Feel free to use these
+        resources as inspiration for your own projects!
       </p>
     </div>
 
