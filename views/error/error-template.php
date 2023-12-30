@@ -67,7 +67,7 @@
           Looks like you've encountered an error on our page. It's not you, it's
           us. <br />
           <br />
-          <a href="/lab">Take me home!</a>
+          <a href="/">Take me home!</a>
         </p>
       </div>
     </div>
