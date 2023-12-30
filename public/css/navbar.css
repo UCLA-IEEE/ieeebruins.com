@@ -156,7 +156,8 @@
   transition: 0.3s ease;
 }
 
-@media (max-width: 1015px) {
+/* 1150 px is the approximate width of the navbar */
+@media (max-width: 1150px) {
   .navbar-icon {
     display: inline-block;
   }
