@@ -285,7 +285,7 @@ $officer_data = [
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="/public/css/footer.css?v=1.0.0" />
-    <link rel="stylesheet" href="/public/css/navbar.css?v=2023.12" />
+    <link rel="stylesheet" href="/public/css/navbar.css?v=2023.12.1" />
     <link rel="stylesheet" href="/public/css/style.css?v=1.0.0" />
     <link rel="stylesheet" href="/public/css/officers.css?v=1.0.1" />
 

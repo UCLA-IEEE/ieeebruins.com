@@ -40,7 +40,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="/public/css/navbar.css?v=2023.12"
+      href="/public/css/navbar.css?v=2023.12.1"
     />
 
     <!--Favicon -->
