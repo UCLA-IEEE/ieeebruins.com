@@ -35,7 +35,7 @@
 
     <!-- SCRIPTS -->
     <script src="/public/js/key.js"></script>
-    <script src="/public/js/lab.js?v=F23.0"></script>
+    <script src="/public/js/lab.js?v=2024.01"></script>
 
     <!--Favicon -->
     <link rel="icon" href="/public/favicon.ico" />
