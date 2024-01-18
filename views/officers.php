@@ -44,7 +44,8 @@ $officer_data = [
       "major" => "EE",
       "class" => "3rd Year",
       "picture" => $IMAGE_PATH . "miriam.jpg",
-      "description" => "",
+      "description" =>
+        "Helloo! My name is Miriam, and I'm this year's treasurer. I'm responsible for anything and everything money-related in IEEE. Trouble with deposits? Want to make a transaction for some IEEE drip? DM me on discord, and I'll get you sorted out. When I'm not getting freaky in the (spread)sheets, I can usually be found zoning out on my daily walk to class, relaxing in the IEEE lab, or cursing at the weights in bfit. Say hi if you see me around!",
       "pronouns" => "She/Her",
     ],
   ],
@@ -107,7 +108,8 @@ $officer_data = [
       "major" => "CE",
       "class" => "3rd Year",
       "picture" => $IMAGE_PATH . "nathan.jpg",
-      "description" => "",
+      "description" =>
+        "The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.",
       "pronouns" => "He/Him",
     ],
   ],
@@ -126,7 +128,8 @@ $officer_data = [
       "major" => "EE",
       "class" => "2nd Year",
       "picture" => $IMAGE_PATH . "adrian.jpg",
-      "description" => "",
+      "description" =>
+        "Hey, my name is Adrian. As one of your OPS leads, I help prepare the lectures and work-sessions for a year-long series of Arduino-based projects. Outside school, I enjoy reading, going to the gym, exploring new areas and trying new foods! If I'm on campus, I'm probably in the IEEE lab; feel free to drop by and say hello!",
       "pronouns" => "He/Him",
     ],
     "Parth Pandhare" => [
@@ -134,7 +137,8 @@ $officer_data = [
       "major" => "EE",
       "class" => "2nd Year",
       "picture" => $IMAGE_PATH . "parth.jpg",
-      "description" => "",
+      "description" =>
+        "Hello everyone! I'm Parth, a second year CE major (formerly EE, keeping the pipeline alive) and one of your Micromouse leads this year! When I'm not in the lab, I like running, playing badminton, and spending hours on a single chess game. If you ever see me around, feel free to say hi, I'm always down to chat about school, life, and how/why you should transfer to CE :)",
       "pronouns" => "He/Him",
     ],
     "Arunan Elamaran" => [
@@ -142,7 +146,8 @@ $officer_data = [
       "major" => "EE",
       "class" => "2nd Year",
       "picture" => $IMAGE_PATH . "arunan.jpg",
-      "description" => "",
+      "description" =>
+        "Hey everyone! I am a second year computer engineering major. I love anything to do with embedded systems : ). I also live biking, nature, sunsets, and Legos.",
       "pronouns" => "He/Him",
     ],
     "Justin Yao" => [
@@ -150,7 +155,8 @@ $officer_data = [
       "major" => "EE",
       "class" => "4th Year",
       "picture" => $IMAGE_PATH . "justin.jpg",
-      "description" => "",
+      "description" =>
+        "Hello people! My name is Justin and I'm a 4th year EE major from SoCal. I'll be one of your Pocket Racers leads this year! When I'm not doing that, I enjoy normal, sane activities, like writing a paper to justify a metaphor between cramming and Soviet manufacturing doctrine. If you seek strange, unintelligent, and useless conversations, I'm your man.",
       "pronouns" => "He/Him",
     ],
     "Hope Lopez" => [
@@ -158,7 +164,8 @@ $officer_data = [
       "major" => "EE",
       "class" => "4th Year",
       "picture" => $IMAGE_PATH . "hope.jpg",
-      "description" => "",
+      "description" =>
+        "Hello hello! My name is Hope, but I have actually lost all hope when it comes to people refraining from making puns about my name. It's okay, I cheer up by painting, skateboarding, and being one of the leads for Pocket Racers! So feel free to message me with your best hope joke or about one of the hobbies I use to recover from them!",
       "pronouns" => "She/Her",
     ],
     "Claire Huang" => [
@@ -192,7 +199,8 @@ $officer_data = [
       "major" => "EE",
       "class" => "4th Year",
       "picture" => $IMAGE_PATH . "grace.jpg",
-      "description" => "",
+      "description" =>
+        "Hello there, I'm Grace! I'm working hard to make digital signal processing and digital communications concepts accessible to all the lovely WRAPpers this year. Outside of IEEE, I'm part of a robotics research lab called VECTR and I'm the author of sci-fi novel \"The Glitch.\" For funzies: I'm a newly minted member of the fediverse on Mastodon, I listen to way too much midwest emo, and I crochet cute little figurines for friends and family.",
       "pronouns" => "She/Her",
     ],
     "Sanjit Sarda" => [
@@ -200,7 +208,8 @@ $officer_data = [
       "major" => "EE",
       "class" => "2nd Year",
       "picture" => $IMAGE_PATH . "sanjit.jpg",
-      "description" => "",
+      "description" =>
+        "C̴̙̹͐̐̓̈͛͜ḧ̵̠̦́͌̽͒͗̕ę̸̤̖͎̗̜̘̯͇̱̮͔̌̾͌̈͌̈́͊̕e̷̢̖͇̲̥̤̺̜̞̼̤̓̏̍̄͌̉̚͘͘͠s̸͎̖̭̼̠̗̬̻̣̼̯͕̈́̂̽̈́̂̆͂̓͂͘̚͘͜͝͠ę̸̢̟̞͓͍͕̺̜͖͖͖͇̿̌̃̆͗͊͛͑̈́̏́̃̕͜͠ Morning! I'm Sanjit, a second year EE from San Diego! I'm a guy who enjoys tinkering and making lots of random things. If you ever make any personal projects or ideas please bug me, cuz I love hearing peoples ideas and figuring out ways to make cool things work. Cya in the lab!",
       "pronouns" => "He/Him",
     ],
     "Joshua Burpee" => [
@@ -208,7 +217,8 @@ $officer_data = [
       "major" => "EE",
       "class" => "2nd Year",
       "picture" => $IMAGE_PATH . "joshua.jpg",
-      "description" => "",
+      "description" =>
+        "Hey howdy hey! My name is Josh this year's workshops lead. I love to make dad jokes, go rock climbing with friends, and take pictures of my adventures. If you're staying up late, have any questions about IEEE, or just want to hangout feel free to hmu :))",
       "pronouns" => "He/Him",
     ],
     "Megan Chen" => [
@@ -234,7 +244,8 @@ $officer_data = [
       "major" => "EE",
       "class" => "4th Year",
       "picture" => $IMAGE_PATH . "dominic.jpg",
-      "description" => "",
+      "description" =>
+        "Hello! I am the R&D lead, which means I oversee the Student Project Initiative (SPI) program and the development of new IEEE technical pursuits. Previously, I led the Micromouse project and was a Projects and Lab Manager. Feel free to say hi in the lab or reach out if you want to chat about engineering projects, classes at UCLA, music, or anything else!",
       "pronouns" => "He/Him",
     ],
     "Paul Zhang" => [
@@ -242,7 +253,8 @@ $officer_data = [
       "major" => "CS",
       "class" => "3rd Year",
       "picture" => $IMAGE_PATH . "paul.jpg",
-      "description" => "",
+      "description" =>
+        "Hallo! I have mastered the web (kinda) and take care of ieeebruins.com and ideahacks.la. If you have any feedback on the website reach out to me at paulzzy on Discord or send an email to webmaster@ieeebruins.com. I promise I am friendly and don't bite.",
       "pronouns" => "He/Him",
     ],
   ],
