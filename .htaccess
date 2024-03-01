@@ -18,6 +18,7 @@ RewriteRule ^lab$ ./views/lab.php
 RewriteRule ^sponsors$ ./views/sponsors.php
 RewriteRule ^$ ./views/main.php
 RewriteRule ^outreach$ ./views/outreach.php
+RewriteRule ^webmaster$ ./views/webmaster.php
 
 # ERROR PAGES
 ErrorDocument 400 /views/error/400.php
