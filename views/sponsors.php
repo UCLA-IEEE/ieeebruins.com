@@ -63,7 +63,7 @@
         </div>
 
         <h1 id="titles" align="left" style="margin-top: 30px; margin-bottom: 20px">
-            BENEFITS OF <span class="ieee-blue">SPONSORING</span>
+            FEATURES OF <span class="ieee-blue">SPONSORING</span>
         </h1>
         <ul class="benefits-list">
             <li>
@@ -100,35 +100,33 @@
         <div class="tierscontainer">
             <div class="tiers-wrapper">
                 <div class="tiersbox" id="box">
+                    <h1 id="tier">PROJECT</h1>
+                    <p id="price">$500 - $1499</p>
+                </div>
+            </div>
+            <div class="tiers-wrapper">
+                <div class="tiersbox" id="box">
+                    <h1 id="tier">BRONZE</h1>
+                    <p id="price">$1500 - $2499</p>
+                </div>
+            </div>
+            <div class="tiers-wrapper">
+                <div class="tiersbox" id="box">
                     <h1 id="tier">SILVER</h1>
-                    <p id="price">$500 - $999</p>
+                    <p id="price">$2500 - $3499</p>
                 </div>
             </div>
             <div class="tiers-wrapper">
                 <div class="tiersbox" id="box">
                     <h1 id="tier">GOLD</h1>
-                    <p id="price">$1000 - $1999</p>
-                </div>
-            </div>
-            <div class="tiers-wrapper">
-                <div class="tiersbox" id="box">
-                    <h1 id="tier">PLATINUM</h1>
-                    <p id="price">$2000 - $4999</p>
-                </div>
-            </div>
-            <div class="tiers-wrapper">
-                <div class="tiersbox" id="box">
-                    <h1 id="tier">DIAMOND</h1>
-                    <p id="price">$5000</p>
+                    <p id="price">$3500</p>
                 </div>
             </div>
         </div>
         <div class="interestbox">
             <p>
-                Fill out this
-                <a href="/public/files/SponsorshipForm.pdf" target="_blank">form</a>!<br />
                 View and download our sponsorship brochure
-                <a href="/public/files/SponsorshipBrochure2021.pdf" target="_blank">here</a>!<br />
+                <a href="/public/files/SponsorshipBrochure2025.pdf" target="_blank">here</a>!<br />
                 Contact our current corporate relations officer at
                 <a href="mailto:corporate@ieeebruins.com">corporate@ieeebruins.com</a>
                 for more information.
