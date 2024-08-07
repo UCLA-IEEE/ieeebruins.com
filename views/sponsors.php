@@ -34,30 +34,33 @@
     <div class="allcontent">
         <h1 id="toptitle">OUR <span class="ieee-blue">SPONSORS</span></h1>
         <div class="allsponsors text-center">
-            <div class="sponsorsbox">
+            <div class="sponsorsbox" style="border-color: #C0C0C0">
                 <div class="sponsorimages">
                     <a href="https://www.intel.com/content/www/us/en/homepage.html" target="_blank">
                         <img style="max-width: 280px; margin: 20px 20px" src="/public/images/company-logos/intel.svg" />
                     </a>
-                    <a href="https://www.sce.com/" target="_blank">
-                        <img style="max-width: 280px; margin: 20px 20px" src="/public/images/company-logos/southern_california_edison.svg" />
-                    </a>
                 </div>
-                <div class="tiersbox" id="label">
-                    <h1>PLATINUM</h1>
+                <div class="tiersbox" id="label" style="background-color: #C0C0C0">
+                    <h1>SILVER</h1>
                 </div>
             </div>
-            <div class="sponsorsbox">
+            <div class="sponsorsbox" style="border-color: #CD7F32">
                 <div class="sponsorsimages">
+                <a href="https://www.sce.com/" target="_blank">
+                        <img style="max-width: 280px; margin: 20px 20px" src="/public/images/company-logos/southern_california_edison.svg" />
+                    </a>
                     <a href="https://www.lockheedmartin.com/" target="_blank">
-                        <img style="max-width: 200px; margin: 20px 20px" src="/public/images/company-logos/lockheed_martin.svg" />
+                        <img style="max-width: 280px; margin: 20px 20px" src="/public/images/company-logos/lockheed_martin.svg" />
                     </a>
                     <a href="https://www.boeing.com/" target="_blank">
-                        <img style="max-width: 200px; margin: 20px 20px" src="/public/images/company-logos/boeing.svg" />
+                        <img style="max-width: 280px; margin: 20px 20px" src="/public/images/company-logos/boeing.svg" />
+                    </a>
+                    <a href="https://www.ti.com/" target="_blank">
+                        <img style="max-width: 280px; margin: 20px 20px" src="/public/images/company-logos/texas_instruments.svg" />
                     </a>
                 </div>
-                <div class="tiersbox" id="label">
-                    <h1>GOLD</h1>
+                <div class="tiersbox" id="label" style="background-color: #CD7F32">
+                    <h1>BRONZE</h1>
                 </div>
             </div>
         </div>
@@ -100,26 +103,32 @@
         <div class="tierscontainer">
             <div class="tiers-wrapper">
                 <div class="tiersbox" id="box">
-                    <h1 id="tier">PROJECT</h1>
-                    <p id="price">$500 - $1499</p>
+                    <h1 id="tier">WORKSHOP</h1>
+                    <p id="price">$500</p>
                 </div>
             </div>
             <div class="tiers-wrapper">
                 <div class="tiersbox" id="box">
+                    <h1 id="tier">PROJECT</h1>
+                    <p id="price">$500+</p>
+                </div>
+            </div>
+            <div class="tiers-wrapper">
+                <div class="tiersbox" id="box" style="background-color: #CD7F32">
                     <h1 id="tier">BRONZE</h1>
                     <p id="price">$1500 - $2499</p>
                 </div>
             </div>
             <div class="tiers-wrapper">
-                <div class="tiersbox" id="box">
+                <div class="tiersbox" id="box" style="background-color: #C0C0C0">
                     <h1 id="tier">SILVER</h1>
                     <p id="price">$2500 - $3499</p>
                 </div>
             </div>
             <div class="tiers-wrapper">
-                <div class="tiersbox" id="box">
+                <div class="tiersbox" id="box" style="background-color: #ffbf00">
                     <h1 id="tier">GOLD</h1>
-                    <p id="price">$3500</p>
+                    <p id="price">$3500+</p>
                 </div>
             </div>
         </div>
