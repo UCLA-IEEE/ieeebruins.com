@@ -34,6 +34,30 @@
     <link rel="stylesheet" href="/public/css/lab.css?v=1.2.2" />
     <link rel="stylesheet" href="/public/css/main.css?v=1.2.0" />
 
+    <style>
+        #announcement {
+            position: fixed;
+            max-width: 1280px;
+            z-index: 20;
+            padding: 20px 50px;
+            background-color: #191A1B;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            color: white;
+        }
+        #announcement #close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+        #announcement p {
+            font-size: 20px;
+            text-align: center;
+        }
+        #announcement strong {
+            color: #619B83;
+        }
+    </style>
+
     <!-- SCRIPTS -->
     <script src="/public/js/key.js"></script>
     <script src="/public/js/main.js?v=2023.12"></script>
@@ -46,6 +70,17 @@
   <body>
     <!-- NAVBAR -->
     <?php include "./includes/navbar.html"; ?>
+    
+    <!-- ANNOUNCEMENT -->
+    <div id="announcement" class="container-fluid" style="">
+            <span id="close" onclick="$(this).parent().hide()">
+                <span class="glyphicon glyphicon-remove"></span>
+            </span>
+            <p>
+                Check out our new website by clicking this <strong><a href="https://ieeebruins-com-sveltekit.vercel.app">link</a></strong>!
+
+            </p>
+        </div>
 
     <!-- BACKGROUND -->
     <div class="main-billboard">
